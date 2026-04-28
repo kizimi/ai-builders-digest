@@ -1,0 +1,42 @@
+name: Daily Digest
+
+on:
+  schedule:
+    # 9:00 AM Pacific Time (16:00 UTC)
+    - cron: '0 16 * * *'
+  workflow_dispatch: # allow manual runs from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/prepare-digest.js | node scripts/enhance.js
+
+      - name: Build site
+        run: node scripts/build-site.js
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          cname: kizimi.space

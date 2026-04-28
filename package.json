@@ -1,0 +1,16 @@
+{
+  "name": "ai-builders-digest",
+  "version": "1.0.0",
+  "description": "Daily AI builders digest — static site with English/Chinese toggle",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/prepare-digest.js",
+    "enhance": "node scripts/prepare-digest.js | node scripts/enhance.js",
+    "build": "node scripts/build-site.js",
+    "generate": "node scripts/prepare-digest.js | node scripts/enhance.js && node scripts/build-site.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.91.1",
+    "dotenv": "^16.4.0"
+  }
+}
