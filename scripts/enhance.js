@@ -98,6 +98,7 @@ Schema:
 
 Rules:
 - Include ALL builders listed. Keep tweet arrays to the 2 most interesting (id, text, url only).
+- summary_en / summary_zh: focus on WHAT the tweets are saying — the actual content, takeaway, or insight from today. DO NOT start with the author's role or background (avoid phrasings like "AI thought leader sharing..." or "Tech executive observing..."). The reader already knows who this builder is. Lead with the substance: what was built, claimed, observed, argued, or shipped.
 - slang: flag any AI/startup jargon in the tweets (e.g. "vibe coding", "dogfooding", "ship it").
 - Return ONLY valid JSON.`;
 
@@ -214,6 +215,45 @@ Return ONLY a valid JSON array.`;
     }
   }
 
+  // ── Pass 4: long-tweet summaries (only fires when long tweets exist) ────
+
+  const LONG_TWEET_CHARS = 400;
+  const longTweets = [];
+  for (const b of (pass1.builders || [])) {
+    for (const t of (b.tweets || [])) {
+      if (t.text && t.text.length >= LONG_TWEET_CHARS) {
+        longTweets.push({ tweet_id: t.id, handle: b.handle, text: t.text.slice(0, 1600) });
+      }
+    }
+  }
+
+  const summariesByTweetId = {};
+  if (longTweets.length > 0) {
+    const pass4System = `You summarize long tweets for an AI/tech digest. Return ONLY a valid JSON array — no fences, no prose.
+
+Schema: [{ "tweet_id":"string", "summary_en":"string" }]
+
+Rules:
+- For each input tweet, write a 1-2 sentence English summary capturing the key point or insight — what the author is actually saying.
+- Be concise and content-focused. Do not describe the author.
+- Return ONLY a valid JSON array, one entry per input.`;
+
+    const pass4User = `LONG TWEETS (${longTweets.length}):\n${JSON.stringify(longTweets)}`;
+
+    process.stderr.write(`enhance: pass 4 — long-tweet summaries (${longTweets.length} tweets)...\n`);
+    try {
+      const pass4Text = stripFences(await callClaude(pass4System, pass4User));
+      const pass4 = JSON.parse(pass4Text);
+      for (const entry of pass4) {
+        if (entry.tweet_id && entry.summary_en) {
+          summariesByTweetId[entry.tweet_id] = entry.summary_en;
+        }
+      }
+    } catch (err) {
+      process.stderr.write(`enhance: pass 4 failed (skipping summaries): ${err.message}\n`);
+    }
+  }
+
   // ── Merge ──────────────────────────────────────────────────────────────
 
   const enriched = {
@@ -221,6 +261,10 @@ Return ONLY a valid JSON array.`;
     builders: (pass1.builders || []).map(b => ({
       ...b,
       keywords: keywordsByHandle[b.handle] || [],
+      tweets: (b.tweets || []).map(t => ({
+        ...t,
+        summary_en: summariesByTweetId[t.id] || null,
+      })),
     })),
     podcasts: pass1.podcasts || [],
     blogs: pass1.blogs || [],

@@ -116,15 +116,16 @@ a:hover { text-decoration: underline; }
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
-  font-size: 1.15rem;
-  font-weight: 500;
-  letter-spacing: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: .005em;
+  word-spacing: .18em;
   text-transform: none;
   color: var(--accent);
-  margin-bottom: 18px;
+  margin-bottom: 22px;
 }
 
 .hero-eyebrow::before {
@@ -369,13 +370,26 @@ a:hover { text-decoration: underline; }
   flex-direction: column;
 }
 
+.tweet-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.ai-summary-tag {
+  font-size: .68rem;
+  font-style: italic;
+  color: var(--ink3);
+  letter-spacing: .01em;
+}
+
 .tweet-link-icon {
-  align-self: flex-end;
   width: 14px;
   height: 14px;
-  margin-top: 8px;
   color: var(--ink3);
-  opacity: .5;
+  opacity: .55;
   transition: opacity .15s, color .15s;
   flex-shrink: 0;
   line-height: 0;

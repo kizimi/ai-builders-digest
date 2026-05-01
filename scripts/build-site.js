@@ -201,11 +201,21 @@ function buildersSection(builders, vocab) {
     // X (Twitter) logo SVG — small familiar icon in bottom-right of each tweet item
     const xIcon = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
 
-    const tweetItems = tweets.map(t => `
-      <div class="tweet-item">
-        <p class="tweet-text">${highlightKeywords(t.text, bvocab)}</p>
-        <a href="${escapeHtml(t.url)}" class="tweet-link-icon" target="_blank" rel="noopener" aria-label="View on X" title="View on X">${xIcon}</a>
-      </div>`).join('');
+    const tweetItems = tweets.map(t => {
+      const isSum      = !!t.summary_en;
+      const display    = isSum ? t.summary_en : t.text;
+      const summaryTag = isSum
+        ? '<span class="ai-summary-tag" title="AI-generated summary — click the X icon to view the original">AI summary · click X to view original</span>'
+        : '';
+      return `
+      <div class="tweet-item${isSum ? ' is-summarized' : ''}">
+        <p class="tweet-text">${highlightKeywords(display, bvocab)}</p>
+        <div class="tweet-footer">
+          ${summaryTag}
+          <a href="${escapeHtml(t.url)}" class="tweet-link-icon" target="_blank" rel="noopener" aria-label="View on X" title="View on X">${xIcon}</a>
+        </div>
+      </div>`;
+    }).join('');
 
     return `
 <article class="builder-card" data-idx="${i}">
