@@ -58,42 +58,61 @@ function builderVocab(builder, allVocab) {
   return allVocab.filter(v => tweetsText.includes(v.word.toLowerCase()));
 }
 
-// Single-pass keyword highlight — wraps matches with .kw-wrap/.kw + inline .kw-tip tooltip.
+// URL pattern (works on already-HTML-escaped text — & becomes &amp; which still matches \S+).
+// Excludes whitespace and HTML special chars to avoid swallowing closing tags.
+const URL_PATTERN = 'https?:\\/\\/[^\\s<>"]+';
+
+function renderInlineUrl(urlMatch) {
+  // Strip a single trailing punctuation char (period, comma, etc.) so it stays outside the link
+  const trail = urlMatch.match(/[.,;:!?)"'\]]+$/);
+  const href  = trail ? urlMatch.slice(0, -trail[0].length) : urlMatch;
+  const after = trail ? trail[0] : '';
+  return '<a href="' + href + '" class="tweet-inline-link" target="_blank" rel="noopener">' + href + '</a>' + after;
+}
+
+// Single-pass tweet renderer: linkifies URLs AND wraps keywords with .kw-wrap/.kw + .kw-tip.
 // Accepts entries with either {phrase} (per-builder keywords) or {word} (global vocab).
 function highlightKeywords(rawText, entries) {
-  if (!entries || entries.length === 0) return escapeHtml(rawText);
+  const escaped = escapeHtml(rawText);
 
-  // Normalise: both formats share definition_zh / example_zh / ipa; text key is phrase or word
-  const items = entries.map(e => ({ ...e, _text: e.phrase || e.word || '' }))
+  const items = (entries || [])
+    .map(e => ({ ...e, _text: e.phrase || e.word || '' }))
     .filter(e => e._text);
 
-  if (items.length === 0) return escapeHtml(rawText);
+  // No keywords → just linkify URLs
+  if (items.length === 0) {
+    return escaped.replace(new RegExp(URL_PATTERN, 'g'), renderInlineUrl);
+  }
 
   const sorted = [...items].sort((a, b) => b._text.length - a._text.length);
   const byText = {};
   for (const v of sorted) byText[v._text.toLowerCase()] = v;
 
-  const pattern = sorted
+  const kwPattern = sorted
     .map(v => escapeHtml(v._text).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
     .join('|');
 
-  const escaped = escapeHtml(rawText);
-  if (!pattern) return escaped;
+  // Combined regex — URLs first so they win when both could match a position
+  const regex = new RegExp('(' + URL_PATTERN + ')|(' + kwPattern + ')', 'gi');
 
-  return escaped.replace(new RegExp('(' + pattern + ')', 'gi'), (match) => {
-    const v = byText[match.toLowerCase()];
-    if (!v) return match;
-    const tip = [
-      '<span class="kw-tip">',
-      '<span class="kw-tip-term">' + escapeHtml(v._text) + '</span>',
-      v.ipa           ? '<span class="kw-tip-ipa">'  + escapeHtml(v.ipa)           + '</span>' : '',
-      v.definition_zh ? '<span class="kw-tip-zh">'   + escapeHtml(v.definition_zh) + '</span>' : '',
-      (v.example_zh || v.definition_zh)
-        ? '<span class="kw-tip-exp">' + escapeHtml(v.example_zh || v.definition_zh) + '</span>'
-        : '',
-      '</span>',
-    ].join('');
-    return '<span class="kw-wrap"><span class="kw">' + escapeHtml(match) + '</span>' + tip + '</span>';
+  return escaped.replace(regex, (match, urlMatch, kwMatch) => {
+    if (urlMatch) return renderInlineUrl(urlMatch);
+    if (kwMatch) {
+      const v = byText[kwMatch.toLowerCase()];
+      if (!v) return kwMatch;
+      const tip = [
+        '<span class="kw-tip">',
+        '<span class="kw-tip-term">' + escapeHtml(v._text) + '</span>',
+        v.ipa           ? '<span class="kw-tip-ipa">'  + escapeHtml(v.ipa)           + '</span>' : '',
+        v.definition_zh ? '<span class="kw-tip-zh">'   + escapeHtml(v.definition_zh) + '</span>' : '',
+        (v.example_zh || v.definition_zh)
+          ? '<span class="kw-tip-exp">' + escapeHtml(v.example_zh || v.definition_zh) + '</span>'
+          : '',
+        '</span>',
+      ].join('');
+      return '<span class="kw-wrap"><span class="kw">' + escapeHtml(kwMatch) + '</span>' + tip + '</span>';
+    }
+    return match;
   });
 }
 
@@ -115,7 +134,7 @@ function shell(title, bodyHtml, { depth = 0, date = '' } = {}) {
   <title>${escapeHtml(title)}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="${root}/style.css">
 </head>
 <body>
