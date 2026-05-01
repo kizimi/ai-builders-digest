@@ -91,7 +91,15 @@ async function main() {
 
 Schema:
 {
-  "builders": [{ "name":"string","handle":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文","tweets":[{"id":"string","text":"string","url":"string"}],"slang":[{"term":"string","definition_en":"string","definition_zh":"string"}] }],
+  "builders": [{
+    "name":"string",
+    "handle":"string",
+    "summary_en":"1-2 sentences",
+    "summary_zh":"2-3句中文，概括该作者今天发文的核心内容和见解",
+    "tweets":[{"id":"string","text":"string","url":"string"}],
+    "slang":[{"term":"string","definition_en":"string","definition_zh":"string"}],
+    "keywords":[{"phrase":"string","ipa":"string","definition_zh":"string","example_zh":"string"}]
+  }],
   "podcasts": [{ "name":"string","title":"string","url":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }],
   "blogs":    [{ "name":"string","title":"string","url":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }]
 }
@@ -99,6 +107,7 @@ Schema:
 Rules:
 - Include ALL builders listed. Keep tweet arrays to the 2 most interesting (id, text, url only).
 - slang: flag any AI/startup jargon in the tweets (e.g. "vibe coding", "dogfooding", "ship it").
+- keywords: pick 2-5 words or short phrases that appear VERBATIM in the builder's tweet text — copy them exactly, do not paraphrase. For single English words provide IPA in the ipa field (else leave ipa empty string). definition_zh: one-sentence Chinese definition. example_zh: 1-2 sentences in Chinese explaining how this word/phrase is used in this specific context (not just a dictionary definition).
 - Return ONLY valid JSON.`;
 
   const pass1User = `Today: ${todayISO()}

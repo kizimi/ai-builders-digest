@@ -59,29 +59,35 @@ function builderVocab(builder, allVocab) {
 }
 
 // Single-pass keyword highlight — wraps matches with .kw-wrap/.kw + inline .kw-tip tooltip.
-// Single pass avoids re-matching words already wrapped in HTML.
-function highlightKeywords(rawText, vocab) {
-  if (!vocab || vocab.length === 0) return escapeHtml(rawText);
+// Accepts entries with either {phrase} (per-builder keywords) or {word} (global vocab).
+function highlightKeywords(rawText, entries) {
+  if (!entries || entries.length === 0) return escapeHtml(rawText);
 
-  const sorted = [...vocab].sort((a, b) => b.word.length - a.word.length);
-  const byWord = {};
-  for (const v of sorted) byWord[v.word.toLowerCase()] = v;
+  // Normalise: both formats share definition_zh / example_zh / ipa; text key is phrase or word
+  const items = entries.map(e => ({ ...e, _text: e.phrase || e.word || '' }))
+    .filter(e => e._text);
+
+  if (items.length === 0) return escapeHtml(rawText);
+
+  const sorted = [...items].sort((a, b) => b._text.length - a._text.length);
+  const byText = {};
+  for (const v of sorted) byText[v._text.toLowerCase()] = v;
 
   const pattern = sorted
-    .map(v => escapeHtml(v.word).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+    .map(v => escapeHtml(v._text).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
     .join('|');
 
   const escaped = escapeHtml(rawText);
   if (!pattern) return escaped;
 
   return escaped.replace(new RegExp('(' + pattern + ')', 'gi'), (match) => {
-    const v = byWord[match.toLowerCase()];
+    const v = byText[match.toLowerCase()];
     if (!v) return match;
     const tip = [
       '<span class="kw-tip">',
-      '<span class="kw-tip-term">' + escapeHtml(v.word) + '</span>',
-      v.ipa         ? '<span class="kw-tip-ipa">'  + escapeHtml(v.ipa)         + '</span>' : '',
-      v.definition_zh ? '<span class="kw-tip-zh">' + escapeHtml(v.definition_zh) + '</span>' : '',
+      '<span class="kw-tip-term">' + escapeHtml(v._text) + '</span>',
+      v.ipa           ? '<span class="kw-tip-ipa">'  + escapeHtml(v.ipa)           + '</span>' : '',
+      v.definition_zh ? '<span class="kw-tip-zh">'   + escapeHtml(v.definition_zh) + '</span>' : '',
       (v.example_zh || v.definition_zh)
         ? '<span class="kw-tip-exp">' + escapeHtml(v.example_zh || v.definition_zh) + '</span>'
         : '',
@@ -109,7 +115,7 @@ function shell(title, bodyHtml, { depth = 0, date = '' } = {}) {
   <title>${escapeHtml(title)}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="${root}/style.css">
 </head>
 <body>
@@ -168,7 +174,8 @@ function buildersSection(builders, vocab) {
   const cards = builders.map((b, i) => {
     const badge      = getBadge(b);
     const initials   = getInitials(b.name);
-    const bvocab     = builderVocab(b, vocab);
+    // Prefer per-builder keywords (verbatim phrases); fall back to global vocab matching
+    const bvocab     = (b.keywords && b.keywords.length > 0) ? b.keywords : builderVocab(b, vocab);
     const tweets     = b.tweets || [];
     const tweetLabel = tweets.length === 1 ? '1 tweet' : tweets.length + ' tweets';
 
