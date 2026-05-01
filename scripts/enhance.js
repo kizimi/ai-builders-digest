@@ -164,22 +164,36 @@ ${JSON.stringify((pass1.builders || []).flatMap(b => (b.slang || []).map(s => s.
 
   // ── Pass 3: per-builder keywords (separate pass to stay within token limit) ──
 
-  const pass3System = `You are an AI/tech content curator. Return ONLY a valid JSON array — no fences, no prose.
+  const pass3System = `You are a vocabulary curator for advanced Chinese learners of English following AI/tech builders. Return ONLY a valid JSON array — no fences, no prose.
 
 Schema: [{ "handle":"string", "keywords":[{"phrase":"string","ipa":"string","definition_zh":"string","example_zh":"string"}] }]
 
-Rules:
-- One entry per builder handle listed.
-- keywords: exactly 3 words or short phrases copied VERBATIM from the builder's tweet text — do not paraphrase.
-- ipa: IPA pronunciation for single English words only; empty string for multi-word phrases.
-- definition_zh: one-sentence Chinese definition.
-- example_zh: 1-2 sentences in Chinese explaining how this word/phrase is used in this specific context.
-- Return ONLY a valid JSON array.`;
+Selection rules — for each builder, pick UP TO 3 keywords (return empty array if none qualify):
+
+WHAT TO PICK (in priority order):
+1. AI / startup / tech SLANG worth learning (e.g. "vibe coding", "dogfooding", "ship it", "north star", "agentic", "yak shaving", "moat", "first principles").
+2. PROFESSIONAL or domain-specific terms (e.g. "embedding", "prompt injection", "fine-tuning", "RLHF", "MCP server", "evals", "context window").
+3. NUANCED phrases with non-obvious meaning where context shifts interpretation (e.g. "last mile", "Gell-Mann amnesia", "indistinguishable from", "leverage on incremental effort").
+4. Words/phrases CENTRAL to the builder's main insight today — use summary_en as your relevance guide.
+
+WHAT TO SKIP:
+- Basic high-school vocabulary every English learner knows (e.g. "build", "make", "use", "good", "today", "thing", "happen", "important", "really", "just"). Skip them even if frequent.
+- Words appearing inside URLs, hashtags, or @mentions.
+- Tweets whose text is ENTIRELY URLs/links — for that builder return an empty keywords array.
+
+FIELD RULES:
+- phrase: copy VERBATIM from the tweet — exact casing, do not paraphrase.
+- ipa: IPA pronunciation for single English words only; empty string for multi-word phrases or non-English.
+- definition_zh: one short Chinese sentence — what the word/phrase means.
+- example_zh: 1-2 Chinese sentences explaining how it's used in THIS specific tweet's context (not a generic dictionary example).
+
+Return ONLY a valid JSON array.`;
 
   const pass3User = `BUILDERS:\n${JSON.stringify(
     (pass1.builders || []).map(b => ({
       handle: b.handle,
-      tweets: (b.tweets || []).map(t => t.text.slice(0, 200)),
+      summary_en: b.summary_en || '',
+      tweets: (b.tweets || []).map(t => t.text.slice(0, 240)),
     }))
   )}`;
 

@@ -179,15 +179,14 @@ function buildersSection(builders, vocab) {
     const tweets     = b.tweets || [];
     const tweetLabel = tweets.length === 1 ? '1 tweet' : tweets.length + ' tweets';
 
+    // X (Twitter) logo SVG — small familiar icon in bottom-right of each tweet item
+    const xIcon = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
+
     const tweetItems = tweets.map(t => `
       <div class="tweet-item">
         <p class="tweet-text">${highlightKeywords(t.text, bvocab)}</p>
+        <a href="${escapeHtml(t.url)}" class="tweet-link-icon" target="_blank" rel="noopener" aria-label="View on X" title="View on X">${xIcon}</a>
       </div>`).join('');
-
-    const linkPills = tweets.map((t, ti) => {
-      const label = tweets.length > 1 ? `↗ Tweet ${ti + 1}` : '↗ Tweet';
-      return `<a href="${escapeHtml(t.url)}" class="link-pill" target="_blank" rel="noopener">${label}</a>`;
-    }).join('');
 
     return `
 <article class="builder-card" data-idx="${i}">
@@ -210,8 +209,6 @@ function buildersSection(builders, vocab) {
   <div class="original-block" id="orig-${i}" hidden>
     ${tweetItems}
     <div class="bottom-row">
-      <div class="link-pills">${linkPills}</div>
-      <span class="bottom-spacer"></span>
       <button class="got-it-btn" data-idx="${i}">✦ Got it</button>
     </div>
   </div>
