@@ -91,15 +91,7 @@ async function main() {
 
 Schema:
 {
-  "builders": [{
-    "name":"string",
-    "handle":"string",
-    "summary_en":"1-2 sentences",
-    "summary_zh":"2-3句中文，概括该作者今天发文的核心内容和见解",
-    "tweets":[{"id":"string","text":"string","url":"string"}],
-    "slang":[{"term":"string","definition_en":"string","definition_zh":"string"}],
-    "keywords":[{"phrase":"string","ipa":"string","definition_zh":"string","example_zh":"string"}]
-  }],
+  "builders": [{ "name":"string","handle":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文","tweets":[{"id":"string","text":"string","url":"string"}],"slang":[{"term":"string","definition_en":"string","definition_zh":"string"}] }],
   "podcasts": [{ "name":"string","title":"string","url":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }],
   "blogs":    [{ "name":"string","title":"string","url":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }]
 }
@@ -107,7 +99,6 @@ Schema:
 Rules:
 - Include ALL builders listed. Keep tweet arrays to the 2 most interesting (id, text, url only).
 - slang: flag any AI/startup jargon in the tweets (e.g. "vibe coding", "dogfooding", "ship it").
-- keywords: pick 2-5 words or short phrases that appear VERBATIM in the builder's tweet text — copy them exactly, do not paraphrase. For single English words provide IPA in the ipa field (else leave ipa empty string). definition_zh: one-sentence Chinese definition. example_zh: 1-2 sentences in Chinese explaining how this word/phrase is used in this specific context (not just a dictionary definition).
 - Return ONLY valid JSON.`;
 
   const pass1User = `Today: ${todayISO()}
@@ -171,11 +162,52 @@ ${JSON.stringify((pass1.builders || []).flatMap(b => (b.slang || []).map(s => s.
     process.exit(1);
   }
 
+  // ── Pass 3: per-builder keywords (separate pass to stay within token limit) ──
+
+  const pass3System = `You are an AI/tech content curator. Return ONLY a valid JSON array — no fences, no prose.
+
+Schema: [{ "handle":"string", "keywords":[{"phrase":"string","ipa":"string","definition_zh":"string","example_zh":"string"}] }]
+
+Rules:
+- One entry per builder handle listed.
+- keywords: exactly 3 words or short phrases copied VERBATIM from the builder's tweet text — do not paraphrase.
+- ipa: IPA pronunciation for single English words only; empty string for multi-word phrases.
+- definition_zh: one-sentence Chinese definition.
+- example_zh: 1-2 sentences in Chinese explaining how this word/phrase is used in this specific context.
+- Return ONLY a valid JSON array.`;
+
+  const pass3User = `BUILDERS:\n${JSON.stringify(
+    (pass1.builders || []).map(b => ({
+      handle: b.handle,
+      tweets: (b.tweets || []).map(t => t.text.slice(0, 200)),
+    }))
+  )}`;
+
+  process.stderr.write(`enhance: pass 3 — per-builder keywords (${(pass1.builders || []).length} builders)...\n`);
+  const pass3Text = stripFences(await callClaude(pass3System, pass3User));
+
+  let pass3 = [];
+  try {
+    pass3 = JSON.parse(pass3Text);
+  } catch (err) {
+    process.stderr.write(`enhance: pass 3 invalid JSON (keywords skipped): ${err.message}\n`);
+  }
+
+  const keywordsByHandle = {};
+  for (const entry of pass3) {
+    if (entry.handle && Array.isArray(entry.keywords)) {
+      keywordsByHandle[entry.handle] = entry.keywords;
+    }
+  }
+
   // ── Merge ──────────────────────────────────────────────────────────────
 
   const enriched = {
     date: todayISO(),
-    builders: pass1.builders || [],
+    builders: (pass1.builders || []).map(b => ({
+      ...b,
+      keywords: keywordsByHandle[b.handle] || [],
+    })),
     podcasts: pass1.podcasts || [],
     blogs: pass1.blogs || [],
     vocab: pass2.vocab || [],
