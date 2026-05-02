@@ -256,6 +256,14 @@ Rules:
 
   // ── Merge ──────────────────────────────────────────────────────────────
 
+  // Build lookup of full (untruncated) tweet text from the original feed data
+  const fullTweetText = {};
+  for (const b of activeBuilders) {
+    for (const t of (b.tweets || [])) {
+      if (t.id) fullTweetText[t.id] = t.text;
+    }
+  }
+
   const enriched = {
     date: todayISO(),
     builders: (pass1.builders || []).map(b => ({
@@ -263,6 +271,7 @@ Rules:
       keywords: keywordsByHandle[b.handle] || [],
       tweets: (b.tweets || []).map(t => ({
         ...t,
+        text: fullTweetText[t.id] ?? t.text,
         summary_en: summariesByTweetId[t.id] || null,
       })),
     })),
