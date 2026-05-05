@@ -73,10 +73,10 @@ async function main() {
     return text.replace(/^```(?:json)?\s*/m, '').replace(/\s*```\s*$/m, '').trim();
   }
 
-  async function callClaude(systemText, userText) {
+  async function callClaude(systemText, userText, { model = 'claude-haiku-4-5', maxTokens = 8192 } = {}) {
     const msg = await client.messages.create({
-      model: 'claude-haiku-4-5',
-      max_tokens: 8192,
+      model,
+      max_tokens: maxTokens,
       system: [{ type: 'text', text: systemText, cache_control: { type: 'ephemeral' } }],
       messages: [{ role: 'user', content: userText }],
     });
@@ -114,7 +114,7 @@ BLOGS (${blogs.length}):
 ${JSON.stringify(blogs.map(b => ({ name: b.name, title: b.title, url: b.url })), null, 2)}`;
 
   process.stderr.write(`enhance: pass 1 — summaries (${activeBuilders.length} builders)...\n`);
-  const pass1Text = stripFences(await callClaude(pass1System, pass1User));
+  const pass1Text = stripFences(await callClaude(pass1System, pass1User, { model: 'claude-sonnet-4-6', maxTokens: 16000 }));
 
   let pass1;
   try {
