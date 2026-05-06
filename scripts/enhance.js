@@ -15,6 +15,19 @@ import { writeFile, mkdir } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { homedir } from 'os';
+import { jsonrepair } from 'jsonrepair';
+
+// Tolerant JSON parser: tries JSON.parse, falls back to jsonrepair on failure.
+// Handles common LLM mistakes — unescaped inner quotes, trailing commas, etc.
+function parseJsonLoose(text, label) {
+  try {
+    return JSON.parse(text);
+  } catch (err) {
+    process.stderr.write(`enhance: ${label} JSON.parse failed (${err.message}) — attempting jsonrepair...\n`);
+    const repaired = jsonrepair(text);
+    return JSON.parse(repaired);
+  }
+}
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
@@ -100,6 +113,7 @@ Rules:
 - Include ALL builders listed. Keep tweet arrays to the 2 most interesting (id, text, url only).
 - summary_en / summary_zh: focus on WHAT the tweets are saying — the actual content, takeaway, or insight from today. DO NOT start with the author's role or background (avoid phrasings like "AI thought leader sharing..." or "Tech executive observing..."). The reader already knows who this builder is. Lead with the substance: what was built, claimed, observed, argued, or shipped.
 - slang: flag any AI/startup jargon in the tweets (e.g. "vibe coding", "dogfooding", "ship it").
+- CRITICAL JSON RULE: when a Chinese string value needs to quote a term, ALWAYS use Chinese quote marks 「」 or 『』 — NEVER ASCII double-quote " — because " inside a JSON string value breaks the JSON unless escaped as \\". When in doubt, use 「」.
 - Return ONLY valid JSON.`;
 
   const pass1User = `Today: ${todayISO()}
@@ -118,14 +132,14 @@ ${JSON.stringify(blogs.map(b => ({ name: b.name, title: b.title, url: b.url })),
 
   let pass1;
   try {
-    pass1 = JSON.parse(pass1Text);
+    pass1 = parseJsonLoose(pass1Text, 'pass 1');
   } catch (err) {
     const m = /position (\d+)/.exec(err.message);
     const pos = m ? parseInt(m[1], 10) : 0;
     const ctxStart = Math.max(0, pos - 300);
     const ctxEnd = Math.min(pass1Text.length, pos + 300);
     process.stderr.write(
-      `enhance: pass 1 invalid JSON: ${err.message}\n` +
+      `enhance: pass 1 unrecoverable JSON error: ${err.message}\n` +
       `Total length: ${pass1Text.length}\n` +
       `Context around position ${pos}:\n${pass1Text.slice(ctxStart, ctxEnd)}\n` +
       `Tail (last 500): ${pass1Text.slice(-500)}\n`
@@ -151,6 +165,7 @@ Rules:
 - vocab: 5-8 words from the content that are interesting/technical/nuanced. Prioritise words a Chinese English-learner would value.
 - quote: one inspiring quote thematically relevant to today's content.
 - slang_glossary: collect ALL slang/jargon terms from all builders (deduplicated).
+- CRITICAL JSON RULE: when a Chinese string value needs to quote a term, ALWAYS use Chinese quote marks 「」 or 『』 — NEVER ASCII double-quote " — because " inside a JSON string value breaks the JSON unless escaped as \\". When in doubt, use 「」.
 - Return ONLY valid JSON.`;
 
   const pass2User = `Today: ${todayISO()}
@@ -166,9 +181,9 @@ ${JSON.stringify((pass1.builders || []).flatMap(b => (b.slang || []).map(s => s.
 
   let pass2;
   try {
-    pass2 = JSON.parse(pass2Text);
+    pass2 = parseJsonLoose(pass2Text, 'pass 2');
   } catch (err) {
-    process.stderr.write(`enhance: pass 2 invalid JSON: ${err.message}\nRaw (500): ${pass2Text.slice(0, 500)}\n`);
+    process.stderr.write(`enhance: pass 2 unrecoverable JSON error: ${err.message}\nRaw (500): ${pass2Text.slice(0, 500)}\n`);
     process.exit(1);
   }
 
@@ -197,6 +212,8 @@ FIELD RULES:
 - definition_zh: one short Chinese sentence — what the word/phrase means.
 - example_zh: 1-2 Chinese sentences explaining how it's used in THIS specific tweet's context (not a generic dictionary example).
 
+CRITICAL JSON RULE: when a Chinese string value needs to quote a term, ALWAYS use Chinese quote marks 「」 or 『』 — NEVER ASCII double-quote " — because " inside a JSON string value breaks the JSON unless escaped as \\". When in doubt, use 「」.
+
 Return ONLY a valid JSON array.`;
 
   const pass3User = `BUILDERS:\n${JSON.stringify(
@@ -212,9 +229,9 @@ Return ONLY a valid JSON array.`;
 
   let pass3 = [];
   try {
-    pass3 = JSON.parse(pass3Text);
+    pass3 = parseJsonLoose(pass3Text, 'pass 3');
   } catch (err) {
-    process.stderr.write(`enhance: pass 3 invalid JSON (keywords skipped): ${err.message}\n`);
+    process.stderr.write(`enhance: pass 3 unrecoverable JSON error (keywords skipped): ${err.message}\n`);
   }
 
   const keywordsByHandle = {};
@@ -252,7 +269,7 @@ Rules:
     process.stderr.write(`enhance: pass 4 — long-tweet summaries (${longTweets.length} tweets)...\n`);
     try {
       const pass4Text = stripFences(await callClaude(pass4System, pass4User));
-      const pass4 = JSON.parse(pass4Text);
+      const pass4 = parseJsonLoose(pass4Text, 'pass 4');
       for (const entry of pass4) {
         if (entry.tweet_id && entry.summary_en) {
           summariesByTweetId[entry.tweet_id] = entry.summary_en;
