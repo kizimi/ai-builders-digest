@@ -2,8 +2,12 @@ name: Daily Digest
 
 on:
   schedule:
-    # 9:00 AM Pacific Time (16:00 UTC)
-    - cron: '0 16 * * *'
+    # GitHub scheduled cron is unreliable (delays + occasional skips).
+    # Fire 3 times in the morning so any one success is enough.
+    # Times in UTC; LA = UTC-7 (PDT) / UTC-8 (PST).
+    - cron: '0 16 * * *'    # primary  — 9AM PDT / 8AM PST
+    - cron: '30 17 * * *'   # backup 1 — +1.5h
+    - cron: '0 19 * * *'    # backup 2 — +3h
   workflow_dispatch:
 
 permissions:

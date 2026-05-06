@@ -120,7 +120,16 @@ ${JSON.stringify(blogs.map(b => ({ name: b.name, title: b.title, url: b.url })),
   try {
     pass1 = JSON.parse(pass1Text);
   } catch (err) {
-    process.stderr.write(`enhance: pass 1 invalid JSON: ${err.message}\nRaw (500): ${pass1Text.slice(0, 500)}\n`);
+    const m = /position (\d+)/.exec(err.message);
+    const pos = m ? parseInt(m[1], 10) : 0;
+    const ctxStart = Math.max(0, pos - 300);
+    const ctxEnd = Math.min(pass1Text.length, pos + 300);
+    process.stderr.write(
+      `enhance: pass 1 invalid JSON: ${err.message}\n` +
+      `Total length: ${pass1Text.length}\n` +
+      `Context around position ${pos}:\n${pass1Text.slice(ctxStart, ctxEnd)}\n` +
+      `Tail (last 500): ${pass1Text.slice(-500)}\n`
+    );
     process.exit(1);
   }
 
