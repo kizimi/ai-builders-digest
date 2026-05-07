@@ -70,15 +70,12 @@ async function main() {
 
   // Trim input to keep output within token limits.
   // Tweets are capped at 240 chars; each builder gets at most 2 tweets.
+  // We only send `handle` (the join key) + tweet text — no id/url needed
+  // since the model is no longer asked to echo any input fields.
   function trimBuilders(builders) {
     return builders.map(b => ({
-      name: b.name,
       handle: b.handle,
-      tweets: (b.tweets || []).slice(0, 2).map(t => ({
-        id: t.id,
-        text: t.text.slice(0, 240),
-        url: t.url,
-      })),
+      tweets: (b.tweets || []).slice(0, 2).map(t => (t.text || '').slice(0, 240)),
     }));
   }
 
@@ -99,21 +96,26 @@ async function main() {
   }
 
   // ── Pass 1: builder + media summaries ──────────────────────────────────
+  // IMPORTANT: model outputs ONLY summaries/slang keyed by handle/name.
+  // Tweet text, names, titles, URLs are NEVER echoed by the model — they are
+  // merged from the original input feed in the final step. This eliminates
+  // an entire class of "model fails to escape user content" JSON errors.
 
   const pass1System = `You are an AI/tech content curator. Return ONLY a valid JSON object — no fences, no prose.
 
 Schema:
 {
-  "builders": [{ "name":"string","handle":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文","tweets":[{"id":"string","text":"string","url":"string"}],"slang":[{"term":"string","definition_en":"string","definition_zh":"string"}] }],
-  "podcasts": [{ "name":"string","title":"string","url":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }],
-  "blogs":    [{ "name":"string","title":"string","url":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }]
+  "builders": [{ "handle":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文","slang":[{"term":"string","definition_en":"string","definition_zh":"string"}] }],
+  "podcasts": [{ "name":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }],
+  "blogs":    [{ "name":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }]
 }
 
 Rules:
-- Include ALL builders listed. Keep tweet arrays to the 2 most interesting (id, text, url only).
-- summary_en / summary_zh: focus on WHAT the tweets are saying — the actual content, takeaway, or insight from today. DO NOT start with the author's role or background (avoid phrasings like "AI thought leader sharing..." or "Tech executive observing..."). The reader already knows who this builder is. Lead with the substance: what was built, claimed, observed, argued, or shipped.
-- slang: flag any AI/startup jargon in the tweets (e.g. "vibe coding", "dogfooding", "ship it").
-- CRITICAL JSON RULE: when a Chinese string value needs to quote a term, ALWAYS use Chinese quote marks 「」 or 『』 — NEVER ASCII double-quote " — because " inside a JSON string value breaks the JSON unless escaped as \\". When in doubt, use 「」.
+- Include ALL builders, podcasts, and blogs listed. Use the EXACT handle/name from the input as the join key.
+- DO NOT echo back tweet text, URLs, titles, or any other input field — only output summaries and slang. Static data is merged separately.
+- summary_en / summary_zh: focus on WHAT the content is saying — the actual takeaway or insight. DO NOT start with the author's role or background (avoid phrasings like "AI thought leader sharing..." or "Tech executive observing..."). Lead with the substance: what was built, claimed, observed, argued, or shipped.
+- slang: flag any AI/startup jargon in the tweets (e.g. vibe coding, dogfooding, ship it).
+- CRITICAL JSON RULE: inside string values, prefer 「」 or 『』 (Chinese) and ' (English) instead of ASCII double-quote ". An unescaped " inside a JSON string value breaks the JSON. When in doubt, avoid " entirely.
 - Return ONLY valid JSON.`;
 
   const pass1User = `Today: ${todayISO()}
@@ -122,10 +124,10 @@ BUILDERS (${activeBuilders.length}):
 ${JSON.stringify(trimBuilders(activeBuilders), null, 2)}
 
 PODCASTS (${podcasts.length}):
-${JSON.stringify(podcasts.map(p => ({ name: p.name, title: p.title, url: p.url, transcript: (p.transcript || '').slice(0, 400) })), null, 2)}
+${JSON.stringify(podcasts.map(p => ({ name: p.name, transcript: (p.transcript || '').slice(0, 400) })), null, 2)}
 
 BLOGS (${blogs.length}):
-${JSON.stringify(blogs.map(b => ({ name: b.name, title: b.title, url: b.url })), null, 2)}`;
+${JSON.stringify(blogs.map(b => ({ name: b.name, title: (b.title || '').slice(0, 200) })), null, 2)}`;
 
   process.stderr.write(`enhance: pass 1 — summaries (${activeBuilders.length} builders)...\n`);
   const pass1Text = stripFences(await callClaude(pass1System, pass1User, { model: 'claude-sonnet-4-6', maxTokens: 16000 }));
@@ -216,11 +218,15 @@ CRITICAL JSON RULE: when a Chinese string value needs to quote a term, ALWAYS us
 
 Return ONLY a valid JSON array.`;
 
+  // Build a handle -> pass1 summary map so we can pair summaries with tweet text from the input feed
+  const pass1ByHandle = Object.fromEntries(
+    (pass1.builders || []).map(b => [b.handle, b])
+  );
   const pass3User = `BUILDERS:\n${JSON.stringify(
-    (pass1.builders || []).map(b => ({
+    activeBuilders.map(b => ({
       handle: b.handle,
-      summary_en: b.summary_en || '',
-      tweets: (b.tweets || []).map(t => t.text.slice(0, 240)),
+      summary_en: pass1ByHandle[b.handle]?.summary_en || '',
+      tweets: (b.tweets || []).slice(0, 2).map(t => (t.text || '').slice(0, 240)),
     }))
   )}`;
 
@@ -245,8 +251,8 @@ Return ONLY a valid JSON array.`;
 
   const LONG_TWEET_CHARS = 400;
   const longTweets = [];
-  for (const b of (pass1.builders || [])) {
-    for (const t of (b.tweets || [])) {
+  for (const b of activeBuilders) {
+    for (const t of (b.tweets || []).slice(0, 2)) {
       if (t.text && t.text.length >= LONG_TWEET_CHARS) {
         longTweets.push({ tweet_id: t.id, handle: b.handle, text: t.text.slice(0, 1600) });
       }
@@ -281,28 +287,56 @@ Rules:
   }
 
   // ── Merge ──────────────────────────────────────────────────────────────
+  // Static fields (name/handle/title/url/tweet text) come from the original
+  // input feed. Model-generated fields (summaries/slang/keywords) are joined
+  // by handle (builders) or name (podcasts/blogs).
 
-  // Build lookup of full (untruncated) tweet text from the original feed data
-  const fullTweetText = {};
-  for (const b of activeBuilders) {
-    for (const t of (b.tweets || [])) {
-      if (t.id) fullTweetText[t.id] = t.text;
-    }
-  }
+  const podcastSummaryByName = Object.fromEntries(
+    (pass1.podcasts || []).map(p => [p.name, p])
+  );
+  const blogSummaryByName = Object.fromEntries(
+    (pass1.blogs || []).map(b => [b.name, b])
+  );
 
   const enriched = {
     date: todayISO(),
-    builders: (pass1.builders || []).map(b => ({
-      ...b,
-      keywords: keywordsByHandle[b.handle] || [],
-      tweets: (b.tweets || []).map(t => ({
-        ...t,
-        text: fullTweetText[t.id] ?? t.text,
-        summary_en: summariesByTweetId[t.id] || null,
-      })),
-    })),
-    podcasts: pass1.podcasts || [],
-    blogs: pass1.blogs || [],
+    builders: activeBuilders.map(b => {
+      const p = pass1ByHandle[b.handle] || {};
+      return {
+        name: b.name,
+        handle: b.handle,
+        summary_en: p.summary_en || '',
+        summary_zh: p.summary_zh || '',
+        slang: p.slang || [],
+        keywords: keywordsByHandle[b.handle] || [],
+        tweets: (b.tweets || []).slice(0, 2).map(t => ({
+          id: t.id,
+          text: t.text,
+          url: t.url,
+          summary_en: summariesByTweetId[t.id] || null,
+        })),
+      };
+    }),
+    podcasts: podcasts.map(p => {
+      const s = podcastSummaryByName[p.name] || {};
+      return {
+        name: p.name,
+        title: p.title,
+        url: p.url,
+        summary_en: s.summary_en || '',
+        summary_zh: s.summary_zh || '',
+      };
+    }),
+    blogs: blogs.map(b => {
+      const s = blogSummaryByName[b.name] || {};
+      return {
+        name: b.name,
+        title: b.title,
+        url: b.url,
+        summary_en: s.summary_en || '',
+        summary_zh: s.summary_zh || '',
+      };
+    }),
     vocab: pass2.vocab || [],
     quote: pass2.quote || null,
     slang_glossary: pass2.slang_glossary || [],
