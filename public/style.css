@@ -594,6 +594,108 @@ a:hover { text-decoration: underline; }
   letter-spacing: .02em;
 }
 
+/* ── Favorite button ───────────────────────────────────────────────────────── */
+.fav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: .85rem;
+  line-height: 1;
+  padding: 2px 4px;
+  color: var(--ink3);
+  opacity: .5;
+  transition: opacity .15s, transform .1s;
+  flex-shrink: 0;
+}
+.fav-btn:hover { opacity: 1; transform: scale(1.15); }
+.fav-btn.faved { opacity: 1; color: #d4a017; }
+
+/* ── Favorites page ─────────────────────────────────────────────────────────── */
+.fav-page {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+.fav-title {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 2.2rem;
+  color: var(--ink);
+  margin-bottom: 32px;
+}
+
+.fav-count {
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--ink3);
+}
+
+.fav-group {
+  margin-bottom: 36px;
+}
+
+.fav-date-label {
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--paper3);
+  margin-bottom: 12px;
+}
+
+.fav-item {
+  background: #fff;
+  border: 1px solid var(--paper3);
+  border-radius: var(--radius);
+  padding: 14px 16px 10px;
+  margin-bottom: 8px;
+  box-shadow: var(--shadow);
+}
+
+.fav-item-meta {
+  margin-bottom: 6px;
+}
+
+.fav-handle {
+  font-size: .72rem;
+  font-weight: 600;
+  color: var(--ink2);
+}
+
+.fav-name {
+  font-size: .72rem;
+  color: var(--ink3);
+}
+
+.fav-text {
+  font-size: .875rem;
+  color: var(--ink);
+  line-height: 1.68;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-bottom: 8px;
+}
+
+.fav-item-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.fav-empty {
+  text-align: center;
+  padding: 80px 24px;
+  font-size: .9rem;
+  color: var(--ink3);
+  font-style: italic;
+}
+
 /* ── Archive page ──────────────────────────────────────────────────────────── */
 .archive-page {
   max-width: var(--max-w);

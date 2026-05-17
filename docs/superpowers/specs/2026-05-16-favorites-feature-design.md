@@ -76,7 +76,7 @@ My Favorites  (12 saved)
 
 | File | Change |
 |------|--------|
-| `scripts/build-site.js` | Add ⭐ button with `data-*` attrs to tweet footer; add Favorites nav link; generate `site/favorites.html` |
+| `scripts/build-site.js` | Add ⭐ button with `data-id`, `data-text`, `data-url`, `data-handle`, `data-name`, `data-date` attrs to tweet footer; add Favorites nav link; add `favorites.html` to the copied assets list |
 | `public/app.js` | Favorites logic: toggle save/remove, restore state on load, render favorites page |
 | `public/style.css` | Star button styles (default, hover, active/filled); favorites page date-group layout |
 | `public/favorites.html` | New static shell; `app.js` populates `#favRoot` |

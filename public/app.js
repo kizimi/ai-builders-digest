@@ -1,7 +1,136 @@
-// Builder digest: expand/collapse, Got it, progress bar, tooltips
+// Builder digest: expand/collapse, Got it, progress bar, tooltips, favorites
 
 (function () {
   'use strict';
+
+  // ── Favorites helpers ─────────────────────────────────────────────────────
+  var FAV_KEY = 'ai_digest_favorites';
+
+  function getFavs() {
+    try { return JSON.parse(localStorage.getItem(FAV_KEY) || '[]'); } catch (e) { return []; }
+  }
+
+  function saveFavs(favs) {
+    localStorage.setItem(FAV_KEY, JSON.stringify(favs));
+  }
+
+  function escHtml(str) {
+    return String(str || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function formatDateFav(isoDate) {
+    var d = new Date(isoDate + 'T12:00:00Z');
+    return d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  }
+
+  // ── Favorites page ────────────────────────────────────────────────────────
+  var favRoot = document.getElementById('favRoot');
+
+  function updateFavCount() {
+    var countEl = document.querySelector('.fav-count');
+    if (countEl) countEl.textContent = '(' + getFavs().length + ')';
+  }
+
+  function renderFavorites(root) {
+    var favs = getFavs().slice().sort(function (a, b) { return b.savedAt - a.savedAt; });
+
+    if (favs.length === 0) {
+      root.innerHTML = '<p class="fav-empty">No favorites yet. Star a tweet on today\'s digest to save it here.</p>';
+      return;
+    }
+
+    var byDate = {};
+    favs.forEach(function (f) {
+      if (!byDate[f.date]) byDate[f.date] = [];
+      byDate[f.date].push(f);
+    });
+
+    var dates = Object.keys(byDate).sort(function (a, b) { return b.localeCompare(a); });
+    var xIcon = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
+
+    var html = '<div class="fav-page">';
+    html += '<h1 class="fav-title">Favorites <span class="fav-count">(' + favs.length + ')</span></h1>';
+
+    dates.forEach(function (date) {
+      html += '<div class="fav-group">';
+      html += '<div class="fav-date-label">' + escHtml(formatDateFav(date)) + '</div>';
+      byDate[date].forEach(function (f) {
+        html += '<div class="fav-item" data-id="' + escHtml(f.id) + '">';
+        html += '<div class="fav-item-meta"><span class="fav-handle">@' + escHtml(f.handle) + '</span> <span class="fav-name">' + escHtml(f.name) + '</span></div>';
+        html += '<p class="fav-text">' + escHtml(f.text) + '</p>';
+        html += '<div class="fav-item-footer">';
+        html += '<button class="fav-btn faved" data-id="' + escHtml(f.id) + '" data-handle="' + escHtml(f.handle) + '" data-name="' + escHtml(f.name) + '" data-text="' + escHtml(f.text) + '" data-url="' + escHtml(f.url) + '" data-date="' + escHtml(f.date) + '" aria-label="Remove from favorites">⭐</button>';
+        html += '<a href="' + escHtml(f.url) + '" class="tweet-link-icon" target="_blank" rel="noopener" aria-label="View on X" title="View on X">' + xIcon + '</a>';
+        html += '</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+    });
+
+    html += '</div>';
+    root.innerHTML = html;
+  }
+
+  if (favRoot) {
+    renderFavorites(favRoot);
+  }
+
+  // ── Restore star state on digest pages ────────────────────────────────────
+  if (!favRoot) {
+    var favIds = getFavs().reduce(function (acc, f) { acc[f.id] = true; return acc; }, {});
+    document.querySelectorAll('.fav-btn').forEach(function (btn) {
+      if (favIds[btn.dataset.id]) {
+        btn.classList.add('faved');
+        btn.textContent = '⭐';
+      }
+    });
+  }
+
+  // ── Fav toggle ────────────────────────────────────────────────────────────
+  function handleFav(btn) {
+    var id = btn.dataset.id;
+    var favs = getFavs();
+    var idx = favs.findIndex(function (f) { return f.id === id; });
+
+    if (idx === -1) {
+      favs.push({
+        id:      btn.dataset.id,
+        text:    btn.dataset.text,
+        url:     btn.dataset.url,
+        handle:  btn.dataset.handle,
+        name:    btn.dataset.name,
+        date:    btn.dataset.date,
+        savedAt: Date.now(),
+      });
+      btn.classList.add('faved');
+      btn.textContent = '⭐';
+    } else {
+      favs.splice(idx, 1);
+      btn.classList.remove('faved');
+      btn.textContent = '☆';
+      var favItem = btn.closest('.fav-item');
+      if (favItem) {
+        favItem.style.transition = 'opacity .25s ease, max-height .3s ease';
+        favItem.style.overflow   = 'hidden';
+        favItem.style.maxHeight  = favItem.offsetHeight + 'px';
+        void favItem.offsetHeight;
+        favItem.style.opacity   = '0';
+        favItem.style.maxHeight = '0';
+        favItem.addEventListener('transitionend', function () {
+          favItem.remove();
+          updateFavCount();
+          if (getFavs().length === 0 && favRoot) {
+            favRoot.innerHTML = '<p class="fav-empty">No favorites yet. Star a tweet on today\'s digest to save it here.</p>';
+          }
+        }, { once: true });
+      }
+    }
+    saveFavs(favs);
+  }
 
   const cards = Array.from(document.querySelectorAll('.builder-card'));
   const TOTAL = cards.length;
@@ -45,6 +174,9 @@
   // ── Delegated click handler ────────────────────────────────────────────────
   document.addEventListener('click', function (e) {
     if (e.target.closest('#restoreBtn')) { restoreAll(); return; }
+
+    const favBtn = e.target.closest('.fav-btn');
+    if (favBtn) { handleFav(favBtn); return; }
 
     const gotBtn = e.target.closest('.got-it-btn');
     if (gotBtn) { handleGotIt(gotBtn, e); return; }

@@ -142,6 +142,7 @@ function shell(title, bodyHtml, { depth = 0, date = '' } = {}) {
     <a class="nav-brand" href="${root}/index.html">AI Builders Digest</a>
     <div class="nav-links">
       <a href="${root}/archive.html" class="nav-link">Archive</a>
+      <a href="${root}/favorites.html" class="nav-link">Favorites</a>
     </div>
     <span class="nav-date">${dateLabel}</span>
   </nav>
@@ -186,7 +187,7 @@ function heroSection(data) {
 
 // ── Module 2: Builders ──────────────────────────────────────────────────────
 
-function buildersSection(builders, vocab) {
+function buildersSection(builders, vocab, date) {
   if (!builders || builders.length === 0) return '';
   const total = builders.length;
 
@@ -212,6 +213,7 @@ function buildersSection(builders, vocab) {
         <p class="tweet-text">${highlightKeywords(display, bvocab)}</p>
         <div class="tweet-footer">
           ${summaryTag}
+          <button class="fav-btn" data-id="${escapeHtml(t.id)}" data-text="${escapeHtml(t.text)}" data-url="${escapeHtml(t.url)}" data-handle="${escapeHtml(b.handle)}" data-name="${escapeHtml(b.name)}" data-date="${escapeHtml(date || '')}" aria-label="Save to favorites">☆</button>
           <a href="${escapeHtml(t.url)}" class="tweet-link-icon" target="_blank" rel="noopener" aria-label="View on X" title="View on X">${xIcon}</a>
         </div>
       </div>`;
@@ -270,7 +272,7 @@ function buildersSection(builders, vocab) {
 // ── Full Digest Page ────────────────────────────────────────────────────────
 
 function digestPage(data, { depth = 0 } = {}) {
-  const body = heroSection(data) + buildersSection(data.builders, data.vocab);
+  const body = heroSection(data) + buildersSection(data.builders, data.vocab, data.date);
   return shell(`AI Builders Digest — ${formatDate(data.date)}`, body, { depth, date: data.date });
 }
 
@@ -299,7 +301,7 @@ function archiveListPage(dates) {
 async function main() {
   await mkdir(join(SITE_DIR, 'archive'), { recursive: true });
 
-  for (const asset of ['style.css', 'app.js', 'CNAME']) {
+  for (const asset of ['style.css', 'app.js', 'CNAME', 'favorites.html']) {
     const src = join(PUBLIC_DIR, asset);
     if (existsSync(src)) {
       await copyFile(src, join(SITE_DIR, asset));
