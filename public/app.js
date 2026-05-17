@@ -5,6 +5,8 @@
 
   // ── Favorites helpers ─────────────────────────────────────────────────────
   var FAV_KEY = 'ai_digest_favorites';
+  var FAV_ICON_EMPTY  = '<svg class="fav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>';
+  var FAV_ICON_FILLED = '<svg class="fav-icon" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>';
 
   function getFavs() {
     try { return JSON.parse(localStorage.getItem(FAV_KEY) || '[]'); } catch (e) { return []; }
@@ -63,7 +65,7 @@
         html += '<div class="fav-item-meta"><span class="fav-handle">@' + escHtml(f.handle) + '</span> <span class="fav-name">' + escHtml(f.name) + '</span></div>';
         html += '<p class="fav-text">' + escHtml(f.text) + '</p>';
         html += '<div class="fav-item-footer">';
-        html += '<button class="fav-btn faved" data-id="' + escHtml(f.id) + '" data-handle="' + escHtml(f.handle) + '" data-name="' + escHtml(f.name) + '" data-text="' + escHtml(f.text) + '" data-url="' + escHtml(f.url) + '" data-date="' + escHtml(f.date) + '" aria-label="Remove from favorites">⭐</button>';
+        html += '<button class="fav-btn faved" data-id="' + escHtml(f.id) + '" data-handle="' + escHtml(f.handle) + '" data-name="' + escHtml(f.name) + '" data-text="' + escHtml(f.text) + '" data-url="' + escHtml(f.url) + '" data-date="' + escHtml(f.date) + '" aria-label="Remove from favorites">' + FAV_ICON_FILLED + '</button>';
         html += '<a href="' + escHtml(f.url) + '" class="tweet-link-icon" target="_blank" rel="noopener" aria-label="View on X" title="View on X">' + xIcon + '</a>';
         html += '</div>';
         html += '</div>';
@@ -85,7 +87,7 @@
     document.querySelectorAll('.fav-btn').forEach(function (btn) {
       if (favIds[btn.dataset.id]) {
         btn.classList.add('faved');
-        btn.textContent = '⭐';
+        btn.innerHTML = FAV_ICON_FILLED;
       }
     });
   }
@@ -107,11 +109,11 @@
         savedAt: Date.now(),
       });
       btn.classList.add('faved');
-      btn.textContent = '⭐';
+      btn.innerHTML = FAV_ICON_FILLED;
     } else {
       favs.splice(idx, 1);
       btn.classList.remove('faved');
-      btn.textContent = '☆';
+      btn.innerHTML = FAV_ICON_EMPTY;
       var favItem = btn.closest('.fav-item');
       if (favItem) {
         favItem.style.transition = 'opacity .25s ease, max-height .3s ease';

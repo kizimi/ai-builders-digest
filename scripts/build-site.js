@@ -141,6 +141,7 @@ function shell(title, bodyHtml, { depth = 0, date = '' } = {}) {
   <nav class="top-nav">
     <a class="nav-brand" href="${root}/index.html">AI Builders Digest</a>
     <div class="nav-links">
+      <a href="${root}/index.html" class="nav-link">Home</a>
       <a href="${root}/archive.html" class="nav-link">Archive</a>
       <a href="${root}/favorites.html" class="nav-link">Favorites</a>
     </div>
@@ -201,6 +202,7 @@ function buildersSection(builders, vocab, date) {
 
     // X (Twitter) logo SVG — small familiar icon in bottom-right of each tweet item
     const xIcon = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
+    const favIconEmpty = '<svg class="fav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>';
 
     const tweetItems = tweets.map(t => {
       const isSum      = !!t.summary_en;
@@ -213,7 +215,7 @@ function buildersSection(builders, vocab, date) {
         <p class="tweet-text">${highlightKeywords(display, bvocab)}</p>
         <div class="tweet-footer">
           ${summaryTag}
-          <button class="fav-btn" data-id="${escapeHtml(t.id)}" data-text="${escapeHtml(t.text)}" data-url="${escapeHtml(t.url)}" data-handle="${escapeHtml(b.handle)}" data-name="${escapeHtml(b.name)}" data-date="${escapeHtml(date || '')}" aria-label="Save to favorites">☆</button>
+          <button class="fav-btn" data-id="${escapeHtml(t.id)}" data-text="${escapeHtml(t.text)}" data-url="${escapeHtml(t.url)}" data-handle="${escapeHtml(b.handle)}" data-name="${escapeHtml(b.name)}" data-date="${escapeHtml(date || '')}" aria-label="Save to favorites">${favIconEmpty}</button>
           <a href="${escapeHtml(t.url)}" class="tweet-link-icon" target="_blank" rel="noopener" aria-label="View on X" title="View on X">${xIcon}</a>
         </div>
       </div>`;
