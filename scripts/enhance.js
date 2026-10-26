@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 // Reads raw feed JSON from prepare-digest.js via stdin.
-// Calls Claude to produce structured enrichment:
+// Calls the local Codex CLI (`codex exec`, ChatGPT plan quota) to produce
+// structured enrichment:
 //   - Per-builder summaries in EN + ZH
 //   - Podcast / blog summaries in EN + ZH
 //   - 5-8 vocabulary words (IPA, POS, definition, synonyms)
@@ -9,12 +10,11 @@
 //   - Daily quote
 // Writes data/YYYY-MM-DD.json and prints the path to stdout.
 
-import Anthropic from '@anthropic-ai/sdk';
-import { config as loadEnv } from 'dotenv';
-import { writeFile, mkdir } from 'fs/promises';
+import { writeFile, readFile, mkdir, mkdtemp, rm } from 'fs/promises';
+import { spawn } from 'child_process';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { homedir } from 'os';
+import { tmpdir } from 'os';
 import { jsonrepair } from 'jsonrepair';
 
 // Tolerant JSON parser: tries JSON.parse, falls back to jsonrepair on failure.
@@ -32,9 +32,11 @@ function parseJsonLoose(text, label) {
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
 const DATA_DIR = join(PROJECT_ROOT, 'data');
-const ENV_PATH = join(homedir(), '.follow-builders', '.env');
 
-loadEnv({ path: ENV_PATH });
+// Codex CLI bundled with the ChatGPT desktop app; override with CODEX_BIN.
+const CODEX_BIN = process.env.CODEX_BIN || '/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex';
+const CODEX_MODEL = process.env.CODEX_MODEL || '';   // empty = Codex default model
+const CODEX_TIMEOUT_MS = 10 * 60 * 1000;
 
 async function readStdin() {
   const chunks = [];
@@ -66,8 +68,6 @@ async function main() {
   // Filter out builders with no tweets
   const activeBuilders = x.filter(b => b.tweets && b.tweets.length > 0);
 
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-
   // Trim input to keep output within token limits.
   // Tweets are capped at 240 chars; each builder gets at most 2 tweets.
   // We only send `handle` (the join key) + tweet text — no id/url needed
@@ -83,16 +83,53 @@ async function main() {
     return text.replace(/^```(?:json)?\s*/m, '').replace(/\s*```\s*$/m, '').trim();
   }
 
-  async function callClaude(systemText, userText, { model = 'claude-haiku-4-5', maxTokens = 8192 } = {}) {
-    const msg = await client.messages.create({
-      model,
-      max_tokens: maxTokens,
-      system: [{ type: 'text', text: systemText, cache_control: { type: 'ephemeral' } }],
-      messages: [{ role: 'user', content: userText }],
-    });
-    const text = msg.content[0]?.text;
-    if (!text) throw new Error('empty response from API');
-    return text;
+  // Codex occasionally returns transient 429s even with plenty of quota left;
+  // retry the whole turn with a long backoff before giving up.
+  async function callLLM(systemText, userText) {
+    const waits = [60, 180];
+    for (let attempt = 0; ; attempt++) {
+      try {
+        return await callCodexOnce(systemText, userText);
+      } catch (err) {
+        if (attempt >= waits.length) throw err;
+        process.stderr.write(`enhance: codex call failed (${err.message.slice(0, 200)}) — retrying in ${waits[attempt]}s\n`);
+        await new Promise(r => setTimeout(r, waits[attempt] * 1000));
+      }
+    }
+  }
+
+  // Runs one non-interactive Codex turn and returns its final message.
+  // Runs in an empty temp dir with a read-only sandbox so the agent has
+  // nothing to touch; the prompt goes in via stdin.
+  async function callCodexOnce(systemText, userText) {
+    const workDir = await mkdtemp(join(tmpdir(), 'digest-codex-'));
+    const outFile = join(workDir, 'last-message.txt');
+    const args = ['exec', '--ephemeral', '--skip-git-repo-check', '-s', 'read-only',
+                  '--color', 'never', '-C', workDir, '-o', outFile];
+    if (CODEX_MODEL) args.push('-m', CODEX_MODEL);
+    args.push('-');
+
+    try {
+      const log = await new Promise((resolve, reject) => {
+        const child = spawn(CODEX_BIN, args, { stdio: ['pipe', 'pipe', 'pipe'] });
+        let buf = '';
+        child.stdout.on('data', d => { buf += d; });
+        child.stderr.on('data', d => { buf += d; });
+        const timer = setTimeout(() => { child.kill('SIGTERM'); reject(new Error('codex exec timed out')); }, CODEX_TIMEOUT_MS);
+        child.on('error', err => { clearTimeout(timer); reject(err); });
+        child.on('close', code => {
+          clearTimeout(timer);
+          if (code === 0) resolve(buf);
+          else reject(new Error(`codex exec exited ${code}: ${buf.slice(-800)}`));
+        });
+        child.stdin.end(`${systemText}\n\n---\n\n${userText}`);
+      });
+      const text = (await readFile(outFile, 'utf-8').catch(() => '')).trim();
+      if (!text) throw new Error(`empty response from codex: ${log.slice(-800)}`);
+      return text;
+    } finally {
+      await rm(workDir, { recursive: true, force: true });
+    }
   }
 
   // ── Pass 1: builder + media summaries ──────────────────────────────────
@@ -130,7 +167,7 @@ BLOGS (${blogs.length}):
 ${JSON.stringify(blogs.map(b => ({ name: b.name, title: (b.title || '').slice(0, 200) })), null, 2)}`;
 
   process.stderr.write(`enhance: pass 1 — summaries (${activeBuilders.length} builders)...\n`);
-  const pass1Text = stripFences(await callClaude(pass1System, pass1User, { model: 'claude-sonnet-4-6', maxTokens: 16000 }));
+  const pass1Text = stripFences(await callLLM(pass1System, pass1User));
 
   let pass1;
   try {
@@ -179,7 +216,7 @@ SLANG TERMS FOUND IN PASS 1 (for deduplication):
 ${JSON.stringify((pass1.builders || []).flatMap(b => (b.slang || []).map(s => s.term)))}`;
 
   process.stderr.write('enhance: pass 2 — vocab + quote + slang...\n');
-  const pass2Text = stripFences(await callClaude(pass2System, pass2User));
+  const pass2Text = stripFences(await callLLM(pass2System, pass2User));
 
   let pass2;
   try {
@@ -231,7 +268,7 @@ Return ONLY a valid JSON array.`;
   )}`;
 
   process.stderr.write(`enhance: pass 3 — per-builder keywords (${(pass1.builders || []).length} builders)...\n`);
-  const pass3Text = stripFences(await callClaude(pass3System, pass3User));
+  const pass3Text = stripFences(await callLLM(pass3System, pass3User));
 
   let pass3 = [];
   try {
@@ -274,7 +311,7 @@ Rules:
 
     process.stderr.write(`enhance: pass 4 — long-tweet summaries (${longTweets.length} tweets)...\n`);
     try {
-      const pass4Text = stripFences(await callClaude(pass4System, pass4User));
+      const pass4Text = stripFences(await callLLM(pass4System, pass4User));
       const pass4 = parseJsonLoose(pass4Text, 'pass 4');
       for (const entry of pass4) {
         if (entry.tweet_id && entry.summary_en) {

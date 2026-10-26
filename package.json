@@ -10,8 +10,6 @@
     "generate": "node scripts/prepare-digest.js | node scripts/enhance.js && node scripts/build-site.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.91.1",
-    "dotenv": "^16.4.0",
     "jsonrepair": "^3.14.0"
   }
 }
