@@ -36,6 +36,9 @@ const DATA_DIR = join(PROJECT_ROOT, 'data');
 // Codex CLI bundled with the ChatGPT desktop app; override with CODEX_BIN.
 const CODEX_BIN = process.env.CODEX_BIN || '/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex';
 const CODEX_MODEL = process.env.CODEX_MODEL || '';   // empty = Codex default model
+// Used on retries — the default model is sometimes capacity-limited (429)
+// while older models still have headroom.
+const CODEX_FALLBACK_MODEL = process.env.CODEX_FALLBACK_MODEL || 'gpt-6-sol';
 const CODEX_TIMEOUT_MS = 10 * 60 * 1000;
 
 async function readStdin() {
@@ -83,17 +86,24 @@ async function main() {
     return text.replace(/^```(?:json)?\s*/m, '').replace(/\s*```\s*$/m, '').trim();
   }
 
-  // Codex occasionally returns transient 429s even with plenty of quota left;
-  // retry the whole turn with a long backoff before giving up.
+  // Codex can return 429 for the default model even with plenty of quota
+  // left; retry on the fallback model, then once more after a long wait.
+  const ATTEMPTS = [
+    { model: CODEX_MODEL,          waitSec: 0 },
+    { model: CODEX_FALLBACK_MODEL, waitSec: 10 },
+    { model: CODEX_FALLBACK_MODEL, waitSec: 180 },
+  ];
+
   async function callLLM(systemText, userText) {
-    const waits = [60, 180];
-    for (let attempt = 0; ; attempt++) {
+    for (let i = 0; ; i++) {
+      const { model, waitSec } = ATTEMPTS[i];
+      if (waitSec) await new Promise(r => setTimeout(r, waitSec * 1000));
       try {
-        return await callCodexOnce(systemText, userText);
+        return await callCodexOnce(systemText, userText, model);
       } catch (err) {
-        if (attempt >= waits.length) throw err;
-        process.stderr.write(`enhance: codex call failed (${err.message.slice(0, 200)}) — retrying in ${waits[attempt]}s\n`);
-        await new Promise(r => setTimeout(r, waits[attempt] * 1000));
+        if (i === ATTEMPTS.length - 1) throw err;
+        const next = ATTEMPTS[i + 1];
+        process.stderr.write(`enhance: codex call failed (${err.message.slice(0, 200)}) — retrying with ${next.model || 'default model'} in ${next.waitSec}s\n`);
       }
     }
   }
@@ -101,12 +111,12 @@ async function main() {
   // Runs one non-interactive Codex turn and returns its final message.
   // Runs in an empty temp dir with a read-only sandbox so the agent has
   // nothing to touch; the prompt goes in via stdin.
-  async function callCodexOnce(systemText, userText) {
+  async function callCodexOnce(systemText, userText, model) {
     const workDir = await mkdtemp(join(tmpdir(), 'digest-codex-'));
     const outFile = join(workDir, 'last-message.txt');
     const args = ['exec', '--ephemeral', '--skip-git-repo-check', '-s', 'read-only',
                   '--color', 'never', '-C', workDir, '-o', outFile];
-    if (CODEX_MODEL) args.push('-m', CODEX_MODEL);
+    if (model) args.push('-m', model);
     args.push('-');
 
     try {
