@@ -1,19 +1,16 @@
 name: Daily Digest
 
 on:
-  # ── Scheduled runs paused (2026-08-14) ──────────────────────────────────
-  # Every run was failing at enhance.js pass 1 with:
-  #   400 "Your credit balance is too low to access the Anthropic API."
-  # Three crons/day meant three failure emails/day. Re-enable by uncommenting
-  # once the Anthropic account has credit again.
-  #
-  # schedule:
-  #   # GitHub scheduled cron is unreliable (delays + occasional skips).
-  #   # Fire 3 times in the morning so any one success is enough.
-  #   # Times in UTC; LA = UTC-7 (PDT) / UTC-8 (PST).
-  #   - cron: '0 16 * * *'    # primary  — 9AM PDT / 8AM PST
-  #   - cron: '30 17 * * *'   # backup 1 — +1.5h
-  #   - cron: '0 19 * * *'    # backup 2 — +3h
+  # Generation (the LLM part) now runs in a scheduled Claude Code task that
+  # commits data/YYYY-MM-DD.json to main (scripts/run-cloud.sh). This workflow
+  # only builds the static site from data/ and deploys it — no API key needed.
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'public/**'
+      - 'scripts/build-site.js'
+      - '.github/workflows/daily.yml'
   workflow_dispatch:
 
 permissions:
@@ -45,11 +42,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Generate digest
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/prepare-digest.js | node scripts/enhance.js
 
       - name: Build site
         run: node scripts/build-site.js

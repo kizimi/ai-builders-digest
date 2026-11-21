@@ -24,7 +24,7 @@ echo "── run $(date '+%F %T') ──"
 if [[ -f "data/$TODAY.json" && "${FORCE:-0}" != "1" ]]; then
   echo "data/$TODAY.json exists, skipping generation"
 else
-  node scripts/prepare-digest.js | node scripts/enhance.js
+  node scripts/prepare-digest.js | LLM_BACKEND="${LLM_BACKEND:-codex}" node scripts/enhance.js
 fi
 node scripts/build-site.js
 echo "done $(date '+%T')"
