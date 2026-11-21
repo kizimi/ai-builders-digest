@@ -3,9 +3,8 @@
 // Reads raw feed JSON from prepare-digest.js via stdin.
 // Calls an LLM CLI to produce structured enrichment. Backend is chosen with
 // LLM_BACKEND:
-//   claude (default) — `claude -p` (Claude Code; uses the Claude plan / project
-//                      credits of whoever runs it, e.g. a scheduled cloud task)
-//   codex            — local Codex CLI (`codex exec`, ChatGPT plan quota)
+//   codex (default) — local Codex CLI (`codex exec`, ChatGPT plan quota)
+//   claude          — `claude -p` (Claude Code; uses the Claude plan credits)
 // Enrichment:
 //   - Per-builder summaries in EN + ZH
 //   - Podcast / blog summaries in EN + ZH
@@ -37,7 +36,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
 const DATA_DIR = join(PROJECT_ROOT, 'data');
 
-const LLM_BACKEND = (process.env.LLM_BACKEND || 'claude').toLowerCase();
+const LLM_BACKEND = (process.env.LLM_BACKEND || 'codex').toLowerCase();
 
 // Claude Code CLI. Sonnet keeps the daily run cheap; override with CLAUDE_MODEL.
 const CLAUDE_BIN = process.env.CLAUDE_BIN || 'claude';
@@ -58,8 +57,8 @@ async function readStdin() {
   return Buffer.concat(chunks).toString('utf-8');
 }
 
-// DIGEST_DATE overrides; otherwise local date (run with TZ=America/Los_Angeles
-// in the cloud so the date matches the 9AM PT schedule).
+// DIGEST_DATE overrides; otherwise local date (run-local.sh sets
+// TZ=America/Los_Angeles).
 function todayISO() {
   return process.env.DIGEST_DATE || new Date().toLocaleDateString('en-CA'); // YYYY-MM-DD
 }

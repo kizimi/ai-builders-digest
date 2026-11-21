@@ -1,9 +1,10 @@
 name: Daily Digest
 
 on:
-  # Generation (the LLM part) now runs in a scheduled Claude Code task that
-  # commits data/YYYY-MM-DD.json to main (scripts/run-cloud.sh). This workflow
-  # only builds the static site from data/ and deploys it — no API key needed.
+  # Generation (the LLM part) runs on the Mac with the Codex CLI via launchd
+  # (scripts/run-local.sh), which commits data/YYYY-MM-DD.json to main. This
+  # workflow only builds the static site from data/ and deploys it — no API
+  # key needed.
   push:
     branches: [main]
     paths:
