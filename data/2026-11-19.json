@@ -1,0 +1,785 @@
+{
+  "date": "2026-11-19",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "One post points to an item without enough context to identify its subject. Another jokes about a casting resemblance to Mira Murati.",
+      "summary_zh": "一条帖子仅指向外部内容，现有文字不足以判断主题；另一条调侃某个选角与 Mira Murati 的相似度。",
+      "slang": [
+        {
+          "term": "temu",
+          "definition_en": "Internet shorthand for a cheaper or less convincing imitation.",
+          "definition_zh": "网络用语，指廉价版或不太像的模仿品。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "temu",
+          "ipa": "/ˈtiːmuː/",
+          "definition_zh": "借电商平台名调侃某人或某物是廉价平替版。",
+          "example_zh": "作者把 Monica Barbaro 戏称为 Mira Murati 的「平替版」，是在拿两人的外貌相似开玩笑。"
+        },
+        {
+          "phrase": "crazy work",
+          "ipa": "",
+          "definition_zh": "网络俚语，表示某个操作离谱到令人难以置信。",
+          "example_zh": "这里用来评价这个选角类比十分离谱，语气带着调侃。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123298074911248526",
+          "text": "poteto https://t.co/6qMBfvE93k",
+          "url": "https://x.com/swyx/status/2123298074911248526",
+          "summary_en": null
+        },
+        {
+          "id": "2123260852984013045",
+          "text": "casting Monica Barbaro as temu Mira Murati is crazy work https://t.co/z241ISoVhl https://t.co/OCZi1tJ2DO",
+          "url": "https://x.com/swyx/status/2123260852984013045",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_en": "Gemini 4 Neon is presented as faster and cheaper while retaining strong reasoning and complex instruction following. Readers are invited to try it in Gemini.",
+      "summary_zh": "Gemini 4 Neon 被描述为速度更快、成本更低，同时具备较强的推理和复杂指令遵循能力，并已开放体验。",
+      "slang": [
+        {
+          "term": "shipping",
+          "definition_en": "Releasing new product features or versions.",
+          "definition_zh": "持续发布新功能或产品版本。"
+        },
+        {
+          "term": "frontier-grade",
+          "definition_en": "Claimed to perform near the leading edge of AI capability.",
+          "definition_zh": "声称性能接近当前 AI 能力前沿。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "shipping",
+          "ipa": "/ˈʃɪpɪŋ/",
+          "definition_zh": "科技圈指把产品或功能实际发布给用户。",
+          "example_zh": "「The shipping continues」强调团队持续推出新模型和产品更新。"
+        },
+        {
+          "phrase": "Frontier-grade intelligence",
+          "ipa": "",
+          "definition_zh": "指达到行业前沿模型水平的智能能力。",
+          "example_zh": "作者用它宣传 Gemini 4 Neon，强调速度和成本改善的同时仍有前沿能力。"
+        },
+        {
+          "phrase": "complex instructions",
+          "ipa": "",
+          "definition_zh": "包含多项要求或约束、需要综合理解的复杂指令。",
+          "example_zh": "作者称新模型能较好地遵循复杂指令，这是其主打能力之一。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123178015874302328",
+          "text": "Read more and try it out in @GeminiApp\n\nhttps://t.co/G8TOtEtbzU",
+          "url": "https://x.com/joshwoodward/status/2123178015874302328",
+          "summary_en": null
+        },
+        {
+          "id": "2123177835254952348",
+          "text": "Introducing Gemini 4 Neon. The shipping continues! Frontier-grade intelligence that’s faster, cheaper, and follows complex instructions well. So good to use! https://t.co/HWBTt61dLn",
+          "url": "https://x.com/joshwoodward/status/2123177835254952348",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "GPT-6.2 Astra is said to handle difficult technical work, including chip optimization, though its communication style still needs improvement. The other post asks users for feedback on 6.2 Sol.",
+      "summary_zh": "GPT-6.2 Astra 被称为能处理芯片优化等高难度任务，但表达方式仍需改进；另一条帖子征询用户对 6.2 Sol 的体验。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "chip optimizations",
+          "ipa": "",
+          "definition_zh": "为提升芯片运行效率或性能而进行的优化。",
+          "example_zh": "作者以 AMD 和 Jalapeño 芯片优化的结果，说明 Astra 能处理困难的技术工作。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123175166519992652",
+          "text": "GPT-6.2 Astra is pretty good at hard things. Here the team shared some results on AMD and Jalapeño chip optimizations.\n\nI do get the feedback on its communication style and we're working on that, but for really the hardest tasks in the world it does seem to be in a league of its own at the moment.",
+          "url": "https://x.com/thsottiaux/status/2123175166519992652",
+          "summary_en": null
+        },
+        {
+          "id": "2123113107048501273",
+          "text": "How is 6.2 Sol treating you today?",
+          "url": "https://x.com/thsottiaux/status/2123113107048501273",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Questions about a reported Nvidia leadership change highlight missing information about the cause, the board's response, and what remains undisclosed. The second post reacts with confusion to an unspecified game.",
+      "summary_zh": "帖子围绕一则有关 Nvidia 领导层变动的说法，追问原因、董事会反应及尚未披露的信息；另一条则对未说明的游戏表示困惑。",
+      "slang": [
+        {
+          "term": "smoking gun",
+          "definition_en": "Decisive evidence of wrongdoing or a hidden cause.",
+          "definition_zh": "能直接证明问题或揭示隐情的关键证据。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "smoking gun",
+          "ipa": "",
+          "definition_zh": "能直接证明过错或揭示关键事实的确凿证据。",
+          "example_zh": "作者追问是否存在导致所述辞职的关键证据；推文本身并未证明有这种证据。"
+        },
+        {
+          "phrase": "the board",
+          "ipa": "",
+          "definition_zh": "公司语境中指负责治理和重大决策的董事会。",
+          "example_zh": "作者质疑文中所说的董事会为何如此迅速地接受领导层变化。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123290075882807352",
+          "text": "I think we’re all missing some info in this Nvidia saga:\n\n1. What led Jensen to resign so abruptly? Was there a smoking gun? \n\n2. Why has the board who spent so many years with him moved on so quickly?\n\n3. If there is a smoking gun why is the president saying he’s fine with Jensen coming back?\n\nIs this just about some board members losing trust in him that he lied or is there some other info we (and most Nvidia employees) are not aware of?",
+          "url": "https://x.com/petergyang/status/2123290075882807352",
+          "summary_en": "Questions whether crucial information is missing from the account of Jensen Huang’s alleged abrupt resignation, citing the board’s quick response and the president’s apparent openness to his return."
+        },
+        {
+          "id": "2123256168462299291",
+          "text": "Like this game wtf is going on https://t.co/69aEp46e5I",
+          "url": "https://x.com/petergyang/status/2123256168462299291",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "The post suggests an unstated idea also applies to work; the supplied text does not reveal the underlying idea.",
+      "summary_zh": "帖子称某个观点同样适用于工作，但现有文字没有说明该观点是什么。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2123197657896321439",
+          "text": "also applies to work https://t.co/K8wxqJQoeV",
+          "url": "https://x.com/thenanyu/status/2123197657896321439",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "AI may make software creation easier, but choosing the right product structure remains hard because users often do not know what they want. Thoughtful product decisions can therefore be more valuable than generating an app for oneself.",
+      "summary_zh": "AI 降低了做软件的门槛，但用户常常难以确定自己真正需要什么，产品结构仍需反复摸索。因此，经过深思熟虑的产品设计可能比自行生成应用更有价值。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "strong opinions",
+          "ipa": "",
+          "definition_zh": "产品设计中明确而坚定的取舍和主张。",
+          "example_zh": "作者认为好软件体现了一系列设计取舍，用户未必愿意自己完成这些判断。"
+        },
+        {
+          "phrase": "thought through",
+          "ipa": "",
+          "definition_zh": "经过充分推敲，考虑过细节及其后果。",
+          "example_zh": "作者宁愿使用别人深思熟虑设计的软件，因为生成代码并不能替代产品判断。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123106370161705127",
+          "text": "this is one of those reasons why I don't think most people will really generate their own software\n\ngood software is a set of strong opinions and I'd rather have something that's been really thought through by someone else",
+          "url": "https://x.com/trq212/status/2123106370161705127",
+          "summary_en": null
+        },
+        {
+          "id": "2123106368492298653",
+          "text": "making your own software is tough, even with AI, because it's hard to know what you really want\n\nI didn't end up sticking with this, the modes weren't the right way for me to organize my work\n\ngonna a different take that’s more to-do oriented https://t.co/6iejoVGp1D",
+          "url": "https://x.com/trq212/status/2123106368492298653",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Google Labs",
+      "handle": "GoogleLabs",
+      "summary_en": "Project Genie now lets users create a world from a sentence and revise it through prompts while inside it. Stitch Loop is introduced as a continuously running product agent for lean teams.",
+      "summary_zh": "Project Genie 支持用一句话生成世界，并在体验过程中通过提示词实时修改。Stitch Loop 则被推出为面向精简团队、持续运行的产品智能体。",
+      "slang": [
+        {
+          "term": "always-on agent",
+          "definition_en": "An AI agent intended to keep working without a separate prompt for every step.",
+          "definition_zh": "无需每一步都单独下指令、可持续工作的 AI 智能体。"
+        },
+        {
+          "term": "lean teams",
+          "definition_en": "Small teams operating with limited staff or resources.",
+          "definition_zh": "人员或资源有限的精简团队。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Prompt mid-session",
+          "ipa": "",
+          "definition_zh": "在当前交互会话尚未结束时输入提示指令。",
+          "example_zh": "用户可以在探索生成世界的过程中直接发出提示，实时修改世界。"
+        },
+        {
+          "phrase": "always-on product agent",
+          "ipa": "",
+          "definition_zh": "持续运行、协助推进产品工作的智能体。",
+          "example_zh": "Stitch Loop 被介绍为能不间断帮助团队开发产品的智能体。"
+        },
+        {
+          "phrase": "lean teams",
+          "ipa": "",
+          "definition_zh": "人员精简、依靠高效协作推进工作的团队。",
+          "example_zh": "这里将精简团队定位为 Stitch Loop 的目标用户，强调智能体可补充其执行能力。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123118145552749015",
+          "text": "Create a world from one sentence, then change it while you’re standing inside 🌐\n\nProject Genie now runs on @GoogleDeepMind’s Genie 4. Here’s what’s new:\n— Prompt mid-session to edit your world live\n— Create worlds conversationally with the help of a new agent\n— Explore & remix other users' worlds in the gallery\n\nAvailable now to eligible Google AI Ultra subscribers",
+          "url": "https://x.com/GoogleLabs/status/2123118145552749015",
+          "summary_en": null
+        },
+        {
+          "id": "2123102389775573314",
+          "text": "🚨NEW EXPERIMENT 🚨\n\nPlease join us in welcoming Stitch Loop, an always-on product agent that works non-stop to help lean teams build better products.\n\nJoin the waitlist: https://t.co/L0cp6slvxZ https://t.co/Ym6uf756GB",
+          "url": "https://x.com/GoogleLabs/status/2123102389775573314",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "Agent message boards offer a visible record of how multiple agents coordinate during a task. Replit Missions exposes those exchanges to users.",
+      "summary_zh": "智能体留言板让多个智能体如何协作变得可见；Replit Missions 向用户展示了这些交流过程。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "message boards",
+          "ipa": "",
+          "definition_zh": "供参与者发布和查看消息的共享讨论空间。",
+          "example_zh": "这里的参与者是智能体；用户可以通过留言板观察它们如何沟通和协调任务。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123133509028008331",
+          "text": "One of the more fascinating things in the OpenAI/Hugging Face incident was reading the message boards where agents communicate.\n\nWith Replit Missions you can see how the agents are coordinating and talking. https://t.co/5imCE6zYAQ",
+          "url": "https://x.com/amasad/status/2123133509028008331",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "The posts compare moments nearly three decades apart and argue that message boards are an important coordination tool for advanced agent work. The cited examples include a mathematical breakthrough and a cyber incident, though the supplied text cuts off before the full account.",
+      "summary_zh": "帖子对比相隔近三十年的两个时点，并认为留言板是高级智能体协作的重要工具。所举例子涉及数学突破和网络事件，但提供的文字未保留完整叙述。",
+      "slang": [
+        {
+          "term": "state of the art",
+          "definition_en": "The current leading level of technical capability.",
+          "definition_zh": "当前技术能力的领先水平。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "state of the art",
+          "ipa": "",
+          "definition_zh": "某个领域当前最先进的技术水平。",
+          "example_zh": "作者认为所述智能体协作方式推动了现有技术水平的进步。"
+        },
+        {
+          "phrase": "enabling technology",
+          "ipa": "",
+          "definition_zh": "使其他能力或成果得以实现的关键支撑技术。",
+          "example_zh": "作者把留言板视为支撑所述数学突破及另一事件的协调技术。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123298562960466017",
+          "text": "Nov 1997 vs Nov 2026 https://t.co/C1zXJavktJ",
+          "url": "https://x.com/rauchg/status/2123298562960466017",
+          "summary_en": null
+        },
+        {
+          "id": "2123237505810178434",
+          "text": "One of the most impressive things I've seen, and I think this is an important advancement to the state of the art.\n\nMessage boards were the enabling technology of both the Navier-Stokes math breakthrough and even the OpenAI/HuggingFace cyber feat.\n\nWe built a message board infrastructure primitive. You can think of it as \"headless Slack\" (or remember IRC?) for agents.\n\nThis is an important building block for software factories, self-optimizing systems, and scientific research, where the human prompting is just the seed of the system, and millions of agents can operate in a decentralized fashion.\n\n𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 is designed to be model, harness and hosting platform agnostic. Just bring your agents, give them our CLI, and watch magic happen.",
+          "url": "https://x.com/rauchg/status/2123237505810178434",
+          "summary_en": "Vercel Board provides a shared message board for decentralized AI agents, with a CLI that works across models, harnesses, and hosting platforms. It aims to enable large-scale coordination for software development, self-improving systems, and scientific research."
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Workplace agents are moving from giving quick answers toward carrying out sets of coordinated tasks. The supplied excerpt ends before the next stage of the argument is explained.",
+      "summary_zh": "工作场景中的智能体正从快速回答问题，转向执行一组需要协调的任务；所给片段尚未展开后续判断。",
+      "slang": [
+        {
+          "term": "orchestrate",
+          "definition_en": "Coordinate several tasks or agents into a workflow.",
+          "definition_zh": "将多个任务或智能体协调成完整工作流程。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "orchestrate",
+          "ipa": "/ˈɔːrkɪstreɪt/",
+          "definition_zh": "统筹多个组件或智能体，让它们协调完成工作。",
+          "example_zh": "作者描述用户开始围绕一组任务编排智能体，工作方式已超出获取单次回答。"
+        },
+        {
+          "phrase": "spit out",
+          "ipa": "",
+          "definition_zh": "口语中指快速生成或输出某种结果。",
+          "example_zh": "这里描述早期智能体迅速给出答案的模式，用来衬托后来执行协调任务的变化。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123278949749059756",
+          "text": "Regardless of what it’s called, we’re clearly moving to yet another era of AI agents in our work. \n\nWe’ve quickly jumped from agents that spit out a quick answer for you, to today agents that you orchestrate inside of a set of tasks. But as agents can both fan out and work in parallel, handle much larger context, be able to do long running work, and have far greater levels of capabilities, we’re entering yet another level of what we can have AI do for us.\n\nWe’ll soon be able to give agents a set of goals, and they can go out and design the best solution for that goal, while also continuously improving it based on the ongoing execution of whatever it built. This will obviously start with engineering because that’s where we’re seeing the best practices emerge first in almost every new era of agents. \n\nBut the impact can be quite massive across the rest of knowledge work. You’ll tell an agent to improve your client onboarding workflow to achieve a certain targeted goal; or have agents go reduce risk in your business; or improve your security posture on an ongoing basis.\n\nThese autonomous systems will be able to take on a set of goals, design the best outcome, test and iterate, deploy, and then optimize whatever it built on an ongoing basis. Importantly, this leads to outcomes and results that humans literally couldn’t have accomplished before. This will lead to fairly new levels of productivity with AI.",
+          "url": "https://x.com/levie/status/2123278949749059756",
+          "summary_en": "AI agents are moving from answering questions and executing assigned tasks toward pursuing goals autonomously: designing, testing, deploying, and continuously improving solutions. This could expand from engineering into broader knowledge work and produce outcomes previously beyond human capacity."
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "Consistent, modest attention each week can compound more effectively than a single viral spike, so content creation should be treated as a repeatable system. A separate post appreciates a presentation of books.",
+      "summary_zh": "每周稳定获得一些关注，长期累积可能比单日爆红更有效，因此内容创作应建立可持续的产出机制。另一条帖子赞赏一种图书展示方式。",
+      "slang": [
+        {
+          "term": "viral",
+          "definition_en": "Spreading rapidly through online sharing.",
+          "definition_zh": "通过网络分享迅速传播、走红。"
+        },
+        {
+          "term": "compound",
+          "definition_en": "Build increasing returns as repeated gains accumulate.",
+          "definition_zh": "让持续积累的成果产生越来越大的回报。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "viral",
+          "ipa": "/ˈvaɪrəl/",
+          "definition_zh": "指内容通过大量转发和传播而迅速走红。",
+          "example_zh": "作者更看重每周持续获得一定传播，而非仅有一天突然爆红。"
+        },
+        {
+          "phrase": "compound",
+          "ipa": "/kəmˈpaʊnd/",
+          "definition_zh": "指收益或效果在已有积累上持续叠加增长。",
+          "example_zh": "这里说持续发布优质内容所积累的关注和影响力，会逐渐产生复利效应。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122953849120153714",
+          "text": "Instead of being massively viral for 1 day, it's much better to be just a little bit viral every week, and watch it compound\n\nBuild a system that consistently delivers high-quality content over a long period of time",
+          "url": "https://x.com/zarazhangrui/status/2122953849120153714",
+          "summary_en": null
+        },
+        {
+          "id": "2122943348860506462",
+          "text": "Can't think of a better way to present books ❤️\nI own 10 out of the 21 stripe press books https://t.co/D9tO5wIAfa",
+          "url": "https://x.com/zarazhangrui/status/2122943348860506462",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "A joke contrasts venture investors' desire for liquidity with an apparently unwanted form of it. Another post argues that fundraising pitches need to express a more ambitious belief, though the excerpt cuts off before the full advice.",
+      "summary_zh": "一条帖子调侃风投想要流动性，却未必想要眼前出现的那一种。另一条认为融资陈述需要体现更大的抱负，但片段未保留完整建议。",
+      "slang": [
+        {
+          "term": "liquidity",
+          "definition_en": "The ability to turn an investment into cash, often through a sale or public offering.",
+          "definition_zh": "通过出售或上市等方式将投资变现的能力。"
+        },
+        {
+          "term": "pitch",
+          "definition_en": "A concise presentation intended to persuade investors or customers.",
+          "definition_zh": "面向投资人或客户的简短说服性陈述。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "liquidity",
+          "ipa": "/lɪˈkwɪdəti/",
+          "definition_zh": "投资语境中指资产变现或获得可用现金的能力。",
+          "example_zh": "风投希望获得流动性以募集下一只基金，随后又否认想要图中那种「流动性」，构成双关。"
+        },
+        {
+          "phrase": "pitch",
+          "ipa": "/pɪtʃ/",
+          "definition_zh": "向投资者简洁介绍项目并争取投资的推介陈述。",
+          "example_zh": "创始人朋友的融资推介效果不佳，作者认为其中表达的抱负还不够大。"
+        },
+        {
+          "phrase": "fundraising",
+          "ipa": "/ˈfʌndreɪzɪŋ/",
+          "definition_zh": "创业或投资领域中向外部筹集资金的活动。",
+          "example_zh": "这里特指创始人向投资者融资时遇到困难。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123183421002588327",
+          "text": "SF VCs (who didn’t invest in Anthropic): Dear Lord, it’d be nice to have some liquidity so that I can raise my next fund. \n\nLord: Tathastu\n\nVC: No, not that kind of liquidity 🤦‍♂️ https://t.co/4PlobnPg4n",
+          "url": "https://x.com/nikunj/status/2123183421002588327",
+          "summary_en": null
+        },
+        {
+          "id": "2123066196052381864",
+          "text": "Ok this happens a lot so I thought I’ll lay it out here..\n\nfounder friend: my pitch isn’t working on the fundraising side. haaalp. \n\n*proceeds to give me the pitch*\n\nme: ambition is what’s being rewarded right now. what do you believe to be true if everything you laid out works? think about the second and third order effects as a result of you being successful. \n\nfounder: err, if everything works out, then “this” happens. \n\nme: put “this” in the pitch in the first slide and walk the investor how you get to “this” by building what you’re building in the first place and how you earn the right to get there. \n\nfounder: no, they’ll think I’m crazy\n\nme: try it. what do you have to lose?\n\n*tries it very reluctantly*\n\nfounder (4 days later): you *insert expletive*.. it worked. \n\nme: see. you always had it in you, you just had to tell it. \n\n—\n\nIf you’re an ambitious founder reading this and having the same issue, try this, I think it’ll work. If it does, please tell me!!",
+          "url": "https://x.com/nikunj/status/2123066196052381864",
+          "summary_en": "Founders struggling to raise funding should lead their pitch with the ambitious outcome their success could unlock, then explain how their current product earns a path there. Making that larger vision explicit can resonate more strongly with investors."
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "The posts express excitement and invite people to join a livestream that had nearly 4,000 viewers. They do not state the stream's subject.",
+      "summary_zh": "帖子表达兴奋，并邀请大家加入一场已有近四千人观看的直播；现有文字没有说明直播主题。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2123196924421661149",
+          "text": "Legggoooo https://t.co/plMcv2r3X0",
+          "url": "https://x.com/danshipper/status/2123196924421661149",
+          "summary_en": null
+        },
+        {
+          "id": "2123163857128702053",
+          "text": "almost 4k people on the stream, come hang! https://t.co/5lrvOqim4p",
+          "url": "https://x.com/danshipper/status/2123163857128702053",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "Early-stage investors can participate in AI by accepting more risk, taking views outside the consensus, and backing frontier problems. A separate post argues that dollar stablecoins could extend US influence where people and businesses prefer holding dollars.",
+      "summary_zh": "早期投资机构若愿意承担更多风险、采取非共识判断并关注前沿问题，仍有机会投资 AI。另一条认为，在个人和企业偏好持有美元的地区，美元稳定币可能扩大美国影响力。",
+      "slang": [
+        {
+          "term": "copium",
+          "definition_en": "A mocking term for an excuse used to cope with disappointment.",
+          "definition_zh": "讽刺为缓解失落而找的借口。"
+        },
+        {
+          "term": "non-consensus",
+          "definition_en": "A view or investment thesis that differs from prevailing opinion.",
+          "definition_zh": "与主流看法不同的判断或投资观点。"
+        },
+        {
+          "term": "frontier problems",
+          "definition_en": "Problems at the leading edge of a field's capabilities.",
+          "definition_zh": "处于某一领域能力前沿的难题。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "copium",
+          "ipa": "/ˈkoʊpiəm/",
+          "definition_zh": "网络俚语，指用自我安慰的说法逃避令人不快的现实。",
+          "example_zh": "作者认为早期风投抱怨无法参与 AI，是在给自己找安慰性借口。"
+        },
+        {
+          "phrase": "non-consensus",
+          "ipa": "",
+          "definition_zh": "指不同于市场或同行主流共识的判断。",
+          "example_zh": "作者主张早期投资者承担更多风险，押注尚未形成共识的 AI 方向。"
+        },
+        {
+          "phrase": "Stablecoins",
+          "ipa": "/ˈsteɪbəlkɔɪnz/",
+          "definition_zh": "旨在与法币等参考资产保持相对稳定价值的加密资产。",
+          "example_zh": "作者认为美元稳定币可能满足海外持有美元的需求，并由此扩大美国影响力；这是其预测。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123293726110020052",
+          "text": "This completely tracks with our data as well.\n\nI have always thought it was copium when early stage VCs complained that they could not do “AI”.\n\nYou just have to take more risk and be non-consensus. And work on frontier problems. https://t.co/Skc0x1ZRBh",
+          "url": "https://x.com/adityaag/status/2123293726110020052",
+          "summary_en": null
+        },
+        {
+          "id": "2123262616776921257",
+          "text": "Stablecoins will likely be one of the biggest ways for America to exert soft power.\n\nIf you are living in most countries outside of India and China, then you 100% would prefer to own dollars. Ditto for businesses.\n\n🇺🇸🇺🇸",
+          "url": "https://x.com/adityaag/status/2123262616776921257",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama",
+      "summary_en": "A joint appearance highlights Greg Brockman's leadership and describes his role at OpenAI as having evolved beyond writing code. The supplied excerpt ends before the current role is detailed.",
+      "summary_zh": "帖子通过一次共同亮相强调 Greg Brockman 的领导力，并提到他在 OpenAI 的职责已超出早期写代码的工作；片段未完整说明其现任职责。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2123103873166381287",
+          "text": "So fun to do DealBook with my friend and partner of 11 years, @gdb. Thrilled the world got to see the brilliant, fiercely determined leader I have the privilege of working with every day.\n\nGreg’s role at OpenAI has evolved from writing code 100 hours a week in the early days to now leading some of the hardest and most consequential parts of our business.\n\nOne thing that has not changed is his extraordinary commitment to our mission. I can say with confidence that OpenAI would not exist without Greg, and I believe the world would be on a much worse path toward the AI future without him.",
+          "url": "https://x.com/sama/status/2123103873166381287",
+          "summary_en": "Greg Brockman’s role at OpenAI has evolved from intensive coding to leading some of its most consequential business areas. His sustained commitment to the mission is credited as essential to the company’s existence and influence on AI’s future."
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "AI & I by Every",
+      "title": "Notion’s Founder on the One Thing Your AI Is Missing",
+      "url": "https://www.youtube.com/watch?v=PGWvMrF4XIA",
+      "summary_en": "The excerpt explores whether everyone can make their own software. It connects that idea to Notion's founding aim of making computing power accessible without requiring people to learn to code.",
+      "summary_zh": "片段讨论人人能否制作自己的软件，并将这一愿景与 Notion 的创立初衷联系起来：让人们无需学习编程，也能使用计算能力。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "optimization",
+      "ipa": "/ˌɑːptəməˈzeɪʃən/",
+      "pos": "noun",
+      "definition_en": "The process of adjusting something to improve its performance or efficiency.",
+      "definition_zh": "优化；通过调整提高性能或效率的过程。",
+      "synonyms": [
+        "refinement",
+        "improvement"
+      ],
+      "example_en": "Chip optimization can help an AI model run faster.",
+      "example_zh": "芯片优化可以帮助 AI 模型运行得更快。"
+    },
+    {
+      "word": "abruptly",
+      "ipa": "/əˈbrʌptli/",
+      "pos": "adv",
+      "definition_en": "Suddenly and unexpectedly.",
+      "definition_zh": "突然地；出人意料地。",
+      "synonyms": [
+        "suddenly",
+        "unexpectedly"
+      ],
+      "example_en": "The meeting ended abruptly before anyone could ask questions.",
+      "example_zh": "大家还没来得及提问，会议就突然结束了。"
+    },
+    {
+      "word": "subscriber",
+      "ipa": "/səbˈskraɪbər/",
+      "pos": "noun",
+      "definition_en": "Someone who signs up to receive or access a service, often by paying regularly.",
+      "definition_zh": "订阅者；通常通过定期付费来使用服务的人。",
+      "synonyms": [
+        "member"
+      ],
+      "example_en": "Subscribers can access the new tools before the public launch.",
+      "example_zh": "订阅用户可以在正式公开发布之前使用这些新工具。"
+    },
+    {
+      "word": "saga",
+      "ipa": "/ˈsɑːɡə/",
+      "pos": "noun",
+      "definition_en": "A long, complicated series of events, often involving conflict or dramatic developments.",
+      "definition_zh": "一连串复杂且富有戏剧性的事件；漫长的风波。",
+      "synonyms": [
+        "drama",
+        "chronicle"
+      ],
+      "example_en": "The leadership saga left employees unsure about the company's direction.",
+      "example_zh": "这场管理层风波让员工对公司的方向感到不确定。"
+    },
+    {
+      "word": "casting",
+      "ipa": "/ˈkæstɪŋ/",
+      "pos": "noun",
+      "definition_en": "The process of choosing actors to play particular roles.",
+      "definition_zh": "选角；为特定角色挑选演员的过程。",
+      "synonyms": [
+        "actor selection"
+      ],
+      "example_en": "The casting announcement sparked a lively debate online.",
+      "example_zh": "选角公告在网上引发了热烈讨论。"
+    },
+    {
+      "word": "thought through",
+      "ipa": "/ˌθɔːt ˈθruː/",
+      "pos": "verb phrase",
+      "definition_en": "Considered carefully, including the details and likely consequences.",
+      "definition_zh": "经过周密考虑；仔细想过细节和可能的后果。",
+      "synonyms": [
+        "carefully considered",
+        "examined thoroughly"
+      ],
+      "example_en": "The team had thought through how people would use the app every day.",
+      "example_zh": "团队已经仔细考虑过人们每天会如何使用这款应用。"
+    }
+  ],
+  "quote": {
+    "text_en": "Well done is better than well said.",
+    "text_zh": "做得好胜过说得好。",
+    "author": "Benjamin Franklin"
+  },
+  "slang_glossary": [
+    {
+      "term": "temu",
+      "definition_en": "Used before a person's or product's name to mock something as a cheap or inferior imitation, referencing the shopping platform Temu.",
+      "definition_zh": "借用购物平台 Temu 的名字，调侃某人或某物是廉价版、低配版的模仿品。"
+    },
+    {
+      "term": "crazy work",
+      "definition_en": "Internet slang expressing disbelief at something outrageous, absurd, or audacious.",
+      "definition_zh": "网络俚语，表示某种操作离谱、荒唐或大胆得让人难以置信。"
+    },
+    {
+      "term": "FCF profitable",
+      "definition_en": "Generating positive free cash flow: operating cash flow exceeds capital expenditures.",
+      "definition_zh": "自由现金流为正，即经营现金流超过资本支出；不等同于会计净利润为正。"
+    },
+    {
+      "term": "shipping",
+      "definition_en": "Releasing products, features, or updates for people to use.",
+      "definition_zh": "在科技行业中指发布、交付产品、功能或更新。"
+    },
+    {
+      "term": "frontier-grade",
+      "definition_en": "Described as comparable to the most advanced capabilities currently available; often a marketing label.",
+      "definition_zh": "宣称达到当前最先进能力水平的；常用于营销，缺乏统一衡量标准。"
+    },
+    {
+      "term": "smoking gun",
+      "definition_en": "Strong, direct evidence that establishes wrongdoing or explains a disputed event.",
+      "definition_zh": "确凿证据；能够直接证明不当行为或说明争议事件的关键证据。"
+    },
+    {
+      "term": "always-on agent",
+      "definition_en": "An AI system that remains available or runs continuously to monitor events and perform tasks.",
+      "definition_zh": "持续在线或运行、监测事件并执行任务的 AI 智能体。"
+    },
+    {
+      "term": "lean teams",
+      "definition_en": "Small teams designed to operate efficiently with limited staffing and resources.",
+      "definition_zh": "精干团队；以较少人员和资源高效运作的团队。"
+    },
+    {
+      "term": "state of the art",
+      "definition_en": "The most advanced level of development in a field at a given time.",
+      "definition_zh": "某一领域在特定时间达到的最先进水平。"
+    },
+    {
+      "term": "orchestrate",
+      "definition_en": "Coordinate multiple tools, models, agents, or processes so they work together.",
+      "definition_zh": "编排；协调多个工具、模型、智能体或流程共同工作。"
+    },
+    {
+      "term": "viral",
+      "definition_en": "Spreading rapidly through online sharing.",
+      "definition_zh": "通过网络分享迅速传播的；爆火的。"
+    },
+    {
+      "term": "compound",
+      "definition_en": "Grow through accumulated gains that themselves produce further gains.",
+      "definition_zh": "产生复利效应；积累的收益继续带来更多收益。"
+    },
+    {
+      "term": "liquidity",
+      "definition_en": "The ease of converting an asset into cash without substantially affecting its price; also used for available cash.",
+      "definition_zh": "流动性；资产在不显著影响价格的情况下变现的容易程度，也可指可用资金。"
+    },
+    {
+      "term": "pitch",
+      "definition_en": "A concise presentation intended to persuade someone to support an idea, buy a product, or invest.",
+      "definition_zh": "为争取支持、销售或投资而进行的简短推介。"
+    },
+    {
+      "term": "copium",
+      "definition_en": "Mocking internet slang for comforting beliefs used to avoid accepting an unpleasant reality.",
+      "definition_zh": "带嘲讽意味的网络俚语，指为逃避不愉快现实而进行的自我安慰。"
+    },
+    {
+      "term": "non-consensus",
+      "definition_en": "Differing from the prevailing view, especially in investing or strategy.",
+      "definition_zh": "非共识的；与主流观点不同的，常用于投资或战略讨论。"
+    },
+    {
+      "term": "frontier problems",
+      "definition_en": "Difficult challenges at the limits of current knowledge or technical capability.",
+      "definition_zh": "前沿难题；处于现有知识或技术能力边界上的困难问题。"
+    },
+    {
+      "term": "in a league of its own",
+      "definition_en": "Far better or more capable than comparable alternatives.",
+      "definition_zh": "独占一档；能力或表现明显高于同类。"
+    },
+    {
+      "term": "wtf",
+      "definition_en": "An abbreviation of 'what the fuck,' expressing shock, confusion, or frustration; vulgar.",
+      "definition_zh": "粗俗感叹语的缩写，用来表达震惊、困惑或恼火，近似「什么鬼」。"
+    },
+    {
+      "term": "gonna",
+      "definition_en": "An informal spoken form of 'going to' used to express intention or a future action.",
+      "definition_zh": "「going to」的口语化形式，表示打算或即将做某事。"
+    },
+    {
+      "term": "strong opinions",
+      "definition_en": "In product design, firm choices about how a product should work and what it should prioritize.",
+      "definition_zh": "在产品设计中指明确而坚定的取舍，包括产品如何运作、优先满足什么需求。"
+    },
+    {
+      "term": "agent",
+      "definition_en": "An AI system that can take steps and use tools to pursue a goal.",
+      "definition_zh": "智能体；能够采取步骤、使用工具来完成目标的 AI 系统。"
+    },
+    {
+      "term": "chip optimization",
+      "definition_en": "Improving chip design or adapting software to hardware to increase performance or efficiency.",
+      "definition_zh": "芯片优化；改进芯片设计或调整软件以适配硬件，从而提高性能或效率。"
+    },
+    {
+      "term": "to-do oriented",
+      "definition_en": "Organized primarily around actionable tasks and task lists.",
+      "definition_zh": "以待办事项为中心的；主要围绕可执行任务和任务清单来组织。"
+    }
+  ],
+  "stats": {
+    "builders": 15,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 31,
+    "feedGeneratedAt": "2026-11-19T06:30:05.741Z"
+  }
+}

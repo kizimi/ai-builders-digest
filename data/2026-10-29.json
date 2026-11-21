@@ -1,0 +1,989 @@
+{
+  "date": "2026-10-29",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Gemini's reported top ranking on AAv5 has prompted a fresh look at Google's coding tools, though the result still needs a hands-on review. A separate post makes a brief psychology joke without enough context for a substantive takeaway.",
+      "summary_zh": "Gemini 据称登上 AAv5 榜首，让人重新关注 Google 的编程工具，但实际体验仍待检验。另一条是缺少上下文的心理学玩笑。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "pulls this off",
+          "ipa": "",
+          "definition_zh": "指成功完成一件有难度或结果不确定的事。",
+          "example_zh": "这里指 Google 若真能实现帖中所说的模型领先表现，就算打了一场漂亮的翻身仗。"
+        },
+        {
+          "phrase": "comeback season",
+          "ipa": "",
+          "definition_zh": "指沉寂或落后之后重新崛起的一段时期。",
+          "example_zh": "作者用它形容 Google 可能凭借 Gemini 的表现重回竞争焦点，语气带有兴奋和期待。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115624308567658713",
+          "text": "Gemini #1 on AAv5???\n\nthis is making me open up @antigravity for the first time in a long time. i’m getting an early review, will report back soon.\n\nif google actually pulls this off it is officially comeback season with Meta, Grok and now GDM being cool again. \n\n@saranormous talked about model neurodiversity last year. we have roughly 2x more frontier labs than when she was last on the aie stage. absolutely bizarre counter example to the bitter lesson.",
+          "url": "https://x.com/swyx/status/2115624308567658713",
+          "summary_en": "Gemini’s apparent lead on AAv5 is prompting renewed interest in Google’s AI tools. The resurgence of several competing labs suggests a growing diversity of frontier models, challenging expectations of convergence."
+        },
+        {
+          "id": "2115341903311024395",
+          "text": "hello from literally everybody who took psychology 101 in undergrad https://t.co/ySHn3soaQn https://t.co/ervWlYbDQ8",
+          "url": "https://x.com/swyx/status/2115341903311024395",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_en": "Gemini can connect to Strava and use years of workout records to create a personalized coaching plan.",
+      "summary_zh": "Gemini 可连接 Strava，利用多年运动记录生成个性化训练计划。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "raw workout logs",
+          "ipa": "",
+          "definition_zh": "指尚未经过整理分析的原始运动记录。",
+          "example_zh": "Gemini 可以读取 Strava 中多年积累的运动记录，把这些原始数据转化为个性化训练计划。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115603212304843230",
+          "text": "@Strava You can turn it on here: https://t.co/wAEcM3IYP1",
+          "url": "https://x.com/joshwoodward/status/2115603212304843230",
+          "summary_en": null
+        },
+        {
+          "id": "2115580552170627080",
+          "text": "New in Gemini: Connect your @Strava account to turn years of raw workout logs into your personalized coaching plan https://t.co/iQXRYjMzoX",
+          "url": "https://x.com/joshwoodward/status/2115580552170627080",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_en": "In a four-week Utah state agency pilot, 80% of 34 developers had Claude Code working within 30 minutes, and 71% reported saving at least 20 hours.",
+      "summary_zh": "犹他州 10 个机构的四周试点中，34 名开发者有 80% 在 30 分钟内完成 Claude Code 环境配置，71% 自报节省至少 20 小时。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "pilot",
+          "ipa": "/ˈpaɪlət/",
+          "definition_zh": "指正式推广前用于验证效果的小规模试点。",
+          "example_zh": "这里指犹他州让 34 名开发者试用 Claude Code 的四周项目，帖中的时间节省数据来自这次试点。"
+        },
+        {
+          "phrase": "working environment",
+          "ipa": "",
+          "definition_zh": "指已经配置完成并能正常使用的工作环境。",
+          "example_zh": "在这条开发工具相关推文中，它指开发者能够实际运行和使用 Claude Code 的环境。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115491259381072269",
+          "text": "Utah gave Claude Code to 34 developers across 10 state agencies. 80% had a working environment within 30 minutes, 71% reported saving 20+ hours by the end of the four-week pilot. https://t.co/ERZpBFuYSa",
+          "url": "https://x.com/bcherny/status/2115491259381072269",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "Users can text their dot assistant to forward content, leave voice notes, or make requests through Siri. A planned combination of chat and work capabilities is still in development and has no rollout yet.",
+      "summary_zh": "用户可通过短信向 dot 助手转发内容、发送语音留言，或借助 Siri 提出请求。聊天与工作能力的整合仍在开发，尚未推出。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "rolling out",
+          "ipa": "",
+          "definition_zh": "指将新产品或功能逐步开放给用户。",
+          "example_zh": "团队正在开发 Chat 与 Work 能力的整合，但作者明确表示该功能尚未开始向用户推出。"
+        },
+        {
+          "phrase": "voice notes",
+          "ipa": "",
+          "definition_zh": "指通过录音发送的简短语音消息。",
+          "example_zh": "用户可以给 dot 助手留语音消息，像联系普通联系人一样向它提供信息或提出请求。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115622002581188681",
+          "text": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to &lt;INSERT WILD REQUEST&gt;\" and sit back and relax. https://t.co/T4t4m1m6DV",
+          "url": "https://x.com/thsottiaux/status/2115622002581188681",
+          "summary_en": null
+        },
+        {
+          "id": "2115588390414581916",
+          "text": "Team is working on this but it's not rolling out just yet, sorry for any confusion. Plan is to bring together best of both Chat / Work capabilities together at some point this year, but we're going to proceed carefully here and take our time.\n\nWe'll have more to share soon. https://t.co/St57fti6qW",
+          "url": "https://x.com/thsottiaux/status/2115588390414581916",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Handmade goods at farmers' markets may retain appeal as AI spreads. ChatGPT with browser access is also proving useful for navigating medical paperwork.",
+      "summary_zh": "随着 AI 普及，农夫市集的手工商品可能更受欢迎。带浏览器功能的 ChatGPT 也能帮助处理医疗文书。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "disrupt",
+          "ipa": "/dɪsˈrʌpt/",
+          "definition_zh": "在科技商业语境中指颠覆行业原有的运作方式或竞争格局。",
+          "example_zh": "作者认为农夫市集里的手工艺品销售会保有吸引力，用这个词讨论 AI 是否会颠覆这类生意。"
+        },
+        {
+          "phrase": "renaissance",
+          "ipa": "/ˈrenəsɑːns/",
+          "definition_zh": "指某种活动、行业或文化重新繁荣。",
+          "example_zh": "作者预测 AI 普及会让人们更珍视手工商品，因此农夫市集可能迎来复兴。"
+        },
+        {
+          "phrase": "godsend",
+          "ipa": "/ˈɡɑːdsend/",
+          "definition_zh": "指恰好解决难题、令人十分感激的事物。",
+          "example_zh": "作者用它强调带有浏览器使用能力的 ChatGPT 对处理医疗文书帮助极大。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115642806010274271",
+          "text": "The job that AI will never disrupt is selling your little hand-made trinkets at the local farmer's market.\n\nFarmer's markets are about to experience a renaissance, mark my words.",
+          "url": "https://x.com/petergyang/status/2115642806010274271",
+          "summary_en": null
+        },
+        {
+          "id": "2115640765422706948",
+          "text": ".@ChatGPT and browser use has been an absolute godsend for working through medical paperwork.",
+          "url": "https://x.com/petergyang/status/2115640765422706948",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "A playful post calls for 5G connectivity on MacBooks; it offers no further technical detail.",
+      "summary_zh": "这条玩笑式发言呼吁 MacBook 支持 5G，没有提供进一步的技术信息。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "5G",
+          "ipa": "",
+          "definition_zh": "指第五代移动通信技术。",
+          "example_zh": "作者用喊话式玩笑要求 MacBook 支持 5G 蜂窝网络连接，推文没有提供具体技术方案。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115638747002003968",
+          "text": "HEY JOHN APPLE 5G ON MY MACBOOK SEND TWEET",
+          "url": "https://x.com/thenanyu/status/2115638747002003968",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "Creative agents could help artists turn rough sketches into fuller concepts. Meanwhile, technical workers worry their skills are losing value even as nontechnical workers wish they had more technical ability to use agents well.",
+      "summary_zh": "创作型智能体或能帮助艺术家把草图扩展成完整构想。与此同时，技术人员担心技能贬值，非技术人员却希望掌握更多技术能力，以便更好地使用智能体。",
+      "slang": [
+        {
+          "term": "agent",
+          "definition_en": "AI software that carries out tasks on a user's behalf.",
+          "definition_zh": "能代表用户执行任务的 AI 软件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "flesh out",
+          "ipa": "",
+          "definition_zh": "指为初步想法补充细节，使其更加完整。",
+          "example_zh": "作者希望自己只需画出动画或角色的粗略构想，再让 AI 智能体将它们细化成更完整的创意。"
+        },
+        {
+          "phrase": "agents",
+          "ipa": "/ˈeɪdʒənts/",
+          "definition_zh": "在 AI 语境中指能够调用工具并执行任务的智能体。",
+          "example_zh": "作者指出一种反差：技术人员担心技能贬值，而非技术人员却希望懂更多技术，以便更好地使用智能体。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115641110710419752",
+          "text": "I think the same is true of creative fields, like I see artists really worrying about AI\n\nbut I wish so badly that I could sketch animation ideas and character concepts for my agent to flesh out instead of trying to find examples\n\nI don't have the language! https://t.co/Q6EPcpiXtu",
+          "url": "https://x.com/trq212/status/2115641110710419752",
+          "summary_en": null
+        },
+        {
+          "id": "2115544056038350960",
+          "text": "very weird thing happening rn\n\ntechnical people are sad, they think their skills are now useless\n\nnon-technical people are desperately wishing they were more technical so they could use agents better",
+          "url": "https://x.com/trq212/status/2115544056038350960",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "ViBench 2.0, a benchmark for turning prompts into apps, places GPT 6.1 Sol in the lead. The other post contains no readable claim beyond links.",
+      "summary_zh": "在衡量提示词生成应用能力的 ViBench 2.0 中，GPT 6.1 Sol 位居榜首。另一条只有链接，无法判断其具体内容。",
+      "slang": [
+        {
+          "term": "prompt to app",
+          "definition_en": "Creating a working app from a natural-language instruction.",
+          "definition_zh": "根据自然语言指令生成可运行应用。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "prompt to app benchmark",
+          "ipa": "",
+          "definition_zh": "指评估模型根据提示词生成应用能力的基准测试。",
+          "example_zh": "作者用这个短语说明 ViBench 2.0 的评测方向，并称 GPT 6.1 Sol 在其中领先。"
+        },
+        {
+          "phrase": "just dropped",
+          "ipa": "",
+          "definition_zh": "指某个产品、作品或版本刚刚发布。",
+          "example_zh": "这里以科技圈常见的口语表达宣布 ViBench 2.0 刚上线。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115565321201520994",
+          "text": "https://t.co/sdzxN6UTWO https://t.co/ZAQdox5uUe",
+          "url": "https://x.com/amasad/status/2115565321201520994",
+          "summary_en": null
+        },
+        {
+          "id": "2115565072734888447",
+          "text": "ViBench 2.0 (prompt to app benchmark) just dropped and GPT 6.1 Sol takes the lead. https://t.co/r7MJXBL2vY",
+          "url": "https://x.com/amasad/status/2115565072734888447",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "A model alias that resolves dynamically could route traffic, control costs, and keep teams on current models. Vercel AI Gateway is also partnering to serve Particle's models and inference to developers.",
+      "summary_zh": "动态解析的模型别名可用于分配流量、控制成本，并帮助团队使用较新的模型。Vercel AI Gateway 也将与 Particle 合作，向开发者提供其模型及推理服务。",
+      "slang": [
+        {
+          "term": "traffic steering",
+          "definition_en": "Routing requests among services or models according to rules.",
+          "definition_zh": "按规则将请求分配到不同服务或模型。"
+        },
+        {
+          "term": "inference",
+          "definition_en": "Running a trained model to produce an output.",
+          "definition_zh": "运行已训练模型以生成结果。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "alias",
+          "ipa": "/ˈeɪliəs/",
+          "definition_zh": "在计算机语境中指用于引用实际对象的另一个名称。",
+          "example_zh": "这里的别名会解析到具体模型，使团队通过固定名称使用模型，并可调整背后对应的版本。"
+        },
+        {
+          "phrase": "traffic-steering",
+          "ipa": "",
+          "definition_zh": "指按策略将请求流量引导至不同服务或目标。",
+          "example_zh": "模型别名提供流量调度能力，可用于切换模型版本和控制调用成本。"
+        },
+        {
+          "phrase": "inference",
+          "ipa": "/ˈɪnfərəns/",
+          "definition_zh": "指训练完成的模型根据输入生成预测或输出的计算过程。",
+          "example_zh": "作者宣布通过 Vercel AI Gateway 向开发者提供 Particle 的模型及推理服务。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115573969369845855",
+          "text": "This is like DNS for models. An alias that *resolves* to a model, giving you traffic-steering abilities.\n\nSolves a huge number of problems. From not having teams stuck on old model versions, to saving on costs, to removing “decision paralysis”. Try it! https://t.co/8Tap7STV09",
+          "url": "https://x.com/rauchg/status/2115573969369845855",
+          "summary_en": null
+        },
+        {
+          "id": "2115566139447382115",
+          "text": "Excited to partner with @suhail to serve Particle's models and inference via @vercel AI Gateway.\n\nParticle's mission is to make intelligence as accessible and abundant as electricity. Together, we'll make this a reality for every developer and enterprise. https://t.co/aYS6FrWFsm",
+          "url": "https://x.com/rauchg/status/2115566139447382115",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Agents embedded throughout work could drive token consumption far beyond today's levels as they process data, build software, and secure enterprises. The 1,000-fold figure is a forecast, not an observed measurement.",
+      "summary_zh": "如果智能体广泛进入工作流程，处理数据、开发软件并保障企业安全，Token 消耗可能大幅增长。千倍增长是预测，并非已观测结果。",
+      "slang": [
+        {
+          "term": "token",
+          "definition_en": "A unit of text or other input and output processed by an AI model.",
+          "definition_zh": "AI 模型处理输入和输出时使用的计量单位。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "tokens",
+          "ipa": "/ˈtoʊkənz/",
+          "definition_zh": "指语言模型处理输入和生成输出时使用的文本单位。",
+          "example_zh": "作者预测智能体深入工作流程后会消耗大量 token；帖中的 1,000 倍是预测，并非已测得的增长。"
+        },
+        {
+          "phrase": "workflows",
+          "ipa": "/ˈwɜːrkfloʊz/",
+          "definition_zh": "指完成一项工作所涉及的一系列步骤及其衔接方式。",
+          "example_zh": "作者设想智能体会持续参与数据处理、软件开发和企业安全等工作流程，从而增加模型使用量。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115516370695987435",
+          "text": "Agents are going to consume 1,000X more tokens than we consume today. \n\nBecause they’re going to be running in our workflows, processing all of our data, building out nearly all software, securing enterprises, and much more. To do this at scale we will need a variety of approaches at the frontier of AI. \n\nThis includes continuing to push the boundaries of closed models, while also increasing the capability of open weights models, making them more secure, as well as making them more efficient for large workloads. \n\nVery exciting to see what @Suhail is building with Particle on this front.",
+          "url": "https://x.com/levie/status/2115516370695987435",
+          "summary_en": "AI agents could drive a 1,000-fold increase in token consumption as they handle enterprise workflows, data, software development, and security. Meeting that demand will require advances in both closed and open-weight models, including better security and efficiency."
+        }
+      ]
+    },
+    {
+      "name": "Ryo Lu",
+      "handle": "ryolu_",
+      "summary_en": "Software is described as an extension of thought: a place to capture and rearrange ideas while they are still forming. The visible excerpt does not establish a specific product announcement.",
+      "summary_zh": "软件被视为思考的延伸，让人能在想法尚未成形时先记录、移动和探索。可见片段没有明确的产品发布信息。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "augmenting human intellect",
+          "ipa": "",
+          "definition_zh": "指借助工具增强人的思考、理解和解决问题的能力。",
+          "example_zh": "作者用它概括自己对软件的理想：让屏幕成为承载和整理尚未成形想法的空间。"
+        },
+        {
+          "phrase": "an extension of my mind",
+          "ipa": "",
+          "definition_zh": "指能够承接并扩展个人思考过程的外部工具或空间。",
+          "example_zh": "这里把软件比作思维的延伸，强调它能帮助作者先记录想法，再通过移动和整理内容逐渐理解它。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115683366389559464",
+          "text": "https://t.co/9JFKOz3lEv",
+          "url": "https://x.com/ryolu_/status/2115683366389559464",
+          "summary_en": null
+        },
+        {
+          "id": "2115683228027912634",
+          "text": "augmenting human intellect\n\nwhen i started making software, i wasn’t dreaming of a factory.\n\ni loved that something on a screen could become an extension of my mind. a place to put a thought before i understood it. to move things around until new connections appeared. to make little systems that worked the way i worked, even if it made no sense to anyone else.\n\nthe computer wasn’t interesting because it could do work without me. it was interesting because of what i could do with it.\n\nthe early lineage of computing was built around this possibility. in 1962, Engelbart described augmenting human intellect as helping a person understand complex situations and find solutions that were previously out of reach. his starting point was the human being, not the autonomous machine.\n\nhe wasn’t describing a faster black box. he was looking at the whole relationship between a person, their tools, their language, their methods, and what they could learn to do with them. the capability belonged to that whole system.\n\nsomewhere along the way, we started telling a much smaller story about a much more powerful technology.\n\nmore automation. more agents. more software producing more software. more output from fewer people. more growth. more numbers to prove that something is happening.\n\nand less attention to the person any of this is supposed to be for.\n\ni don’t want to pretend computing had a pure innocent beginning. replacing human labor was one of its ambitions. even in 1960, Licklider distinguished human-computer symbiosis from systems where the remaining people mainly served the machine. he wanted computers to participate in the formation of ideas, not only execute problems already defined.\n\nthat distinction feels important – does the system help you discover what you mean? or does it only want you to submit a request, and wait outside while it works?\n\nsometimes waiting is exactly what i want. please do the search. move the files. take away the repetitive work.\n\nbut not everything difficult is overhead.\n\nsometimes moving the pieces around is how you understand them. sometimes making the thing changes what you wanted to make. sometimes you need to see the wrong version, touch it, take it apart, and discover a better question.\n\ni want tools that leave room for that relationship.\n\nin his 1981 paper on Smalltalk, Ingalls described a system meant to support everyone’s creative spirit. personal mastery mattered: an individual should be able to comprehend the system, rather than remain dependent on something permanently beyond their reach.\n\nhe also argued that computer models should fit the human mind, rather than demand the reverse.\n\nnot one perfect workflow for everyone. systems that different people can inhabit differently. someone who thinks through pictures. someone who needs to write. someone who understands a problem by building a simulation. someone whose way of organizing their life doesn’t resemble a SaaS dashboard.\n\na system you can reshape as your understanding changes.\n\nthis is what i want AI to make possible. not just pumping out software, but having a living relationship with it. being able to ask why something works this way. change one part without surrendering the rest. see what happened. undo it. learn enough to make the next change yourself.\n\nthe machine can become more capable without making the person smaller.\n\nbut that won’t happen just because we make the models better. we have to care about it. design for it. notice when we are making someone more dependent while calling it empowerment.\n\ni don’t want to measure the future only by how much work happens without us.\n\ni want to know what becomes possible for the person who couldn’t participate before.\n\nwhat can they understand now? what can they express? what can they change without asking permission?\n\nwhen i say augmenting human intellect, that is what i mean.\n\nnot a world that no longer needs us.\na world we have more ability to shape.",
+          "url": "https://x.com/ryolu_/status/2115683228027912634",
+          "summary_en": "Computing should expand people’s ability to think, explore, and solve problems through their relationship with tools. The current emphasis on automation, agents, and output risks sidelining the human capabilities and experiences those tools should serve."
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "A post questions school priorities amid budget pressure and the phasing out of honors classes, though it does not identify the replacement classes. Another backs Particle's aim to deliver strong model performance at a low cost per unit of intelligence.",
+      "summary_zh": "一条发言质疑学校在预算紧张、荣誉课程逐步取消时的课程安排，但未说明新增课程是什么。另一条看好 Particle 以较低成本提供高性能模型的目标。",
+      "slang": [
+        {
+          "term": "frontier model",
+          "definition_en": "A model near the leading edge of current AI capability.",
+          "definition_zh": "能力接近当前 AI 技术前沿的模型。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "on the frontier",
+          "ipa": "",
+          "definition_zh": "指处于某个领域能力或技术发展的最前沿。",
+          "example_zh": "作者预期 Particle 会在模型智能水平和单位智能成本方面处于领先位置，表达的是对未来表现的判断。"
+        },
+        {
+          "phrase": "dollar per unit of intelligence",
+          "ipa": "",
+          "definition_zh": "指获得单位智能能力所需的美元成本。",
+          "example_zh": "作者用这个表达强调模型的性价比，但推文没有定义如何量化一单位智能。"
+        },
+        {
+          "phrase": "phasing out",
+          "ipa": "",
+          "definition_zh": "指分阶段逐步取消或停止某项安排。",
+          "example_zh": "作者称高中荣誉课程正在逐步取消，并借此质疑预算压力下的课程优先级。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115639558935359941",
+          "text": "There’s a budget crush and high schoolers can’t take honors classes (they’re phasing out) but guess what new classes they are getting next https://t.co/HXjeqjtuLk",
+          "url": "https://x.com/garrytan/status/2115639558935359941",
+          "summary_en": null
+        },
+        {
+          "id": "2115517748860375286",
+          "text": "Particle will be on the frontier for smartest model at lowest dollar per unit of intelligence https://t.co/psCDwwcURe",
+          "url": "https://x.com/garrytan/status/2115517748860375286",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "A joke suggests French founders face unusually skeptical feedback from people close to them. Another post jokes about venture investors seeking help getting into sought-after deals.",
+      "summary_zh": "一条玩笑称法国创业者连亲友的质疑都要先克服；另一条调侃风投寻求帮助，以参与热门投资项目。",
+      "slang": [
+        {
+          "term": "hot deal",
+          "definition_en": "An investment opportunity attracting strong investor demand.",
+          "definition_zh": "受到投资者争相追逐的投资机会。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "VCs",
+          "ipa": "",
+          "definition_zh": "指为高增长潜力初创企业提供资金的风险投资人或机构。",
+          "example_zh": "作者调侃风险投资人也会找 Instinct 帮忙，以便参与热门投资项目。"
+        },
+        {
+          "phrase": "hot deals",
+          "ipa": "",
+          "definition_zh": "在投资语境中指受到众多投资人追捧的投资机会。",
+          "example_zh": "这里指竞争激烈、投资人希望争取参与资格的创业公司融资项目。"
+        },
+        {
+          "phrase": "a special breed",
+          "ipa": "",
+          "definition_zh": "指具有某种鲜明特质、与众不同的一类人。",
+          "example_zh": "作者打趣说法国创业者格外特别，因为他们创业前就得面对亲友的尖锐反馈。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115596406077452628",
+          "text": "This is why French founders are a special breed - to even start a company, they have to first face this kind of feedback from their families and friends lol 😂 https://t.co/XU6m5JcHcO",
+          "url": "https://x.com/mattturck/status/2115596406077452628",
+          "summary_en": null
+        },
+        {
+          "id": "2115539958123376855",
+          "text": "When VCs ask Instinct to help them invest in hot deals https://t.co/o9uHh0crXE",
+          "url": "https://x.com/mattturck/status/2115539958123376855",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "The visible post expresses delight at linked content but gives no detail about what it shows.",
+      "summary_zh": "可见内容仅表达对链接内容的喜爱，未说明具体是什么。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2115336629770707254",
+          "text": "this is too cute https://t.co/dtttFifGe7",
+          "url": "https://x.com/zarazhangrui/status/2115336629770707254",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Seed founders are being offered guidance on the gap between their long-term ambition and what investors typically expect by a Series A. The visible excerpt does not include the specific advice.",
+      "summary_zh": "内容聚焦种子轮创始人的长期愿景与 A 轮投资者通常要求之间的差距；可见片段没有列出具体建议。",
+      "slang": [
+        {
+          "term": "seed",
+          "definition_en": "An early stage of startup funding.",
+          "definition_zh": "创业公司的早期融资阶段。"
+        },
+        {
+          "term": "the A",
+          "definition_en": "Series A, a funding round that usually follows seed funding.",
+          "definition_zh": "A 轮融资，通常发生在种子轮之后。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "seed founders",
+          "ipa": "",
+          "definition_zh": "指处于种子轮融资阶段的创业公司创始人。",
+          "example_zh": "作者正在向种子轮创始人分享反馈，帮助他们理解长期愿景与下一阶段融资要求之间的差距。"
+        },
+        {
+          "phrase": "at the A",
+          "ipa": "",
+          "definition_zh": "在创业融资语境中指到了 A 轮融资阶段。",
+          "example_zh": "这里的 A 是 Series A 的简写，作者讨论投资人通常希望公司在这个阶段达到什么要求。"
+        },
+        {
+          "phrase": "the other side of the table",
+          "ipa": "",
+          "definition_zh": "指谈判或交易中与自己相对的一方。",
+          "example_zh": "作者以投资人一侧的视角提供反馈，帮助创始人理解融资桌对面的判断标准。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115613336200998979",
+          "text": "Been sharing this feedback to a lot of seed founders on how to bridge the gap between their dream to what is often required at the A from someone who sits on the other side of the table.. \n\nThanks @dflieb, @adityaag &amp; a few seed founders for reviewing drafts of this! https://t.co/e6k8pyXGc5",
+          "url": "https://x.com/nikunj/status/2115613336200998979",
+          "summary_en": null
+        },
+        {
+          "id": "2115583054530171227",
+          "text": "https://t.co/YR5yYDTHc9",
+          "url": "https://x.com/nikunj/status/2115583054530171227",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_en": "OpenClaw's web interface now works offline and uses WebSocket compression and reconnection to stay usable on unreliable connections, including airplane Wi-Fi.",
+      "summary_zh": "OpenClaw 的网页界面现可离线使用，并通过 WebSocket 压缩与重连机制，在飞机 Wi-Fi 等不稳定网络下继续工作。",
+      "slang": [
+        {
+          "term": "CLI",
+          "definition_en": "Command-line interface, a text-based way to control software.",
+          "definition_zh": "命令行界面，通过文字命令操作软件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "cli",
+          "ipa": "",
+          "definition_zh": "指通过输入文字命令操作软件的命令行界面。",
+          "example_zh": "作者用略带调侃的语气提到仍在本地和命令行中工作的人，同时展示 OpenClaw 网页界面的能力。"
+        },
+        {
+          "phrase": "websocket",
+          "ipa": "/ˈwebˌsɑːkɪt/",
+          "definition_zh": "指支持客户端与服务器通过持续连接双向通信的网络协议。",
+          "example_zh": "OpenClaw 的网页界面加入了相关的压缩和重连逻辑，帮助它在不稳定的网络下保持可用。"
+        },
+        {
+          "phrase": "spotty",
+          "ipa": "/ˈspɑːti/",
+          "definition_zh": "形容网络或服务时有时无、断断续续。",
+          "example_zh": "这里形容飞机上的 Wi-Fi 连接不稳定，但作者仍借助改进后的网页界面完成了不少工作。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115398725212238088",
+          "text": "Meanwhile people still work local and in the cli? 👴",
+          "url": "https://x.com/steipete/status/2115398725212238088",
+          "summary_en": null
+        },
+        {
+          "id": "2115397368229060636",
+          "text": "OpenClaw’s web UI now works offline and uses a smart websocket compression/reconnect logic.\n\nBeen flying to Vienna today and got plenty work done, despite spotty airplane wifi. https://t.co/7wGhL1zi7Z",
+          "url": "https://x.com/steipete/status/2115397368229060636",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "An investor letter shares lessons from a decade of evaluating early-stage talent. The visible excerpt introduces the importance of founders but does not show the letter's specific conclusions.",
+      "summary_zh": "一封投资人信总结十年来识别早期创业人才的经验。可见片段提到创始人的重要性，但没有展示具体结论。",
+      "slang": [
+        {
+          "term": "LP",
+          "definition_en": "Limited partner, an investor in a venture capital fund.",
+          "definition_zh": "有限合伙人，即向风险投资基金出资的投资者。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "LP letter",
+          "ipa": "",
+          "definition_zh": "指投资机构写给有限合伙人等基金出资人的信。",
+          "example_zh": "作者分享了一封给基金出资人的信，内容是过去十年投资中识别人才的经验。"
+        },
+        {
+          "phrase": "spotting talent",
+          "ipa": "",
+          "definition_zh": "指识别具有突出能力或发展潜力的人。",
+          "example_zh": "这是该投资人信件的主题，强调从多年投资经历中总结如何发现有潜力的创业人才。"
+        },
+        {
+          "phrase": "early stage investing",
+          "ipa": "",
+          "definition_zh": "指在公司发展初期进行的投资。",
+          "example_zh": "作者引出早期投资重视创始人的常见说法，但可见文字没有展示信中的具体结论。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115486597739430004",
+          "text": "This is a LP letter that we recently wrote with our lessons on spotting talent from a decade of investing at the frontier.\n\nhttps://t.co/v1TnHjvAox\n\nThe most common thing you hear about early stage investing is that \"It is 90% about the founder\".\n\nWe agree but have always been unsatisfied by the lack of falsifiability, specificity, and repeatability of that statement.\n\nWhat are the dimensions of excellence? How do they translate into companies?\n\nIt was a pleasure to collaborate with @gopalkraman on this.",
+          "url": "https://x.com/adityaag/status/2115486597739430004",
+          "summary_en": "A new investor letter distills a decade of lessons on identifying talent, seeking to make founder evaluation more specific, falsifiable, and repeatable. It asks which dimensions of founder excellence matter and how they translate into companies."
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "handle": "claudeai",
+      "summary_en": "Claude for Legal now offers ready-made workflows for contract review, tracking regulatory changes, and checking citations. Users can add their own documents and connectors, then share the resulting artifacts across their organization.",
+      "summary_zh": "Claude for Legal 推出预制工作模板，可用于审查合同、追踪监管变化和核查引文。用户可加入自己的文档与连接器，并在组织内分享生成的成果。",
+      "slang": [
+        {
+          "term": "artifact",
+          "definition_en": "A shareable output created with an AI tool.",
+          "definition_zh": "使用 AI 工具创建、可供分享的成果。"
+        },
+        {
+          "term": "connector",
+          "definition_en": "An integration that lets software access another data source or service.",
+          "definition_zh": "让软件访问其他数据源或服务的集成组件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "artifacts",
+          "ipa": "/ˈɑːrtɪfækts/",
+          "definition_zh": "在 Claude 产品语境中指可独立展示、使用或分享的生成成果。",
+          "example_zh": "Claude for Legal 提供现成成果示例，用户可以加入自己的文档和连接器后，在组织内分享。"
+        },
+        {
+          "phrase": "regulatory horizon scans",
+          "ipa": "",
+          "definition_zh": "指持续识别和追踪可能影响业务的新兴监管变化。",
+          "example_zh": "这是法律功能库中的一种用途，帮助法律团队提前关注监管动向。"
+        },
+        {
+          "phrase": "cite checks",
+          "ipa": "",
+          "definition_zh": "指核查法律引用的准确性及其是否支持相关论述。",
+          "example_zh": "它与合同审查等任务并列，表示用户可以从现成示例开始开展法律引文核查。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115467193626571174",
+          "text": "Learn more: https://t.co/m3tOri9JR3",
+          "url": "https://x.com/claudeai/status/2115467193626571174",
+          "summary_en": null
+        },
+        {
+          "id": "2115467192276025500",
+          "text": "New in Claude for Legal: a gallery of ready-made artifacts for contract review, regulatory horizon scans, cite checks, and more.\n\nStart from the built-in example, add your own documents and connectors, and share it with anyone across the business. https://t.co/Wn2VK2HeMU",
+          "url": "https://x.com/claudeai/status/2115467192276025500",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "AI & I by Every",
+      "title": "Can You Use AI To Make Good Art? — With Fred Graver",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "summary_en": "The visible transcript argues that AI may help writers and producers facing fewer opportunities understand their strengths, adapt, and create work that supports their careers. The excerpt ends before the argument is developed.",
+      "summary_zh": "可见逐字稿认为，面对机会减少，写作者和制作人或可借助 AI 认识自身优势、适应变化，并创作有助于职业发展的作品。片段在论述展开前就结束了。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "frontier",
+      "ipa": "/frʌnˈtɪr/",
+      "pos": "noun",
+      "definition_en": "The most advanced limit of development or knowledge in a field.",
+      "definition_zh": "某个领域发展的最前沿；知识或技术的边界。",
+      "synonyms": [
+        "cutting edge",
+        "leading edge"
+      ],
+      "example_en": "Several labs are competing at the frontier of artificial intelligence.",
+      "example_zh": "多家实验室正在人工智能最前沿展开竞争。"
+    },
+    {
+      "word": "neurodiversity",
+      "ipa": "/ˌnʊroʊdaɪˈvɜːrsəti/",
+      "pos": "noun",
+      "definition_en": "Natural variation in how human brains work; used metaphorically in the sample for differences among AI models.",
+      "definition_zh": "神经多样性，指人类大脑运作方式的自然差异；原文借此比喻不同 AI 模型的差异。",
+      "synonyms": [
+        "neurological diversity"
+      ],
+      "example_en": "The speaker used neurodiversity as a metaphor for the different strengths of AI models.",
+      "example_zh": "演讲者用神经多样性来比喻不同 AI 模型各有所长。"
+    },
+    {
+      "word": "counterexample",
+      "ipa": "/ˈkaʊntərɪɡˌzæmpəl/",
+      "pos": "noun",
+      "definition_en": "An example that shows a general claim is not always true.",
+      "definition_zh": "反例，用来说明某个普遍性论断并非总是成立的例子。",
+      "synonyms": [
+        "contradictory example"
+      ],
+      "example_en": "One successful small team can provide a counterexample to the claim that only large organizations innovate.",
+      "example_zh": "一个成功的小团队就能为「只有大型组织才能创新」这一说法提供反例。"
+    },
+    {
+      "word": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "pos": "noun",
+      "definition_en": "A small trial used to evaluate an idea before introducing it more widely.",
+      "definition_zh": "试点；在大范围推广之前，用于评估某个方案的小规模试验。",
+      "synonyms": [
+        "trial",
+        "test run"
+      ],
+      "example_en": "The agency ran a four-week pilot before deciding whether to expand access.",
+      "example_zh": "该机构先开展了为期四周的试点，再决定是否扩大使用范围。"
+    },
+    {
+      "word": "disrupt",
+      "ipa": "/dɪsˈrʌpt/",
+      "pos": "verb",
+      "definition_en": "To significantly change how an industry or activity operates, often by introducing new technology.",
+      "definition_zh": "颠覆；通常通过引入新技术，大幅改变一个行业或活动的运作方式。",
+      "synonyms": [
+        "transform",
+        "upend"
+      ],
+      "example_en": "AI could disrupt routine office work while creating demand for new skills.",
+      "example_zh": "AI 可能颠覆常规办公室工作，同时创造对新技能的需求。"
+    },
+    {
+      "word": "renaissance",
+      "ipa": "/ˈrenəsɑːns/",
+      "pos": "noun",
+      "definition_en": "A period of renewed interest, growth, or activity.",
+      "definition_zh": "复兴；重新受到关注、恢复增长或变得活跃的时期。",
+      "synonyms": [
+        "revival",
+        "renewal",
+        "resurgence"
+      ],
+      "example_en": "Handmade goods may enjoy a renaissance as digital products become more common.",
+      "example_zh": "随着数字产品日益普及，手工制品可能迎来复兴。"
+    },
+    {
+      "word": "trinket",
+      "ipa": "/ˈtrɪŋkɪt/",
+      "pos": "noun",
+      "definition_en": "A small decorative object, usually of little monetary value.",
+      "definition_zh": "小饰物；通常价格不高、用于装饰的小物件。",
+      "synonyms": [
+        "knickknack",
+        "bauble"
+      ],
+      "example_en": "She sells handmade trinkets at the local market.",
+      "example_zh": "她在当地集市出售手工小饰物。"
+    }
+  ],
+  "quote": {
+    "text_en": "Well done is better than well said.",
+    "text_zh": "做得好胜过说得好。",
+    "author": "Benjamin Franklin"
+  },
+  "slang_glossary": [
+    {
+      "term": "agent",
+      "definition_en": "An AI system that can take actions and use tools to pursue a goal.",
+      "definition_zh": "智能体：能够采取行动、使用工具来完成目标的 AI 系统。"
+    },
+    {
+      "term": "prompt to app",
+      "definition_en": "Creating an application by describing the desired behavior to an AI in natural language.",
+      "definition_zh": "通过自然语言描述需求，让 AI 生成应用的开发方式。"
+    },
+    {
+      "term": "traffic steering",
+      "definition_en": "Directing requests or users toward selected models, servers, or destinations.",
+      "definition_zh": "流量调度：将请求或用户引导到指定模型、服务器或目标。"
+    },
+    {
+      "term": "inference",
+      "definition_en": "Running a trained AI model to produce outputs from inputs.",
+      "definition_zh": "推理：运行训练完成的 AI 模型，根据输入生成输出。"
+    },
+    {
+      "term": "token",
+      "definition_en": "A unit of text or other data processed by an AI model.",
+      "definition_zh": "词元：AI 模型处理文本或其他数据时使用的基本单位。"
+    },
+    {
+      "term": "frontier model",
+      "definition_en": "An AI model near the leading edge of current capabilities.",
+      "definition_zh": "前沿模型：能力接近当前技术最高水平的 AI 模型。"
+    },
+    {
+      "term": "hot deal",
+      "definition_en": "An especially attractive offer or business opportunity.",
+      "definition_zh": "特别划算的优惠，或很有吸引力的商业机会。"
+    },
+    {
+      "term": "seed",
+      "definition_en": "Context-dependent shorthand for early startup funding or an initial value controlling randomness.",
+      "definition_zh": "依语境可指创业公司的种子轮融资，也可指控制随机过程的初始值；给定片段无法确定具体含义。"
+    },
+    {
+      "term": "the A",
+      "definition_en": "Context-dependent shorthand, sometimes referring to a Series A funding round; the excerpt does not establish its meaning.",
+      "definition_zh": "依语境而定的简称，有时指 A 轮融资；给定片段无法确定具体含义。"
+    },
+    {
+      "term": "CLI",
+      "definition_en": "Command-line interface: a way to operate software by typing commands.",
+      "definition_zh": "命令行界面：通过输入命令操作软件的方式。"
+    },
+    {
+      "term": "LP",
+      "definition_en": "An abbreviation that can mean limited partner in investing or landing page in marketing.",
+      "definition_zh": "缩写，投资领域常指有限合伙人，营销领域常指落地页；给定片段无法确定具体含义。"
+    },
+    {
+      "term": "artifact",
+      "definition_en": "A concrete output of a software or AI workflow, such as a document, code file, or interactive page.",
+      "definition_zh": "软件或 AI 工作流程产生的具体成果，例如文档、代码文件或交互页面。"
+    },
+    {
+      "term": "connector",
+      "definition_en": "An integration that lets software access another service or data source.",
+      "definition_zh": "连接器：让软件访问其他服务或数据源的集成组件。"
+    },
+    {
+      "term": "AAv5",
+      "definition_en": "A benchmark or ranking label mentioned in the tweet; its full name and methodology are not provided.",
+      "definition_zh": "推文提到的基准测试或排名标签；片段没有提供其全称或评测方法。"
+    },
+    {
+      "term": "pull this off",
+      "definition_en": "To succeed at something difficult or uncertain.",
+      "definition_zh": "成功办成一件困难或结果不确定的事。"
+    },
+    {
+      "term": "comeback season",
+      "definition_en": "An informal phrase for a period when someone or something becomes successful or admired again.",
+      "definition_zh": "口语表达，指重新取得成功或重新获得认可的时期，可理解为「强势回归期」。"
+    },
+    {
+      "term": "GDM",
+      "definition_en": "Google DeepMind.",
+      "definition_zh": "Google DeepMind 的缩写。"
+    },
+    {
+      "term": "model neurodiversity",
+      "definition_en": "An informal metaphor for differences in AI models' behavior, strengths, or styles.",
+      "definition_zh": "一种非正式比喻，指不同 AI 模型在行为、优势或风格上的差异。"
+    },
+    {
+      "term": "frontier labs",
+      "definition_en": "Research organizations developing AI systems near the leading edge of capability.",
+      "definition_zh": "研发能力处于技术前沿的 AI 系统的研究机构。"
+    },
+    {
+      "term": "aie",
+      "definition_en": "An event or community abbreviation used in the sample; its expansion is not supplied.",
+      "definition_zh": "片段中的活动或社区简称；原文未提供全称。"
+    },
+    {
+      "term": "the bitter lesson",
+      "definition_en": "Rich Sutton's argument that general methods using computation tend to outperform approaches built around human knowledge over time.",
+      "definition_zh": "理查德·萨顿提出的观点：长期来看，利用计算能力的通用方法往往胜过依赖人类知识设计的方法。"
+    },
+    {
+      "term": "psychology 101",
+      "definition_en": "An introductory psychology course; used rhetorically to suggest that a point is basic knowledge.",
+      "definition_zh": "心理学入门课；此处带有修辞意味，暗示某个道理属于基础常识。"
+    },
+    {
+      "term": "2x",
+      "definition_en": "Shorthand for a factor of two; the wording '2x more' can be imprecise.",
+      "definition_zh": "两倍的简写；「2x more」这种表达可能存在倍数歧义。"
+    },
+    {
+      "term": "raw workout logs",
+      "definition_en": "Recorded exercise data before it has been interpreted or turned into recommendations.",
+      "definition_zh": "尚未经过解读或转化为建议的原始运动记录。"
+    },
+    {
+      "term": "internal vibes",
+      "definition_en": "Informal impressions or sentiment within an organization, rather than measured evaluation results.",
+      "definition_zh": "组织内部的主观感受或整体情绪，并非量化评测结果。"
+    },
+    {
+      "term": "roll out",
+      "definition_en": "To release a product or feature, often gradually to different groups.",
+      "definition_zh": "推出或逐步开放产品、功能。"
+    },
+    {
+      "term": "cyber defenders",
+      "definition_en": "People or teams protecting computer systems and networks against attacks.",
+      "definition_zh": "保护计算机系统和网络免受攻击的人员或团队。"
+    },
+    {
+      "term": "working environment",
+      "definition_en": "In this software context, a configured setup in which the tools can actually run.",
+      "definition_zh": "在此软件语境中，指已经配置好、工具能够正常运行的环境。"
+    },
+    {
+      "term": "pilot",
+      "definition_en": "A limited trial before a wider deployment.",
+      "definition_zh": "正式大范围部署之前的小规模试点。"
+    },
+    {
+      "term": "dot",
+      "definition_en": "A product-specific name for a personal AI companion in the sample.",
+      "definition_zh": "片段中对个人 AI 助手的产品专用称呼。"
+    },
+    {
+      "term": "wild",
+      "definition_en": "Informal language meaning surprising, extreme, remarkable, or unconventional.",
+      "definition_zh": "口语表达，可指惊人的、夸张的、出乎意料的或脑洞大开的。"
+    },
+    {
+      "term": "3M views",
+      "definition_en": "Three million views; M means million, and views do not necessarily represent unique people.",
+      "definition_zh": "三百万次浏览；M 代表百万，浏览次数不一定等于独立浏览人数。"
+    },
+    {
+      "term": "disrupt",
+      "definition_en": "In technology and business, to substantially change an industry's existing practices or economics.",
+      "definition_zh": "科技和商业语境中指大幅改变行业现有运作方式或经济模式，常译为「颠覆」。"
+    },
+    {
+      "term": "mark my words",
+      "definition_en": "An emphatic way to say that a prediction will prove correct.",
+      "definition_zh": "强调自己的预测将会应验，相当于「记住我的话」或「走着瞧」。"
+    }
+  ],
+  "stats": {
+    "builders": 18,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 39,
+    "feedGeneratedAt": "2026-10-29T06:32:19.194Z"
+  }
+}

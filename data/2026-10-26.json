@@ -1,0 +1,500 @@
+{
+  "date": "2026-10-26",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Asks followers for enough likes to outperform another account in a social media exchange.",
+      "summary_zh": "号召关注者点赞，希望在社交媒体互动中超过另一个账号。",
+      "slang": [
+        {
+          "term": "ratio",
+          "definition_en": "To receive more engagement than another post, often as a competitive or mocking gesture.",
+          "definition_zh": "用更高的互动量压过另一条帖子，常带有竞争或调侃意味。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "ratio",
+          "ipa": "/ˈreɪʃioʊ/",
+          "definition_zh": "社交媒体俚语，指用更高的互动量压过另一条帖子或另一个账号。",
+          "example_zh": "作者请求大家再给12个赞，好让自己的点赞数超过被提及的用户，赢下这场互动较量。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114263159355904426",
+          "text": "i need 12 more likes to ratio @ArfurRock whos got it",
+          "url": "https://x.com/swyx/status/2114263159355904426",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "Highlights appearance customization as a way to make ChatGPT on the web feel calmer. A separate update describes day 21 of an unspecified sequence as a reset.",
+      "summary_zh": "指出可以通过自定义网页版 ChatGPT 的外观，让使用体验更舒适平静。另一条动态把某个未说明事项的第21天称为重新开始。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2114595002210783279",
+          "text": "Reminder you can customize the appearance of chatgpt on web and make it soothing\n\nhttps://t.co/an6R8iY5Ix https://t.co/iysHpdDLml",
+          "url": "https://x.com/thsottiaux/status/2114595002210783279",
+          "summary_en": null
+        },
+        {
+          "id": "2114588174249071102",
+          "text": "Day 21/ Wonder what happens the remaining seven days. But today is a reset.",
+          "url": "https://x.com/thsottiaux/status/2114588174249071102",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Praises an AI-related example as aesthetically impressive, pushing back on the idea that AI lacks taste. The referenced example is not visible in the supplied text.",
+      "summary_zh": "赞赏一个与 AI 有关的示例具有美感，借此反驳 AI 缺乏审美的说法。所提供的文字未展示具体示例。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "taste",
+          "ipa": "/teɪst/",
+          "definition_zh": "在创作与设计语境中，指审美判断力和辨别作品好坏的能力。",
+          "example_zh": "作者用一个被他称赞为漂亮的例子，反问谁说AI没有审美判断力；这里不是指味觉。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114560930646487116",
+          "text": "This is beautiful. Who said AI doesn't have taste https://t.co/gaPLhncKM2",
+          "url": "https://x.com/petergyang/status/2114560930646487116",
+          "summary_en": null
+        },
+        {
+          "id": "2114557067700916723",
+          "text": "lol this is me except my wife still buys snacks https://t.co/OvTm1jMXGD",
+          "url": "https://x.com/petergyang/status/2114557067700916723",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "Criticizes the default treatment of unoptimized apps on a device described as supporting split mode. Argues that waiting for problems to appear in metrics or user interviews can allow reputational damage to occur first.",
+      "summary_zh": "批评某款据称支持分屏的设备对未优化应用的默认处理方式。认为等到指标或用户访谈暴露问题时，产品声誉可能已经受损。",
+      "slang": [
+        {
+          "term": "UXR",
+          "definition_en": "User experience research, including interviews and studies of how people use a product.",
+          "definition_zh": "用户体验研究，包括访谈以及对用户使用产品方式的研究。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "unoptimized apps",
+          "ipa": "",
+          "definition_zh": "指尚未针对特定设备、系统或使用模式进行适配优化的应用。",
+          "example_zh": "作者质疑设备明明支持分屏模式，却仍对未适配的应用采用他认为不合理的默认处理方式。"
+        },
+        {
+          "phrase": "split mode",
+          "ipa": "",
+          "definition_zh": "指将屏幕划分为多个区域以展示不同内容的显示模式。",
+          "example_zh": "作者把设备支持这种显示模式作为理由，批评未优化应用的默认呈现方式。"
+        },
+        {
+          "phrase": "UXR",
+          "ipa": "/ˌjuː ɛks ˈɑːr/",
+          "definition_zh": "用户体验研究的缩写，用于了解用户的需求、行为和使用感受。",
+          "example_zh": "作者认为，等问题出现在数据或用户体验研究访谈中时，产品口碑可能已经受损。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114433404557279435",
+          "text": "Anyone else find it insane that this is the default for unoptimized apps when the iPhone Duo supports split mode? https://t.co/TOoeDyhMzz https://t.co/uXGfG7EbYt",
+          "url": "https://x.com/thenanyu/status/2114433404557279435",
+          "summary_en": null
+        },
+        {
+          "id": "2114427877240488442",
+          "text": "By the time it shows up in the data or UXR interviews it’s too late. The damage has been done and the reputation tarnished https://t.co/hIPaT1BOmk",
+          "url": "https://x.com/thenanyu/status/2114427877240488442",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Argues that large enterprises already face fragmented security exposure, and that growing fragmentation will make managing those risks harder. The supplied excerpt cuts off before the argument is completed.",
+      "summary_zh": "认为大型企业已经面临分散而复杂的安全风险，风险面进一步碎片化将增加治理难度。提供的片段在论述完成前截断。",
+      "slang": [
+        {
+          "term": "risk surface",
+          "definition_en": "The collection of systems, interfaces, and activities through which an organization can be exposed to risk.",
+          "definition_zh": "组织可能遭受风险的系统、接口和业务活动的整体范围。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "risk surface",
+          "ipa": "",
+          "definition_zh": "指企业面临风险的各类暴露点及其覆盖范围。",
+          "example_zh": "作者认为大型企业的安全风险暴露点已经十分分散，而且会进一步碎片化，增加管理难度。"
+        },
+        {
+          "phrase": "gnarly",
+          "ipa": "/ˈnɑːrli/",
+          "definition_zh": "口语中形容问题棘手、复杂或难以处理。",
+          "example_zh": "这里用来强调企业安全风险的分散局面会变得更加难以收拾。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114391265655816315",
+          "text": "Good assessment of the on the ground reality for security in most large enterprises right now. The fragmented landscape of the risk surface is only going to get more gnarly, making it even more complex for enterprises to solve.\n\nThere’s a never ending set of libraries to keep up with, tools to leverage, and sprawling infrastructure, data, and code to secure. Most large enterprises can barely keep up with this, let alone smaller startups or most companies outside of tech. \n\nIn many cases enterprises need to work to modernize their tech stacks. Data, in most organizations, is highly fragmented which means you don’t really know the state of risk at any given time. Some systems are open up privileges too broadly, and others are operating primarily via security through obscurity. Lots of upgrading here to do.\n\nOnce you can get your data and infra into a better spot, at least you have a chance for agents to help you secure the environment. Agent swarms can fan out, leverage any security tool, test various perpetuations of attacks, read through logs, process enterprise data for risk level, and more. This capability only emerged in the past few months, and none of it would be possible before we had long running agents and computer use good enough.\n\nThis is a huge area of opportunity right now for every layer of the security stack across identity, firewall, network, code scanning, data protection, and more. And it’s at least one reason to be optimistic about the balance of offensive and defensive capability. \n\nBut everyone does need to do the hard work of getting the basics right at the start.",
+          "url": "https://x.com/levie/status/2114391265655816315",
+          "summary_en": "Fragmented data, sprawling infrastructure, and outdated access controls make enterprise security increasingly difficult, so companies must modernize their stacks and get the basics right. Long-running AI agents could then strengthen defense by testing attacks, analyzing logs, and assessing risk across the security stack."
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "Mocks venture investors for reframing earlier metaverse, gaming, and crypto mining bets as essential AI infrastructure, suggesting that investment narratives follow the latest hype.",
+      "summary_zh": "调侃风险投资人把过去押注元宇宙、游戏和加密货币挖矿的项目重新包装成关键 AI 基础设施，暗示投资叙事会追随热点。",
+      "slang": [
+        {
+          "term": "VCs",
+          "definition_en": "Venture capital investors or firms that fund startups.",
+          "definition_zh": "为初创企业提供资金的风险投资人或机构。"
+        },
+        {
+          "term": "mission-critical AI infrastructure",
+          "definition_en": "Technology presented as indispensable to operating AI systems; used sarcastically here as an investment label.",
+          "definition_zh": "被描述为 AI 系统运行不可或缺的技术设施；此处用于讽刺投资项目的重新包装。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "VCs",
+          "ipa": "/ˌviː ˈsiːz/",
+          "definition_zh": "风险投资人或风险投资机构的简称。",
+          "example_zh": "作者调侃风险投资人把2021年的旧投资重新包装成AI领域不可或缺的基础设施。"
+        },
+        {
+          "phrase": "crypto mining",
+          "ipa": "",
+          "definition_zh": "指通过计算参与区块链运行并获取加密货币奖励的挖矿活动。",
+          "example_zh": "作者把加密货币挖矿列为旧投资方向之一，讽刺投资人如今为这些项目换上AI叙事。"
+        },
+        {
+          "phrase": "mission-critical AI infrastructure",
+          "ipa": "",
+          "definition_zh": "指对核心业务运行至关重要、出问题就可能影响业务的AI基础设施。",
+          "example_zh": "作者带着讽刺使用这个标签，质疑旧项目被重新描述为关键AI基础设施的投资话术。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114507945585328606",
+          "text": "Rare footage of how VCs turned their 2021 bets in metaverse, gaming and crypto mining into 'mission-critical AI infrastructure’ https://t.co/ULSKrUwg1f",
+          "url": "https://x.com/mattturck/status/2114507945585328606",
+          "summary_en": null
+        },
+        {
+          "id": "2114411547594457483",
+          "text": "Good neighborhood https://t.co/ZRTxHmsoZv https://t.co/OCMZ85Yk8G",
+          "url": "https://x.com/mattturck/status/2114411547594457483",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "Argues that consistent daily publishing is more valuable than relying on one major launch. Recommends building a repeatable video-making habit to sustain visibility.",
+      "summary_zh": "认为持续每天发布内容的价值被低估，而一次大型发布的重要性被高估。建议建立可持续的视频创作机制，保持日常曝光。",
+      "slang": [
+        {
+          "term": "launch",
+          "definition_en": "The public introduction of a product, feature, or project, often accompanied by promotion.",
+          "definition_zh": "产品、功能或项目的公开发布，通常配合集中推广。"
+        },
+        {
+          "term": "timeline",
+          "definition_en": "The social media feed where users encounter posts from accounts they follow or recommended accounts.",
+          "definition_zh": "社交平台展示关注账号或推荐账号内容的信息流。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "showing up every day",
+          "ipa": "",
+          "definition_zh": "指每天持续参与并付诸行动，保持稳定的存在感。",
+          "example_zh": "这里指每天持续发布内容；作者认为这种长期坚持的价值常被低估，而一次大型发布的价值常被高估。"
+        },
+        {
+          "phrase": "timeline",
+          "ipa": "/ˈtaɪmlaɪn/",
+          "definition_zh": "在社交媒体中，指用户浏览帖子和动态的信息流。",
+          "example_zh": "这里指通过每天发布内容，持续出现在受众的信息流中。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114255477907570865",
+          "text": "Great interview. Most people overestimate the importance of one huge launch and underestimate the power of just showing up every day on the timeline\n\nDevelop a system where you make a video every day &gt; spending tens of thousands of dollars on a single launch video https://t.co/ujN4fPyN1y",
+          "url": "https://x.com/zarazhangrui/status/2114255477907570865",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Shares a brief golden-hour moment without a substantive AI or technology takeaway in the supplied text.",
+      "summary_zh": "分享黄金时刻的生活片段，所提供的文字没有具体的 AI 或科技观点。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "Golden hour",
+          "ipa": "",
+          "definition_zh": "摄影中指日出后或日落前光线柔和、色调偏金的时段。",
+          "example_zh": "作者用这个摄影术语配合落日表情，分享一个具有金色光线氛围的时刻。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114380495140405394",
+          "text": "Golden hour 🌅 https://t.co/VPmAgnMkGH",
+          "url": "https://x.com/nikunj/status/2114380495140405394",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "The supplied post contains only links, leaving no visible text from which to extract a substantive takeaway.",
+      "summary_zh": "提供的帖子仅包含链接，没有可用于提炼实质观点的文字。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2114509827057561603",
+          "text": "https://t.co/F3WWInD6LH https://t.co/PKNm0MT3So",
+          "url": "https://x.com/danshipper/status/2114509827057561603",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "No Priors",
+      "title": "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_en": "Argues that AGI should preserve human control and amplify people's ability to shape their future. Suggests that as software becomes cheaper to create, software alone becomes less of a competitive differentiator, though the excerpt ends before the alternative is explained.",
+      "summary_zh": "主张 AGI 应保障人类的控制权，增强人们自主塑造未来的能力。提出随着软件开发成本下降，仅有软件将越来越难形成竞争差异，但片段在解释替代优势之前结束。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "soothing",
+      "ipa": "/ˈsuːðɪŋ/",
+      "pos": "adj",
+      "definition_en": "Making someone feel calmer or more comfortable.",
+      "definition_zh": "令人平静的；舒缓的",
+      "synonyms": [
+        "calming",
+        "relaxing"
+      ],
+      "example_en": "She chose soothing colors for the app’s interface.",
+      "example_zh": "她为应用界面选择了令人放松的配色。"
+    },
+    {
+      "word": "native",
+      "ipa": "/ˈneɪtɪv/",
+      "pos": "adj",
+      "definition_en": "Built directly into a particular system or platform.",
+      "definition_zh": "原生的；系统或平台内置的",
+      "synonyms": [
+        "built-in",
+        "integrated"
+      ],
+      "example_en": "The studio offers native support for editing short videos.",
+      "example_zh": "这个创作平台内置了短视频编辑功能。"
+    },
+    {
+      "word": "tarnish",
+      "ipa": "/ˈtɑːrnɪʃ/",
+      "pos": "verb",
+      "definition_en": "To damage someone’s reputation or the good impression of something.",
+      "definition_zh": "损害；玷污，尤指名声或形象",
+      "synonyms": [
+        "damage",
+        "blemish"
+      ],
+      "example_en": "Repeated privacy failures can tarnish a company’s reputation.",
+      "example_zh": "反复出现的隐私问题会损害公司的声誉。"
+    },
+    {
+      "word": "fragmented",
+      "ipa": "/ˈfræɡmentɪd/",
+      "pos": "adj",
+      "definition_en": "Divided into separate parts that are poorly connected.",
+      "definition_zh": "碎片化的；分散且缺乏有效连接的",
+      "synonyms": [
+        "disconnected",
+        "disjointed"
+      ],
+      "example_en": "Fragmented data makes security risks harder to assess.",
+      "example_zh": "碎片化的数据使安全风险更难评估。"
+    },
+    {
+      "word": "sprawling",
+      "ipa": "/ˈsprɔːlɪŋ/",
+      "pos": "adj",
+      "definition_en": "Spread over a large area or across many parts, often without clear organization.",
+      "definition_zh": "庞杂分散的；无序扩展的",
+      "synonyms": [
+        "extensive",
+        "spread-out"
+      ],
+      "example_en": "The team struggles to maintain its sprawling infrastructure.",
+      "example_zh": "团队难以维护其庞杂分散的基础设施。"
+    },
+    {
+      "word": "privilege",
+      "ipa": "/ˈprɪvəlɪdʒ/",
+      "pos": "noun",
+      "definition_en": "Permission to access a system resource or perform a particular action.",
+      "definition_zh": "权限；访问系统资源或执行特定操作的许可",
+      "synonyms": [
+        "permission",
+        "access right"
+      ],
+      "example_en": "Only administrators should have the privilege to change security settings.",
+      "example_zh": "只有管理员才应拥有修改安全设置的权限。"
+    },
+    {
+      "word": "obscurity",
+      "ipa": "/əbˈskjʊrəti/",
+      "pos": "noun",
+      "definition_en": "The state of being unknown, hidden, or difficult to understand.",
+      "definition_zh": "隐蔽；不为人知；晦涩",
+      "synonyms": [
+        "concealment",
+        "opacity"
+      ],
+      "example_en": "The obscurity of an internal tool does not guarantee its security.",
+      "example_zh": "内部工具鲜为人知，并不意味着它一定安全。"
+    }
+  ],
+  "quote": {
+    "text_en": "A journey of a thousand miles begins with a single step.",
+    "text_zh": "千里之行，始于足下。",
+    "author": "Laozi"
+  },
+  "slang_glossary": [
+    {
+      "term": "ratio",
+      "definition_en": "On social media, to get more likes on a reply than the original post receives; usage can also involve an unfavorable balance of replies to likes.",
+      "definition_zh": "社交媒体用语：回复获得的点赞数超过原帖；也可指评论多、点赞少等被视为遭到反对的互动比例。"
+    },
+    {
+      "term": "UXR",
+      "definition_en": "User experience research: studying users’ needs, behaviors, and experiences with a product.",
+      "definition_zh": "用户体验研究，通过访谈、观察等方法了解用户需求、行为及产品使用体验。"
+    },
+    {
+      "term": "risk surface",
+      "definition_en": "The collection of systems, dependencies, data, and access points through which an organization may face risk.",
+      "definition_zh": "风险面，指组织可能面临风险的系统、依赖项、数据及访问入口的集合。"
+    },
+    {
+      "term": "VCs",
+      "definition_en": "Venture capitalists, or sometimes venture capital firms, that invest in startups.",
+      "definition_zh": "风险投资人，有时也指投资初创公司的风险投资机构。"
+    },
+    {
+      "term": "mission-critical AI infrastructure",
+      "definition_en": "AI-related systems and resources whose failure would seriously disrupt essential operations.",
+      "definition_zh": "支撑关键业务的 AI 基础设施，其故障会严重影响核心业务运转。"
+    },
+    {
+      "term": "launch",
+      "definition_en": "In product and startup contexts, the public release or introduction of a product or feature.",
+      "definition_zh": "产品或创业语境中的「发布」或「上线」，指正式推出产品或功能。"
+    },
+    {
+      "term": "timeline",
+      "definition_en": "In social media, the feed of posts shown to a user.",
+      "definition_zh": "社交媒体上的动态流，即向用户展示的一系列帖子。"
+    },
+    {
+      "term": "lol",
+      "definition_en": "Short for laughing out loud; often used casually to signal amusement or soften a remark.",
+      "definition_zh": "「笑出声」的缩写，常用于表达好笑，或使语气更轻松。"
+    },
+    {
+      "term": "gnarly",
+      "definition_en": "Informal language for something especially difficult, complicated, or unpleasant; in other contexts, it can express admiration.",
+      "definition_zh": "口语中指棘手、复杂或令人头疼；在其他语境中也可表示很酷、很厉害。"
+    },
+    {
+      "term": "shorts",
+      "definition_en": "Short-form videos designed for quick viewing, often on mobile platforms.",
+      "definition_zh": "短视频，通常适合在移动平台上快速观看。"
+    },
+    {
+      "term": "native capability",
+      "definition_en": "A feature built directly into a product rather than supplied through an external integration.",
+      "definition_zh": "原生能力，指产品自身内置的功能。"
+    },
+    {
+      "term": "reference clip",
+      "definition_en": "A short video used as a model for style, structure, or visual direction.",
+      "definition_zh": "参考片段，用于借鉴风格、结构或视觉方向的短视频素材。"
+    },
+    {
+      "term": "prompt",
+      "definition_en": "The instructions or input given to an AI model to guide its response.",
+      "definition_zh": "提示词，提供给 AI 模型、用于引导其输出的指令或输入内容。"
+    },
+    {
+      "term": "split mode",
+      "definition_en": "A display mode that divides the screen into separate areas for multiple views or apps.",
+      "definition_zh": "分屏模式，将屏幕划分为不同区域以显示多个视图或应用。"
+    },
+    {
+      "term": "library",
+      "definition_en": "In software development, a reusable collection of code that provides particular functions.",
+      "definition_zh": "软件开发中的「库」，即提供特定功能、可重复使用的代码集合。"
+    },
+    {
+      "term": "tech stack",
+      "definition_en": "The combination of programming languages, frameworks, databases, and tools used to build and run a system.",
+      "definition_zh": "技术栈，构建和运行系统所使用的编程语言、框架、数据库及工具的组合。"
+    },
+    {
+      "term": "security through obscurity",
+      "definition_en": "Relying on secrecy about a system’s design or implementation as a means of protecting it.",
+      "definition_zh": "隐蔽式安全，依靠隐藏系统设计或实现细节来提供安全保护的做法。"
+    }
+  ],
+  "stats": {
+    "builders": 9,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 14,
+    "feedGeneratedAt": "2026-10-26T06:55:24.342Z"
+  }
+}

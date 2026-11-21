@@ -1,0 +1,810 @@
+{
+  "date": "2026-11-13",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Shares moments from Broadway show rehearsals and a cake from the production team. The posts offer a personal celebration rather than a technical update.",
+      "summary_zh": "分享百老汇演出排练的片段，以及制作团队送来的蛋糕。这组内容主要记录个人庆祝时刻，没有具体技术更新。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2121088973372334443",
+          "text": "and straight to broadway show rehearsal :) see you saturday https://t.co/YaSKdiTPkb https://t.co/eRIxAwTCHT",
+          "url": "https://x.com/swyx/status/2121088973372334443",
+          "summary_en": null
+        },
+        {
+          "id": "2121060183988486493",
+          "text": "the production team got us a cake!! #aie1m https://t.co/TYkzM7lfDP https://t.co/xTb0EjSdC7",
+          "url": "https://x.com/swyx/status/2121060183988486493",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_en": "Promotes a Gemini experience built around the user's point of view, with preorders and in-store demos available. Shipping is advertised for December 10.",
+      "summary_zh": "推广以用户第一视角使用 Gemini 的体验，并宣布开放预订及部分门店体验。帖子称将于 12 月 10 日发货。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "Pre-order",
+          "ipa": "/ˌpriːˈɔːrdər/",
+          "definition_zh": "在产品正式发售前预订。",
+          "example_zh": "这条帖文邀请用户现在预订，并说明产品将于12月10日发货。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120990821902397885",
+          "text": "Pre-order today at https://t.co/7M3kHsrTgU and demo them in select Warby Parker, Gentle Monster, and Google stores (shipping Dec 10th!)",
+          "url": "https://x.com/joshwoodward/status/2120990821902397885",
+          "summary_en": null
+        },
+        {
+          "id": "2120990820631450061",
+          "text": "Gemini, now from your point of view https://t.co/D15CnXvMvP",
+          "url": "https://x.com/joshwoodward/status/2120990820631450061",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "Asks how Codex could improve beyond changes to the underlying model. Also highlights cybersecurity tools in development for automated patching and adversarial security testing.",
+      "summary_zh": "征集基础模型升级之外的 Codex 改进方向，同时介绍正在开发的自动修补与自动化对抗安全测试工具。",
+      "slang": [
+        {
+          "term": "automated patching",
+          "definition_en": "Using software to generate or apply fixes for vulnerabilities with limited manual work.",
+          "definition_zh": "通过软件自动生成或应用漏洞修复，减少人工操作。"
+        },
+        {
+          "term": "red teaming",
+          "definition_en": "Testing a system through simulated adversarial attacks to uncover weaknesses.",
+          "definition_zh": "通过模拟对抗攻击来发现系统弱点的测试方法。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "automated patching",
+          "ipa": "",
+          "definition_zh": "自动识别并修补软件安全漏洞。",
+          "example_zh": "这里指正在开发的网络安全工具可以自动完成漏洞修补。"
+        },
+        {
+          "phrase": "automated red teaming",
+          "ipa": "",
+          "definition_zh": "自动模拟攻击者来测试系统安全性。",
+          "example_zh": "这里与自动修补并列，指用自动化方式开展对抗性安全测试。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121062974161092792",
+          "text": "How can codex be improved? Try not to say model.",
+          "url": "https://x.com/thsottiaux/status/2121062974161092792",
+          "summary_en": null
+        },
+        {
+          "id": "2121036562058400200",
+          "text": "We announced new tools we're developing for cybersecurity today across automated patching and automated red teaming. Watch the recording here https://t.co/fW371aFjB5",
+          "url": "https://x.com/thsottiaux/status/2121036562058400200",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Tentatively supports an unspecified action by NVIDIA employees if they feel strongly about it, while explicitly questioning whether the underlying report is real. The other post expresses appreciation without enough context to identify its subject.",
+      "summary_zh": "在明确质疑相关消息真实性的同时，表示如果 NVIDIA 员工对此有强烈诉求，某项行动或许值得考虑。另一条仅表达赞赏，缺乏足够上下文判断具体对象。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2121100531502620784",
+          "text": "Can't tell if this is real but if NVIDIA employees feels strongly doing something like this isn't a bad idea. https://t.co/oQ8085yvMY",
+          "url": "https://x.com/petergyang/status/2121100531502620784",
+          "summary_en": null
+        },
+        {
+          "id": "2121098361201918301",
+          "text": "Beautiful https://t.co/pTTkF9jDJE",
+          "url": "https://x.com/petergyang/status/2121098361201918301",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "Shares a context link and a cryptic call to return to something earlier. The available text does not identify the subject or establish a concrete technical takeaway.",
+      "summary_zh": "分享补充背景的链接，并用隐晦措辞呼吁回归某种过去的状态。现有文字没有说明具体对象，无法提炼明确的技术结论。",
+      "slang": [
+        {
+          "term": "retvrn",
+          "definition_en": "An internet-styled spelling of return, often used to evoke a nostalgic return to older ways.",
+          "definition_zh": "return 的网络化拼写，常用于表达回归过去做法的怀旧意味。"
+        }
+      ],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2121069823069421706",
+          "text": "context- https://t.co/hShN4DHnpJ",
+          "url": "https://x.com/trq212/status/2121069823069421706",
+          "summary_en": null
+        },
+        {
+          "id": "2121067561915916575",
+          "text": "it’s time to retvrn https://t.co/2vx6G3oPne",
+          "url": "https://x.com/trq212/status/2121067561915916575",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "Announces that Replit Agent can make business purchases, including buying ads to acquire customers. Separately mocks a congressman's inquiry into Jensen Huang's alleged foreign ties by alleging hypocrisy.",
+      "summary_zh": "宣布 Replit Agent 可以代企业采购，包括购买广告以获取新客户。另以讽刺口吻评论一名议员针对黄仁勋所谓外国关联的调查，指责其双重标准。",
+      "slang": [
+        {
+          "term": "Agent",
+          "definition_en": "An AI system that can use tools and take actions to complete tasks.",
+          "definition_zh": "能够调用工具并采取行动以完成任务的 AI 系统。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "acquire new customers",
+          "ipa": "",
+          "definition_zh": "通过营销等方式获得新客户。",
+          "example_zh": "这里指让 Replit Agent 购买广告，为企业获取新客户。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121081862659739870",
+          "text": "Makes total sense that congressman leading the inquiry into Jensen’s alleged foreign ties is the same guy who showed up at the Capitol wearing a foreign army uniform. He’s an expert at foreign ties! https://t.co/9DfLI6DEwq",
+          "url": "https://x.com/amasad/status/2121081862659739870",
+          "summary_en": null
+        },
+        {
+          "id": "2121018020520931712",
+          "text": "You can now ask Replit Agent to buy stuff for your business, including buying ads to acquire new customers! https://t.co/HelMtQT8EA https://t.co/vJsdESZaPl",
+          "url": "https://x.com/amasad/status/2121018020520931712",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Argues that frameworks and component libraries should evolve toward deeper primitives optimized for AI agents. Positions UI SDK as a foundational instruction set that agents can use to construct interfaces.",
+      "summary_zh": "认为框架和组件库应向更底层、适合 AI 智能体使用的基础能力演进。将 UI SDK 比作智能体构建界面的基础指令集。",
+      "slang": [
+        {
+          "term": "agents",
+          "definition_en": "AI systems that perform tasks through tool use and sequences of actions.",
+          "definition_zh": "通过调用工具和执行连续操作完成任务的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "definition_en": "A software development kit containing tools and interfaces for building applications.",
+          "definition_zh": "软件开发工具包，提供构建应用所需的工具和接口。"
+        },
+        {
+          "term": "x86 instruction set",
+          "definition_en": "A processor instruction standard used here as an analogy for foundational operations available to agents.",
+          "definition_zh": "一种处理器指令标准，此处用来比喻提供给智能体的基础操作集合。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "frameworks",
+          "ipa": "/ˈfreɪmwɜːrks/",
+          "definition_zh": "为软件开发提供基础结构和约定的框架。",
+          "example_zh": "作者在问，AI 智能体普及后，开发框架应如何演变。"
+        },
+        {
+          "phrase": "component libraries",
+          "ipa": "",
+          "definition_zh": "可重复使用的界面组件集合。",
+          "example_zh": "作者认为组件库也需要适应由智能体构建界面的方式。"
+        },
+        {
+          "phrase": "x86 instruction set",
+          "ipa": "",
+          "definition_zh": "x86 处理器能够执行的底层指令体系。",
+          "example_zh": "作者用它作比喻，把 UI SDK 描述为智能体构建界面的基础指令。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120966768483262648",
+          "text": "What happens to frameworks in the agents era? to component libraries? to @shadcn? \n\nThe answer is: we need to drill deeper. Delete the part, optimize, accelerate, automate.\n\nUI SDK is like the x86 instruction set for agents to build new UI components spontaneously. \n\nAgents are the new design engineers, and they're ready to build *anything* you ask, tailored to your usecase. High-level, rigid, single-framework abstractions are like kryptonite for what is essentially an infinite, untiring creation machine.\n\nI think we've found someone that allows us to have the cake and eat it too. A decades-long dream. UI SDK is packaged behaviors that give us accessibility, performance, cohesion, saving us tokens, errors and effort, but with absolutely zero limitations and tradeoffs for what UIs we can generate.\n\nEnjoy!",
+          "url": "https://x.com/rauchg/status/2120966768483262648",
+          "summary_en": "AI agents need flexible UI building blocks rather than rigid, framework-specific component abstractions. UI SDK aims to package accessibility, performance, and consistent behavior while preserving freedom to generate custom interfaces."
+        }
+      ]
+    },
+    {
+      "name": "Alex Albert",
+      "handle": "alexalbert__",
+      "summary_en": "Argues that getting better results from Claude increasingly depends on identifying and supplying missing context. Says Claude Meetings has been useful internally for bringing meeting information into that context.",
+      "summary_zh": "认为提升 Claude 工作质量的关键，越来越在于识别并补齐缺失的上下文。表示 Claude Meetings 在内部使用中有助于补充会议中的信息。",
+      "slang": [
+        {
+          "term": "context",
+          "definition_en": "The information available to an AI model when it interprets a request and produces a response.",
+          "definition_zh": "AI 模型理解请求并生成回答时可以使用的信息。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "close that gap",
+          "ipa": "",
+          "definition_zh": "补足现状与所需状态之间的差距。",
+          "example_zh": "这里的差距是 Claude 缺少的背景信息；作者认为补齐信息能改善输出。"
+        },
+        {
+          "phrase": "remaining slices",
+          "ipa": "",
+          "definition_zh": "尚未纳入的部分信息。",
+          "example_zh": "这里指可通过 Claude Meetings 补充进来的会议背景。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120983722182988206",
+          "text": "A lot of getting good work out of Claude now is just finding the context it’s missing and figuring out how to close that gap\n\nClaude Meetings is one way to bring in the remaining slices and has proved very useful internally https://t.co/j4yRaG5gUg",
+          "url": "https://x.com/alexalbert__/status/2120983722182988206",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Reports that early testing of Gemini 4 Hydrogen on Box's complex-work evaluation showed accuracy five percentage points above Gemini 3.8 Flash. Presents this as a substantial improvement for fast models, though the excerpt provides no evaluation methodology.",
+      "summary_zh": "称在 Box 复杂工作评测的早期测试中，Gemini 4 Hydrogen 的准确率比 Gemini 3.8 Flash 高出 5 个百分点。将其视为快速模型的重要提升，但节选没有提供评测方法。",
+      "slang": [
+        {
+          "term": "Eval",
+          "definition_en": "An evaluation used to measure an AI system's performance on specified tasks.",
+          "definition_zh": "用于衡量 AI 系统在特定任务上表现的评测。"
+        },
+        {
+          "term": "early access",
+          "definition_en": "Access to a product before its wider release.",
+          "definition_zh": "产品全面发布之前提供的提前使用资格。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Eval",
+          "ipa": "/ɪˈvæl/",
+          "definition_zh": "用于衡量 AI 系统表现的评测。",
+          "example_zh": "Box 使用名为 AI Complex Work Eval 的评测来比较模型准确率。"
+        },
+        {
+          "phrase": "percentage points",
+          "ipa": "",
+          "definition_zh": "两个百分比之间的直接差值，以百分点计。",
+          "example_zh": "这里称 Hydrogen 的准确率比 Gemini 3.8 Flash 高五个百分点。"
+        },
+        {
+          "phrase": "early access",
+          "ipa": "",
+          "definition_zh": "产品正式开放前的提前试用阶段。",
+          "example_zh": "Box 在提前试用阶段测试了 Gemini 4 Hydrogen。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120947988143198302",
+          "text": "Ok this is a big deal. We’ve been testing Gemini 4 Hydrogen in early access with the Box AI Complex Work Eval, and it’s a serious jump for fast models. \n\nHydrogen is 5 percentage points better in accuracy than Gemini 3.8 Flash. That alone would be a great boost in capability, but possibly more importantly it did the tasks in less than half the time with about 12% fewer tokens on a typical task.\n\nFor this eval, we give the Box Agent Hydrogen as a model for a series of complex tasks that represent real world work with enterprise documents across finance, consulting, life sciences, and other industries. Hydrogen will be a great model for a lot of efficient but complex tasks across these fields.\n\nGemini team is definitely cooking. Hydrogen will be rolling out in the Box AI Studio shortly so any customer can build a custom agent with it.",
+          "url": "https://x.com/levie/status/2120947988143198302",
+          "summary_en": "In Box’s enterprise document evaluation, Gemini 4 Hydrogen reportedly beat Gemini 3.8 Flash by 5 percentage points in accuracy while taking less than half the time and using about 12% fewer tokens. It is expected to roll out in Box AI Studio shortly."
+        },
+        {
+          "id": "2120880718868045973",
+          "text": "What a mess 😕",
+          "url": "https://x.com/levie/status/2120880718868045973",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "Argues that losing Jensen Huang's involvement would remove a major source of investment, acquisitions, and financial support from the AI ecosystem. Separately jokes about the density of alcohol-centered networking events around Slush.",
+      "summary_zh": "认为若失去黄仁勋的参与，AI 生态将失去重要的投资、并购和资金支持来源。另调侃 Slush 周边社交活动几乎被各种饮酒安排填满。",
+      "slang": [
+        {
+          "term": "backstops",
+          "definition_en": "Financial support or commitments that provide a safety net when other funding falls short.",
+          "definition_zh": "在其他资金不足时提供保障的资金支持或承诺。"
+        },
+        {
+          "term": "M&A",
+          "definition_en": "Mergers and acquisitions, in which companies combine or purchase other businesses.",
+          "definition_zh": "企业合并与收购。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "backstops",
+          "ipa": "/ˈbækstɑːps/",
+          "definition_zh": "在资金或交易面临困难时提供的兜底支持。",
+          "example_zh": "作者用「central banker」作比喻，认为 Jensen 为 AI 生态提供了这类支持。"
+        },
+        {
+          "phrase": "acquirer",
+          "ipa": "/əˈkwaɪrər/",
+          "definition_zh": "收购其他公司的企业或个人。",
+          "example_zh": "作者把 Jensen 列为积极推动收购的人物之一。"
+        },
+        {
+          "phrase": "M&amp;A",
+          "ipa": "",
+          "definition_zh": "企业合并与收购。",
+          "example_zh": "这里用来评论 Hugging Face 在一笔大型并购中的时机。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120951444526264388",
+          "text": "With Jensen, the AI ecosystem loses:\n\n* its central banker (backstops etc)\n\n* its most active investor \n\n* a bold acquirer (extra kudos to Hugging Face for perhaps the best timing in large M&amp;A history)\n\nThose are the kind of aggressive moves only a founder can make",
+          "url": "https://x.com/mattturck/status/2120951444526264388",
+          "summary_en": null
+        },
+        {
+          "id": "2120933338928108016",
+          "text": "My first time at Slush next week, and the schedule is like:\n\n* boozy brunch\n* post-lunch cocktails\n* sauna &amp; wine!\n* afternoon tea and whiskey\n* join us for pre-dinner drinks!\n* dinner showcasing premium spirits\n* post-dinner cocktails\n* come drink with us at the after party!!",
+          "url": "https://x.com/mattturck/status/2120933338928108016",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "Demonstrates a text-based explainer of the Jensen Huang controversy made with two prompts. Highlights that users can interrupt the experience with their own questions, making information consumption more interactive.",
+      "summary_zh": "展示用两次提示生成的黄仁勋争议文字讲解。强调用户可以随时插入问题，让信息获取过程更具互动性。",
+      "slang": [
+        {
+          "term": "prompts",
+          "definition_en": "Instructions or inputs given to an AI system to guide its output.",
+          "definition_zh": "提供给 AI 系统、用于引导其输出的指令或输入。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "prompts",
+          "ipa": "/prɑːmpts/",
+          "definition_zh": "向 AI 模型发出的指令或输入。",
+          "example_zh": "作者说这个文字解说体验只用了两条提示词制作。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121044386276594175",
+          "text": "https://t.co/grKiA4608t\n\n(you can also interrupt it anytime by sending your own text and asking a question)",
+          "url": "https://x.com/zarazhangrui/status/2121044386276594175",
+          "summary_en": null
+        },
+        {
+          "id": "2121044098270543980",
+          "text": "The Jensen Huang scandal, explained over text\n\n(made with 2 prompts; this is such an engaging way to absorb information 😂) https://t.co/iErbeXmQ9o",
+          "url": "https://x.com/zarazhangrui/status/2121044098270543980",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Expresses alarm about an unspecified situation remaining unresolved for nine hours and predicts similar problems will affect organizations of every size. The excerpt does not identify the incident or provide enough detail to assess that prediction.",
+      "summary_zh": "对某个未具体说明的事件持续九小时仍未解决表示震惊，并预测类似问题将波及各种规模的组织。节选没有交代事件内容，也不足以验证这一预测。",
+      "slang": [
+        {
+          "term": "DMs",
+          "definition_en": "Direct messages sent privately on a social platform.",
+          "definition_zh": "社交平台上的私人消息。"
+        }
+      ],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2121096888023932949",
+          "text": "I know everyone is plugged into the Jensen news, but 9 hours of this without resolution is wiiiiild..\n\nI guess it’s going to get way WAY worse before it gets any better. \n\nAnd it’s going to happen to every single organization - big and small ☠️ https://t.co/4768lam91A",
+          "url": "https://x.com/nikunj/status/2121096888023932949",
+          "summary_en": null
+        },
+        {
+          "id": "2120911254999154710",
+          "text": "Note to self: never tweet before going to bed 🤦‍♂️ \n\nI’ll try and respond to everybody today - appreciate all the DMs and comments!!",
+          "url": "https://x.com/nikunj/status/2120911254999154710",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_en": "Shares a team write-up on operating persistent agents inside OpenAI. Also asks whether users would enable a highly autonomous mode despite the possibility of unwanted actions.",
+      "summary_zh": "分享团队在 OpenAI 内部运行持久智能体的实践文章。另询问用户是否愿意开启高度自主的模式，即使系统可能执行不符合预期的操作。",
+      "slang": [
+        {
+          "term": "persistent agents",
+          "definition_en": "AI agents that continue operating or retain state across longer-running tasks and sessions.",
+          "definition_zh": "能够持续运行，或在较长任务和多次会话之间保留状态的 AI 智能体。"
+        },
+        {
+          "term": "yolo mode",
+          "definition_en": "An informal name for a mode that lets an agent act with fewer approval checks.",
+          "definition_zh": "对减少审批检查、允许智能体更自主行动的模式的非正式称呼。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "persistent agents",
+          "ipa": "",
+          "definition_zh": "能够持续运行并跨时间执行任务的 AI 智能体。",
+          "example_zh": "作者分享了团队在 OpenAI 内部运行这类智能体的经验。"
+        },
+        {
+          "phrase": "yolo mode",
+          "ipa": "",
+          "definition_zh": "允许系统高度自主行动、减少事前确认的模式。",
+          "example_zh": "作者询问用户是否愿意开启这种模式，即使智能体可能做出不想要的操作。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121058770767982997",
+          "text": "My team wrote about how we run persistent agents inside OpenAI. https://t.co/vP5cH7Pohg",
+          "url": "https://x.com/steipete/status/2121058770767982997",
+          "summary_en": null
+        },
+        {
+          "id": "2121042215619510584",
+          "text": "Would you enable yolo mode for dots, even if your dot might do sth unwanted?",
+          "url": "https://x.com/steipete/status/2121042215619510584",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Uses a theatrical, philosophical riff to question the framing of a supposed honeypot controversy. Also jokes about Claude attending one of his meetings, with the punchline dependent on linked media.",
+      "summary_zh": "用戏剧化、哲学式的调侃质疑围绕所谓诱捕事件的讨论框架。另拿 Claude 首次旁听自己的会议开玩笑，但具体笑点依赖链接中的媒体内容。",
+      "slang": [
+        {
+          "term": "honeypot",
+          "definition_en": "A lure designed to attract and expose a target; it can refer to security decoys or interpersonal entrapment.",
+          "definition_zh": "用于吸引并暴露目标的诱饵，可指网络安全中的诱捕系统，也可指人际关系中的设局。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "honeypot",
+          "ipa": "/ˈhʌnipɑːt/",
+          "definition_zh": "以诱饵吸引目标、使其暴露行为的陷阱。",
+          "example_zh": "作者借这个词调侃一场争议，并追问相关情境从何时起算作诱捕。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121036252350972222",
+          "text": "Everybody is talking about honeypot! Was it a honeypot always or merely at the end, as a form of circumstance? But this is precisely the trap. *sniffs* These are merely the *surface* of the situation. \n\nWhat is the real infidelity? America tells Nvidia: you are married to national security, you must not sell your most powerful chips to China. But in the same breath it says: you are the great hero of American capitalism! Sell as many chips as possible! And Jensen says: of course, darling, I will be faithful. Then, late at night, *sniffs* he finds a way to remain faithful. \n\nSo you see, Jensen is not cheating on the system. Cheating on his wife? Yes. The system? No. He is the only one who has been faithful to it! \n\nThe system itself wants two incompatible things: to contain China and to dominate the Chinese market. And now we are shocked, shocked, that somebody got caught in a compromising position. *sniffs* And so on.\n\nThis is the true infidelity. This is the real honeypot.",
+          "url": "https://x.com/danshipper/status/2121036252350972222",
+          "summary_en": "The Nvidia controversy reflects conflicting U.S. demands: restrict China’s access to advanced chips while encouraging American companies to dominate global markets. The argument is that these contradictory incentives make attempts to navigate around restrictions predictable."
+        },
+        {
+          "id": "2121029280432075157",
+          "text": "Claude the first time it sits in on one of my meetings: https://t.co/UkEeSuWP7r https://t.co/p22tdnV7pe",
+          "url": "https://x.com/danshipper/status/2121029280432075157",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "Credits Jensen Huang with a foundational contribution to current progress and expresses distress about what is happening to him. The post gives no details about the underlying events.",
+      "summary_zh": "将当前取得的进展很大程度归功于黄仁勋，并对其正在经历的事情表达痛心。帖子没有提供相关事件的具体信息。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2120924059709956201",
+          "text": "We would not be where we are today without Jensen.\n\nIt is viscerally painful to see what is happening.",
+          "url": "https://x.com/adityaag/status/2120924059709956201",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "handle": "claudeai",
+      "summary_en": "Announces that Claude Meetings is starting with Google Meet, with other conferencing platforms planned. After a call, users can find notes, action items, a transcript, and anything Claude built on the meeting's page in Claude.",
+      "summary_zh": "宣布 Claude Meetings 首先支持 Google Meet，并计划扩展至其他视频会议平台。会后，用户可在 Claude 的会议页面查看笔记、行动事项、逐字稿及 Claude 创建的内容。",
+      "slang": [
+        {
+          "term": "action items",
+          "definition_en": "Specific follow-up tasks identified during a meeting.",
+          "definition_zh": "会议中确定、需要后续执行的具体任务。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "action items",
+          "ipa": "",
+          "definition_zh": "会议后需要落实的具体待办事项。",
+          "example_zh": "Claude 表示，通话结束后，用户可在会议页面查看它整理的待办事项。"
+        },
+        {
+          "phrase": "transcript",
+          "ipa": "/ˈtrænskrɪpt/",
+          "definition_zh": "讲话或会议内容的文字记录。",
+          "example_zh": "这里指通话结束后可在 Claude 会议页面查看的逐字稿。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120974000746582357",
+          "text": "Claude Meetings is starting with Google Meet, with support for other video conferencing platforms coming soon.\n\nLearn more: https://t.co/RcQpSG8Ub3",
+          "url": "https://x.com/claudeai/status/2120974000746582357",
+          "summary_en": null
+        },
+        {
+          "id": "2120973999295643679",
+          "text": "Claude takes the notes, too. After the call, the notes, action items, transcript, and anything Claude built are on the meeting’s page in Claude.",
+          "url": "https://x.com/claudeai/status/2120973999295643679",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "No Priors",
+      "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_en": "Argues that drug development remains heavily empirical, with toxicity and other problems often becoming visible only during patient trials. The excerpt points to an opportunity to understand these risks earlier, but cuts off before describing an approach.",
+      "summary_zh": "认为药物研发仍高度依赖经验试验，毒性等问题往往直到患者临床试验阶段才显现。节选指出提前理解这些风险的机会，但在介绍具体方法前已被截断。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "rehearsal",
+      "ipa": "/rɪˈhɝːsəl/",
+      "pos": "noun",
+      "definition_en": "A practice session before a public performance.",
+      "definition_zh": "排练；正式演出前的练习。",
+      "synonyms": [
+        "practice",
+        "run-through"
+      ],
+      "example_en": "The production team brought a cake to the final rehearsal.",
+      "example_zh": "制作团队在最后一次排练时带来了一个蛋糕。"
+    },
+    {
+      "word": "keynote",
+      "ipa": "/ˈkiːnoʊt/",
+      "pos": "noun",
+      "definition_en": "The main speech at an event, usually introducing its central theme.",
+      "definition_zh": "主题演讲；通常用于阐明活动核心主题的重要讲话。",
+      "synonyms": [
+        "main address",
+        "opening address"
+      ],
+      "example_en": "She opened her keynote with a surprising mathematical example.",
+      "example_zh": "她用一个出人意料的数学例子开启了主题演讲。"
+    },
+    {
+      "word": "cutting-edge",
+      "ipa": "/ˌkʌtɪŋ ˈedʒ/",
+      "pos": "adj",
+      "definition_en": "Using the newest and most advanced methods or technology.",
+      "definition_zh": "尖端的；采用最新、最先进方法或技术的。",
+      "synonyms": [
+        "advanced",
+        "state-of-the-art"
+      ],
+      "example_en": "The team is developing cutting-edge cybersecurity tools.",
+      "example_zh": "这个团队正在开发尖端网络安全工具。"
+    },
+    {
+      "word": "downfall",
+      "ipa": "/ˈdaʊnfɔːl/",
+      "pos": "noun",
+      "definition_en": "A loss of power, success, or reputation, often sudden or dramatic.",
+      "definition_zh": "垮台；失势；声誉或事业的衰败。",
+      "synonyms": [
+        "ruin",
+        "collapse"
+      ],
+      "example_en": "The investigation contributed to the executive's downfall.",
+      "example_zh": "这项调查促成了这位高管的垮台。"
+    },
+    {
+      "word": "inquiry",
+      "ipa": "/ˈɪnkwəri/",
+      "pos": "noun",
+      "definition_en": "An official investigation intended to establish the facts about something.",
+      "definition_zh": "正式调查；旨在查明事实的审查。",
+      "synonyms": [
+        "investigation",
+        "probe"
+      ],
+      "example_en": "The committee launched an inquiry into the alleged connections.",
+      "example_zh": "委员会对所指称的关联展开了调查。"
+    },
+    {
+      "word": "alleged",
+      "ipa": "/əˈledʒd/",
+      "pos": "adj",
+      "definition_en": "Claimed to be true but not yet proven.",
+      "definition_zh": "被指称的；据称存在但尚未证实的。",
+      "synonyms": [
+        "claimed",
+        "purported"
+      ],
+      "example_en": "The report examined the company's alleged foreign ties.",
+      "example_zh": "报告审查了该公司被指称存在的境外关联。"
+    },
+    {
+      "word": "hawkishness",
+      "ipa": "/ˈhɔːkɪʃnəs/",
+      "pos": "noun",
+      "definition_en": "A preference for forceful or confrontational policies, especially in foreign affairs.",
+      "definition_zh": "鹰派立场；尤其在外交事务中倾向于采取强硬或对抗性政策。",
+      "synonyms": [
+        "hard-line stance",
+        "belligerence"
+      ],
+      "example_en": "The debate revealed growing hawkishness toward the rival country.",
+      "example_zh": "这场辩论显示出对竞争国家日益强硬的鹰派倾向。"
+    }
+  ],
+  "quote": {
+    "text_en": "A journey of a thousand miles begins with a single step.",
+    "text_zh": "千里之行，始于足下。",
+    "author": "Laozi"
+  },
+  "slang_glossary": [
+    {
+      "term": "automated patching",
+      "definition_en": "Using software to apply fixes or security updates with limited manual intervention.",
+      "definition_zh": "自动化修补；利用软件自动应用缺陷修复或安全更新。"
+    },
+    {
+      "term": "red teaming",
+      "definition_en": "Testing a system by simulating adversarial attacks to uncover weaknesses.",
+      "definition_zh": "红队测试；通过模拟对抗性攻击发现系统弱点。"
+    },
+    {
+      "term": "retvrn",
+      "definition_en": "A meme spelling of return, often expressing nostalgia for an idealized past and sometimes carrying traditionalist political overtones.",
+      "definition_zh": "「return」的网络迷因写法，常表达回归理想化过去的愿望，有时带有传统主义政治意味。"
+    },
+    {
+      "term": "agent",
+      "definition_en": "In AI, a software system that can pursue a goal by taking actions and using tools, often across multiple steps.",
+      "definition_zh": "智能体；能够围绕目标采取行动、调用工具并执行多步骤任务的人工智能系统。"
+    },
+    {
+      "term": "SDK",
+      "definition_en": "Software development kit, a collection of tools and libraries for building software for a platform.",
+      "definition_zh": "软件开发工具包；为特定平台开发软件所需的工具和程序库集合。"
+    },
+    {
+      "term": "x86 instruction set",
+      "definition_en": "The family of machine-level instructions understood by processors based on the x86 architecture.",
+      "definition_zh": "x86 指令集；基于 x86 架构的处理器能够识别和执行的一组机器指令。"
+    },
+    {
+      "term": "context",
+      "definition_en": "Background information needed to interpret something. In AI, it can mean the information available to a model when producing a response.",
+      "definition_zh": "上下文或背景信息；在人工智能中，也指模型生成回答时可利用的信息。"
+    },
+    {
+      "term": "eval",
+      "definition_en": "Short for evaluation, a test or assessment used to measure a model or system's performance.",
+      "definition_zh": "「evaluation」的简称；用于衡量模型或系统表现的测试或评估。"
+    },
+    {
+      "term": "early access",
+      "definition_en": "Availability of a product to some users before its wider or final release.",
+      "definition_zh": "抢先体验；产品正式或全面发布前向部分用户开放使用。"
+    },
+    {
+      "term": "backstops",
+      "definition_en": "Backup protections or fallback mechanisms that limit damage when a primary approach fails.",
+      "definition_zh": "兜底保障；主要方案失效时用于控制损失的备用保护措施。"
+    },
+    {
+      "term": "M&A",
+      "definition_en": "Mergers and acquisitions, transactions that combine companies or transfer ownership of a business.",
+      "definition_zh": "企业并购；涉及公司合并或企业所有权转移的交易。"
+    },
+    {
+      "term": "prompts",
+      "definition_en": "Instructions or inputs given to an AI model to guide its output.",
+      "definition_zh": "提示词；用于引导人工智能模型输出的指令或输入内容。"
+    },
+    {
+      "term": "DMs",
+      "definition_en": "Direct messages, private messages exchanged through a social platform.",
+      "definition_zh": "私信；通过社交平台私下发送的消息。"
+    },
+    {
+      "term": "persistent agents",
+      "definition_en": "AI agents that retain state or continue working across sessions or over extended periods.",
+      "definition_zh": "持久化智能体；能够跨会话保留状态或长期持续执行任务的智能体。"
+    },
+    {
+      "term": "yolo mode",
+      "definition_en": "An informal name for an execution mode that lets an agent act with fewer confirmation checks. Exact behavior varies by tool.",
+      "definition_zh": "放手执行模式的非正式称呼，通常允许智能体减少确认步骤后直接行动，具体行为因工具而异。"
+    },
+    {
+      "term": "honeypot",
+      "definition_en": "A decoy system or resource designed to attract attackers and reveal their methods.",
+      "definition_zh": "蜜罐；用于吸引攻击者并观察其行为的诱饵系统或资源。"
+    },
+    {
+      "term": "action items",
+      "definition_en": "Specific tasks identified for follow-up, often during a meeting.",
+      "definition_zh": "待办事项；通常在会议中确定、需要后续落实的具体任务。"
+    },
+    {
+      "term": "banked reset",
+      "definition_en": "An unclear, product-specific expression apparently referring to a previously accumulated or reserved reset being applied.",
+      "definition_zh": "含义依赖具体产品的说法，文中似乎指此前积存或预留的一次重置开始生效。"
+    },
+    {
+      "term": "shipped",
+      "definition_en": "In software development, released a feature, update, or product for users.",
+      "definition_zh": "在软件开发语境中指已发布或上线某项功能、更新或产品。"
+    },
+    {
+      "term": "right-coded",
+      "definition_en": "Associated with right-wing politics through its language, style, or cultural signals.",
+      "definition_zh": "在措辞、风格或文化符号上带有右翼政治色彩的。"
+    },
+    {
+      "term": "the Cathedral",
+      "definition_en": "A polemical term used in some right-wing and neoreactionary circles for institutions such as academia and the media, viewed as reinforcing a shared ideology.",
+      "definition_zh": "部分右翼和新反动主义圈子使用的论战性称呼，指被其认为共同维护某种意识形态的学术界、媒体等机构。"
+    },
+    {
+      "term": "frameworks",
+      "definition_en": "In software development, structured foundations that provide conventions and reusable functionality for building applications.",
+      "definition_zh": "软件框架；为应用开发提供组织规范和可复用功能的基础结构。"
+    },
+    {
+      "term": "component libraries",
+      "definition_en": "Collections of reusable interface elements used to build applications.",
+      "definition_zh": "组件库；用于构建应用界面的可复用界面元素集合。"
+    }
+  ],
+  "stats": {
+    "builders": 16,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 38,
+    "feedGeneratedAt": "2026-11-13T06:28:02.651Z"
+  }
+}

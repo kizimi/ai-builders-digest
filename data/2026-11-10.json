@@ -1,0 +1,794 @@
+{
+  "date": "2026-11-10",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "A Fable 5.2 launch demo used Fermat's Last Theorem to show the model's mathematical reach, with a larger AI coding demonstration teased. A separate post invites new media creators to sign up.",
+      "summary_zh": "Fable 5.2 的发布演示用费马大定理展示模型的数学能力，并预告更大的 AI 编程演示。另一条帖子邀请新媒体创作者报名。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "fermat's last theorem",
+          "ipa": "",
+          "definition_zh": "费马大定理，指当整数指数大于二时，两个正整数的同次幂之和不可能等于第三个正整数的同次幂。",
+          "example_zh": "作者说有人在模型发布演示中证明了费马大定理，用这一高难度数学命题突出展示的惊人程度。"
+        },
+        {
+          "phrase": "wildin",
+          "ipa": "/ˈwaɪldɪn/",
+          "definition_zh": "俚语，表示某人的行为疯狂、夸张或令人难以置信。",
+          "example_zh": "作者用「u guys are wildin」调侃团队的演示太疯狂了，语气带着惊讶和赞叹。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119990961459921395",
+          "text": "signups https://t.co/M8tHHd2cR8 for new media creators",
+          "url": "https://x.com/swyx/status/2119990961459921395",
+          "summary_en": null
+        },
+        {
+          "id": "2119935240202539147",
+          "text": "bro just proved fermat's last theorem AS A DEMO for the fable 5.2 launch\n\nand casually told me he's got something bigger planned  for his aie code talk\n\nlol anthropic u guys are wildin https://t.co/2Js2LkmTIM",
+          "url": "https://x.com/swyx/status/2119935240202539147",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_en": "Fable 5.2 gives longer-standing subscribers more usage resets: Pro users receive one, while eligible Max, Ultra, and Team Premium users can receive up to three.",
+      "summary_zh": "Fable 5.2 按订阅时长增加使用额度重置次数：Pro 用户获得一次，符合条件的 Max、Ultra 和 Team Premium 用户最多获得三次。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "resets",
+          "ipa": "/ˌriːˈsets/",
+          "definition_zh": "指将使用额度或限制恢复到初始状态的重置机会。",
+          "example_zh": "这里指订阅用户获得的模型使用额度重置机会，订阅时间越长，可获得的次数越多。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119890820186976763",
+          "text": "Pro users get one reset, and Max, Ultra, and Team Premium get up to three, depending on how long you've subscribed:\nhttps://t.co/JkknwZZGyh",
+          "url": "https://x.com/bcherny/status/2119890820186976763",
+          "summary_en": null
+        },
+        {
+          "id": "2119873095129550880",
+          "text": "We wanted to do more for the people who’ve been with us the longest. So with Fable 5.2, the longer you’ve been subscribed, the more Fable resets you get. https://t.co/g2Y5cwS0L2 https://t.co/kXTaE829XU",
+          "url": "https://x.com/bcherny/status/2119873095129550880",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "Dots can now control multiple machines beyond the cloud computer provided by default, expanding the environments where it can work.",
+      "summary_zh": "Dots 现在除了默认提供的云端电脑，还能控制多台机器，扩大了它可操作的环境范围。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "cloud computer",
+          "ipa": "",
+          "definition_zh": "运行在远程云端、可通过网络访问和操作的计算机。",
+          "example_zh": "Dots 默认配有一台云端电脑，现在还能控制更多机器，扩大了它可以工作的环境范围。"
+        },
+        {
+          "phrase": "by default",
+          "ipa": "",
+          "definition_zh": "指系统在用户未另行设置时自动采用的配置。",
+          "example_zh": "这里说明云端电脑是服务默认提供的配置。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120021043876106429",
+          "text": "Dots can now control many machines in addition to its own little cloud computer that we provide by default. https://t.co/VtVYz5DcAB",
+          "url": "https://x.com/thsottiaux/status/2120021043876106429",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "A child's drawings were turned into playable kart racers, showing how quickly personal artwork can become interactive characters. Another post jokes about a possible future of work without giving enough detail to identify its specific claim.",
+      "summary_zh": "孩子的画作被做成了可玩的卡丁车角色，展示了个人创作如何快速变为互动内容。另一条帖子调侃未来工作方式，但现有文字不足以判断具体观点。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "kart racers",
+          "ipa": "",
+          "definition_zh": "指卡丁车竞速游戏中的赛车手角色，也可指这类游戏。",
+          "example_zh": "作者把孩子画中的形象变成了卡丁车竞速角色，并打算继续升级这些角色。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120026112722137345",
+          "text": "This is the future of work 😂 https://t.co/p9UX0PjnbH",
+          "url": "https://x.com/petergyang/status/2120026112722137345",
+          "summary_en": null
+        },
+        {
+          "id": "2120020729546862979",
+          "text": "Turned my 8-year-old's drawings into kart racers - time to upgrade the characters https://t.co/CdbzbaEWp2 https://t.co/UhS2NVQc9P",
+          "url": "https://x.com/petergyang/status/2120020729546862979",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "Enabling global dictation in ChatGPT settings extends its fast, accurate transcription beyond the app and may make an existing subscription more useful.",
+      "summary_zh": "在 ChatGPT 设置中开启全局听写后，可在应用之外使用其快速、准确的语音转写功能，让现有订阅更实用。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "global dictation",
+          "ipa": "",
+          "definition_zh": "可跨应用使用、将口述内容转成文字的全局听写功能。",
+          "example_zh": "作者建议在 ChatGPT 设置中开启这一功能，让订阅中的语音输入能力覆盖更多使用场景。"
+        },
+        {
+          "phrase": "transcription",
+          "ipa": "/trænˈskrɪpʃən/",
+          "definition_zh": "将语音内容转换成书面文字的过程。",
+          "example_zh": "作者强调全局听写采用与应用内听写相同的转写处理流程，因此速度和准确性值得期待。"
+        },
+        {
+          "phrase": "untapped value",
+          "ipa": "",
+          "definition_zh": "已经存在但尚未被充分发掘或利用的价值。",
+          "example_zh": "这里指用户已经付费订阅，却可能一直没有用上的全局听写能力。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120037431261184454",
+          "text": "PSA since it took me a second to discover it: \nIf you wanna get some untapped value out of your ChatGPT subscription, go into settings and turn on global dictation\n\nIt uses the same fast and accurate transcription path as the in-app dictation https://t.co/BS8CDVlPeQ",
+          "url": "https://x.com/thenanyu/status/2120037431261184454",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_en": "Product leaders should map the full lifecycle from market understanding through launch, then examine where product managers spend their time. Uneven effort across stages may reveal how the team actually operates.",
+      "summary_zh": "产品负责人可以画出从市场理解到上市的完整流程，再检查产品经理的时间分布。各阶段投入不均，可能揭示团队的实际工作方式。",
+      "slang": [
+        {
+          "term": "GTM",
+          "definition_en": "Go-to-market: the plan and work involved in bringing a product to customers.",
+          "definition_zh": "Go-to-market 的缩写，指产品推向客户的策略与执行。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "product lifecycle",
+          "ipa": "",
+          "definition_zh": "产品从市场理解、设计和开发到推向市场等阶段组成的完整历程。",
+          "example_zh": "作者让产品负责人画出各个阶段，再观察产品经理的时间集中在哪里，以理解团队实际的工作方式。"
+        },
+        {
+          "phrase": "GTM",
+          "ipa": "",
+          "definition_zh": "Go-to-market 的缩写，指将产品推向目标市场的策略与执行。",
+          "example_zh": "作者把 GTM 放在开发之后，作为检查产品经理时间分配的一个阶段。"
+        },
+        {
+          "phrase": "PMs",
+          "ipa": "",
+          "definition_zh": "Product managers 的缩写，在这里指产品经理。",
+          "example_zh": "作者建议比较产品经理在生命周期不同阶段投入的时间，观察团队的工作重心。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119999748086362466",
+          "text": "If you are a product leader, here is a simple exercise: draw out your product lifecycle.\n\ne.g. market understanding -> design -> development -> GTM.\n\nChances are your PMs spend more time in some stages than others - because of the nature of your product, your org or their comfort zones.\n\nThis is a handoff-heavy, lossy process.\n\nNow ask yourself: using AI, how much deeper can PMs go on every stage?\n\nPMs should be able to\n- build a much deeper, broader understanding of users and the market\n- iterate fast from ideas to working prototypes\n- explore the codebase to study technical constraints and tradeoffs\n- run their own analytics and investigate questions as they emerge\n- understand the GTM funnel deeply enough to shape product strategy\n\nNow, this is not about PMs replacing every role. As the function that spans the entire lifecycle, this is about  raising the bar on the PM role, so they combine their breadth with much greater depth.",
+          "url": "https://x.com/realmadhuguru/status/2119999748086362466",
+          "summary_en": "AI should enable PMs to work more deeply across the entire product lifecycle, from user research and prototyping to code exploration, analytics, and GTM strategy. The goal is to raise expectations for PMs and reduce lossy handoffs, without replacing specialist roles."
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "AI-assisted software creation was being demonstrated before 'vibe coding' had a name. A forthcoming book explores how the approach is changing enterprise software development.",
+      "summary_zh": "在『氛围编程』这一说法出现前，已有 AI 辅助开发的演示。一本即将出版的新书将探讨这种方式如何改变企业软件开发。",
+      "slang": [
+        {
+          "term": "vibe coding",
+          "definition_en": "Building software by describing the desired outcome to AI and iterating on its generated code.",
+          "definition_zh": "通过向 AI 描述目标、再反复调整生成结果来开发软件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "vibe coding",
+          "ipa": "",
+          "definition_zh": "通过自然语言向 AI 描述需求并持续反馈，让 AI 生成和修改代码的开发方式。",
+          "example_zh": "作者说自己在这一叫法出现之前，就已经向 Paul Graham 演示过这种开发方式。"
+        },
+        {
+          "phrase": "enterprise software development",
+          "ipa": "",
+          "definition_zh": "面向企业业务流程和组织需求的软件开发。",
+          "example_zh": "作者介绍的新书讨论 AI 如何改变企业软件开发，把相关实践带入企业应用场景。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119965240066752682",
+          "text": "I showed Paul Graham vibe coding before it was called that back in July ‘24, and this was his reaction: https://t.co/K6FaCFefId",
+          "url": "https://x.com/amasad/status/2119965240066752682",
+          "summary_en": null
+        },
+        {
+          "id": "2119909166764667292",
+          "text": "If you're in Japan, check out \"Enterprise Vibe Coding,\" a new book from SMFL's digital innovation team on how AI is transforming enterprise software development.\n\nComing November 27. Honored to be on the cover! https://t.co/qfF1k6HsvY",
+          "url": "https://x.com/amasad/status/2119909166764667292",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "MCP could become a broadly useful open protocol for connecting systems, even outside AI, though support for arbitrary callbacks is described as an unresolved piece. Early testing also suggests a new model can handle unusually large amounts of parallel work.",
+      "summary_zh": "MCP 有望成为连接各类系统的通用开放协议，其价值可能超出 AI；任意回调的支持仍是待补环节。早期测试还显示，新模型能够承担更多并行任务。",
+      "slang": [
+        {
+          "term": "MCP",
+          "definition_en": "Model Context Protocol, an open protocol for connecting AI applications with tools and data sources.",
+          "definition_zh": "模型上下文协议，用于连接 AI 应用、工具和数据源的开放协议。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "MCP",
+          "ipa": "",
+          "definition_zh": "Model Context Protocol 的缩写，是连接 AI 应用与外部工具和数据源的开放协议。",
+          "example_zh": "作者认为 MCP 的价值可能超出 AI 场景，帮助更多系统通过统一协议互相通信。"
+        },
+        {
+          "phrase": "arbitrary callbacks",
+          "ipa": "",
+          "definition_zh": "可由使用方自定义、在特定事件或条件发生时被调用的函数或回调机制。",
+          "example_zh": "作者把如何支持任意自定义回调列为协议仍需补齐的一环，但所提供的推文在进一步解释前已被截断。"
+        },
+        {
+          "phrase": "parallel work",
+          "ipa": "",
+          "definition_zh": "多个任务同时推进的并行工作。",
+          "example_zh": "作者在提前测试后认为，新一代模型能承担规模前所未有的并行任务。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119891138450755670",
+          "text": "So bullish on MCP. Its utility exceeds the \"M\" part: even AI aside, it'll be a civilization-scale accomplishment to get all our systems communicating through one universal open protocol.\n\nA missing piece was how to get arbitrary callbacks across sessions. MCP could read and write, but it couldn't tell you later \"this event happened.\" MCP Events fixes this.\n\nWe're adding support in our own MCP. Say an agent makes a deployment, and wants to know when it's complete. Instead of polling, it can subscribe to 𝚍𝚎𝚙𝚕𝚘𝚢𝚖𝚎𝚗𝚝.𝚜𝚞𝚌𝚌𝚎𝚎𝚍𝚎𝚍.\n\nPSA: With Vercel Queues and Workflows, writing the backend machinery for your own MCPs to do this is easy peasy.",
+          "url": "https://x.com/rauchg/status/2119891138450755670",
+          "summary_en": "MCP’s promise extends beyond AI to a universal open protocol for connecting systems. MCP Events adds asynchronous notifications across sessions, letting agents subscribe to events such as deployment completion instead of polling."
+        },
+        {
+          "id": "2119878364794372162",
+          "text": "At @vercel we got to test this model before release. Best way to summarize it: astonishingly brilliant.\n\nOne interesting takeaway: it's very clear that this new generation of models can take on unprecedented bodies of parallel work.\n\nTo actually seize this intelligence, you need cloud sandboxes. Full stop. The model can delegate and orchestrate far more than a single computer can handle. Likely far more than you can even imagine it can handle.\n\nYour bottleneck is now ① your ambition and ② your parallel computing power.\n\nBtw, I learned from @cramforce you don't need to overcomplicate it. Install Vercel CLI, setup the Plugin and tell the agent to use /𝚘𝚏𝚏𝚕𝚘𝚊𝚍-𝚝𝚘-𝚜𝚊𝚗𝚍𝚋𝚘𝚡 skill. It'll provision and de-allocate cloud sandboxes as needed. You don't need a \"multi-agent remote harness ralph orchestrator\" 😆",
+          "url": "https://x.com/rauchg/status/2119878364794372162",
+          "summary_en": "New models can orchestrate enough parallel work that ambition and computing capacity become the bottlenecks, making cloud sandboxes essential to realizing their potential. Vercel’s sandbox skill can provision and release those environments without elaborate orchestration infrastructure."
+        }
+      ]
+    },
+    {
+      "name": "Alex Albert",
+      "handle": "alexalbert__",
+      "summary_en": "Fable 5.2 turned designs from a historical notebook into interactive objects, suggesting a new way to explore source material in education. A repeatable project review prompt asks each new model to fix clear issues and list uncertain ones.",
+      "summary_zh": "Fable 5.2 把历史手稿中的设计变成可交互对象，展示了探索教育素材的新方式。另一种做法是让每代新模型检查项目：修复确定的问题，并列出存疑之处。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "prompt",
+          "ipa": "/prɑːmpt/",
+          "definition_zh": "提供给 AI、用于说明任务和引导输出的输入指令。",
+          "example_zh": "作者每逢新模型发布，就用同一条指令检查所有项目，要求模型修复确定的问题并列出其余问题。"
+        },
+        {
+          "phrase": "inconsistent",
+          "ipa": "/ˌɪnkənˈsɪstənt/",
+          "definition_zh": "指内容、规则或行为之间存在不一致。",
+          "example_zh": "这是项目审查指令中的检查项之一，要求模型寻找项目内部彼此不一致的地方。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119916954337349737",
+          "text": "I gave Fable 5.2 a PDF of one of Leonardo da Vinci’s 500-year-old notebooks and it made his inventions real for me to interact with.\n\nSuch an exciting time for education. Anything from history that’s been stuck on a page can now be something you explore. https://t.co/MVSz3pc4To",
+          "url": "https://x.com/alexalbert__/status/2119916954337349737",
+          "summary_en": null
+        },
+        {
+          "id": "2119884951550386671",
+          "text": "Every time we have a new model, I run the same simple prompt on all my projects:\n\n\"Read this entire project and find everything that’s broken, inconsistent, inefficient, or no longer needed. Fix what you’re sure about and list the rest for me to review.\"\n\nhighly recommend trying",
+          "url": "https://x.com/alexalbert__/status/2119884951550386671",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Progress in coding, computer use, domain knowledge, and reasoning could automate a wider range of knowledge work and enable more autonomous workflows.",
+      "summary_zh": "编程、电脑操作、行业知识与推理能力的进步，可能让更多知识工作实现自动化，并推动更自主的工作流程。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "computer use",
+          "ipa": "",
+          "definition_zh": "在 AI 语境中指模型操作计算机界面并执行任务的能力。",
+          "example_zh": "作者把电脑操作能力与编程、行业理解和推理能力并列，认为这些进步能共同扩大自动化的适用范围。"
+        },
+        {
+          "phrase": "knowledge work",
+          "ipa": "",
+          "definition_zh": "主要依赖专业知识、信息处理和判断来完成的工作。",
+          "example_zh": "作者认为多项模型能力的结合，可以让自动化覆盖更多知识工作领域。"
+        },
+        {
+          "phrase": "general reasoning",
+          "ipa": "",
+          "definition_zh": "可跨不同任务和领域进行分析、推断与解决问题的通用推理能力。",
+          "example_zh": "作者把通用推理视为连接编程、电脑操作和行业理解的重要能力组合之一。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119987129204047894",
+          "text": "It turns out the advancements we’re getting in coding and computer use, combined with industry specific understand and general reasoning, can bring automation to a large number of areas of knowledge work.\n\nWe’re entering the era of autonomous collaborators in a number of industries that haven’t yet had their claude code or codex moment yet. But now this is going to happen. \n\nWe’ll see it in animation, film production, gaming, manufacturing, architecture, product design, robotics, and more. All of these fields have the potential of driving far more output similar to what we’ve seen in software engineering. There’s no inherent finite demand for these categories of work.\n\n“Software is eating the world” is finally in a much bigger way happening because of AI.",
+          "url": "https://x.com/levie/status/2119987129204047894",
+          "summary_en": "Advances in coding, computer use, domain knowledge, and reasoning could bring autonomous AI collaborators to fields such as film, gaming, manufacturing, architecture, and robotics. These industries could see software-like output gains, with demand expanding rather than remaining fixed."
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "Each frontier model release can sharply improve the capabilities available to existing projects, creating an opportunity to revisit what they can do.",
+      "summary_zh": "每次前沿模型发布，都可能让已有项目的能力显著提升，值得重新评估项目能做什么。",
+      "slang": [
+        {
+          "term": "frontier model",
+          "definition_en": "A model at or near the leading edge of current AI capability.",
+          "definition_zh": "能力处于当前 AI 技术前沿的模型。"
+        },
+        {
+          "term": "step function improvement",
+          "definition_en": "A sudden, substantial jump in capability rather than a gradual gain.",
+          "definition_zh": "能力出现明显跃升，而非逐步小幅提升。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Red letter day",
+          "ipa": "",
+          "definition_zh": "指值得庆祝或具有特殊意义的重要日子。",
+          "example_zh": "作者用这个习语形容新模型发布日，表达对项目能力随之提升的兴奋。"
+        },
+        {
+          "phrase": "frontier model",
+          "ipa": "",
+          "definition_zh": "代表当前 AI 能力前沿水平的模型。",
+          "example_zh": "作者认为每次前沿模型发布，现有项目都能获得新的能力提升机会。"
+        },
+        {
+          "phrase": "step function improvement",
+          "ipa": "",
+          "definition_zh": "像阶跃函数一样突然跃升、幅度显著的改进。",
+          "example_zh": "作者借这个数学比喻强调，更换到新模型可能使项目能力一下跃升到更高水平。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119882192088391751",
+          "text": "Red letter day: New frontier model = every one of your projects gets a step function improvement\n\nI'm not sure if I'll ever get sick of frontier model release days https://t.co/Xrhi6YX5Jz https://t.co/hBVJHDnAob",
+          "url": "https://x.com/garrytan/status/2119882192088391751",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "People may recognize when someone sends everything through AI and repeats the output without adding their own judgment. The warning is to treat AI output as material to assess, rather than as a finished thought.",
+      "summary_zh": "人们可能看得出哪些内容只是交给 AI 处理后原样转述。这条提醒强调，应对 AI 输出作出自己的判断，而非直接当作成熟观点。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "regurgitating",
+          "ipa": "/rɪˈɡɜːrdʒɪteɪtɪŋ/",
+          "definition_zh": "比喻未经独立思考就机械复述已有内容，通常带有贬义。",
+          "example_zh": "作者批评把所有内容交给 AI 后直接照搬输出的做法，并指出别人其实能察觉这种缺乏个人判断的表达。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119850705901191339",
+          "text": "Ever since I read Niklas Gruhn's excellent article (https://t.co/ojHWKndeEL), I think about this every day..\n\nIf you don't think people notice that you are feeding everything to AI and regurgitating it back, people actually do!!\n\n(because they are probably already getting an opinion with the same agents)",
+          "url": "https://x.com/nikunj/status/2119850705901191339",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Early team testing of Claude Fable 5.2 reportedly sparked more ambitious creative work, especially when the model was given a substantial project. A separate post teases an upcoming Vibe Check release.",
+      "summary_zh": "团队早期试用 Claude Fable 5.2 后，据称出现了更多有抱负的创意项目，尤其是在交给模型较大任务时。另一条帖子预告即将推出 Vibe Check。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "Vibe Check",
+          "ipa": "",
+          "definition_zh": "原指对氛围、感觉或状态的快速判断，这里用作名称。",
+          "example_zh": "作者预告名为「Vibe Check」的内容即将发布，所提供的文字没有说明具体形式。"
+        },
+        {
+          "phrase": "dropping",
+          "ipa": "/ˈdrɑːpɪŋ/",
+          "definition_zh": "在产品和内容发布语境中表示推出或上线。",
+          "example_zh": "「dropping soon」表示 Vibe Check 即将发布，带有口语化的预告语气。"
+        },
+        {
+          "phrase": "paradigm-shifting",
+          "ipa": "/ˈpærədaɪm ˌʃɪftɪŋ/",
+          "definition_zh": "指足以改变既有思考框架或工作方式的。",
+          "example_zh": "作者用这个强烈的评价描述新模型，并认为足够有雄心的项目才能发挥它的潜力。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119871917104455924",
+          "text": "Vibe Check dropping soon: https://t.co/pY1lpUDlOL",
+          "url": "https://x.com/danshipper/status/2119871917104455924",
+          "summary_en": null
+        },
+        {
+          "id": "2119869228207546638",
+          "text": "BREAKING:\n\n@AnthropicAI just dropped Claude Fable 5.2. It’s a paradigm-shifting model if you have a project ambitious enough to give it.\n\nWe’ve been testing it at @every, and I’ve seen this crazy explosion of creativity on the team. People are making their own creative software, games for their kids, and documentaries instead of slide decks.\n\nHere’s your day zero vibe check:\n\n• Coding: @kieranklaassen built Everycut, a video editor with the features we use from Premiere, Descript, and other tools—all in one app, with an agent built in. The first version was live in 3 days, and we immediately used it for our internal show-and-tell. This feels like a new era of professionals building their own professional tools, tailored to exactly how they work.\n\n• Games and design: @jackcheng gave it a photo of his toddler’s messy playroom. It turned the actual toys into a playable racing game, with fun details like a stray shoe as an obstacle and a sippy cup as a power-up.\n\n• Knowledge work: @hammer_mt turned his research into a documentary. The model came up with interview questions, he answered them on camera, and it cut the footage together. He called this the most productive 3 weeks of his career.\n\n• A different way of working: Give it a big job and leave it running overnight or over a weekend. But tell it what “done” means: Mike found it could finish the build, then spend another day or two testing. Set the goal, the budget, and how much checking you need before walking away.\n\n• The catch: It’s slow and burns through tokens. Our early-access usage was free, and these projects would have been expensive at API rates. It’s 20% cheaper than Fable 5.1, but for everyday writing, emails, or quick back-and-forth coding, I’d usually reach for something else.\n\nThe clearest signal: When our early access ended, @TylerNishida stopped working on some projects until he could get this model back. He didn’t want to build them with anything else.\n\nThe best measure of a new model is whether it makes you try things you wouldn’t have tried before.\n\nFable 5.2 absolutely does that.\n\nHere’s our full day-zero Vibe Check:",
+          "url": "https://x.com/danshipper/status/2119869228207546638",
+          "summary_en": "Early tests of Claude Fable 5.2 reportedly enabled ambitious projects including a custom video editor, a game built from a playroom photo, and a research documentary. Long autonomous runs benefit from explicit completion criteria, budgets, and testing limits, while speed and token consumption remain drawbacks."
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "The Nuance AI team launched a new offering and invited people to try it; the supplied post does not describe its features.",
+      "summary_zh": "Nuance AI 团队推出了新产品并邀请用户试用；所提供的帖子没有说明具体功能。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2119858043869683935",
+          "text": "Huge launch from the @nuance_ai team today. Try it out now. https://t.co/ReI56ync88",
+          "url": "https://x.com/adityaag/status/2119858043869683935",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "handle": "claudeai",
+      "summary_en": "Claude Fable 5.2 is available on paid plans, while access to Claude Mythos 5.2 is open to applications for beneficial cybersecurity and biomedical research. Two physics findings have also been documented in preprints.",
+      "summary_zh": "Claude Fable 5.2 已面向付费方案开放；从事有益网络安全或生物医学研究的机构可申请使用 Claude Mythos 5.2。另外两项物理研究结果已写成预印本。",
+      "slang": [
+        {
+          "term": "preprint",
+          "definition_en": "A research paper made public before formal peer review or journal publication.",
+          "definition_zh": "在正式同行评审或期刊发表前公开的研究论文。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "cybersecurity",
+          "ipa": "/ˌsaɪbərsɪˈkjʊrəti/",
+          "definition_zh": "保护计算机系统、网络和数据免受攻击或未经授权访问的领域。",
+          "example_zh": "公告把有益的网络安全应用列为可申请 Claude Mythos 5.2 访问权限的方向之一。"
+        },
+        {
+          "phrase": "preprints",
+          "ipa": "/ˈpriːprɪnts/",
+          "definition_zh": "在正式期刊发表前公开分享的学术论文稿件，通常尚未经同行评审。",
+          "example_zh": "账号说明两项物理研究结果已写成预印本，并分别提供了链接。"
+        },
+        {
+          "phrase": "quantum gravity",
+          "ipa": "",
+          "definition_zh": "尝试用量子理论描述引力的物理学研究领域。",
+          "example_zh": "其中一篇预印本讨论一种用于排除量子引力候选理论的技术，并研究该技术的精确极限。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119899492778398163",
+          "text": "Claude Fable 5.2 is available today on all paid plans.\n\nOrganizations pursuing beneficial applications in cybersecurity or biomedical research can apply for access to Claude Mythos 5.2.\n\nRead more: https://t.co/50jMVOmUG7",
+          "url": "https://x.com/claudeai/status/2119899492778398163",
+          "summary_en": null
+        },
+        {
+          "id": "2119899491310432269",
+          "text": "Both physics results are written up in preprints.\n\nOn the abrupt transition in very small universes: https://t.co/He3fWJc3u9\n\nOn the exact limit of a technique used to rule out candidate theories of quantum gravity: https://t.co/TwAyTW9Jxw",
+          "url": "https://x.com/claudeai/status/2119899491310432269",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord &amp; Team",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "summary_en": "The discussion projects rapid growth for an AI market but argues that reliable interpretation of basic images must come before more ambitious medical claims. In high-stakes workflows, a 95% accurate output can still fail to save time if correcting errors takes as much effort as doing the work.",
+      "summary_zh": "讨论预测某个 AI 市场将快速增长，但认为在谈论更宏大的医疗突破前，模型得先可靠地解读基础图像。在高风险流程中，即使输出有 95% 的准确率，纠错成本也可能抵消节省的时间。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "untapped",
+      "ipa": "/ʌnˈtæpt/",
+      "pos": "adj",
+      "definition_en": "Available but not yet used or fully explored.",
+      "definition_zh": "尚未开发或充分利用的。",
+      "synonyms": [
+        "unused",
+        "unexploited"
+      ],
+      "example_en": "Your subscription may offer untapped value through features you rarely use.",
+      "example_zh": "你很少使用的功能可能蕴藏着订阅服务中尚未发掘的价值。"
+    },
+    {
+      "word": "dictation",
+      "ipa": "/dɪkˈteɪʃən/",
+      "pos": "noun",
+      "definition_en": "Speaking words so that a person or device can write them down.",
+      "definition_zh": "口述；让他人或设备将说出的话记录成文字。",
+      "synonyms": [
+        "oral input",
+        "voice input"
+      ],
+      "example_en": "She uses dictation to draft messages while walking.",
+      "example_zh": "她走路时用语音输入起草消息。"
+    },
+    {
+      "word": "transcription",
+      "ipa": "/trænˈskrɪpʃən/",
+      "pos": "noun",
+      "definition_en": "The process of converting speech or recorded audio into written text.",
+      "definition_zh": "将语音或录音转换为文字的过程；转写。",
+      "synonyms": [
+        "speech-to-text conversion"
+      ],
+      "example_en": "Accurate transcription makes voice input more useful.",
+      "example_zh": "准确的转写让语音输入更实用。"
+    },
+    {
+      "word": "handoff",
+      "ipa": "/ˈhændɔːf/",
+      "pos": "noun",
+      "definition_en": "The transfer of work, information, or responsibility to another person or team.",
+      "definition_zh": "将工作、信息或责任移交给另一个人或团队。",
+      "synonyms": [
+        "transfer",
+        "handover"
+      ],
+      "example_en": "Each handoff between teams can introduce delays.",
+      "example_zh": "团队之间的每一次交接都可能造成延误。"
+    },
+    {
+      "word": "lossy",
+      "ipa": "/ˈlɔːsi/",
+      "pos": "adj",
+      "definition_en": "Involving the loss of information; here, describing a workflow that loses context during transfers.",
+      "definition_zh": "有信息损失的；此处指工作交接时会丢失背景信息或细节。",
+      "synonyms": [
+        "information-losing"
+      ],
+      "example_en": "A brief summary can be a lossy way to communicate user research.",
+      "example_zh": "用简短摘要传达用户研究结果，可能会损失一些信息。"
+    },
+    {
+      "word": "iterate",
+      "ipa": "/ˈɪtəreɪt/",
+      "pos": "verb",
+      "definition_en": "To repeat a process, improving the result through successive versions.",
+      "definition_zh": "迭代；通过反复修改逐步改进。",
+      "synonyms": [
+        "refine",
+        "revise"
+      ],
+      "example_en": "The team can iterate on a prototype after each user interview.",
+      "example_zh": "团队可以在每次用户访谈后迭代原型。"
+    },
+    {
+      "word": "roadshow",
+      "ipa": "/ˈroʊdʃoʊ/",
+      "pos": "noun",
+      "definition_en": "A series of presentations in different locations, often used to attract investors before a public offering.",
+      "definition_zh": "路演；在不同地点进行的一系列推介活动，常用于上市前吸引投资者。",
+      "synonyms": [
+        "presentation tour",
+        "investor tour"
+      ],
+      "example_en": "The company prepared an investor presentation for its IPO roadshow.",
+      "example_zh": "公司为首次公开募股路演准备了投资者演示材料。"
+    }
+  ],
+  "quote": {
+    "text_en": "Every handoff is an opportunity to ask what could be understood more deeply.",
+    "text_zh": "每一次交接，都是追问如何理解得更深入的机会。",
+    "author": "Original reflection"
+  },
+  "slang_glossary": [
+    {
+      "term": "GTM",
+      "definition_en": "Go-to-market: the plan and activities for bringing a product to customers.",
+      "definition_zh": "Go-to-market 的缩写，指将产品推向市场并触达客户的策略与行动。"
+    },
+    {
+      "term": "vibe coding",
+      "definition_en": "Building software mainly by describing desired results to AI and guiding its generated code.",
+      "definition_zh": "主要通过向 AI 描述需求并引导其生成代码来开发软件。"
+    },
+    {
+      "term": "MCP",
+      "definition_en": "Model Context Protocol: a protocol for connecting AI applications to tools and data sources.",
+      "definition_zh": "模型上下文协议，用于连接 AI 应用与工具、数据源。"
+    },
+    {
+      "term": "frontier model",
+      "definition_en": "An AI model near the leading edge of capabilities at a given time.",
+      "definition_zh": "在某一时期能力处于前沿水平的 AI 模型。"
+    },
+    {
+      "term": "step function improvement",
+      "definition_en": "A sudden, substantial jump in performance rather than gradual progress.",
+      "definition_zh": "性能突然出现大幅跃升，而非缓慢改善。"
+    },
+    {
+      "term": "preprint",
+      "definition_en": "A research manuscript shared publicly before formal peer review.",
+      "definition_zh": "正式同行评审前公开分享的研究论文稿件，即预印本。"
+    },
+    {
+      "term": "bro",
+      "definition_en": "An informal way to address or refer to someone, often expressing familiarity or amazement.",
+      "definition_zh": "「哥们」「兄弟」；也常用于表达惊讶或熟络的语气。"
+    },
+    {
+      "term": "demo",
+      "definition_en": "Short for demonstration: a presentation showing what a product can do.",
+      "definition_zh": "demonstration 的简称，指展示产品能力的演示。"
+    },
+    {
+      "term": "lol",
+      "definition_en": "Laughing out loud; often used to signal amusement or a casual tone.",
+      "definition_zh": "laughing out loud 的缩写，表示好笑，也可用于营造轻松语气。"
+    },
+    {
+      "term": "u",
+      "definition_en": "An informal text abbreviation for you.",
+      "definition_zh": "you 的非正式网络缩写。"
+    },
+    {
+      "term": "wildin",
+      "definition_en": "Acting wildly or doing something unusually bold, surprising, or outrageous.",
+      "definition_zh": "做出大胆、惊人或离谱的举动；此处带有惊叹的意味。"
+    },
+    {
+      "term": "btw",
+      "definition_en": "An abbreviation for by the way.",
+      "definition_zh": "by the way 的缩写，意为「顺便说一下」。"
+    },
+    {
+      "term": "$ANT",
+      "definition_en": "A ticker-style reference using a dollar sign; the sample does not establish whether it is an actual listed ticker.",
+      "definition_zh": "使用美元符号的证券代码式写法；样本文本不足以确认它是否为真实上市代码。"
+    },
+    {
+      "term": "IPO",
+      "definition_en": "Initial public offering: a company's first offering of shares to the public.",
+      "definition_zh": "首次公开募股，指公司首次向公众发行股票。"
+    },
+    {
+      "term": "roadshow",
+      "definition_en": "A series of promotional presentations, especially to potential investors.",
+      "definition_zh": "路演，尤其指面向潜在投资者的一系列推介活动。"
+    },
+    {
+      "term": "had this in the chamber",
+      "definition_en": "Had something prepared and ready to release or use.",
+      "definition_zh": "早已准备好某项成果，随时可以发布或拿出来用。"
+    },
+    {
+      "term": "reset",
+      "definition_en": "In this subscription context, a replenishment or restart of a usage allowance.",
+      "definition_zh": "在订阅服务语境中，指使用额度的恢复或重新计数。"
+    },
+    {
+      "term": "cloud computer",
+      "definition_en": "A remotely hosted computer accessed over the internet.",
+      "definition_zh": "通过互联网访问、运行在远程服务器上的计算机。"
+    },
+    {
+      "term": "PSA",
+      "definition_en": "Public service announcement; online, a useful tip or notice shared with others.",
+      "definition_zh": "public service announcement 的缩写；网络中常指向大家分享的实用提醒。"
+    },
+    {
+      "term": "wanna",
+      "definition_en": "An informal spoken or written form of want to.",
+      "definition_zh": "want to 的非正式口语或书面形式，意为「想要」。"
+    },
+    {
+      "term": "global dictation",
+      "definition_en": "Voice input available across applications or system text fields.",
+      "definition_zh": "可跨应用或在系统文本输入位置使用的语音输入功能。"
+    },
+    {
+      "term": "in-app",
+      "definition_en": "Happening or available within a particular application.",
+      "definition_zh": "在某个应用内部发生或提供的。"
+    },
+    {
+      "term": "transcription path",
+      "definition_en": "The processing pipeline that converts speech into text.",
+      "definition_zh": "将语音转换为文字的处理流程。"
+    },
+    {
+      "term": "product lifecycle",
+      "definition_en": "The stages a product passes through; here, from market understanding to launch activities.",
+      "definition_zh": "产品生命周期；此处指从市场理解、设计、开发到推向市场的各阶段。"
+    },
+    {
+      "term": "PMs",
+      "definition_en": "Product managers in this context.",
+      "definition_zh": "此处指产品经理，英文为 product managers。"
+    },
+    {
+      "term": "org",
+      "definition_en": "An informal abbreviation for organization.",
+      "definition_zh": "organization 的简称，指组织或公司。"
+    },
+    {
+      "term": "handoff-heavy",
+      "definition_en": "Requiring many transfers of work or responsibility between people or teams.",
+      "definition_zh": "需要在人或团队之间频繁交接工作的。"
+    },
+    {
+      "term": "lossy",
+      "definition_en": "Losing information or context during a process or transfer.",
+      "definition_zh": "在处理或传递过程中丢失信息或上下文的。"
+    },
+    {
+      "term": "iterate",
+      "definition_en": "To improve something through repeated cycles of building, testing, and revision.",
+      "definition_zh": "通过反复构建、测试和修改来改进，即「迭代」。"
+    }
+  ],
+  "stats": {
+    "builders": 15,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 29,
+    "feedGeneratedAt": "2026-11-10T06:27:38.415Z"
+  }
+}

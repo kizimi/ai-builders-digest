@@ -1,0 +1,548 @@
+{
+  "date": "2026-11-14",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Invites readers to an event the following day; the supplied text does not identify its topic.",
+      "summary_zh": "邀请读者参加次日的一场活动，但所提供的文字没有说明活动主题。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2121473082372292885",
+          "text": "come to https://t.co/Jlx1Lz0P5U tmr !\n\nhttps://t.co/3Zb9a9HZlY",
+          "url": "https://x.com/swyx/status/2121473082372292885",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Questions whether the reporting substantiates espionage allegations against Alice Huang, pointing to Singapore government material and an NVIDIA employee's account. Encourages readers to investigate independently.",
+      "summary_zh": "质疑相关报道是否有足够证据支持针对 Alice Huang 的间谍指控，并引用新加坡政府材料和一位 NVIDIA 员工的叙述，鼓励读者自行核查。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "jumping to conclusions",
+          "ipa": "",
+          "definition_zh": "指证据尚不充分就仓促下结论。",
+          "example_zh": "他用这个表达批评《华尔街日报》的报道，认为现有材料仍不足以确定 Alice Huang 是间谍。"
+        },
+        {
+          "phrase": "do your own research",
+          "ipa": "",
+          "definition_zh": "指自行查证资料并独立判断。",
+          "example_zh": "他分享 NVIDIA 员工的说法后，鼓励读者亲自核查信息，而不是直接接受报道或他的观点。"
+        },
+        {
+          "phrase": "questionable reporting",
+          "ipa": "",
+          "definition_zh": "指准确性、证据或报道方式值得质疑的新闻报道。",
+          "example_zh": "他用这个短语评价相关报道，并引用新加坡政府的材料说明自己的质疑。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121431117526134923",
+          "text": "And here's a story from an NVIDIA employee. Btw, I encourage anyone reading this to do your own research.\n\nhttps://t.co/Yf5NhhhArY",
+          "url": "https://x.com/petergyang/status/2121431117526134923",
+          "summary_en": null
+        },
+        {
+          "id": "2121430819667579031",
+          "text": "Here's some evidence of the questionable reporting - it's still unclear that Alice Huang is a spy despite WSJ jumping to conclusions.\n\nThis is from the Singapore gov: https://t.co/6WnZqOt0KH https://t.co/TvUEyV1bOB",
+          "url": "https://x.com/petergyang/status/2121430819667579031",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "Reports ongoing work with Visa on AI agent commerce, with additional features and use cases planned. Also says a Replit-hosted support page had its rate limit increased to accommodate more traffic.",
+      "summary_zh": "表示正与 Visa 合作推进 AI 智能体商业交易，并计划推出更多功能和应用场景。另外，已提高一个托管在 Replit 上的支持页面的访问限额，以承接更多流量。",
+      "slang": [
+        {
+          "term": "agentic commerce",
+          "definition_en": "Commerce in which AI agents help carry out shopping or payment tasks on a user's behalf.",
+          "definition_zh": "由 AI 智能体协助或代表用户完成购物、支付等任务的商业模式。"
+        },
+        {
+          "term": "rate limit",
+          "definition_en": "A cap on how many requests a service allows within a given period.",
+          "definition_zh": "服务在一定时间内允许处理的请求数量上限。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "agentic commerce",
+          "ipa": "",
+          "definition_zh": "指由 AI 智能体参与或执行购物、支付等商业活动的模式。",
+          "example_zh": "他表示正在与 Visa 合作推进这一领域，并预告还会推出更多功能和应用场景。"
+        },
+        {
+          "phrase": "rate limit",
+          "ipa": "",
+          "definition_zh": "指系统在一定时间内允许处理的请求数量上限。",
+          "example_zh": "他帮助提高了 Replit 上某个支持页面的请求上限，让页面能够承受更多访问。"
+        },
+        {
+          "phrase": "scale",
+          "ipa": "/skeɪl/",
+          "definition_zh": "在技术语境中指系统能够扩展容量以应对更大的负载。",
+          "example_zh": "他说页面现在应该能够「scale」，意思是提高请求上限后，页面应该可以应对分享带来的更多流量。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121428406764204199",
+          "text": "It's been great partnering with @Visa on agentic commerce. More features and use cases are coming! https://t.co/R15wSaMQ7c",
+          "url": "https://x.com/amasad/status/2121428406764204199",
+          "summary_en": null
+        },
+        {
+          "id": "2121389001546567837",
+          "text": "Worked with the owner of the StandWithJensen page, which is built and hosted on Replit, to raise the rate limit. It should now scale!\n\nFeel free to share @GavinSBaker https://t.co/7fMPobz2ud",
+          "url": "https://x.com/amasad/status/2121389001546567837",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Expresses strong conviction that Vercel Sandbox is an inevitable development, without explaining the reasoning in the supplied text.",
+      "summary_zh": "表达了对 Vercel Sandbox 发展必然性的强烈信心，但所提供的文字没有展开理由。",
+      "slang": [
+        {
+          "term": "Sandbox",
+          "definition_en": "An isolated environment for running code with controlled access to surrounding systems.",
+          "definition_zh": "用于运行代码的隔离环境，可控制代码对外部系统的访问。"
+        },
+        {
+          "term": "Co-sign",
+          "definition_en": "To publicly endorse someone else's statement or opinion.",
+          "definition_zh": "公开赞同或支持他人的说法或观点。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Co-sign",
+          "ipa": "/ˈkoʊsaɪn/",
+          "definition_zh": "在社交媒体口语中表示赞同或为某人的观点背书。",
+          "example_zh": "他用这个词表态支持链接中的内容，但推文本身没有说明具体赞同什么。"
+        },
+        {
+          "phrase": "Sandbox",
+          "ipa": "/ˈsændbɑːks/",
+          "definition_zh": "在软件领域指供程序隔离运行或测试的受控环境。",
+          "example_zh": "这个词出现在产品名 Vercel Sandbox 中；他断言其发展不可避免，但没有提供具体理由。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121351007615811799",
+          "text": "Co-sign https://t.co/BaaFgrSaXG",
+          "url": "https://x.com/rauchg/status/2121351007615811799",
+          "summary_en": null
+        },
+        {
+          "id": "2121347136965210286",
+          "text": "Vercel Sandbox is inevitable https://t.co/w25tdheX95",
+          "url": "https://x.com/rauchg/status/2121347136965210286",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "Recommends keeping Opus 5.5 as the default coding model, citing a 52-task evaluation in which Fable 5.2 achieved a similar solve rate but cost 2.80 times as much per solved task. Shares an open-source evaluation repository behind the comparison.",
+      "summary_zh": "建议继续将 Opus 5.5 设为默认编程模型：其引用的 52 项任务评测显示，Fable 5.2 的解决率相近，但每解决一项任务的成本是前者的 2.80 倍。同时分享了用于比较的开源评测仓库。",
+      "slang": [
+        {
+          "term": "harness",
+          "definition_en": "The software framework that runs a model through tasks and records its results.",
+          "definition_zh": "组织模型执行任务并记录结果的软件框架。"
+        },
+        {
+          "term": "eval",
+          "definition_en": "An evaluation used to measure an AI system's performance on selected tasks.",
+          "definition_zh": "用于衡量 AI 系统在指定任务上表现的评测。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "harness",
+          "ipa": "/ˈhɑːrnəs/",
+          "definition_zh": "在软件评测中指组织测试任务、运行过程和结果记录的配套框架。",
+          "example_zh": "他提到开源评测仓库中的测试框架，用来比较编码模型完成任务的表现与成本。"
+        },
+        {
+          "phrase": "eval",
+          "ipa": "/ɪˈvæl/",
+          "definition_zh": "是 evaluation 的缩写，在 AI 圈通常指模型能力评测。",
+          "example_zh": "他分享自己的评测仓库，作为比较两个模型在 52 项编码任务中表现的依据。"
+        },
+        {
+          "phrase": "per solved task",
+          "ipa": "",
+          "definition_zh": "指按每个成功解决的任务计算的单位指标。",
+          "example_zh": "他比较的是每解决一个任务的成本，并据此称 Fable 5.2 的成本为 Opus 5.5 的 2.80 倍。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121464508225053153",
+          "text": "Keep Opus 5.5 as your coding default in Claude Code. On 52 coding tasks in Claude Code 2.1.322, Fable 5.2 solved about as many (82.7% vs 84.6%) but cost 2.80x as much per solved task.\n\nOpus already solves most of these tasks, though, so telling the two apart will take harder ones.\n\nhttps://t.co/SfIvr9pHNg",
+          "url": "https://x.com/garrytan/status/2121464508225053153",
+          "summary_en": null
+        },
+        {
+          "id": "2121463161069228382",
+          "text": "Here's my open source harness eval repo and what it found\n\nhttps://t.co/v0sQymE8qM https://t.co/XWp5KliSlN",
+          "url": "https://x.com/garrytan/status/2121463161069228382",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "Jokes that venture capitalists will inevitably offer opinions on an aviation disruption, poking fun at commentary outside their expertise.",
+      "summary_zh": "调侃风险投资人很快就会对航空运行中断发表意见，讽刺他们热衷于点评专业领域之外的事件。",
+      "slang": [
+        {
+          "term": "VCs",
+          "definition_en": "Venture capitalists who invest in startups.",
+          "definition_zh": "投资初创企业的风险投资人。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "VCs",
+          "ipa": "/ˌviːˈsiːz/",
+          "definition_zh": "是 venture capitalists 的缩写，指风险投资人。",
+          "example_zh": "他调侃风险投资人很快也会对全国机场暂停放行的事件发表意见，暗讽其跨领域评论的习惯。"
+        },
+        {
+          "phrase": "opine",
+          "ipa": "/oʊˈpaɪn/",
+          "definition_zh": "指发表意见，是较正式且有时带调侃意味的用词。",
+          "example_zh": "他用这个略显郑重的词描述投资人即将发表航空事件评论，让整句更像讽刺性的突发新闻。"
+        },
+        {
+          "phrase": "ground stop",
+          "ipa": "",
+          "definition_zh": "指空中交通管理中暂时禁止相关航班起飞的措施。",
+          "example_zh": "推文以 FAA 全国机场暂停放行为背景，笑点在于投资人也会迅速对这一航空专业事件发表评论。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121358328169132503",
+          "text": "Breaking news: VCs to opine shortly on FAA nationwide airport ground stop.",
+          "url": "https://x.com/mattturck/status/2121358328169132503",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Describes a reported nationwide flight ground stop as exceptionally rare, while noting its cause is unclear. Separately argues that models should be judged through real workflows rather than benchmark-driven boasting.",
+      "summary_zh": "将所述全国性航班停飞描述为极其罕见的事件，同时表示原因尚不明确。另批评围绕基准分数炫耀模型能力，主张通过实际工作流程判断模型是否适用。",
+      "slang": [
+        {
+          "term": "benchmark-maxxing",
+          "definition_en": "Prioritizing benchmark scores, potentially at the expense of practical usefulness.",
+          "definition_zh": "过度追求基准测试分数，可能忽视实际使用价值。"
+        },
+        {
+          "term": "flex",
+          "definition_en": "A display intended to impress others or signal superiority.",
+          "definition_zh": "为了给人留下印象或显示优势而进行的炫耀。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "benchmark-maxxing as a flex",
+          "ipa": "",
+          "definition_zh": "指把极力追求基准测试高分当作炫耀实力的方式。",
+          "example_zh": "他批评模型圈再次热衷刷榜炫技，认为实际工作流程中的使用体验更能说明模型是否好用。"
+        },
+        {
+          "phrase": "workflows",
+          "ipa": "/ˈwɜːrkfloʊz/",
+          "definition_zh": "指完成某类工作所需的一系列步骤与工具衔接。",
+          "example_zh": "他主张把模型放进自己的真实工作流程中使用，再判断哪些模型真正适合自己的需求。"
+        },
+        {
+          "phrase": "ground stop",
+          "ipa": "",
+          "definition_zh": "指空中交通管理中暂时禁止相关航班起飞的措施。",
+          "example_zh": "他用这个航空术语讨论据称发生的全国性航班暂停放行，并强调原因尚不明确。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121366466905981435",
+          "text": "Just to shed some light on how crazy the FAA ground stop is, this is only the THIRD time in modern history it's ever happened..\n\nFirst time was 9/11, second time was the NOTAM system outage in 2023, and now today (reasons unclear).\n\nHappy Friday the 13th to all the agents celebrating 💀",
+          "url": "https://x.com/nikunj/status/2121366466905981435",
+          "summary_en": null
+        },
+        {
+          "id": "2121320899161010360",
+          "text": "I thought after Llama 4 we had stopped benchmark-maxxing as a flex.. but it seems like the cartel is back again. \n\nThere’s no substitute to really using the models for your workflows to understand the best ones that actually work for your workflows. \n\nIn reality, there’s only very very few benchmarks that truly matter, and the real ones know. \n\nRest is primarily posturing or hill climbing on one just to use as marketing (which in reality does work for a select group of companies but won’t last over time)",
+          "url": "https://x.com/nikunj/status/2121320899161010360",
+          "summary_en": "Choose AI models by testing them on your actual workflows rather than trusting benchmark scores. Only a few benchmarks meaningfully matter; most benchmark optimization serves marketing rather than demonstrating real-world usefulness."
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Calls for the AI community to help address an unspecified problem he believes is becoming more common. Also raises the question of why teams keep paying for software despite increasingly capable AI-assisted app creation.",
+      "summary_zh": "呼吁 AI 行业共同解决一个他认为日益常见的问题，但所提供的文字没有说明具体问题。另提出一个疑问：即使 AI 辅助开发越来越强，团队为何仍会付费购买软件。",
+      "slang": [
+        {
+          "term": "vibe code",
+          "definition_en": "To create software by prompting AI and iterating on its output, often with limited manual coding.",
+          "definition_zh": "通过向 AI 描述需求并反复调整生成结果来开发软件，通常较少手动编写代码。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "vibe code",
+          "ipa": "",
+          "definition_zh": "指主要通过自然语言引导 AI 生成和修改代码来开发软件。",
+          "example_zh": "他提出一个问题：即使 AI 已经能按需求生成各种应用，为什么团队仍然愿意付费购买软件？"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121367890095960507",
+          "text": "stuff like this seems to be getting more common. extremely impt it gets fixed, and everyone in AI should be willing to help make sure it does https://t.co/SahVGlswJ4",
+          "url": "https://x.com/danshipper/status/2121367890095960507",
+          "summary_en": null
+        },
+        {
+          "id": "2121248233510818003",
+          "text": "why teams still pay for software even when Fable 5.2 can vibe code anything:\nhttps://t.co/x2ijjgwjaN https://t.co/IqaqbBkjLW",
+          "url": "https://x.com/danshipper/status/2121248233510818003",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "Celebrates seven portfolio companies being included in an AI 100 list, spanning infrastructure and applications. Also expresses a general sense that current events feel unusually strange.",
+      "summary_zh": "庆祝旗下七家投资组合公司入选 AI 100 榜单，涉及基础设施和应用领域。同时笼统感叹当下的局势格外奇异。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "weird timeline",
+          "ipa": "",
+          "definition_zh": "是网络表达，用仿佛身处奇怪平行时间线的说法形容现实荒诞。",
+          "example_zh": "他用这个表达感叹当下现实异常离奇，但没有说明具体指哪些事件。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2121372222292201767",
+          "text": "We are in an extremely weird timeline right now.",
+          "url": "https://x.com/adityaag/status/2121372222292201767",
+          "summary_en": null
+        },
+        {
+          "id": "2121281677238604148",
+          "text": "Proud of our companies in the AI 100.\n\nBaseten, Render, Profound, Replit, Gamma, Cog and Density. https://t.co/Z3s327MaF0",
+          "url": "https://x.com/adityaag/status/2121281677238604148",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Training Data",
+      "title": "A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "summary_en": "Uses Apple's combination of internet access and a handheld phone to illustrate a product philosophy: combining existing capabilities can create a compelling new experience. The excerpt presents this as an inspiration rather than establishing the historical claim about who first conceived the combination.",
+      "summary_zh": "以苹果将互联网与手持电话结合为例，说明一种产品理念：整合已有能力，可以创造有吸引力的新体验。这段内容是在阐述产品灵感，并未证实谁最先提出这种组合的历史说法。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "questionable",
+      "ipa": "/ˈkwes.tʃən.ə.bəl/",
+      "pos": "adj",
+      "definition_en": "Giving reason for doubt; possibly unreliable.",
+      "definition_zh": "可疑的；值得质疑的。",
+      "synonyms": [
+        "doubtful",
+        "dubious"
+      ],
+      "example_en": "The article's questionable reporting prompted readers to check the evidence.",
+      "example_zh": "那篇文章值得质疑的报道促使读者核查证据。"
+    },
+    {
+      "word": "clinical trial",
+      "ipa": "/ˈklɪn.ɪ.kəl ˈtraɪ.əl/",
+      "pos": "noun",
+      "definition_en": "A research study that tests a medical treatment in people.",
+      "definition_zh": "临床试验；在人身上测试医疗方法的研究。",
+      "synonyms": [
+        "medical study",
+        "treatment study"
+      ],
+      "example_en": "The family looked for clinical trials relevant to the patient's condition.",
+      "example_zh": "家属寻找与患者病情相关的临床试验。"
+    },
+    {
+      "word": "inevitable",
+      "ipa": "/ɪnˈev.ɪ.tə.bəl/",
+      "pos": "adj",
+      "definition_en": "Certain to happen or impossible to avoid.",
+      "definition_zh": "不可避免的；必然发生的。",
+      "synonyms": [
+        "unavoidable",
+        "certain"
+      ],
+      "example_en": "The developer believes wider use of sandboxes is inevitable.",
+      "example_zh": "这位开发者认为沙盒的更广泛应用是必然的。"
+    },
+    {
+      "word": "monumental",
+      "ipa": "/ˌmɑːn.jəˈmen.təl/",
+      "pos": "adj",
+      "definition_en": "Extremely large or important.",
+      "definition_zh": "重大的；意义深远的。",
+      "synonyms": [
+        "significant",
+        "momentous"
+      ],
+      "example_en": "The team described the workflow update as a monumental step forward.",
+      "example_zh": "团队称这次工作流更新是向前迈出的重大一步。"
+    },
+    {
+      "word": "durability",
+      "ipa": "/ˌdʊr.əˈbɪl.ə.ti/",
+      "pos": "noun",
+      "definition_en": "The ability to remain usable or retain data despite interruptions or failures.",
+      "definition_zh": "持久性；在中断或故障后仍能保持可用或保留数据的能力。",
+      "synonyms": [
+        "resilience",
+        "persistence"
+      ],
+      "example_en": "A durability log helps the workflow recover after a failure.",
+      "example_zh": "持久化日志帮助工作流在故障后恢复。"
+    },
+    {
+      "word": "subtle",
+      "ipa": "/ˈsʌt.əl/",
+      "pos": "adj",
+      "definition_en": "Hard to notice or distinguish, but potentially important.",
+      "definition_zh": "细微的；不易察觉但可能很重要的。",
+      "synonyms": [
+        "nuanced",
+        "delicate"
+      ],
+      "example_en": "The engineers ironed out subtle issues before release.",
+      "example_zh": "工程师在发布前解决了一些细微的问题。"
+    }
+  ],
+  "quote": {
+    "text_en": "Progress begins when curiosity meets careful evidence.",
+    "text_zh": "当好奇心遇上审慎的证据，进步便由此开始。",
+    "author": "Original"
+  },
+  "slang_glossary": [
+    {
+      "term": "agentic commerce",
+      "definition_en": "Shopping or payment tasks carried out with the help of AI agents.",
+      "definition_zh": "智能体商业；由 AI 智能体协助完成购物或支付任务。"
+    },
+    {
+      "term": "rate limit",
+      "definition_en": "A cap on how many requests a service accepts within a set time.",
+      "definition_zh": "速率限制；服务在一定时间内允许的请求数量上限。"
+    },
+    {
+      "term": "Sandbox",
+      "definition_en": "An isolated environment for running code or testing software.",
+      "definition_zh": "沙盒；用于运行代码或测试软件的隔离环境。"
+    },
+    {
+      "term": "Co-sign",
+      "definition_en": "To publicly add your support to a statement or proposal.",
+      "definition_zh": "联署；公开签名支持一份声明或提议。"
+    },
+    {
+      "term": "harness",
+      "definition_en": "Software that provides the tools and structure needed to run and manage an AI agent.",
+      "definition_zh": "智能体运行框架；用于运行和管理 AI 智能体的软件结构。"
+    },
+    {
+      "term": "eval",
+      "definition_en": "Short for evaluation: a test used to measure an AI system's performance.",
+      "definition_zh": "评测；用于衡量 AI 系统表现的测试。"
+    },
+    {
+      "term": "VCs",
+      "definition_en": "Venture capitalists: investors who fund early-stage companies.",
+      "definition_zh": "风险投资人；投资早期公司的投资者。"
+    },
+    {
+      "term": "benchmark-maxxing",
+      "definition_en": "Informal term for optimizing heavily to score well on benchmarks.",
+      "definition_zh": "刷榜式优化；着重提高基准测试分数的做法。"
+    },
+    {
+      "term": "flex",
+      "definition_en": "To show off an achievement, possession, or ability.",
+      "definition_zh": "炫耀；展示自己的成就、财物或能力。"
+    },
+    {
+      "term": "vibe code",
+      "definition_en": "To build software largely by describing what you want to an AI coding tool and iterating on its output.",
+      "definition_zh": "氛围编程；主要通过向 AI 编程工具描述需求并反复调整结果来开发软件。"
+    },
+    {
+      "term": "fork",
+      "definition_en": "To make an independent copy of a software project so you can modify it.",
+      "definition_zh": "分叉；复制一份软件项目并独立修改。"
+    },
+    {
+      "term": "tl;dr",
+      "definition_en": "Short for “too long; didn't read”; introduces a brief summary.",
+      "definition_zh": "太长不看；用于引出简短摘要。"
+    },
+    {
+      "term": "doubled down",
+      "definition_en": "Increased commitment or effort toward an existing approach.",
+      "definition_zh": "加倍投入；更加坚定地推进已有做法。"
+    },
+    {
+      "term": "ironed out",
+      "definition_en": "Resolved small problems or details.",
+      "definition_zh": "理顺并解决细节问题。"
+    },
+    {
+      "term": "scale",
+      "definition_en": "To handle growth in users or workload without losing effectiveness.",
+      "definition_zh": "扩展处理能力；在用户量或工作量增长时仍能有效运行。"
+    }
+  ],
+  "stats": {
+    "builders": 9,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 21,
+    "feedGeneratedAt": "2026-11-14T06:25:34.902Z"
+  }
+}

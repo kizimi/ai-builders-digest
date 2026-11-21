@@ -1,0 +1,578 @@
+{
+  "date": "2026-11-16",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "The posts point to a discussion and an AI-written recap, but the provided text does not reveal the talk's subject or takeaway.",
+      "summary_zh": "帖子提到一场讨论及 AI 撰写的回顾，但所给文字没有说明演讲主题或具体结论。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "clanker",
+          "ipa": "/ˈklæŋkər/",
+          "definition_zh": "对机器人或 AI 的戏谑称呼，有时带贬义。",
+          "example_zh": "作者用「clanker」称呼整理演讲内容的 AI，语气随意且带调侃。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122066060769952161",
+          "text": "apparently it is pretty normal\n\nhttps://t.co/br8TZ6oKOM",
+          "url": "https://x.com/swyx/status/2122066060769952161",
+          "summary_en": null
+        },
+        {
+          "id": "2122032217430032548",
+          "text": "clanker wrote up the talk https://t.co/hxZj0VaJV4",
+          "url": "https://x.com/swyx/status/2122032217430032548",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "The Codex team may have resolved the recurring model-at-capacity errors, though the post expresses uncertainty.",
+      "summary_zh": "Codex 团队可能已解决反复出现的模型容量不足报错，但帖子对此尚不确定。",
+      "slang": [
+        {
+          "term": "model at capacity",
+          "definition_en": "An error indicating that a model service cannot handle a request because it is overloaded.",
+          "definition_zh": "模型服务因负载过高而无法处理请求时出现的报错。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "model at capacity",
+          "ipa": "",
+          "definition_zh": "指模型服务已达到当前可承载的请求上限。",
+          "example_zh": "这是用户反复遇到的报错提示；作者说 Codex 团队可能已经修复，但尚未确定。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122206990101536852",
+          "text": "Codex team might have actually fixed the \"model at capacity\" errors that have been pestering you. https://t.co/EgS0HkOATY",
+          "url": "https://x.com/thsottiaux/status/2122206990101536852",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "A fresh AI context can push an app-building assistant to invent an elaborate visual style. The posts also raise whether easy prototyping changes how enjoyable design work feels, but the provided text cuts off before the answer.",
+      "summary_zh": "全新的 AI 上下文可能让应用构建助手自行设计复杂的视觉风格。帖子还提出，轻松制作原型是否改变了设计工作的乐趣，但所给文字在回答前已截断。",
+      "slang": [
+        {
+          "term": "prototype",
+          "definition_en": "An early version used to explore or test a design or product idea.",
+          "definition_zh": "用于探索或测试设计、产品想法的早期版本。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "fresh context",
+          "ipa": "",
+          "definition_zh": "指模型开始处理任务时使用的全新上下文。",
+          "example_zh": "引文认为 Claude 在全新上下文中接到做应用的要求时，会倾向于自行构想一套华丽的视觉风格。"
+        },
+        {
+          "phrase": "prototype",
+          "ipa": "/ˈproʊtətaɪp/",
+          "definition_zh": "制作初步可体验的版本，以验证设计想法。",
+          "example_zh": "这里作动词，作者问：如今各种想法都能轻松做成原型，设计工作是否因此更有趣。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122132596352327816",
+          "text": "\"When you ask Claude to create something, it's operating in a fresh context where it thinks: Oh my God, the user asked me to make an app. I'm going to invent the most brilliant visual style.\"\n\nFrom @nateparrott at Anthropic on how to get Claude to avoid the same designs:\n\n\"It's going to be serif text, an off-white background, orange, and these bars on the edges of the cards. Because in Claude's mind, it's only ever done this once, so it thinks this is totally original.\n\nSo in our Claude Design prompt, we tell Claude, 'For this particular model, you tend to overly bias toward these two fonts and colors. So don't use them unless the user asks you to.' That tends to help a lot.\"\n\n📌 Watch our full episode here: https://t.co/HPX5HjXafX",
+          "url": "https://x.com/petergyang/status/2122132596352327816",
+          "summary_en": "Claude repeatedly gravitates toward similar fonts, colors, and layouts because each fresh context treats those choices as original. Explicitly naming and discouraging its default design biases in the prompt helps produce more varied results."
+        },
+        {
+          "id": "2122060856498524510",
+          "text": "\"Do you find being a designer more fun now that you can easily prototype everything?\"\n\nThat's the question I asked @nateparrott (Anthropic). His answer:\n\n\"I'm a little weird in that I have an engineering background. Before Anthropic, I worked at The Browser Company, where we made a browser called Arc.\n\nWe spent a year in pre-production before we released Arc. It took us a couple weeks to build out each idea and see which worked.\n\nNow at Anthropic, you can kind of do that in one to two days.\n\nSo you've really compressed the cycle of building. What you haven't compressed is the cycle of putting it in people's hands and understanding if they're going to use it.\"\n\n📌 Watch our full episode here: https://t.co/HPX5HjXafX",
+          "url": "https://x.com/petergyang/status/2122060856498524510",
+          "summary_en": "AI has compressed prototype development from weeks to one or two days, but it hasn't shortened the process of getting products into people's hands and learning whether they'll use them."
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "The posts ask for a plug-and-play home automation hub that Codex could control like another computer, and note a Waymo vehicle's use of windshield wipers in rain.",
+      "summary_zh": "帖子希望找到即插即用、能让 Codex 像控制电脑一样控制家居设备的中枢；另一条则观察到 Waymo 车辆在雨中开启雨刷。",
+      "slang": [
+        {
+          "term": "plug-and-play",
+          "definition_en": "Ready to use with little setup.",
+          "definition_zh": "几乎无需配置即可使用。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "home automation hub",
+          "ipa": "",
+          "definition_zh": "集中连接和控制智能家居设备的中枢。",
+          "example_zh": "作者想找一个家居自动化中枢，让 Codex 能通过它控制各种设备。"
+        },
+        {
+          "phrase": "plug-and-play",
+          "ipa": "/ˌplʌɡ ən ˈpleɪ/",
+          "definition_zh": "指接入后即可使用，无须复杂配置。",
+          "example_zh": "作者希望设备安装配置足够简单，Codex 能像识别另一台电脑一样直接使用它。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122096965865664924",
+          "text": "What’s the best home automation hub out there if I just wanna use Codex to control everything?\n\nIdeally, something plug-and-play that my Codex just sees as another computer, more or less https://t.co/VEvCTzc1zi",
+          "url": "https://x.com/thenanyu/status/2122096965865664924",
+          "summary_en": null
+        },
+        {
+          "id": "2122096121946468451",
+          "text": "It’s cute that my Waymo turns on its windshield wipers in the rain",
+          "url": "https://x.com/thenanyu/status/2122096121946468451",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "A game or interactive project has added a new arena and two characters; the provided text gives no further details.",
+      "summary_zh": "某款游戏或互动项目新增了一个场景和两个角色；所给文字没有更多细节。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2122154124024381828",
+          "text": "a new arena and two new characters https://t.co/e8nHEldjoD https://t.co/hLIVplRPrW",
+          "url": "https://x.com/trq212/status/2122154124024381828",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "The posts allude to a noteworthy two-day period and endorse a summary, but do not identify the events involved.",
+      "summary_zh": "帖子暗示过去两天发生了值得关注的事，并认可一份总结，但没有说明具体事件。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2122185760799609017",
+          "text": "It’s been an interesting 48 hours. https://t.co/t4IOusuJn0",
+          "url": "https://x.com/amasad/status/2122185760799609017",
+          "summary_en": null
+        },
+        {
+          "id": "2122062419010961439",
+          "text": "Good summary. https://t.co/KThCywHmZt",
+          "url": "https://x.com/amasad/status/2122062419010961439",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "A Rust and WebAssembly tool renders X posts as PNGs in about a millisecond without relying on a browser or system resources. A separate post observes that AI models are becoming good at naming software tools.",
+      "summary_zh": "一款 Rust 与 WebAssembly 工具无需浏览器或系统资源，就能在约一毫秒内把 X 帖子渲染为 PNG。另一条帖子认为，AI 模型越来越擅长为软件工具命名。",
+      "slang": [
+        {
+          "term": "hermetic",
+          "definition_en": "Self-contained and isolated from external dependencies or resources.",
+          "definition_zh": "自包含，并与外部依赖或资源隔离。"
+        },
+        {
+          "term": "CLI",
+          "definition_en": "Command-line interface, a tool operated by typing commands.",
+          "definition_zh": "命令行界面，通过输入命令操作的工具。"
+        },
+        {
+          "term": "cache invalidation",
+          "definition_en": "The task of deciding when stored data is stale and must be refreshed or removed.",
+          "definition_zh": "判断缓存数据何时过期、需要更新或删除。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "hermetic",
+          "ipa": "/hɜːrˈmetɪk/",
+          "definition_zh": "在软件语境中指运行环境封闭、自包含，尽量不依赖外部资源。",
+          "example_zh": "作者用它描述这个帖子渲染器，并强调它不需要浏览器、网络、文件系统或系统字体。"
+        },
+        {
+          "phrase": "pixel-perfect",
+          "ipa": "/ˌpɪksəl ˈpɜːrfɪkt/",
+          "definition_zh": "指视觉呈现精确到像素，与目标设计高度一致。",
+          "example_zh": "作者强调工具生成的帖子图片在排版和视觉细节上具有很高的还原度。"
+        },
+        {
+          "phrase": "cache invalidation",
+          "ipa": "",
+          "definition_zh": "使过期缓存失效，从而避免继续使用旧数据的机制。",
+          "example_zh": "作者把它与工具命名并列，借计算机科学中关于难题的经典玩笑，调侃 AI 已经很擅长这些事。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122184794209714368",
+          "text": "Introducing 𝚡𝚎𝚎𝚝: https://t.co/YaLEMbmKwf.\n\nA hermetic, pixel-perfect X post renderer in safe Rust / wasm. Zero browser, network, filesystem, system fonts. Renders a post to PNG in ~1ms (and 0.4 ms for @jack's \"setting up my twttr\" 😁).\n\nX is the global town square, and the medium is the message. Being able to preview what things will look like before posting is great for both humans and agents.\n\nRendering with xeet is is 100x-1000x faster than booting up a browser and taking a screenshot, yet it's just as accurate.\n\nIt reproduces Blink & HarfBuzz text shaping, 1/64px line breaking, RTL bidi, 28 Chirp font subsets, CJK/Math/Emoji fallbacks, \"Show more\" rules, etc. It's the kind of thing that would be wildly impractical, if not impossible, for a human engineer to pull off.\n\nExcept 𝚡𝚎𝚎𝚝 is structured as an \"autorepo.\" An oracle boots up Chrome, and verifies tens of thousands of text layout rules. A CI canary then watches the evolution of the original, and files signed PRs for agents to act on. It was conceived from the ground up around 'verification engineering', and the result speaks for itself.\n\nEnjoy!",
+          "url": "https://x.com/rauchg/status/2122184794209714368",
+          "summary_en": "Xeet is a self-contained Rust/wasm renderer that claims pixel-perfect X post previews in roughly 1 ms without a browser, making it 100–1,000 times faster than browser screenshots. Its agent-oriented maintenance workflow uses Chrome as a reference to verify layout rules and automatically flag upstream changes."
+        },
+        {
+          "id": "2122127120055034258",
+          "text": "AI models are getting really good at naming things. I created a little CLI to diagnose system slowdowns, and it named it 𝚑𝚘𝚐 🐖, which I love. Given they're already good at cache invalidation, maybe computer science's hardest problems are solved after all 😂",
+          "url": "https://x.com/rauchg/status/2122127120055034258",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "The posts suggest that skills rewarded on LinkedIn may work poorly on X and express enthusiasm for a store without explaining why.",
+      "summary_zh": "帖子认为，在 LinkedIn 上有效的表达方式可能不适合 X；另一条表达了对一家商店的喜爱，但没有说明原因。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2122021380745290202",
+          "text": "Being good at LinkedIn probably makes you bad at X https://t.co/dFYRSQLn9V",
+          "url": "https://x.com/zarazhangrui/status/2122021380745290202",
+          "summary_en": null
+        },
+        {
+          "id": "2122021053442703852",
+          "text": "I love this store so much 😭 https://t.co/SNteDhX5uA",
+          "url": "https://x.com/zarazhangrui/status/2122021053442703852",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "An upcoming session will discuss reinforcement learning methods, synthetic data, feedback loops, and automation with a robotics cofounder.",
+      "summary_zh": "即将举行的访谈将与一位机器人公司联合创始人讨论强化学习方法、合成数据、反馈循环和自动化。",
+      "slang": [
+        {
+          "term": "RL",
+          "definition_en": "Reinforcement learning, in which a system learns from feedback on its actions.",
+          "definition_zh": "强化学习，即系统根据行动得到的反馈进行学习。"
+        },
+        {
+          "term": "synthetic data",
+          "definition_en": "Artificially generated data used for training or testing.",
+          "definition_zh": "为训练或测试而人工生成的数据。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "RL",
+          "ipa": "",
+          "definition_zh": "强化学习的缩写，指通过奖励反馈学习行为策略的方法。",
+          "example_zh": "这场与机器人公司联合创始人的访谈将围绕强化学习展开，包括方法、数据和自动化。"
+        },
+        {
+          "phrase": "synthetic data",
+          "ipa": "",
+          "definition_zh": "通过模拟、程序或模型生成，而非直接采集的训练或测试数据。",
+          "example_zh": "作者将合成数据列为强化学习访谈的讨论主题之一，尚未说明具体生成或使用方式。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122042319419609105",
+          "text": "Next guest up in this weekly series is @kanavg1, cofounder of @coreauto on Friday, Nov 20th at noon. \n\nFor this session, we'll be chatting about all things RL (methods, synthetic data, loops, automation etc)\n\nFormat:\n> 60 minute sessions (IRL only) in SF\n> For the first 45 mins, I get to ask the guest spicy questions about their expertise\n> For the last 15 mins, they get to ask me anything they want to learn about venture\n> All off the record, chatham house rules\n> Open to 15 guests who listen in and can ask some of their own questions\n\nRegister here if you want to join, and subscribe to the Luma for future guests: https://t.co/gOHqA2XtZB",
+          "url": "https://x.com/nikunj/status/2122042319419609105",
+          "summary_en": "CoreAuto cofounder Kanav Gupta will discuss reinforcement learning methods, synthetic data, loops, and automation at an in-person SF session on November 20 at noon. The off-the-record event accommodates 15 attendees and includes 45 minutes of technical questions followed by 15 minutes of venture discussion."
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "The team is developing reusable AI skills that improve with use. One experiment applies an automated research process to a skill for writing context-window summaries, though the outcome is cut off.",
+      "summary_zh": "团队正在开发能够在使用中持续改进的可复用 AI 技能。其中一项实验用自动化研究流程改进上下文窗口摘要技能，但所给文字没有呈现结果。",
+      "slang": [
+        {
+          "term": "compounding skills",
+          "definition_en": "Reusable AI workflows intended to improve as they are used.",
+          "definition_zh": "旨在随使用次数增加而持续改进的可复用 AI 工作流程。"
+        },
+        {
+          "term": "context window",
+          "definition_en": "The amount of information an AI model can consider in one interaction.",
+          "definition_zh": "AI 模型在一次交互中能够处理的信息范围。"
+        },
+        {
+          "term": "autoresearch",
+          "definition_en": "An automated process for running and refining research or experiments.",
+          "definition_zh": "自动开展并迭代研究或实验的流程。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "compounding skills",
+          "ipa": "",
+          "definition_zh": "指随着反复使用而持续积累改进的 AI 技能。",
+          "example_zh": "作者直接把它解释为每使用一次就会变得更好的技能，并说团队正在探索如何实现。"
+        },
+        {
+          "phrase": "context window summaries",
+          "ipa": "",
+          "definition_zh": "对模型上下文窗口中的信息所作的压缩摘要。",
+          "example_zh": "作者做了一个帮助撰写这类摘要的技能，用来浓缩模型正在处理的上下文信息。"
+        },
+        {
+          "phrase": "autoresearch",
+          "ipa": "/ˌɔːtoʊrɪˈsɜːrtʃ/",
+          "definition_zh": "指让 AI 自动开展研究或实验，并据此迭代改进的流程。",
+          "example_zh": "作者说自己对摘要技能使用了 autoresearch，但推文在此截断，没有交代实验结果。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122091033001337134",
+          "text": "we've been working hard on compounding skills lately (skills that get better every time you use them) \n\nand i think @hammer_mt finally cracked it\n\nthis weekend i made a skill to help us write context window summaries, and used autoresearch to iterate until it hit 80% of my taste on summaries vs. a no-skill baseline\n\nfull writeup for your agnets on the @every frontier feed: https://t.co/2MT0NTucoK",
+          "url": "https://x.com/danshipper/status/2122091033001337134",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "An early flight from a remote runway is presented as a small but meaningful step in an Indian aerospace company's ambitions.",
+      "summary_zh": "偏远跑道上的一次清晨飞行，被视为一家印度航空航天公司迈向更远目标的一小步。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "aerospace",
+          "ipa": "/ˈeroʊspeɪs/",
+          "definition_zh": "指涉及航空与航天的技术或产业领域。",
+          "example_zh": "作者用它说明分享这段画面的印度公司所属行业，并把跑道上的飞机与更远大的太空愿景联系起来。"
+        },
+        {
+          "phrase": "Ad Astra",
+          "ipa": "",
+          "definition_zh": "拉丁语，意为「向着星辰」，常用于表达探索太空或追求远大目标。",
+          "example_zh": "作者以这句话呼应「通往星辰的旅程」，把偏远跑道上的一架飞机视为航天抱负的起点。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122003237335343457",
+          "text": "One of our aerospace companies in India shared this with me today morning.\n\nThe journey to the stars starts with a single plane on a remote runway on an early Sunday morning. \n\nAd Astra.\n\n@shreepoorna365 @arctusaerospace https://t.co/XTdk1wVU5q",
+          "url": "https://x.com/adityaag/status/2122003237335343457",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "No Priors",
+      "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "summary_en": "Prediction-market odds are framed as a way to understand both current events and likely future outcomes. The excerpt also raises concern that AI-driven advances in mathematics are concentrated within companies that control large data centers.",
+      "summary_zh": "片段认为，预测市场的赔率既能反映正在发生的事，也能提示未来结果的可能性。它还提出担忧：AI 推动的数学进展过于集中在拥有大型数据中心的公司手中。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "pester",
+      "ipa": "/ˈpɛstər/",
+      "pos": "verb",
+      "definition_en": "To annoy someone repeatedly.",
+      "definition_zh": "反复烦扰；纠缠",
+      "synonyms": [
+        "bother",
+        "annoy",
+        "harass"
+      ],
+      "example_en": "The recurring capacity errors have been pestering users.",
+      "example_zh": "反复出现的容量不足错误一直困扰着用户。"
+    },
+    {
+      "word": "bias",
+      "ipa": "/ˈbaɪəs/",
+      "pos": "verb",
+      "definition_en": "To influence something toward a particular preference or outcome.",
+      "definition_zh": "使偏向某种偏好或结果",
+      "synonyms": [
+        "skew",
+        "predispose",
+        "influence"
+      ],
+      "example_en": "The model tends to bias its designs toward familiar fonts.",
+      "example_zh": "这个模型在设计时往往偏向熟悉的字体。"
+    },
+    {
+      "word": "serif",
+      "ipa": "/ˈsɛrɪf/",
+      "pos": "noun",
+      "definition_en": "A small decorative stroke at the end of a letter's main stroke in certain typefaces.",
+      "definition_zh": "衬线；某些字体中字母主要笔画末端的装饰性短线",
+      "synonyms": [
+        "finishing stroke"
+      ],
+      "example_en": "The designer chose a serif typeface for the headings.",
+      "example_zh": "设计师为标题选择了衬线字体。"
+    },
+    {
+      "word": "prototype",
+      "ipa": "/ˈproʊtətaɪp/",
+      "pos": "verb",
+      "definition_en": "To build an early version of something to test its design or functionality.",
+      "definition_zh": "制作原型，以测试设计或功能",
+      "synonyms": [
+        "mock up",
+        "model"
+      ],
+      "example_en": "We can prototype the interface in a day and test it with users.",
+      "example_zh": "我们可以用一天做出界面原型，再让用户试用。"
+    },
+    {
+      "word": "pre-production",
+      "ipa": "/ˌpriːprəˈdʌkʃən/",
+      "pos": "noun",
+      "definition_en": "The planning and preparation stage before full production begins.",
+      "definition_zh": "正式制作或生产开始前的筹备阶段",
+      "synonyms": [
+        "preparation",
+        "development planning"
+      ],
+      "example_en": "The team explored several concepts during pre-production.",
+      "example_zh": "团队在前期筹备阶段探索了几个方案。"
+    },
+    {
+      "word": "compress",
+      "ipa": "/kəmˈprɛs/",
+      "pos": "verb",
+      "definition_en": "To reduce the time, space, or size that something requires.",
+      "definition_zh": "压缩；缩短所需时间或减少占用空间",
+      "synonyms": [
+        "shorten",
+        "condense",
+        "reduce"
+      ],
+      "example_en": "AI tools compressed the development cycle from weeks to days.",
+      "example_zh": "AI 工具将开发周期从数周缩短到了数天。"
+    }
+  ],
+  "quote": {
+    "text_en": "What you haven't compressed is the cycle of putting it in people's hands and understanding if they're going to use it.",
+    "text_zh": "你还没有缩短的，是把产品交到人们手中，并了解他们是否会使用它的过程。",
+    "author": "Nate Parrott"
+  },
+  "slang_glossary": [
+    {
+      "term": "model at capacity",
+      "definition_en": "A service message indicating that available resources for serving a model are currently fully occupied.",
+      "definition_zh": "表示模型服务当前资源已被占满、暂时无法处理更多请求的提示。"
+    },
+    {
+      "term": "prototype",
+      "definition_en": "An early test version of a product, or the act of building one.",
+      "definition_zh": "用于验证想法的早期产品版本，也指制作这种原型。"
+    },
+    {
+      "term": "plug-and-play",
+      "definition_en": "Ready to use with little or no configuration.",
+      "definition_zh": "即插即用；几乎无需配置即可使用。"
+    },
+    {
+      "term": "hermetic",
+      "definition_en": "Isolated from external dependencies or environmental influences, especially in builds and tests.",
+      "definition_zh": "封闭隔离的；在构建和测试中，指不受外部依赖或环境变化影响。"
+    },
+    {
+      "term": "CLI",
+      "definition_en": "Command-line interface; a way to operate software by typing text commands.",
+      "definition_zh": "命令行界面；通过输入文本命令操作软件的方式。"
+    },
+    {
+      "term": "cache invalidation",
+      "definition_en": "Marking or removing cached data when it is no longer valid.",
+      "definition_zh": "缓存失效处理；在缓存数据不再有效时，将其标记为失效或移除。"
+    },
+    {
+      "term": "RL",
+      "definition_en": "Reinforcement learning; training a system through rewards based on its actions or outputs.",
+      "definition_zh": "强化学习；根据系统的行为或输出给予奖励，以训练系统的方法。"
+    },
+    {
+      "term": "synthetic data",
+      "definition_en": "Artificially generated data used for purposes such as training or evaluating models.",
+      "definition_zh": "合成数据；通过人工或程序生成、用于模型训练或评估等用途的数据。"
+    },
+    {
+      "term": "compounding skills",
+      "definition_en": "An informal expression for skills whose value grows as they reinforce and build on one another.",
+      "definition_zh": "技能复利；指不同技能相互促进、持续积累，使整体价值不断增长。"
+    },
+    {
+      "term": "context window",
+      "definition_en": "The maximum amount of tokenized information a model can consider within a single context.",
+      "definition_zh": "上下文窗口；模型在一次上下文中能够处理的信息量上限，通常以 token 计量。"
+    },
+    {
+      "term": "autoresearch",
+      "definition_en": "AI-driven automation of research steps such as proposing experiments, running them, and evaluating results.",
+      "definition_zh": "自动化研究；由 AI 自动执行提出实验、运行实验和评估结果等研究步骤。"
+    },
+    {
+      "term": "clanker",
+      "definition_en": "A mocking slang term for a robot or AI system, sometimes used playfully.",
+      "definition_zh": "对机器人或 AI 的戏称或贬称，语气可能是调侃，也可能带有轻蔑。"
+    },
+    {
+      "term": "fresh context",
+      "definition_en": "A new AI interaction context without relevant history from earlier interactions unless it is supplied.",
+      "definition_zh": "全新的 AI 交互上下文；除非主动提供，否则不包含此前交互中的相关历史。"
+    },
+    {
+      "term": "prompt",
+      "definition_en": "Input or instructions given to an AI model to guide its response.",
+      "definition_zh": "提示词；提供给 AI 模型、用来引导其回答的输入或指令。"
+    },
+    {
+      "term": "write up",
+      "definition_en": "To turn notes or information into a coherent written account.",
+      "definition_zh": "整理成文；将笔记或信息写成完整的介绍、总结或报告。"
+    },
+    {
+      "term": "build out",
+      "definition_en": "To develop an idea or initial system into something more complete.",
+      "definition_zh": "逐步搭建完善；将想法或初步系统开发成更完整的成果。"
+    },
+    {
+      "term": "put it in people's hands",
+      "definition_en": "To make a product available for people to use and try.",
+      "definition_zh": "把产品交到用户手中，让他们实际使用和体验。"
+    },
+    {
+      "term": "can't help it",
+      "definition_en": "To be unable to resist an impulse or stop oneself from doing something.",
+      "definition_zh": "忍不住；无法抑制某种冲动或行为。"
+    }
+  ],
+  "stats": {
+    "builders": 11,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 19,
+    "feedGeneratedAt": "2026-11-16T06:42:15.797Z"
+  }
+}

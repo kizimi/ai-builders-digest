@@ -4,33 +4,27 @@
     {
       "name": "Swyx",
       "handle": "swyx",
-      "summary_en": "Teases a story on why a dbt leader moved to LangChain to help build it into a $3B startup, and notes they're now reinventing the content, context (knowledge) and software factory from scratch.",
-      "summary_zh": "预告一则故事:一位前dbt高管为何加入LangChain并助其成长为30亿美元估值的初创公司,如今他们正从零重新打造内容、上下文(知识)和软件工厂。",
-      "slang": [
-        {
-          "term": "software factory",
-          "definition_en": "A highly automated pipeline where AI agents produce and ship software at scale.",
-          "definition_zh": "由AI智能体大规模自动生产并交付软件的高度自动化流水线。"
-        }
-      ],
+      "summary_en": "LangChain's growth raises a broader question: how an AI startup rebuilds its content, knowledge context, and software production processes as it scales.",
+      "summary_zh": "LangChain 的成长引出一个问题：AI 创业公司扩大规模时，如何重新建立内容、知识上下文和软件生产流程。",
+      "slang": [],
       "keywords": [
         {
-          "phrase": "reinvent",
-          "ipa": "ˌriːɪnˈvɛnt",
-          "definition_zh": "从头重新发明或设计某事物。",
-          "example_zh": "推文说他们要从零开始重新发明内容、上下文和软件工厂,表示旧方式已不适用于 AI 时代。"
+          "phrase": "software factory",
+          "ipa": "",
+          "definition_zh": "指把软件开发组织成系统化、可重复的生产流程。",
+          "example_zh": "这里说的是 LangChain 扩张后，需要重新设计软件的生产方式和流程。"
+        },
+        {
+          "phrase": "context (knowledge)",
+          "ipa": "",
+          "definition_zh": "指为理解问题或执行任务提供背景的知识信息。",
+          "example_zh": "作者把 context 特别解释为知识，强调公司扩大后，知识的组织与供给方式也需要重建。"
         },
         {
           "phrase": "from scratch",
           "ipa": "",
-          "definition_zh": "从零开始,不依赖任何现有基础。",
-          "example_zh": "这里指团队需要完全从头搭建内容、知识和软件的生产体系。"
-        },
-        {
-          "phrase": "software factory",
-          "ipa": "",
-          "definition_zh": "指用自动化与 AI 大规模、流水线式生产软件的体系。",
-          "example_zh": "推文把软件生产比作工厂,暗示 AI 智能体让软件开发变成可规模化的流程。"
+          "definition_zh": "指从零开始，重新建立某个事物。",
+          "example_zh": "这里强调内容、知识和软件生产体系都面临从头设计的需求。"
         }
       ],
       "tweets": [
@@ -51,33 +45,32 @@
     {
       "name": "Josh Woodward",
       "handle": "joshwoodward",
-      "summary_en": "Google shipped a new Gemini Neon feature into production in a week, built on a user's post idea; it's triggered by a long click. The team built it on a Friday afternoon before the holiday week.",
-      "summary_zh": "团队受一位用户帖子启发,在假期前的周五下午做出Gemini Neon的新功能并直接上线,通过长按触发。",
+      "summary_en": "A team turned a community post into a Gemini Neon feature and put it into production within a week.",
+      "summary_zh": "团队受到社区帖子的启发，在一周内把想法做成 Gemini Neon 功能并上线。",
       "slang": [
         {
-          "term": "threw it into prod",
-          "definition_en": "Shipped a feature straight to production quickly, with minimal ceremony.",
-          "definition_zh": "不走繁琐流程,快速直接上线到生产环境。"
+          "term": "shipping",
+          "definition_en": "Releasing new product work.",
+          "definition_zh": "发布新的产品功能。"
+        },
+        {
+          "term": "prod",
+          "definition_en": "The live production environment used by customers.",
+          "definition_zh": "用户实际使用的正式生产环境。"
         }
       ],
       "keywords": [
         {
+          "phrase": "shipping",
+          "ipa": "/ˈʃɪpɪŋ/",
+          "definition_zh": "在科技团队中指完成开发并向用户发布产品或功能。",
+          "example_zh": "作者用 shipping 形容这一周密集推出功能的状态。"
+        },
+        {
           "phrase": "threw it into prod",
           "ipa": "",
-          "definition_zh": "口语,指迅速把功能直接上线到生产环境。",
-          "example_zh": "团队很喜欢用户的点子,没有冗长流程就直接上线,体现了快速发布的文化。"
-        },
-        {
-          "phrase": "shipping",
-          "ipa": "ˈʃɪpɪŋ",
-          "definition_zh": "科技圈用语,指发布并交付产品或功能。",
-          "example_zh": "「a week of shipping」指这一周团队连续发布了多项功能。"
-        },
-        {
-          "phrase": "inspiration",
-          "ipa": "ˌɪnspəˈreɪʃən",
-          "definition_zh": "激发创意的灵感或启发来源。",
-          "example_zh": "作者感谢用户的帖子给了团队灵感,促成了新功能的诞生。"
+          "definition_zh": "指迅速把功能部署到真实用户使用的生产环境。",
+          "example_zh": "团队受到社区帖子启发后，很快做出功能并直接上线；prod 是 production 的缩写。"
         }
       ],
       "tweets": [
@@ -98,29 +91,10 @@
     {
       "name": "Thibault Sottiaux",
       "handle": "thsottiaux",
-      "summary_en": "The team accidentally built an internal experience so fun that everyone is playing with it instead of working. Also introduces a new teammate, Akshay, with his first tweet.",
-      "summary_zh": "团队无意中做出一个内部体验,好玩到大家都不工作了。另外介绍了新同事Akshay的第一条推文。",
+      "summary_en": "An internal experiment became unexpectedly engaging, to the point that colleagues were spending time playing with it instead of working.",
+      "summary_zh": "一项内部实验意外地变得很有趣，甚至让同事们忙着体验，影响了工作。",
       "slang": [],
-      "keywords": [
-        {
-          "phrase": "messing around",
-          "ipa": "",
-          "definition_zh": "随意摆弄、试验,没有严肃目标。",
-          "example_zh": "团队只是随手试验,却意外做出了一个好玩的内部体验。"
-        },
-        {
-          "phrase": "inadvertently",
-          "ipa": "ˌɪnədˈvɜːrtəntli",
-          "definition_zh": "无意中,非故意地。",
-          "example_zh": "强调团队并非有意,而是不小心做出了让大家上瘾的体验。"
-        },
-        {
-          "phrase": "We might not recover from this.",
-          "ipa": "",
-          "definition_zh": "幽默说法,意思是事情失控、难以恢复正常。",
-          "example_zh": "作者半开玩笑地说内部太好玩以至于没人工作,是一种自嘲式的炫耀。"
-        }
-      ],
+      "keywords": [],
       "tweets": [
         {
           "id": "2123997735326232775",
@@ -139,21 +113,15 @@
     {
       "name": "Peter Yang",
       "handle": "petergyang",
-      "summary_en": "Waiting on a big game download and puzzled by its user score; also posts a joke 'breaking news' about Jensen Huang offering brisket to a vegetarian squirrel.",
-      "summary_zh": "在等待一款游戏下载,并对其用户评分感到疑惑;还发了一条关于黄仁勋向素食松鼠递烤牛胸肉的搞笑「突发新闻」。",
+      "summary_en": "A long game download prompted curiosity about its user score. A separate post makes a deliberately absurd joke about Jensen Huang.",
+      "summary_zh": "漫长的游戏下载过程让他开始好奇玩家评分；另一条则用荒诞情节调侃黄仁勋。",
       "slang": [],
       "keywords": [
         {
           "phrase": "user score",
           "ipa": "",
-          "definition_zh": "用户评分,玩家或用户对产品给出的评价分数。",
-          "example_zh": "作者在等游戏下载时,对它的用户评分感到困惑,不明白为何评价如此。"
-        },
-        {
-          "phrase": "BREAKING",
-          "ipa": "",
-          "definition_zh": "「突发新闻」的标题式用语,常被用来搞笑。",
-          "example_zh": "这里用新闻标题的口吻讲一个荒诞笑话,属于戏仿式幽默。"
+          "definition_zh": "指用户给出的综合评分，通常区别于专业媒体评分。",
+          "example_zh": "作者还在等待游戏下载，同时对这款游戏的用户评分表示疑惑。"
         }
       ],
       "tweets": [
@@ -174,27 +142,32 @@
     {
       "name": "Nan Yu",
       "handle": "thenanyu",
-      "summary_en": "Shipped big performance and quality-of-life improvements for actions users repeat dozens to hundreds of times a day.",
-      "summary_zh": "针对用户每天重复数十到数百次的操作,发布了显著的性能和使用体验改进。",
+      "summary_en": "Performance and usability improvements target actions people repeat dozens or hundreds of times each day, where small gains add up.",
+      "summary_zh": "性能和易用性改进聚焦每天重复几十到几百次的操作，让微小的提升不断累积。",
       "slang": [
         {
+          "term": "perf",
+          "definition_en": "Short for performance, usually speed or responsiveness.",
+          "definition_zh": "performance 的缩写，通常指速度或响应表现。"
+        },
+        {
           "term": "QoL",
-          "definition_en": "Quality of life: small improvements that make a product nicer to use.",
-          "definition_zh": "生活质量改进:让产品使用更顺手的小改进。"
+          "definition_en": "Quality of life: small changes that make a product easier or more pleasant to use.",
+          "definition_zh": "体验优化，指让产品更方便、更顺手的小改进。"
         }
       ],
       "keywords": [
         {
           "phrase": "perf",
-          "ipa": "",
-          "definition_zh": "performance 的缩写,指性能。",
-          "example_zh": "指产品在速度和响应上有了大幅提升。"
+          "ipa": "/pɜːrf/",
+          "definition_zh": "是 performance 的技术圈缩写，指软件运行性能。",
+          "example_zh": "这里指高频操作在速度或响应效率上的改进，每天重复使用会放大收益。"
         },
         {
           "phrase": "QoL",
-          "ipa": "",
-          "definition_zh": "quality of life 的缩写,指提升使用体验的小改进。",
-          "example_zh": "指针对高频操作做的细节优化,让用户用起来更顺手。"
+          "ipa": "/ˌkjuː oʊ ˈɛl/",
+          "definition_zh": "是 quality of life 的缩写，在产品语境中指让日常使用更方便的体验改进。",
+          "example_zh": "这里强调减少高频操作中的麻烦，让用户每天几十到几百次的操作更顺手。"
         }
       ],
       "tweets": [
@@ -209,10 +182,17 @@
     {
       "name": "Madhu Guru",
       "handle": "realmadhuguru",
-      "summary_en": "Asking for introductions to the most interesting AI people in Chennai during a visit from end of November to the first week of December. Currently builds AI products at Meta, previously led product for Gemini, Veo and Nano Banana at Google.",
-      "summary_zh": "11月底到12月第一周将访问金奈,征集值得结识的AI人士。目前在Meta做AI产品,此前在Google负责Gemini、Veo和Nano Banana的产品。",
+      "summary_en": "A visit to Chennai is an opportunity to meet people doing interesting work in AI.",
+      "summary_zh": "即将前往钦奈，希望借此结识当地从事有趣 AI 工作的人。",
       "slang": [],
-      "keywords": [],
+      "keywords": [
+        {
+          "phrase": "led product",
+          "ipa": "",
+          "definition_zh": "指曾负责某项业务或产品的产品管理工作。",
+          "example_zh": "作者用这句话介绍自己曾负责 Google 的 Gemini、Veo 和 Nano Banana 模型相关产品工作。"
+        }
+      ],
       "tweets": [
         {
           "id": "2123972492645777629",
@@ -225,27 +205,27 @@
     {
       "name": "Thariq",
       "handle": "trq212",
-      "summary_en": "Designing a game called Home Ground: a sports anime where the sport is elemental bending, with tournaments alongside a squad and between-match character stories like Mass Effect.",
-      "summary_zh": "正在设计名为Home Ground的游戏:一款以元素操控为运动的体育动漫风游戏,与队友一起参加锦标赛,比赛之间有类似《质量效应》的角色故事。",
+      "summary_en": "A game concept combines elemental-bending tournaments with a squad whose personal stories unfold between matches.",
+      "summary_zh": "游戏构想将元素操控竞技赛与队友故事结合，让角色剧情在比赛间展开。",
       "slang": [
         {
           "term": "gameplay loop",
-          "definition_en": "The repeating core cycle of actions that makes a game engaging.",
-          "definition_zh": "游戏中反复进行、构成核心体验的行为循环。"
+          "definition_en": "The recurring sequence of activities that drives a game.",
+          "definition_zh": "推动玩家持续游玩的核心重复流程。"
         }
       ],
       "keywords": [
         {
           "phrase": "gameplay loop",
           "ipa": "",
-          "definition_zh": "游戏中玩家反复进行的核心玩法循环。",
-          "example_zh": "作者说终于想通了游戏的核心循环:参加锦标赛、与队友互动、再继续比赛。"
+          "definition_zh": "指玩家在游戏中反复经历的一组核心活动与反馈。",
+          "example_zh": "这里的循环是与队友参加元素操控比赛，再在比赛间隙体验队友的个人故事。"
         },
         {
-          "phrase": "squad",
-          "ipa": "skwɒd",
-          "definition_zh": "小队,一起行动的小团体。",
-          "example_zh": "玩家与自己的小队并肩参加比赛,小队成员也有各自的故事线。"
+          "phrase": "elemental bending",
+          "ipa": "",
+          "definition_zh": "指在幻想设定中操控自然元素的能力。",
+          "example_zh": "作者把元素操控设计成竞技运动，作为这款体育动漫风格游戏的比赛内容。"
         }
       ],
       "tweets": [
@@ -266,27 +246,21 @@
     {
       "name": "Amjad Masad",
       "handle": "amasad",
-      "summary_en": "Calls something 'phenomenal' and asks whether the market is turning into a bear market.",
-      "summary_zh": "称赞某事物「非凡」,并询问当前是否已进入熊市。",
+      "summary_en": "The posts express enthusiasm about an unspecified development and question whether the market is in a downturn. The supplied text gives no basis for a more specific takeaway.",
+      "summary_zh": "这些帖子对一项未说明的进展表示赞赏，并提出市场是否进入熊市的疑问；现有文字不足以判断更具体的观点。",
       "slang": [
         {
           "term": "bear market",
-          "definition_en": "A prolonged period of falling asset prices and pessimism.",
-          "definition_zh": "资产价格持续下跌、情绪悲观的时期。"
+          "definition_en": "A sustained period of falling asset prices and pessimistic market sentiment.",
+          "definition_zh": "资产价格持续下跌、市场情绪偏悲观的阶段。"
         }
       ],
       "keywords": [
         {
           "phrase": "bear market",
           "ipa": "",
-          "definition_zh": "熊市,指市场价格持续下跌的阶段。",
-          "example_zh": "作者在询问当前市场是否正转入下行周期。"
-        },
-        {
-          "phrase": "phenomenal",
-          "ipa": "fəˈnɒmɪnəl",
-          "definition_zh": "非凡的,极其出色的。",
-          "example_zh": "作者用这个词高度赞扬某件事物。"
+          "definition_zh": "指市场价格持续下跌、整体情绪偏悲观的熊市。",
+          "example_zh": "作者以疑问句询问市场是否处于熊市，但没有说明具体市场或提供判断依据。"
         }
       ],
       "tweets": [
@@ -307,38 +281,43 @@
     {
       "name": "Guillermo Rauch",
       "handle": "rauchg",
-      "summary_en": "Early eve prototype was a personal shopper agent; now agent cards, better models and iMessage/WhatsApp channels make it viable. Vercel also earned ISO 42001:2023, the 'SOC2 of AI', an audited standard for building and governing AI systems.",
-      "summary_zh": "早期eve的「hello world」是个人购物代理,如今有了agent卡、更强的模型以及iMessage和WhatsApp渠道。Vercel还获得ISO 42001:2023认证,即「AI界的SOC2」,是针对AI系统构建与治理的审计标准。",
+      "summary_en": "A personal-shopping agent that once lacked supporting infrastructure now appears more feasible as models and messaging channels improve. A separate post highlights annual independent auditing of AI infrastructure under ISO 42001.",
+      "summary_zh": "随着模型和消息渠道改善，过去缺少基础设施支持的个人购物智能体如今更有实现条件。另一条帖子强调 AI 基础设施依据 ISO 42001 接受年度独立审核。",
       "slang": [
         {
           "term": "hello world",
-          "definition_en": "The simplest first test program for a new tool.",
-          "definition_zh": "新工具的最简单入门示例。"
+          "definition_en": "A simple first project used to try a new technology.",
+          "definition_zh": "用来初步试验新技术的简单项目。"
         },
         {
-          "term": "SOC2",
-          "definition_en": "A common security compliance audit for software companies.",
-          "definition_zh": "软件公司常见的安全合规审计标准。"
+          "term": "agent",
+          "definition_en": "AI software that can carry out tasks on a user's behalf.",
+          "definition_zh": "能代表用户执行任务的 AI 软件。"
+        },
+        {
+          "term": "infra",
+          "definition_en": "Short for infrastructure: the systems supporting an application.",
+          "definition_zh": "infrastructure 的缩写，指支撑应用运行的基础设施。"
         }
       ],
       "keywords": [
         {
           "phrase": "hello world",
           "ipa": "",
-          "definition_zh": "编程中最简单的入门示例,引申为第一个试验项目。",
-          "example_zh": "作者把个人购物助手智能体当作 eve 的第一个入门尝试。"
+          "definition_zh": "原指入门程序，在技术语境中也比喻首次尝试某种工具的简单示例。",
+          "example_zh": "作者把个人购物代理称为自己的「hello world」，表示这是他试用 eve 时最初尝试的应用。"
         },
         {
-          "phrase": "SOC2 of AI",
+          "phrase": "ISO 42001:2023",
           "ipa": "",
-          "definition_zh": "比喻 AI 领域的合规认证,类似 SOC2 在安全领域的地位。",
-          "example_zh": "用熟悉的 SOC2 来类比 ISO 42001,让人快速理解它是 AI 治理的审计标准。"
+          "definition_zh": "指规定人工智能管理体系要求的一项国际标准。",
+          "example_zh": "作者用这个标准说明 AI 系统的开发、评估、监控与治理可以接受独立审核。"
         },
         {
-          "phrase": "audited",
-          "ipa": "ˈɔːdɪtɪd",
-          "definition_zh": "经过独立审计核查的。",
-          "example_zh": "强调 Vercel 的 AI 基础设施经过独立机构的审计,更值得信赖。"
+          "phrase": "infra",
+          "ipa": "/ˈɪnfrə/",
+          "definition_zh": "是 infrastructure 的技术圈缩写，指支撑产品运行的基础设施。",
+          "example_zh": "这里指 Vercel 的 AI 基础设施，作者强调它接受定期审计。"
         }
       ],
       "tweets": [
@@ -346,7 +325,7 @@
           "id": "2123879031049449791",
           "text": "When I first tried an internal pre-release version of @eve, a personal shopper agent was my \"hello world\". It worked, but a lot of the infrastructure was missing.\n\nNow, @agentcardhq exists, models are better, iMessage and WhatsApp eve channels are mature, and performance is vastly improved (without trading off durability and encryption.)\n\nThe result is you can ship a platform of the caliber of Muse / Instinct, that you fully control, on our open intelligence stack. The experience is pure delight. I highly recommend you try this. Run with this template. Make it your own.",
           "url": "https://x.com/rauchg/status/2123879031049449791",
-          "summary_en": "After early pre-release testing of @eve (where a personal shopper agent was a \"hello world\" with missing infrastructure), the platform now has @agentcardhq, better models, mature iMessage/WhatsApp channels, and much faster performance without sacrificing durability or encryption. This lets builders ship a fully controlled, Muse/Instinct-caliber platform on an open intelligence stack using the provided template."
+          "summary_en": "Better models, AgentCard infrastructure, mature Eve messaging channels, and improved performance now make it possible to build polished personal shopping agents on an open intelligence stack. A ready-made template lets developers customize and fully control the experience while retaining durability and encryption."
         },
         {
           "id": "2123869175085191298",
@@ -359,21 +338,27 @@
     {
       "name": "Aaron Levie",
       "handle": "levie",
-      "summary_en": "This year models jumped in capability: rather than instructing agents precisely, it's now better to use them to solve problems you can't easily define yourself. Also hints at a big day in math.",
-      "summary_zh": "今年模型能力明显跃升:与其精确指示智能体怎么做,不如用它们解决自己难以明确定义的问题。同时暗示数学领域将迎来重要的一天。",
-      "slang": [],
+      "summary_en": "Improved models may be more valuable when given hard, loosely defined problems than when directed through precise steps. Another post anticipates a notable development in mathematics without specifying it.",
+      "summary_zh": "模型能力提升后，把难以明确定义的问题交给智能体，可能比逐步指挥更有价值。另一条帖子预告数学领域可能有重要进展，但未说明具体内容。",
+      "slang": [
+        {
+          "term": "agents",
+          "definition_en": "AI systems that can plan and take actions toward a goal.",
+          "definition_zh": "能够围绕目标规划并采取行动的 AI 系统。"
+        }
+      ],
       "keywords": [
         {
           "phrase": "model capability",
           "ipa": "",
-          "definition_zh": "模型能力,指 AI 模型能完成任务的水平。",
-          "example_zh": "作者认为今年模型能力出现明显跃升,改变了使用智能体的方式。"
+          "definition_zh": "指 AI 模型能够理解和完成任务的能力水平。",
+          "example_zh": "作者认为今年模型能力明显提升，已经适合处理人类自己也难以清晰定义的问题。"
         },
         {
           "phrase": "agents",
-          "ipa": "ˈeɪdʒənts",
-          "definition_zh": "智能体,能自主执行任务的 AI 系统。",
-          "example_zh": "推文说与其精确指挥智能体,不如让它们去解决你难以定义的问题。"
+          "ipa": "/ˈeɪdʒənts/",
+          "definition_zh": "指能够围绕目标执行任务的 AI 智能体。",
+          "example_zh": "作者认为使用这些智能体时，可以更多地提出难题，让系统探索解决方式。"
         }
       ],
       "tweets": [
@@ -387,28 +372,28 @@
           "id": "2123686350410912145",
           "text": "This year we’ve had a clear jump in model capability where instead of telling agents precisely what to do, it’s better to use these systems to solve problems you can’t easily define yourself. \n\nA year ago you’d need to very clearly tell agents the how to design and develop your product idea, or there was almost no chance of success. Now, increasingly, the agent likely can come up with a better implementation than you’d have thought of because you can have it connect the dots between a far greater solution space than you can. \n\nThis will be increasingly true in basically every domain of kneeler work. We’re going to see this impact in finance, legal, life sciences, cyber, and many other spaces where no person can hold onto all the available relevant industry knowledge to think of the best solution. \n\nUltimately this is going to reshape our relationship with AI and how we deploy agents in our work. It won’t be about explicitly telling them, but instead giving them goals and enough freedom to pursue them in the best way they can.",
           "url": "https://x.com/levie/status/2123686350410912145",
-          "summary_en": "Model capability has jumped so that it's now better to give agents goals and freedom to solve poorly defined problems rather than specifying exactly how, since they can connect dots across a larger solution space than any person can. This will extend across knowledge work like finance, legal, life sciences, and cyber, reshaping how agents are deployed."
+          "summary_en": "More capable AI agents increasingly deliver better solutions when given goals and freedom instead of detailed implementation instructions. Their ability to connect knowledge across a wider solution space could reshape work in fields such as finance, law, life sciences, and cybersecurity."
         }
       ]
     },
     {
       "name": "Garry Tan",
       "handle": "garrytan",
-      "summary_en": "Argues California doesn't need an asset seizure tax; it should encourage new ideas and startups, then spend the revenue wisely on things that help people.",
-      "summary_zh": "认为加州不需要资产没收税,而应鼓励新想法和初创企业,再明智地把收入用于真正帮助民众的事务。",
+      "summary_en": "California should encourage new companies and ideas, then spend public funds effectively, rather than adopt the proposed asset-seizure tax.",
+      "summary_zh": "他主张加州应鼓励新创意和创业，再有效使用公共资金，而不是推行所提及的资产征收税。",
       "slang": [],
       "keywords": [
         {
           "phrase": "asset seizure tax",
           "ipa": "",
-          "definition_zh": "对资产征收的类似没收性质的税,批评者的说法。",
-          "example_zh": "作者反对这种税,认为加州应该靠鼓励创业来增加收入。"
+          "definition_zh": "指以「征税等于没收资产」为立场的批评性税收称呼。",
+          "example_zh": "作者用这个带有强烈评价的说法反对某项税收主张，推文没有交代具体税制。"
         },
         {
           "phrase": "ivory tower",
           "ipa": "",
-          "definition_zh": "象牙塔,指脱离现实的学术圈。",
-          "example_zh": "作者用它讽刺那些脱离实际的学者,批评他们的政策主张。"
+          "definition_zh": "指脱离现实生活与实际问题的学术或思想环境，常带贬义。",
+          "example_zh": "作者用 ivory tower 修饰 academics，批评他认为脱离现实的学者。"
         }
       ],
       "tweets": [
@@ -423,27 +408,27 @@
     {
       "name": "Matt Turck",
       "handle": "mattturck",
-      "summary_en": "Tells a story of automated agentic emailing colliding with reality: a person emailed to meet at Slush, then sent three rapid follow-ups after one reply, and Matt bumped into him later that day.",
-      "summary_zh": "讲述自动化智能体邮件与现实的碰撞:有人为在Slush会面多次发邮件,回复一次后又连发三封,当天晚些时候两人偶遇。",
+      "summary_en": "Repeated automated outreach around a conference illustrates how agent-driven email can create awkward interactions in the real world.",
+      "summary_zh": "一次会议前后的重复邀约邮件说明，智能体自动发送邮件可能在现实社交中造成尴尬。",
       "slang": [
         {
-          "term": "agentic",
-          "definition_en": "Describing AI systems that act autonomously to accomplish tasks.",
-          "definition_zh": "指能自主行动完成任务的AI系统。"
+          "term": "agentic emailing",
+          "definition_en": "Using AI agents to compose and send emails with some autonomy.",
+          "definition_zh": "让 AI 智能体在一定自主程度下撰写和发送邮件。"
         }
       ],
       "keywords": [
         {
           "phrase": "agentic",
-          "ipa": "eɪˈdʒɛntɪk",
-          "definition_zh": "具有自主行动能力的,常指 AI 智能体式的。",
-          "example_zh": "指自动化的智能体邮件系统,结果在现实中显得笨拙又好笑。"
+          "ipa": "/eɪˈdʒɛntɪk/",
+          "definition_zh": "在 AI 语境中指具有自主规划和执行任务特征的。",
+          "example_zh": "这里形容由 AI 智能体驱动的自动发邮件流程，作者用连续催约的经历展示它可能造成的尴尬。"
         },
         {
           "phrase": "in rapid succession",
           "ipa": "",
-          "definition_zh": "接连快速地,一个紧接一个。",
-          "example_zh": "对方在收到一次回复后连发三封邮件,暗示这是自动化流程在作祟。"
+          "definition_zh": "指多件事情在很短时间内接连发生。",
+          "example_zh": "作者回复一次后，对方短时间内又连发三封邮件，让自动联络显得过分急切。"
         }
       ],
       "tweets": [
@@ -458,21 +443,33 @@
     {
       "name": "Zara Zhang",
       "handle": "zarazhangrui",
-      "summary_en": "Warns against sending clients raw Claude Artifacts or ChatGPT sites, since it makes them think they could have prompted it themselves. Also says if you curate, you should create.",
-      "summary_zh": "提醒不要把Claude Artifacts或ChatGPT生成的网站直接发给客户,否则客户会觉得自己也能提示出来。还说:如果你做策展,就应该创作。",
-      "slang": [],
+      "summary_en": "Client deliverables should show value beyond a readily generated AI artifact. Curating ideas should also lead to original creation.",
+      "summary_zh": "交付客户的成果应体现超出简单 AI 生成品的价值；筛选和整理想法也应进一步转化为原创作品。",
+      "slang": [
+        {
+          "term": "prompted",
+          "definition_en": "Asked an AI system to generate something through an instruction.",
+          "definition_zh": "通过输入指令让 AI 系统生成内容。"
+        }
+      ],
       "keywords": [
         {
-          "phrase": "prompted",
+          "phrase": "Claude Artifacts",
           "ipa": "",
-          "definition_zh": "向 AI 输入提示词来生成内容。",
-          "example_zh": "客户看到原始 AI 产出会觉得自己也能用提示词做出来,从而贬低你的价值。"
+          "definition_zh": "指 Claude 中用于展示生成内容或交互成果的功能。",
+          "example_zh": "作者认为直接把这类生成成果交给客户，可能让客户觉得自己也能轻易做出来。"
+        },
+        {
+          "phrase": "prompted",
+          "ipa": "/ˈprɑːmptɪd/",
+          "definition_zh": "在 AI 语境中指通过输入提示或指令让模型生成结果。",
+          "example_zh": "这里模拟客户的想法：既然交付物看起来只是 AI 生成页面，自己也可以给 Claude 或 Codex 下指令完成。"
         },
         {
           "phrase": "curate",
-          "ipa": "ˈkjʊəreɪt",
-          "definition_zh": "精心挑选和整理内容。",
-          "example_zh": "「If you curate, you should create」意思是只做筛选还不够,应该产出原创内容。"
+          "ipa": "/kjʊˈreɪt/",
+          "definition_zh": "指有判断地筛选、整理并呈现内容。",
+          "example_zh": "作者主张做内容筛选整理的人，也应进一步产出自己的原创内容。"
         }
       ],
       "tweets": [
@@ -493,8 +490,8 @@
     {
       "name": "Dan Shipper",
       "handle": "danshipper",
-      "summary_en": "Shares a quote about 'one dawn across science of something far greater', a poetic nod to AI's scientific promise.",
-      "summary_zh": "分享了一句「科学领域更宏大事物的一道曙光」,带有诗意地呼应AI在科学上的前景。",
+      "summary_en": "The brief excerpt hints at a larger scientific development, but provides too little context to identify the claim.",
+      "summary_zh": "这段简短文字暗示某项更大的科学进展，但上下文不足，无法确定具体主张。",
       "slang": [],
       "keywords": [],
       "tweets": [
@@ -509,27 +506,27 @@
     {
       "name": "Aditya Agarwal",
       "handle": "adityaag",
-      "summary_en": "Points out that AI is being used to tackle the Riemann hypothesis and to fight pancreatic cancer with a pill, yet people still debate whether the 'AI trade' is good.",
-      "summary_zh": "指出AI正在攻克黎曼猜想,并助力以药丸对抗胰腺癌,而人们却仍在争论「AI交易」是否划算。",
+      "summary_en": "The post uses ambitious claims about mathematics and cancer treatment to argue that debate over the AI investment trend misses its potential impact.",
+      "summary_zh": "帖子借数学和癌症治疗方面的宏大主张，认为围绕 AI 投资热潮的争论忽视了其潜在影响。",
       "slang": [
         {
           "term": "AI trade",
-          "definition_en": "Investing in AI-related stocks and assets as a market theme.",
-          "definition_zh": "把AI相关股票和资产作为主题进行投资。"
+          "definition_en": "An investment strategy based on expected gains from AI.",
+          "definition_zh": "基于 AI 预期收益进行的投资交易或布局。"
         }
       ],
       "keywords": [
         {
           "phrase": "AI trade",
           "ipa": "",
-          "definition_zh": "市场上围绕 AI 主题的投资交易。",
-          "example_zh": "作者讽刺人们还在争论 AI 投资是否值得,却忽视了 AI 的实际成就。"
+          "definition_zh": "指围绕 AI 发展及其预期收益形成的投资主题或交易策略。",
+          "example_zh": "作者用数学和癌症治疗方面的宏大说法，反衬只争论 AI 投资行情是否值得参与的局限；推文本身没有验证这些说法。"
         },
         {
-          "phrase": "Riemann",
-          "ipa": "ˈriːmɑːn",
-          "definition_zh": "指黎曼猜想,数学中著名的未解难题。",
-          "example_zh": "作者以 AI 攻克黎曼猜想为例,说明 AI 的巨大潜力。"
+          "phrase": "crushing",
+          "ipa": "/ˈkrʌʃɪŋ/",
+          "definition_zh": "在口语中可夸张地表示取得压倒性进展或成功。",
+          "example_zh": "作者用 crushing 强调其所声称的胰腺癌药物进展，表达强烈乐观，不能据此理解为已证实治愈。"
         }
       ],
       "tweets": [
@@ -553,8 +550,8 @@
       "name": "Latent Space",
       "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
       "url": "https://www.youtube.com/watch?v=x0VSm6IjcDQ",
-      "summary_en": "Discusses a CEO's blog post declaring issue tracking dead, and how to explain that to customers whose business was built on issue tracking. The answer: the company isn't so big that it can't adapt.",
-      "summary_zh": "讨论一位CEO发表的「issue tracking已死」博文,以及如何向以issue tracking为业务的客户解释。回答是公司规模不大,足够灵活应变。"
+      "summary_en": "The excerpt discusses the difficulty of telling customers that a company's core issue-tracking business may need to change, while suggesting a smaller company has more room to make that shift.",
+      "summary_zh": "这段对话讨论了向客户解释核心问题追踪业务可能需要转型的难处，也认为规模较小的公司更有调整空间。"
     }
   ],
   "blogs": [],
@@ -562,181 +559,202 @@
     {
       "word": "inadvertently",
       "ipa": "/ˌɪnədˈvɜːrtəntli/",
-      "pos": "adverb",
-      "definition_en": "Without intending to; by accident rather than by design.",
-      "definition_zh": "无意中;不经意地",
+      "pos": "adv",
+      "definition_en": "Without intending to; accidentally.",
+      "definition_zh": "无意地；非故意地",
       "synonyms": [
         "accidentally",
-        "unintentionally",
-        "unwittingly"
+        "unintentionally"
       ],
-      "example_en": "We inadvertently created a feature that was so fun nobody wanted to work.",
-      "example_zh": "我们无意中做出了一个太好玩的功能,结果没人想工作了。"
+      "example_en": "We inadvertently created a feature that everyone wanted to use.",
+      "example_zh": "我们无意中做出了一个人人都想用的功能。"
     },
     {
       "word": "reinvent",
-      "ipa": "/ˌriːɪnˈvɛnt/",
+      "ipa": "/ˌriːɪnˈvent/",
       "pos": "verb",
-      "definition_en": "To change something so completely that it appears to be entirely new; to rebuild from scratch.",
-      "definition_zh": "彻底重新创造;从头再造",
+      "definition_en": "To change something substantially or create a new approach to it.",
+      "definition_zh": "彻底改造；重新构想",
       "synonyms": [
-        "rebuild",
-        "redesign",
-        "overhaul"
+        "reimagine",
+        "transform"
       ],
-      "example_en": "They are having to reinvent the content and software factory from scratch.",
-      "example_zh": "他们不得不从零开始重新打造内容和软件工厂。"
+      "example_en": "AI tools may help teams reinvent how they develop software.",
+      "example_zh": "AI 工具可能帮助团队重新构想软件开发的方式。"
     },
     {
-      "word": "in anger",
-      "ipa": "/ɪn ˈæŋɡər/",
-      "pos": "idiom",
-      "definition_en": "To use something seriously in a real, practical situation (not just for testing). Common in British English tech talk.",
-      "definition_zh": "(用于)真正实战;在实际场景中认真使用",
-      "synonyms": [
-        "in earnest",
-        "in real use",
-        "in production"
-      ],
-      "example_en": "Has anyone actually used this tool in anger yet?",
-      "example_zh": "有人真正在实战中用过这个工具吗?"
-    },
-    {
-      "word": "locked in",
-      "ipa": "/lɒkt ɪn/",
-      "pos": "phrasal adj",
-      "definition_en": "Fully focused and deeply committed to the task at hand.",
-      "definition_zh": "高度专注;全情投入",
-      "synonyms": [
-        "focused",
-        "dialed in",
-        "laser-focused"
-      ],
-      "example_en": "The team is locked in, so upgrade your desktop app.",
-      "example_zh": "团队全情投入,快去升级你的桌面应用吧。"
-    },
-    {
-      "word": "remote control",
-      "ipa": "/rɪˈmoʊt kənˈtroʊl/",
+      "word": "context",
+      "ipa": "/ˈkɑːntekst/",
       "pos": "noun",
-      "definition_en": "The ability to operate a device or software from a distance, often via phone or another device.",
-      "definition_zh": "远程控制",
+      "definition_en": "Background information that helps someone or an AI system understand a situation or request.",
+      "definition_zh": "背景信息；语境；上下文",
       "synonyms": [
-        "remote access",
-        "remote operation",
-        "teleoperation"
+        "background",
+        "setting"
       ],
-      "example_en": "You can talk to all your threads via remote control on mobile.",
-      "example_zh": "你可以在手机上通过远程控制访问所有对话线程。"
+      "example_en": "The assistant needs more context to understand your request.",
+      "example_zh": "这个助手需要更多背景信息才能理解你的请求。"
+    },
+    {
+      "word": "origin",
+      "ipa": "/ˈɔːrɪdʒɪn/",
+      "pos": "noun",
+      "definition_en": "The point or source from which something begins.",
+      "definition_zh": "起源；源头",
+      "synonyms": [
+        "source",
+        "beginning"
+      ],
+      "example_en": "The project's origin was a small experiment.",
+      "example_zh": "这个项目起源于一次小实验。"
+    },
+    {
+      "word": "pleasant",
+      "ipa": "/ˈplezənt/",
+      "pos": "adj",
+      "definition_en": "Enjoyable, agreeable, or comfortable.",
+      "definition_zh": "令人愉快的；舒适的",
+      "synonyms": [
+        "enjoyable",
+        "agreeable"
+      ],
+      "example_en": "Small improvements made the desktop app more pleasant to use.",
+      "example_zh": "一些小改进让桌面应用用起来更舒心。"
     },
     {
       "word": "visibly",
       "ipa": "/ˈvɪzəbli/",
-      "pos": "adverb",
-      "definition_en": "In a way that can be clearly seen or noticed.",
-      "definition_zh": "明显地;显而易见地",
+      "pos": "adv",
+      "definition_en": "In a way that can be seen or easily noticed.",
+      "definition_zh": "明显地；看得出来地",
       "synonyms": [
-        "obviously",
         "noticeably",
-        "evidently"
+        "perceptibly"
       ],
-      "example_en": "He offered brisket to a visibly vegetarian squirrel.",
-      "example_zh": "他居然把烤牛胸肉递给一只明显吃素的松鼠。"
-    },
-    {
-      "word": "recover",
-      "ipa": "/rɪˈkʌvər/",
-      "pos": "verb",
-      "definition_en": "To return to a normal state of health, productivity, or strength after a setback.",
-      "definition_zh": "恢复;缓过来",
-      "synonyms": [
-        "bounce back",
-        "rebound",
-        "get back on track"
-      ],
-      "example_en": "We might not recover from this, because everyone is having too much fun.",
-      "example_zh": "我们可能缓不过来了,因为大家玩得太开心了。"
-    },
-    {
-      "word": "perf",
-      "ipa": "/pɜːrf/",
-      "pos": "noun (informal)",
-      "definition_en": "Short for performance; how fast and efficiently software runs.",
-      "definition_zh": "性能(performance 的口语缩写)",
-      "synonyms": [
-        "performance",
-        "speed",
-        "efficiency"
-      ],
-      "example_en": "Big perf wins matter for actions you do hundreds of times a day.",
-      "example_zh": "对于每天要做上百次的操作,性能提升意义重大。"
+      "example_en": "She was visibly excited when the new feature worked.",
+      "example_zh": "新功能运行成功时，看得出来她很兴奋。"
     }
   ],
   "quote": {
-    "text_en": "The best way to predict the future is to invent it.",
-    "text_zh": "预测未来的最好方式,就是亲手创造它。",
-    "author": "Alan Kay"
+    "text_en": "Build something small today that makes tomorrow a little easier.",
+    "text_zh": "今天做出一个小东西，让明天轻松一点。",
+    "author": "Original quote"
   },
   "slang_glossary": [
     {
-      "term": "software factory",
-      "definition_en": "An organized, often automated system or pipeline for producing software at scale, increasingly using AI agents.",
-      "definition_zh": "软件工厂:以流水线化、自动化(常借助AI智能体)方式大规模生产软件的体系"
+      "term": "broooo",
+      "definition_en": "An exaggerated form of bro, expressing excitement, disbelief, or frustration.",
+      "definition_zh": "「bro」的拉长写法，类似「兄弟啊」，表达兴奋、难以置信或无奈。"
     },
     {
-      "term": "threw it into prod",
-      "definition_en": "Deployed a feature directly to the live production environment, often quickly or casually.",
-      "definition_zh": "直接扔上生产环境:未经繁复流程就把功能部署到线上"
+      "term": "shipping",
+      "definition_en": "Releasing a product, feature, or update to users.",
+      "definition_zh": "把产品、功能或更新正式交付给用户。"
     },
     {
-      "term": "QoL",
-      "definition_en": "Quality of life: small improvements that make a product more pleasant and convenient to use.",
-      "definition_zh": "QoL(生活品质改进):让产品更好用、更舒适的小优化"
-    },
-    {
-      "term": "gameplay loop",
-      "definition_en": "The repeating cycle of actions and rewards that keeps a player engaged in a game.",
-      "definition_zh": "游戏玩法循环:让玩家持续投入的重复行为与奖励循环"
-    },
-    {
-      "term": "bear market",
-      "definition_en": "A period of falling market prices, typically a decline of 20% or more, marked by pessimism.",
-      "definition_zh": "熊市:价格持续下跌、投资情绪悲观的市场阶段"
-    },
-    {
-      "term": "hello world",
-      "definition_en": "The simplest introductory program that prints 'Hello, World!'; also means a first basic test of a new tool.",
-      "definition_zh": "Hello World:最简单的入门程序,也指对新工具的首次基础尝试"
-    },
-    {
-      "term": "SOC2",
-      "definition_en": "A security compliance framework auditing how companies manage customer data (security, availability, confidentiality, etc.).",
-      "definition_zh": "SOC2:评估企业如何保护客户数据(安全性、可用性、保密性等)的合规审计标准"
-    },
-    {
-      "term": "agentic",
-      "definition_en": "Describing AI systems that act autonomously, plan, and take actions to achieve goals.",
-      "definition_zh": "智能体式的:指AI能自主规划并采取行动以完成目标"
-    },
-    {
-      "term": "AI trade",
-      "definition_en": "Investment positioning that bets on AI-related companies and themes in the stock market.",
-      "definition_zh": "AI交易:押注AI相关公司与主题的投资布局"
-    },
-    {
-      "term": "in anger",
-      "definition_en": "Used seriously in real-world conditions, not just for testing (mainly British usage).",
-      "definition_zh": "实战中使用:在真实场景而非仅测试中认真使用(多见于英式英语)"
-    },
-    {
-      "term": "locked in",
-      "definition_en": "Intensely focused and committed to the work.",
-      "definition_zh": "全情投入:高度专注于手头工作"
+      "term": "prod",
+      "definition_en": "Short for production: the live environment used by real users.",
+      "definition_zh": "「production」的缩写，指真实用户使用的生产环境。"
     },
     {
       "term": "perf",
-      "definition_en": "Shorthand for performance.",
-      "definition_zh": "perf:performance(性能)的缩写"
+      "definition_en": "Short for performance, especially software speed and responsiveness.",
+      "definition_zh": "「performance」的缩写，通常指软件的运行速度和响应表现。"
+    },
+    {
+      "term": "QoL",
+      "definition_en": "Quality of life: improvements that make everyday use easier or more convenient.",
+      "definition_zh": "「quality of life」的缩写，在产品语境中指让日常使用更方便、更顺手的改进。"
+    },
+    {
+      "term": "gameplay loop",
+      "definition_en": "The recurring cycle of actions, feedback, and rewards in a game.",
+      "definition_zh": "游戏中反复出现的行动、反馈与奖励循环。"
+    },
+    {
+      "term": "bear market",
+      "definition_en": "A period of sustained market declines and widespread pessimism.",
+      "definition_zh": "市场持续下跌、投资者普遍悲观的阶段，即熊市。"
+    },
+    {
+      "term": "hello world",
+      "definition_en": "A minimal introductory program or example used to demonstrate that a system works.",
+      "definition_zh": "用于入门或验证系统能正常工作的最简单程序或示例。"
+    },
+    {
+      "term": "agent / agents",
+      "definition_en": "In AI, a system that pursues a task through multiple steps, often using tools.",
+      "definition_zh": "在 AI 语境中，指能够分多步执行任务、通常还会调用工具的智能体。"
+    },
+    {
+      "term": "infra",
+      "definition_en": "Short for infrastructure: the underlying systems that support software or services.",
+      "definition_zh": "「infrastructure」的缩写，指支撑软件或服务运行的基础设施。"
+    },
+    {
+      "term": "agentic emailing",
+      "definition_en": "Using AI agents to carry out email tasks with some autonomy.",
+      "definition_zh": "让 AI 智能体以一定自主程度处理邮件任务。"
+    },
+    {
+      "term": "prompted",
+      "definition_en": "Gave an AI system an instruction or input to guide its output.",
+      "definition_zh": "向 AI 输入指令或提示，引导它生成结果。"
+    },
+    {
+      "term": "AI trade",
+      "definition_en": "An investment theme involving assets expected to benefit from AI growth.",
+      "definition_zh": "围绕预期受益于 AI 增长的资产展开的投资主题或交易。"
+    },
+    {
+      "term": "use something in anger",
+      "definition_en": "Use something for serious, real work rather than merely testing it.",
+      "definition_zh": "把某个工具真正用到实际工作中，而不只是试用；这里不表示生气。"
+    },
+    {
+      "term": "actions",
+      "definition_en": "In this software context, likely automated tasks or workflows, such as build and test jobs.",
+      "definition_zh": "在此软件语境中，可能指自动执行的任务或工作流，例如构建与测试任务。"
+    },
+    {
+      "term": "CI/CD",
+      "definition_en": "Continuous integration and continuous delivery or deployment: practices for automatically checking and releasing software changes.",
+      "definition_zh": "持续集成与持续交付或部署：自动检查、交付或发布软件变更的一套实践。"
+    },
+    {
+      "term": "locked in",
+      "definition_en": "Highly focused and committed to the task.",
+      "definition_zh": "高度专注、全力投入某项任务。"
+    },
+    {
+      "term": "messing around",
+      "definition_en": "Experimenting casually or playing with something without a fixed plan.",
+      "definition_zh": "随意尝试、摸索或玩一玩，没有严格的计划。"
+    },
+    {
+      "term": "from scratch",
+      "definition_en": "From the beginning, without relying on an existing version.",
+      "definition_zh": "从零开始；从头做起。"
+    },
+    {
+      "term": "software factory",
+      "definition_en": "A metaphor for a repeatable, often automated system for producing software.",
+      "definition_zh": "把软件生产比作工厂，指可重复运行、通常包含自动化的软件开发体系。"
+    },
+    {
+      "term": "model picker",
+      "definition_en": "An interface control for choosing which AI model to use.",
+      "definition_zh": "用于选择要使用哪个 AI 模型的界面控件。"
+    },
+    {
+      "term": "threads",
+      "definition_en": "Separate conversation histories within a messaging or AI application.",
+      "definition_zh": "聊天或 AI 应用中各自独立的对话及其历史记录。"
+    },
+    {
+      "term": "wins",
+      "definition_en": "Useful improvements or successful outcomes, especially in product development.",
+      "definition_zh": "有价值的改进或取得的成果，产品开发中常用来指收益明显的优化。"
     }
   ],
   "stats": {

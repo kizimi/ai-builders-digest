@@ -1,0 +1,860 @@
+{
+  "date": "2026-11-12",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Clarifies that a person is a former employee while distancing the organization from the email domain shown. Also announces a livestream speaker handoff.",
+      "summary_zh": "确认相关人士是已离职员工，同时澄清所展示的邮箱域名并非组织使用的域名。另预告直播嘉宾交接。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "parted ways",
+          "ipa": "",
+          "definition_zh": "委婉地表示结束雇佣或合作关系。",
+          "example_zh": "这里确认此人曾是员工，但双方已经结束雇佣关系；这种说法没有说明是辞职还是被解雇。"
+        },
+        {
+          "phrase": "email domain",
+          "ipa": "",
+          "definition_zh": "电子邮箱地址中位于 @ 后面的域名部分。",
+          "example_zh": "作者指出，展示出来的邮箱域名并非组织使用的域名，以澄清其与该邮箱的关系。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120640864787841513",
+          "text": "this person is a real former employee that we parted ways with\n\nthat email domain is not one we use https://t.co/uMoKLNxGrh",
+          "url": "https://x.com/swyx/status/2120640864787841513",
+          "summary_en": null
+        },
+        {
+          "id": "2120640558184206508",
+          "text": "next on stream - @CompleteSkeptic and @typesafeai take over for Jev Day! https://t.co/JcBRgaHwvt https://t.co/gVA3KoN1V4",
+          "url": "https://x.com/swyx/status/2120640558184206508",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_en": "Endorses an unnamed tool the team regularly uses, saying it makes their apps faster and smarter.",
+      "summary_zh": "认可团队经常使用的一款工具，称它能让应用运行更快、功能更智能。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2120622974277734716",
+          "text": "We love this and build with it regularly ♥️\n\nIt makes our apps faster and smarter https://t.co/79qcg9KloV",
+          "url": "https://x.com/joshwoodward/status/2120622974277734716",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "Hints at upcoming Codex activity and a possible reset, without specifying what would change or when.",
+      "summary_zh": "暗示 Codex 可能即将有新动作，并提到可能进行一次重置，但未说明具体内容或时间。",
+      "slang": [
+        {
+          "term": "banked reset",
+          "definition_en": "Apparently refers to a saved reset that could be applied later, though the tweet does not explain the mechanism.",
+          "definition_zh": "似乎指预留、可稍后使用的重置机会，但推文未解释具体机制。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "codexy",
+          "ipa": "/ˈkoʊdɛksi/",
+          "definition_zh": "由 Codex 临时衍生出的俏皮形容词，表示带有 Codex 气息或与其有关。",
+          "example_zh": "作者说周四感觉很「codexy」，是在暗示可能有 Codex 相关动静，但没有明确宣布具体事项。"
+        },
+        {
+          "phrase": "banked reset",
+          "ipa": "",
+          "definition_zh": "字面上指预留或攒下的一次重置机会。",
+          "example_zh": "作者暗示可能动用一次预留的重置机会，但推文没有交代重置对象或具体机制。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120410480204525936",
+          "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+          "url": "https://x.com/thsottiaux/status/2120410480204525936",
+          "summary_en": null
+        },
+        {
+          "id": "2120410006273380750",
+          "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+          "url": "https://x.com/thsottiaux/status/2120410006273380750",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Expresses disappointment over allegations concerning Jensen Huang while arguing that any dismissal decision should follow a proper investigation and shareholder involvement.",
+      "summary_zh": "对涉及黄仁勋的指控表达失望，同时主张解职决定应经过正式调查，并让股东参与决策。",
+      "slang": [
+        {
+          "term": "anons",
+          "definition_en": "Anonymous or pseudonymous social media accounts.",
+          "definition_zh": "以匿名或化名活动的社交媒体账号。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "anons",
+          "ipa": "/əˈnɑːnz/",
+          "definition_zh": "社交平台上对匿名或使用化名账号的用户的俗称。",
+          "example_zh": "作者用这个词称呼回复区里的匿名用户，随后澄清自己对相关指控与解雇问题的不同判断。"
+        },
+        {
+          "phrase": "shareholders",
+          "ipa": "/ˈʃerˌhoʊldərz/",
+          "definition_zh": "持有公司股份、拥有相应权益的股东。",
+          "example_zh": "作者主张，董事会作出是否解雇的决定前，应开展调查并让股东参与决策。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120726673452933269",
+          "text": "for all the anons in my replies - \n\nI think his cheating is appalling but that's different from getting fired over it.\n\nBefore the board takes action they should do a proper investigation and involve shareholders in the decision.\n\nThere's no denying that Jensen built a generational company.",
+          "url": "https://x.com/petergyang/status/2120726673452933269",
+          "summary_en": null
+        },
+        {
+          "id": "2120649149389627493",
+          "text": "Man I am so disappointed in Jensen.\n\nSo many people looked up to him including me. The story of rising from a dishwasher and waiter to the CEO of the most valuable company in the world. The story of a 41-year marriage to his college sweetheart.\n\nWhat the hell happened man?\n\nAnd of all the people to have affairs with you have to choose a spy and a freakin' NVIDIA executive?\n\nCome on dude.",
+          "url": "https://x.com/petergyang/status/2120649149389627493",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "Argues that developers can actively shape how coding agents will feel to use over the next year, making that experience the focus of an upcoming conference talk.",
+      "summary_zh": "认为开发者可以主动塑造未来一年编程智能体的使用体验，并将这一议题作为即将举行的会议演讲重点。",
+      "slang": [
+        {
+          "term": "coding agents",
+          "definition_en": "AI systems that carry out programming tasks through actions such as editing code and using development tools.",
+          "definition_zh": "通过修改代码、调用开发工具等操作执行编程任务的 AI 系统。"
+        },
+        {
+          "term": "bitter lesson",
+          "definition_en": "The idea that general methods leveraging computation tend to outperform approaches built around hand-crafted human knowledge over time.",
+          "definition_zh": "指长期来看，利用计算能力的通用方法往往优于依赖人工编码知识的方法这一观点。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "coding agents",
+          "ipa": "",
+          "definition_zh": "能够围绕编程目标执行代码编写、修改等任务的 AI 智能体。",
+          "example_zh": "作者的演讲关注未来一年使用编程智能体的体验，以及开发者如何主动塑造这种体验。"
+        },
+        {
+          "phrase": "closing keynote",
+          "ipa": "",
+          "definition_zh": "会议临近结束时安排的主旨演讲。",
+          "example_zh": "作者调侃自己的演讲被安排在压轴时段，届时一些听众可能已经疲惫或提前离场。"
+        },
+        {
+          "phrase": "the bitter lesson",
+          "ipa": "",
+          "definition_zh": "AI 领域中强调通用计算方法长期往往胜过人工注入领域知识的观点。",
+          "example_zh": "作者将它嵌入演讲标题「the sweet side of the bitter lesson」，但这段推文没有展开具体论证。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120621112807866620",
+          "text": "it’s about how I think the experience of using coding agents could be like next year and how we get to shape it",
+          "url": "https://x.com/trq212/status/2120621112807866620",
+          "summary_en": null
+        },
+        {
+          "id": "2120620900785820143",
+          "text": "Swyx gave me the “closing keynote” of AIE code, aka everyone is tired or flying out\n\nso if you’re not one of those please come to mine tomorrow at 5pm\n\nit’s called “the sweet side of the bitter lesson” https://t.co/R5nVuHXukK",
+          "url": "https://x.com/trq212/status/2120620900785820143",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Google Labs",
+      "handle": "GoogleLabs",
+      "summary_en": "Introduces Tabletop as a shared space for links, files, and group coordination intended to turn plans into action. A family-use demonstration shows how it can support highly personalized activities such as an interactive chore chart.",
+      "summary_zh": "推出 Tabletop，将链接、文件和多人协作集中在共享空间中，帮助群体把计划付诸行动。家庭使用演示展示了互动家务表等高度个性化的用途。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "Founding engineer",
+          "ipa": "",
+          "definition_zh": "在公司或产品创立早期加入、参与奠定技术基础的工程师。",
+          "example_zh": "推文用这个职位介绍带大家参观家庭 Tabletop 空间的工程师，突出他与产品早期建设的关系。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120595442782368240",
+          "text": "Want to see how our team actually uses Tabletop? 👀\n\nFounding engineer @romannurik gave us a tour of his family’s space— showing how Tabletop can be as useful, quirky, or wonderfully specific as you want it to be:\n\n🪙 Interactive chore charts & piggy banks\n🔍 Rainy-day scavenger hunt with live score tracking\n🗺️ On-the-whim LEGO maps\n🧝‍♀️ Fantasy book-themed NYC trip\n\nPull up a chair and join the waitlist (US, 18+): https://t.co/triX0g7udt",
+          "url": "https://x.com/GoogleLabs/status/2120595442782368240",
+          "summary_en": "Tabletop can support highly personalized family activities, including interactive chore charts, scavenger hunts with live scores, LEGO maps, and book-themed travel planning."
+        },
+        {
+          "id": "2120549258692882702",
+          "text": "🚨 NEW LABS EXPERIMENT 🚨\n\nIntroducing Tabletop 🎲— our newest experiment built to get your crew from \"we should totally do that\" to \"we’re actually doing this.\"\n\nDrop links and files into one shared space, add your crew, and ask Tabletop for whatever you need to create custom spaces on the fly:\n\n🗺️ Interactive road trip maps & dinner-decider wheels\n🏆 Live pickleball brackets & merch voting boards\n🪑 Drag-and-drop seating charts (so you don’t get stuck next to your boss)\n\nPull up a chair and join the waitlist (US, 18+): https://t.co/triX0g7udt",
+          "url": "https://x.com/GoogleLabs/status/2120549258692882702",
+          "summary_en": "Google Labs introduced Tabletop, a shared workspace that turns links, files, and group requests into custom interactive tools such as trip maps, tournament brackets, voting boards, and seating charts."
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "Questions why older allegations involving Jensen Huang are attracting international attention now, speculating about who might benefit and connecting the issue to his support for open models.",
+      "summary_zh": "质疑涉及黄仁勋的旧指控为何此时引发国际关注，推测哪些人可能受益，并将此事与他支持开放模型的立场联系起来。",
+      "slang": [
+        {
+          "term": "open models",
+          "definition_en": "AI models made available for others to access or adapt, with the degree of openness varying by release.",
+          "definition_zh": "向外部提供访问或适配能力的 AI 模型，具体开放程度因发布方式而异。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "open models",
+          "ipa": "",
+          "definition_zh": "对外开放模型权重等资源、允许他人按许可使用或改造的 AI 模型。",
+          "example_zh": "作者强调 Jensen 对开放模型的支持，并据此猜测旧闻此时受到关注的动机；推文没有提供证据证实这种联系。"
+        },
+        {
+          "phrase": "covered up",
+          "ipa": "",
+          "definition_zh": "指为了避免曝光而掩盖某件事。",
+          "example_zh": "作者认为这些旧事此前并未被严密掩盖，因此质疑它们为何现在才成为国际新闻。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120671838909194695",
+          "text": "Why are old stories that were not even covered up all that well become sudden international and geopolitical news?\n\nThe timing is suspicious, so worth asking: who benefits and why now?\n\nIf Jensen, the premier champion of open models, is taken out then anyone who wants AI closed, centralized, and controlled might benefit.\n\nWhy now? The midterms seem relevant. But also perhaps the upcoming IPOs.",
+          "url": "https://x.com/amasad/status/2120671838909194695",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Argues that excellent products still demand sustained human attention, effort, and care. Separately highlights a startup-performance benchmark against a heavily optimized assembly implementation.",
+      "summary_zh": "强调优秀产品仍需要人持续投入注意力、努力和用心。另展示了一项启动性能基准测试，以高度优化的汇编实现作为对照。",
+      "slang": [
+        {
+          "term": "PSA",
+          "definition_en": "Public service announcement, commonly used online to introduce a broadly relevant reminder.",
+          "definition_zh": "公共服务公告的缩写，网络上常用于引出面向大家的提醒。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "benchmark",
+          "ipa": "/ˈbentʃmɑːrk/",
+          "definition_zh": "用于衡量和比较系统性能的基准测试。",
+          "example_zh": "作者提到一个启动性能基准测试，用它比较 𝚏𝚡 与高度优化的汇编版本。"
+        },
+        {
+          "phrase": "bootup",
+          "ipa": "/ˈbuːtʌp/",
+          "definition_zh": "程序或系统启动并进入可用状态的过程。",
+          "example_zh": "这里比较的是 𝚏𝚡 的启动表现，不能据此判断它在所有运行任务中的性能。"
+        },
+        {
+          "phrase": "pure-assembly",
+          "ipa": "/ˌpjʊr əˈsembli/",
+          "definition_zh": "指完全以汇编语言实现的。",
+          "example_zh": "这个词修饰作为对照的 𝚏𝚡.𝚜 版本，强调其采用纯汇编实现且经过高度优化。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120601000176439478",
+          "text": "PSA: creating wonderful products still requires extraordinary amounts of human focus, effort, motivation, and love. And an attention span.",
+          "url": "https://x.com/rauchg/status/2120601000176439478",
+          "summary_en": null
+        },
+        {
+          "id": "2120598652825809186",
+          "text": "We have a benchmark that makes 𝚏𝚡 bootup compete with an ultra-optimized pure-assembly 𝚏𝚡.𝚜 version 😂 https://t.co/YguWGluL7i https://t.co/p1scInCCyW",
+          "url": "https://x.com/rauchg/status/2120598652825809186",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "Argues against Nvidia's board removing Jensen Huang, emphasizing his operational importance and the potential disruption of a leadership transition.",
+      "summary_zh": "反对英伟达董事会罢免黄仁勋，强调他对公司运营的重要性，以及领导层交接可能造成的冲击。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "oust",
+          "ipa": "/aʊst/",
+          "definition_zh": "将某人从职位或权力位置上撤换。",
+          "example_zh": "作者认为董事会撤换 Jensen Huang 并不明智，理由是其领导作用对公司运营十分关键。"
+        },
+        {
+          "phrase": "prime actor work",
+          "ipa": "",
+          "definition_zh": "这里指由核心负责人亲自推动、对组织运转起关键作用的工作。",
+          "example_zh": "作者用这个不常见的表达强调 Jensen 日常工作的关键性，但没有具体说明哪些职责难以交接。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120657462353330604",
+          "text": "Seems ill advised for Nvidia’s board to oust Jensen Huang given how central his leadership is to the operations of an engine of our future abundance. \n\nHis day to day is prime actor work. Would be hard to believe a transition happens without massive market cap implosion.  https://t.co/alxSa3cwwi",
+          "url": "https://x.com/garrytan/status/2120657462353330604",
+          "summary_en": null
+        },
+        {
+          "id": "2120449677095215491",
+          "text": "Register here https://t.co/ETqr9HiYKG",
+          "url": "https://x.com/garrytan/status/2120449677095215491",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "Reacts to further reporting involving Jensen Huang and highlights founder advice about making choices that strongly attract some people and repel others.",
+      "summary_zh": "对涉及黄仁勋的进一步报道作出反应，并推荐一条创业建议，即通过鲜明选择强烈吸引一部分人，也让另一部分人远离。",
+      "slang": [
+        {
+          "term": "strong attract, strong repel",
+          "definition_en": "A positioning principle that favors a clear identity capable of generating strong positive and negative reactions.",
+          "definition_zh": "一种定位原则，主张建立鲜明身份，让受众产生强烈的认同或排斥。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Strong attract, strong repel",
+          "ipa": "",
+          "definition_zh": "指鲜明的定位或选择会强烈吸引一部分人，同时让另一部分人退却。",
+          "example_zh": "作者将这句话作为给创始人的建议，强调明确取舍可能同时带来强烈认同与排斥。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120640868483006533",
+          "text": "French execs as a second Jensen story surfaces https://t.co/2gDPWPnKAH https://t.co/SDI5BeppBW",
+          "url": "https://x.com/mattturck/status/2120640868483006533",
+          "summary_en": null
+        },
+        {
+          "id": "2120522625697116287",
+          "text": "Strong attract, strong repel\n\nTons of gems for any founder 👇 https://t.co/Wpw4bNhavk",
+          "url": "https://x.com/mattturck/status/2120522625697116287",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "Argues that technology achieves its deepest impact when the experience becomes so natural that users stop noticing the underlying technology.",
+      "summary_zh": "认为当体验足够自然、让用户不再注意背后的技术时，技术才实现了最重要的价值。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "forgets the technology",
+          "ipa": "",
+          "definition_zh": "指体验足够自然，以至于使用者不再意识到背后的技术。",
+          "example_zh": "这句话把观众不再关注技术本身，视为技术完成重要使命的标志，强调体验带来的感受。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120429971718156375",
+          "text": "\"Technology only finishes its most important work once the audience forgets the technology\" https://t.co/ptATLyC16Z",
+          "url": "https://x.com/zarazhangrui/status/2120429971718156375",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Invites founders working on startup ideas proposed by a portfolio company founder to get in touch, although the ideas themselves are absent from the supplied text. Also asks Grok to transcribe a message.",
+      "summary_zh": "邀请正在探索某位被投公司创始人所提创业方向的人联系，但所给文本未包含具体点子。另请求 Grok 转录一条消息。",
+      "slang": [
+        {
+          "term": "RFS",
+          "definition_en": "Request for startups, a call for founders to build companies addressing particular ideas or problems.",
+          "definition_zh": "创业项目征集，邀请创始人围绕特定想法或问题创办公司。"
+        },
+        {
+          "term": "stealth",
+          "definition_en": "Operating with limited public disclosure about a startup or its product.",
+          "definition_zh": "创业公司或产品处于低公开度、暂未披露详细信息的状态。"
+        },
+        {
+          "term": "DM",
+          "definition_en": "Direct message, a private message on a social platform.",
+          "definition_zh": "社交平台上的私信。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "RFS (request for startups)",
+          "ipa": "",
+          "definition_zh": "面向创业者发布希望有人着手解决的问题或创业方向的征集。",
+          "example_zh": "作者转述一位创始人提出的创业方向，并邀请正在做相关项目的人私信联系；具体方向未出现在所给文字中。"
+        },
+        {
+          "phrase": "stealth",
+          "ipa": "/stelθ/",
+          "definition_zh": "在创业语境中指尚未公开披露业务或产品的隐秘运营状态。",
+          "example_zh": "这里用来描述提出创业方向的创始人所处的创业状态，暗示其项目尚未全面公开。"
+        },
+        {
+          "phrase": "portfolio founder",
+          "ipa": "",
+          "definition_zh": "投资机构或投资人所投企业的创始人。",
+          "example_zh": "作者说明这些创业方向来自其投资组合中的一位创始人。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120759932370944188",
+          "text": "@grok can you transcribe the message here?",
+          "url": "https://x.com/nikunj/status/2120759932370944188",
+          "summary_en": null
+        },
+        {
+          "id": "2120754714296172923",
+          "text": "RFS (request for startups) from a stealth portfolio founder.. I really like all of these ideas.\n\nIf you are working on any of these, please DM me! https://t.co/WxlDNuvi8Y",
+          "url": "https://x.com/nikunj/status/2120754714296172923",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_en": "Expresses frustration with political arguments surrounding open-source work, saying they add difficulty to an already demanding undertaking.",
+      "summary_zh": "对围绕开源工作的政治争论表达不满，认为这给本已艰难的开源实践增加了负担。",
+      "slang": [
+        {
+          "term": "OSS",
+          "definition_en": "Open-source software, software whose source code is available under a license permitting use, modification, and redistribution.",
+          "definition_zh": "开源软件，源代码依据允许使用、修改和再分发的许可证开放。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "oss",
+          "ipa": "/ˌoʊ es ˈes/",
+          "definition_zh": "开源软件的英文缩写，通常指代码按开放许可提供的软件。",
+          "example_zh": "作者认为开源工作本就困难，评论中的政治争论又增加了负担。"
+        },
+        {
+          "phrase": "makes my brain hurt",
+          "ipa": "",
+          "definition_zh": "口语中表示某事令人费解、烦躁或难以忍受。",
+          "example_zh": "作者用这个夸张表达描述阅读部分评论时的挫败感，并非在报告身体症状。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120711266759258616",
+          "text": "reading some of these comments makes my brain hurt. oss is already hard enough without politics. https://t.co/TgpI4KxLOS",
+          "url": "https://x.com/steipete/status/2120711266759258616",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Describes using Fable 5.2 for substantial work in spare moments, including customer-survey analysis, and estimates that comparable work previously required five people and $200,000. Also points to his team's use of the same AI.",
+      "summary_zh": "描述利用零碎时间通过 Fable 5.2 完成客户问卷分析等工作，并估计同等工作过去需要五个人及二十万美元。另提到团队也在使用同一 AI。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "in the cracks of my week",
+          "ipa": "",
+          "definition_zh": "指一周日程中零碎、短暂的空闲时间。",
+          "example_zh": "作者说自己利用这些碎片时间借助 AI 完成大量工作，并举出会议间隙分析客户问卷的例子。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120539547620790424",
+          "text": "I look at what I do with Fable 5.2 in the cracks of my week and think: this would've taken five people and $200,000.\n\nThen I look at what my team does with the same AI.\n\nLast week, between meetings, I analyzed our customer survey, made a game for our team, spotted an opportunity to sell @Every to teams, built a CRM, and started reaching out.\n\nLook at that and you might ask: Why would I need a team at all?\n\nThe chart seems to agree. On OpenAI's GDPval benchmark, AI went from beating human experts 12.4% of the time in 2024 to around 83% in 2026. That's the aggregate view of the future of work: gather a lot of data and extrapolate a trend line.\n\nBut the aggregate misses something. To see it, you have to get intimate: zoom in on one real situation, with all its messiness, and extrapolate from there.\n\nWe gave everyone at Every access to the same customer survey and the same AI models.\n\n• I found an opportunity to sell to teams.\n• @poojary_yash saw that first-time subscribers were churning because we send too much email.\n• @dabrundage noticed that many of our readers feel lonely: they're excited about AI, but people around them think they're crazy.\n• @jackcheng turned the results into a Claymation game show.\n\nCould you ask Claude to produce what each of them found? Maybe. But generating possibilities is cheap. Knowing which ones matter is hard.\n\n@hammer_mt ran an experiment to predict what I'd say in Slack. When Claude got 400 attempts, it produced an answer like mine 93% of the time. But when it had to rank its own answers, mine landed in its top 10% only around 60% of the time.\n\nEach person on a team is responsible for a different part of the world. That responsibility narrows where they look, and their perspective helps them decide what matters enough to act on. A team explores more possibilities than a single default prompt, and it can take responsibility for what it finds.\n\nThe obvious objection: models will get better at ranking. I think they will. But people aren't frozen while that happens. Comparing 2026 Yash with 2027 Claude misses that there will also be a 2027 Yash, with another year of experience, using 2027 Claude.\n\nAs models improve and spread, they raise the floor for everyone. The default answer becomes the baseline. The value is in using your perspective and responsibility to push past it.\n\nThat's why I think we need to change how we measure AI. Instead of only asking how well a model performs on problems everyone agrees are worth solving, ask: How good is it at doing my work, from my perspective?\n\nThe aggregate can show us the capability curve. The intimate helps us see what we might build, and who we might become, as we ride it.\n\nI presented this at Thesis: 2027. The full talk is on the Every podcast:",
+          "url": "https://x.com/danshipper/status/2120539547620790424",
+          "summary_en": "AI lets individuals accomplish far more, but teams remain valuable because people identify different meaningful insights from the same information. Generating possibilities is cheap; judging which ones matter remains difficult, including for AI ranking its own outputs."
+        },
+        {
+          "id": "2120536060413268386",
+          "text": "this week @every https://t.co/IqurhRhS5w",
+          "url": "https://x.com/danshipper/status/2120536060413268386",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "Praises Rox's operating speed and frames spreading AI into existing workflows as a major company-building opportunity. Lists several business models for that opportunity, though the supplied excerpt omits the second category in his framework.",
+      "summary_zh": "肯定 Rox 的运营速度，并将 AI 向现有工作流程的普及视为重要创业机会，列举了多种商业模式。所给节选未包含其框架中的第二类公司。",
+      "slang": [
+        {
+          "term": "AI-pace",
+          "definition_en": "An informal description of operating at the rapid speed associated with AI development and adoption.",
+          "definition_zh": "非正式说法，指以 AI 开发和应用所体现的高速节奏运营。"
+        },
+        {
+          "term": "vertical SaaS",
+          "definition_en": "Subscription software designed for a specific industry.",
+          "definition_zh": "面向特定行业的订阅式软件服务。"
+        },
+        {
+          "term": "FDE company",
+          "definition_en": "A company using forward-deployed engineers who work closely with customers to implement and adapt its technology.",
+          "definition_zh": "采用前线部署工程师模式的公司，由工程师深入客户场景实施和适配技术。"
+        },
+        {
+          "term": "rollup",
+          "definition_en": "A business strategy that acquires and combines multiple companies.",
+          "definition_zh": "通过收购并整合多家公司开展业务的策略。"
+        },
+        {
+          "term": "horizontal product",
+          "definition_en": "A product serving a common need across multiple industries.",
+          "definition_zh": "满足多个行业共同需求的产品。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "AI-pace",
+          "ipa": "/ˌeɪ aɪ ˈpeɪs/",
+          "definition_zh": "指与 AI 发展和应用速度相适应的高速运营节奏。",
+          "example_zh": "作者用这个临时组合词称赞 Rox 的公司运营速度，并表示自己从创始人身上学到了这种节奏。"
+        },
+        {
+          "phrase": "vertical SaaS",
+          "ipa": "",
+          "definition_zh": "面向某个特定行业提供的软件即服务。",
+          "example_zh": "作者把将 AI 推广到实际业务中的创业机会，比作当下的垂直行业 SaaS 机会。"
+        },
+        {
+          "phrase": "rollup",
+          "ipa": "/ˈroʊlʌp/",
+          "definition_zh": "通过收购并整合多家公司来扩大业务规模的模式。",
+          "example_zh": "作者将收购整合列为推广 AI 的一种公司模式，但没有在这段文字中解释具体如何实施。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120623334555791504",
+          "text": "It has been such a pleasure to partner with Rox from the earliest days.\n\nI have also learnt a lot about what it means to run a company at AI-pace from @ishanmkh. His talk at our recent founder retreat was incredible. https://t.co/UdZlqzZetx",
+          "url": "https://x.com/adityaag/status/2120623334555791504",
+          "summary_en": null
+        },
+        {
+          "id": "2120578134177464356",
+          "text": "There are basically two kinds of companies to build right now.\n\n1. Diffusion of AI\nThis is the \"vertical SaaS\" of today. There are a bunch of different models for it (FDE company, rollup, horizontal product) but ultimately it all boils down to the same thing: get AI diffused very close to where the work is being done.\n\nProfound, Cognition, Harvey etc. A lot of great companies will get built here.\n\n2. Frontier of AI\nThis is where the really interesting action is. Use AI to accelerate scientific progress, then build products from that progress.\n\nIt is a harder category to see. But we are seeing a lot more of it at @spc:\n\n- Externa is adding hundreds of new chemical building blocks to proteins, so you can engineer a drug to match the disease instead of settling for what nature gave you.\n\n- Epana Bio is using genomics and AI to design autoimmune therapies that go after the cellular origin of the disease.\n\n- VenomicsAI is doing AI-accelerated drug discovery from venoms.\n\n- Equivariant is doing multi-physics modeling for the semiconductor industry.\n\n(There are always picks-and-shovels for AI as well. Lots of amazing companies in that category.)\n\nCategory 2 is not well understood or much talked about externally. It should be because I think that is where the vast majority of model driven returns will come from.",
+          "url": "https://x.com/adityaag/status/2120578134177464356",
+          "summary_en": "AI startups broadly fall into two categories: bringing AI into existing workflows and using AI to advance science and build products from new discoveries. The argument is that the second category, spanning drug discovery and semiconductor modeling, is underappreciated and could capture most model-driven returns."
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "handle": "claudeai",
+      "summary_en": "Shows how Mariko Mori used Claude to write code for a computer-generated animation presented as a new video installation in her retrospective.",
+      "summary_zh": "展示森万里子如何使用 Claude 编写计算机生成动画的代码，并将其作为回顾展中的新影像装置呈现。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "retrospective",
+          "ipa": "/ˌretrəˈspektɪv/",
+          "definition_zh": "在艺术语境中指回顾艺术家一段时期创作历程的展览。",
+          "example_zh": "这里指 Mariko Mori 的「All That Shines」回顾展，她在展览中呈现了借助 Claude 编写代码制作的新作品。"
+        },
+        {
+          "phrase": "computer-generated animation",
+          "ipa": "",
+          "definition_zh": "通过计算机程序或图形技术生成的动画。",
+          "example_zh": "推文说 Claude 帮助编写了生成动画的代码，没有说明动画画面是由生成式 AI 直接生成的。"
+        },
+        {
+          "phrase": "video installation",
+          "ipa": "",
+          "definition_zh": "以影像为核心媒介、结合展览空间呈现的装置艺术。",
+          "example_zh": "这段计算机生成的动画最终作为新的影像装置在回顾展中展出。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2120669165316915259",
+          "text": "Mariko Mori has pushed the boundaries of art for three decades. For her retrospective \"All That Shines,\" she used Claude to write code for a computer-generated animation, presented as a new video installation. https://t.co/MtJ1rlClxt",
+          "url": "https://x.com/claudeai/status/2120669165316915259",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "AI & I by Every",
+      "title": "A New Vision for Human Work After Automation",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "summary_en": "Introduces a discussion of how everyday AI use is changing work and references Every's first conference in Brooklyn. The supplied transcript ends before any substantive findings or speaker arguments appear.",
+      "summary_zh": "开场提出探讨日常 AI 使用如何改变工作，并提及 Every 在布鲁克林举办的首场会议。所给逐字稿在具体发现或嘉宾观点出现前便已结束。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "appalling",
+      "ipa": "/əˈpɔːlɪŋ/",
+      "pos": "adj",
+      "definition_en": "Extremely bad or shocking.",
+      "definition_zh": "令人震惊的；令人愤慨的；极其糟糕的。",
+      "synonyms": [
+        "shocking",
+        "horrifying",
+        "outrageous"
+      ],
+      "example_en": "The investigation revealed appalling working conditions.",
+      "example_zh": "调查揭露了令人震惊的工作条件。"
+    },
+    {
+      "word": "shareholder",
+      "ipa": "/ˈʃerˌhoʊldər/",
+      "pos": "noun",
+      "definition_en": "A person or organization that owns shares in a company.",
+      "definition_zh": "股东；持有公司股份的个人或机构。",
+      "synonyms": [
+        "stockholder"
+      ],
+      "example_en": "Shareholders asked the board for a clearer explanation.",
+      "example_zh": "股东要求董事会作出更清楚的解释。"
+    },
+    {
+      "word": "generational",
+      "ipa": "/ˌdʒenəˈreɪʃənəl/",
+      "pos": "adj",
+      "definition_en": "Relating to a generation, or exceptionally significant within a generation.",
+      "definition_zh": "一代人的；代际的；形容成就或企业时，也可指具有时代级影响力的。",
+      "synonyms": [
+        "generation-defining",
+        "epochal"
+      ],
+      "example_en": "The founder hopes to build a generational company.",
+      "example_zh": "这位创始人希望打造一家具有时代级影响力的公司。"
+    },
+    {
+      "word": "keynote",
+      "ipa": "/ˈkiːnoʊt/",
+      "pos": "noun",
+      "definition_en": "A main speech at an event that introduces or develops its central theme.",
+      "definition_zh": "主题演讲；大会上阐述核心议题的主要演讲。",
+      "synonyms": [
+        "keynote address",
+        "main address"
+      ],
+      "example_en": "Her keynote explored how coding agents could change software development.",
+      "example_zh": "她的主题演讲探讨了编程智能体可能如何改变软件开发。"
+    },
+    {
+      "word": "quirky",
+      "ipa": "/ˈkwɜːrki/",
+      "pos": "adj",
+      "definition_en": "Unusual in an interesting or appealing way.",
+      "definition_zh": "古灵精怪的；独特而有趣的。",
+      "synonyms": [
+        "unconventional",
+        "offbeat",
+        "eccentric"
+      ],
+      "example_en": "They built a quirky app that turns household chores into a game.",
+      "example_zh": "他们开发了一款古灵精怪的应用，把家务变成了游戏。"
+    },
+    {
+      "word": "part ways",
+      "ipa": "/pɑːrt weɪz/",
+      "pos": "verb phrase",
+      "definition_en": "To end a relationship, partnership, or working arrangement.",
+      "definition_zh": "分道扬镳；结束合作或雇佣关系。",
+      "synonyms": [
+        "separate",
+        "end a partnership"
+      ],
+      "example_en": "The company and its designer agreed to part ways.",
+      "example_zh": "公司与设计师同意结束合作。"
+    },
+    {
+      "word": "look up to",
+      "ipa": "/lʊk ˈʌp tə/",
+      "pos": "verb phrase",
+      "definition_en": "To admire and respect someone.",
+      "definition_zh": "敬佩；仰慕；尊敬。",
+      "synonyms": [
+        "admire",
+        "respect"
+      ],
+      "example_en": "Many young engineers look up to her as a mentor.",
+      "example_zh": "许多年轻工程师都很敬佩她，把她视为导师。"
+    }
+  ],
+  "quote": {
+    "text_en": "Well done is better than well said.",
+    "text_zh": "说得好不如做得好。",
+    "author": "Benjamin Franklin"
+  },
+  "slang_glossary": [
+    {
+      "term": "banked reset",
+      "definition_en": "An informal expression apparently referring to a saved reset of a usage limit or quota. Its precise meaning depends on the product.",
+      "definition_zh": "非正式说法，在此似乎指攒下来的使用额度重置机会，具体机制取决于产品。"
+    },
+    {
+      "term": "anons",
+      "definition_en": "Anonymous or pseudonymous people online.",
+      "definition_zh": "网络上的匿名或使用化名的用户。"
+    },
+    {
+      "term": "coding agents",
+      "definition_en": "AI systems that carry out programming tasks, often by editing code, using tools, and running checks.",
+      "definition_zh": "编程智能体；能够通过修改代码、调用工具和运行检查来执行编程任务的 AI 系统。"
+    },
+    {
+      "term": "bitter lesson",
+      "definition_en": "In AI, the observation associated with Rich Sutton that general methods leveraging computation ultimately outperform approaches built around human-provided knowledge.",
+      "definition_zh": "AI 领域的「苦涩的教训」，指 Rich Sutton 提出的观察，即充分利用计算能力的通用方法最终往往胜过依赖人工注入知识的方法。"
+    },
+    {
+      "term": "open models",
+      "definition_en": "AI models with publicly available weights or other resources. Access and reuse conditions vary.",
+      "definition_zh": "开放模型；公开模型权重或其他资源的 AI 模型，具体访问和使用条件各不相同。"
+    },
+    {
+      "term": "PSA",
+      "definition_en": "Public service announcement, often used online to introduce a helpful notice or reminder.",
+      "definition_zh": "公共服务公告的缩写，网络上常用来引出实用通知或提醒。"
+    },
+    {
+      "term": "strong attract, strong repel",
+      "definition_en": "A positioning approach that strongly appeals to a target audience while openly putting off people who are a poor fit.",
+      "definition_zh": "一种定位策略，通过鲜明的立场或产品特点强烈吸引目标人群，同时让不匹配的人群主动远离。"
+    },
+    {
+      "term": "RFS",
+      "definition_en": "In startup discussions, usually Request for Startups, a call for founders to build companies addressing particular problems.",
+      "definition_zh": "创业语境中通常指 Request for Startups，即公开征集解决特定问题的创业项目或创业团队。"
+    },
+    {
+      "term": "stealth",
+      "definition_en": "A startup operating with limited public disclosure about its product or business.",
+      "definition_zh": "隐身模式；创业公司暂时对产品或业务细节保持低调、限制公开披露的状态。"
+    },
+    {
+      "term": "DM",
+      "definition_en": "Direct message, a private message on a social platform. Also used as a verb.",
+      "definition_zh": "私信，也可作动词，表示给某人发私信。"
+    },
+    {
+      "term": "OSS",
+      "definition_en": "Open-source software, software distributed under a license permitting access to, modification of, and redistribution of its source code.",
+      "definition_zh": "开源软件；通过相应许可证允许查看、修改和再分发源代码的软件。"
+    },
+    {
+      "term": "AI-pace",
+      "definition_en": "An informal expression for moving at the rapid speed associated with AI development.",
+      "definition_zh": "非正式表达，指以 AI 领域快速发展的节奏推进工作或迭代。"
+    },
+    {
+      "term": "vertical SaaS",
+      "definition_en": "Subscription software designed for the specific needs of a particular industry.",
+      "definition_zh": "垂直行业 SaaS；针对某个特定行业需求提供的订阅制软件服务。"
+    },
+    {
+      "term": "FDE company",
+      "definition_en": "A company whose delivery model relies heavily on forward-deployed engineers working closely with customers to implement solutions.",
+      "definition_zh": "高度依赖前线部署工程师的公司，这些工程师深入客户场景，协助实施和定制解决方案。"
+    },
+    {
+      "term": "rollup",
+      "definition_en": "In business, a strategy of acquiring and combining multiple companies into a larger group.",
+      "definition_zh": "商业语境中的并购整合策略，通过收购多家公司并将其组合为更大的企业集团。"
+    },
+    {
+      "term": "horizontal product",
+      "definition_en": "A product serving a common need across multiple industries or business functions.",
+      "definition_zh": "横向通用产品；满足多个行业或业务职能共同需求的产品。"
+    },
+    {
+      "term": "codexy",
+      "definition_en": "A playful adjective meaning related to or evocative of Codex, the AI coding tool.",
+      "definition_zh": "由 Codex 衍生出的玩笑式形容词，表示有 Codex 的感觉，或让人想使用 Codex。"
+    },
+    {
+      "term": "standing room only",
+      "definition_en": "So crowded that all seats are occupied and additional attendees must stand.",
+      "definition_zh": "座无虚席，后来的人只能站着，常用来形容活动人气很高。"
+    },
+    {
+      "term": "email domain",
+      "definition_en": "The part of an email address after the @ symbol, often identifying the organization or email provider.",
+      "definition_zh": "邮箱域名，即电子邮件地址中 @ 后面的部分，通常标识所属组织或邮件服务商。"
+    },
+    {
+      "term": "on stream",
+      "definition_en": "During a live internet broadcast.",
+      "definition_zh": "在网络直播中。"
+    },
+    {
+      "term": "aka",
+      "definition_en": "Short for also known as, sometimes used humorously to introduce a reinterpretation.",
+      "definition_zh": "also known as 的缩写，表示「又称」，也常用于幽默地换一种说法。"
+    },
+    {
+      "term": "freakin'",
+      "definition_en": "An informal, milder substitute for a stronger swear word, used for emphasis.",
+      "definition_zh": "较温和的粗口替代词，用于加强惊讶、愤怒等语气。"
+    },
+    {
+      "term": "what the hell",
+      "definition_en": "An informal expression of strong surprise, confusion, or anger.",
+      "definition_zh": "表达强烈惊讶、困惑或愤怒的口语说法，类似「到底怎么回事」。"
+    },
+    {
+      "term": "come on, dude",
+      "definition_en": "An informal appeal expressing disbelief, frustration, or a request for someone to be reasonable.",
+      "definition_zh": "表达难以置信、不满或劝对方理智一点的口语说法，类似「拜托，哥们」。"
+    },
+    {
+      "term": "scavenger hunt",
+      "definition_en": "A game in which participants search for specified objects or complete tasks, often using clues.",
+      "definition_zh": "寻物游戏；参与者通常根据线索寻找指定物品或完成任务。"
+    }
+  ],
+  "stats": {
+    "builders": 16,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 32,
+    "feedGeneratedAt": "2026-11-12T06:28:54.625Z"
+  }
+}

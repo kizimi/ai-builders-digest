@@ -1,0 +1,624 @@
+{
+  "date": "2026-11-09",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "The posts point to an audio release and a special podcast episode, but provide too little detail to identify their takeaways.",
+      "summary_zh": "这些动态指向音频内容和一期特别播客，但没有足够信息判断具体观点。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "anon",
+          "ipa": "/əˈnɒn/",
+          "definition_zh": "网络俚语，用来称呼匿名网友或身份不明的读者。",
+          "example_zh": "作者用「anon」直接招呼读者，询问对方有没有在听链接中的音频，带有网络社区式的随意语气。"
+        },
+        {
+          "phrase": "pod",
+          "ipa": "/pɒd/",
+          "definition_zh": "口语中对播客或播客节目的简称。",
+          "example_zh": "这里的「a special pod」指一期特别的播客节目，推文没有提供具体内容。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119611058881192187",
+          "text": "are you listening anon? https://t.co/52rrkgKNg5 https://t.co/CFJg15NMCt",
+          "url": "https://x.com/swyx/status/2119611058881192187",
+          "summary_en": null
+        },
+        {
+          "id": "2119550477629379009",
+          "text": "and a special pod! https://t.co/LGOjNlcyAR",
+          "url": "https://x.com/swyx/status/2119550477629379009",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "A personal account highlights the value of taking time away from work during a family health crisis. A separate post speculates that an unspecified affair could destroy substantial shareholder value.",
+      "summary_zh": "一段个人经历强调，在家人遭遇健康危机时请假陪伴的重要性。另一则动态推测，某桩未说明的风波可能造成巨大的股东价值损失。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "shareholder value",
+          "ipa": "",
+          "definition_zh": "股东持有公司股份所获得的经济价值。",
+          "example_zh": "作者猜测某桩未具体说明的风波可能让股东损失数十亿价值；这是推测，推文没有提供损失证据。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119657833516171384",
+          "text": "This affair is going to destroy billions in shareholder value isn’t it",
+          "url": "https://x.com/petergyang/status/2119657833516171384",
+          "summary_en": null
+        },
+        {
+          "id": "2119595860057288967",
+          "text": "“Both of my parents got diagnosed with two cancers each within a week of each other.”\n\nFrom @AshleyYuki, VP of Product at @OpenAI:\n\n“I just decided to take a month [off work]. It was one of the best things I could have done in that moment to care for my parents.\n\nYou also have to care for yourself as a caregiver. We don’t talk about that enough. It’s still a really big cognitive load, emotional load, just pure time load to be a caregiver. You have to make sure you’re budgeting time for your own mental health.”\n\n📌 Watch our full episode here: https://t.co/Z3HibgPP8S",
+          "url": "https://x.com/petergyang/status/2119595860057288967",
+          "summary_en": "Taking time off to care for seriously ill parents can be invaluable, but caregivers also need to budget time for their own mental health amid the emotional, cognitive, and time demands."
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "Start with the most basic approach that works, then refine it toward simplicity. Clever architecture and design can make a product harder for users to understand.",
+      "summary_zh": "先采用能解决问题的最朴素方案，再通过迭代把它变得简洁。过于巧妙的架构和设计也会增加用户的理解成本。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "iterate",
+          "ipa": "/ˈɪtəreɪt/",
+          "definition_zh": "通过反复尝试、反馈和修改逐步改进。",
+          "example_zh": "作者认为简洁是逐轮改进后得到的结果，起点应是最朴素、能运行的方案。"
+        },
+        {
+          "phrase": "outsmart yourself",
+          "ipa": "",
+          "definition_zh": "因过度耍聪明或设计复杂方案而反误了自己。",
+          "example_zh": "这里提醒开发者，若一开始就追求巧妙的简洁设计，可能反而把问题弄复杂。"
+        },
+        {
+          "phrase": "architecture",
+          "ipa": "/ˈɑːrkɪtektʃər/",
+          "definition_zh": "软件系统各组成部分及其关系的整体结构设计。",
+          "example_zh": "作者建议选择能完成任务的最朴素的软件架构，避免让用户也必须理解设计者的巧思。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119493015190249556",
+          "text": "This is a good question. And you should definitely pick \"dumbest\" over \"simplest\". \n\nSimple is something you iterate to. Dumb is the correct starting point. Otherwise, you start to outsmart yourself. \n \nhttps://t.co/KdxEVgEmhm",
+          "url": "https://x.com/thenanyu/status/2119493015190249556",
+          "summary_en": null
+        },
+        {
+          "id": "2119462979179892925",
+          "text": "This is basically true in all aspects of software. Choose the dumbest architecture that’ll work. choose the dumbest design that gets the job done. Being clever means your users also have to be just as clever to understand your cleverness https://t.co/aUC8OeQjU9",
+          "url": "https://x.com/thenanyu/status/2119462979179892925",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "A simulated record player converts music into a virtual groove and models playback through a stylus, producing surprisingly accurate results.",
+      "summary_zh": "一个唱机模拟项目把音乐转成虚拟唱片沟槽，再模拟唱针读取，得到相当准确的播放效果。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "physical simulation",
+          "ipa": "",
+          "definition_zh": "用计算模型模拟现实物体的物理行为。",
+          "example_zh": "这个唱片机先把音乐转换为虚拟唱片沟槽的形状，再模拟播放过程来产生声音。"
+        },
+        {
+          "phrase": "Web Audio",
+          "ipa": "",
+          "definition_zh": "浏览器中用于生成、处理和控制音频的一套接口。",
+          "example_zh": "作者将 Web Audio 与 WebGL2 一起用于制作浏览器里的唱片机物理模拟。"
+        },
+        {
+          "phrase": "groove",
+          "ipa": "/ɡruːv/",
+          "definition_zh": "唱片表面用于编码声音、供唱针循迹的沟槽。",
+          "example_zh": "这里的「groove」指唱片沟槽，音乐被转化为它的物理形状，并非指音乐的律动感。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119536313712230802",
+          "text": "Built a physical simulation of a record player with WebGL2 and Web Audio. It's *shockingly* accurate: https://t.co/MBNaTfKoai.\n\nInstead of playing a song, it works by converting it into the physical shape of a groove. Then a simulated stylus rides those walls 384,000 times a second, and you hear the voltage that motion would induce in a cartridge.\n\nSo the crackle, the pops, the wow/flutter, the dull inner grooves are natural byproducts of the simulation. You can also \"DJ\" the record.\n\n(The converted songs are in the public domain or CC-licensed. Code is linked for you to remix and re-deploy.)",
+          "url": "https://x.com/rauchg/status/2119536313712230802",
+          "summary_en": "A WebGL2 and Web Audio record-player simulation converts music into groove geometry and simulates a stylus tracing it 384,000 times per second. Vinyl artifacts emerge naturally from the physics, and the code is available to remix."
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "AI work is shifting from conversational exchanges toward agents that can tackle much larger tasks independently. Rapid capability gains make it worthwhile to retry ideas that failed just a few months ago.",
+      "summary_zh": "AI 正从对话式协作转向由智能体独立处理更大规模的任务。能力进步很快，几个月前行不通的想法值得重新尝试。",
+      "slang": [
+        {
+          "term": "agents",
+          "definition_en": "AI systems that can carry out multi-step tasks with some autonomy.",
+          "definition_zh": "能够较自主地执行多步骤任务的 AI 系统。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "agents",
+          "ipa": "/ˈeɪdʒənts/",
+          "definition_zh": "能够围绕目标自主执行多步任务的人工智能系统。",
+          "example_zh": "作者认为 AI 工作正从来回聊天，转向把问题交给多个智能体，让它们自行开展更大规模的任务。"
+        },
+        {
+          "phrase": "check back in",
+          "ipa": "",
+          "definition_zh": "隔一段时间再回来了解进展或重新确认情况。",
+          "example_zh": "作者建议每隔三到六个月重新了解 AI 的能力，并重试此前无法完成的事情。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119592025440092192",
+          "text": "We’re moving from an era of AI where the output comes roughly at the rate that you can chat back and forth with the AI to work with you, to a period where you can set a problem for a set of agents to go off and do an arbitrarily large amount of work for you. This means productivity gains that are maybe 20-50% to gains that don’t really have an upper limit.\n\nAgent swarms and the ability to fan out complex work across many agents doing tasks in parallel provide a massive unlock in a lot of spaces. This will lead to qualitatively different outcomes in my fields. \n\nThis has already been seen across the coding domain. Next, cyber is almost entirely a problem space where more agents reviewing more things will lead to far better outcomes. We’re seeing the same now in many scientific fields, and this almost certainly will change life sciences. \n\nBut this will increasingly be true in any field where you can parallelize computer-based work to complete something faster or do something at a totally different quality level. Which is actually are some of the most valuable domains of knowledge work today. \n\nOur brains aren’t really wired for the new scenario we’re heading into where compute becomes the variable that we can flex to solve any problem that we want. We’re used to thinking that the amount of time that goes into a task is correlated to the output that we get from it. And most domains of knowledge work or science have generally always been correlated with this. That’s changing forever.",
+          "url": "https://x.com/levie/status/2119592025440092192",
+          "summary_en": "Parallel agent swarms could move AI productivity beyond incremental chat-based gains by making compute, rather than human time, a scalable input to knowledge work. Coding, cybersecurity, and science illustrate the potential for faster execution and substantially better results."
+        },
+        {
+          "id": "2119502716770902234",
+          "text": "A good lesson in AI is that you need to check back in on the latest with every 3 to 6 months to try something that wasn’t possible before and see if it works again.\n\nAt no point in AI’s history is that more true than today. Just the past six months of model progress around computer and tool use, less context rot, better reasoning, multimodality, and deeper domain expertise in a number of key fields, these models are vastly more capable on what they can execute.\n\nThis is opening up a new vector of what AI systems will be able to autonomously work on. Essentially, anything with an API (and even many things without), we can anticipate that an agent will be able to control and utilize as an underlying capability to complete a process.\n\nThis means that we are no longer dependent on *just* the models generating everything from whole cloth, but instead they can fully utilize existing systems (or new ones purpose built for them) very effectively. This creates immense leverage for agents.\n\nSecurity agents can leverage existing data feeds and cyber tooling, IT agents that can execute workflows reliably across software stacks, data agents that can migrate data or processes between systems, architect and design agents can leverage CAD and design tools, and on and on. And any of today’s tools that don’t work will likely be replaced by agent-friendly or OSS tooling that does the same. \n\nWhen you combine this with the domain understanding being trained into agents, you started to get autonomous collaborators for every job function and industry. This will open up a ton of new opportunities in AI if you build with this understanding in mind.",
+          "url": "https://x.com/levie/status/2119502716770902234",
+          "summary_en": "Revisit previously unsuccessful AI tasks every three to six months as improvements in reasoning, tool use, and domain expertise expand what agents can execute. Agents that operate existing software and APIs could become autonomous collaborators across job functions and industries."
+        }
+      ]
+    },
+    {
+      "name": "Ryo Lu",
+      "handle": "ryolu_",
+      "summary_en": "A talk raises a question about choice in an era of expanding technical possibilities: when almost anything can be built, do people still know what they want?",
+      "summary_zh": "这场演讲提出一个关于选择的问题：当技术让几乎一切都能实现时，人们是否仍清楚自己想要什么？",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2119586846657454152",
+          "text": "when we can do anything,\ndo we still know what we want?\n\nthe full talk from @aiDotEngineer shanghai. every slide handmade in keynote, subs in 中文 and english https://t.co/EeyHu7l3Fc",
+          "url": "https://x.com/ryolu_/status/2119586846657454152",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "An evaluation project reportedly reproduced an engineering article's result and found another tested option performed even better. The posts also advocate building a personal software production system.",
+      "summary_zh": "一个评测项目据称复现了某篇工程文章的结果，并发现另一种受测方案表现更好。这些动态也主张建立自己的软件生产体系。",
+      "slang": [
+        {
+          "term": "evals",
+          "definition_en": "Structured tests used to assess and compare AI system performance.",
+          "definition_zh": "用于评估和比较 AI 系统表现的结构化测试。"
+        },
+        {
+          "term": "software factory",
+          "definition_en": "A repeatable system for producing software, often using automation or AI.",
+          "definition_zh": "通常借助自动化或 AI 持续产出软件的可重复流程。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "replicate",
+          "ipa": "/ˈreplɪkeɪt/",
+          "definition_zh": "重复实验或测试，以检验能否得到相同结果。",
+          "example_zh": "作者说自己的评测项目尝试复现一篇工程文章的结果，并报告复现成功。"
+        },
+        {
+          "phrase": "software factory",
+          "ipa": "",
+          "definition_zh": "将软件开发组织成可重复、可自动化生产流程的系统。",
+          "example_zh": "作者主张每个人都应拥有自己的软件生产系统，但这条推文没有解释其具体组成。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119624260675350605",
+          "text": "My gstack-evals project took a look at this Jev Engineering article and tried to replicate it, and I also told it to try particle-1 and it turns out this article replicates, and particle-1 is even better https://t.co/Lf4QULKRnF https://t.co/FfCzahr6UJ",
+          "url": "https://x.com/garrytan/status/2119624260675350605",
+          "summary_en": null
+        },
+        {
+          "id": "2119615647592395037",
+          "text": "You're really going to want your own software factory https://t.co/lmk0Mati0N",
+          "url": "https://x.com/garrytan/status/2119615647592395037",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "The posts praise a comedian's impersonations and argue that joking about a prominent entrepreneur does not negate his business achievements.",
+      "summary_zh": "这些动态称赞一位喜剧演员的模仿表演，并认为拿知名企业家开玩笑与认可其商业成就并不矛盾。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "nailing",
+          "ipa": "/ˈneɪlɪŋ/",
+          "definition_zh": "口语中表示把某件事做得非常到位。",
+          "example_zh": "作者用「nailing」称赞喜剧演员对 Tucker Carlson 的模仿十分传神。"
+        },
+        {
+          "phrase": "poke some fun",
+          "ipa": "",
+          "definition_zh": "以轻松、戏谑的方式调侃某人或某事。",
+          "example_zh": "作者认为喜剧演员调侃 Elon 是可以接受的，这不妨碍认可他的商业成就。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119525416780361766",
+          "text": "ok lol trolls coming out in full force - Elon is a business genius, a visionary and and the richest man in the world, it’s ok for comedians to attempt to poke some fun, relax!",
+          "url": "https://x.com/mattturck/status/2119525416780361766",
+          "summary_en": null
+        },
+        {
+          "id": "2119457959625498698",
+          "text": "Lol not Elon now, after nailing the Tucker Carlson impersonation 😂Absolutely epic run from Jeremy Culhane https://t.co/m26EQ0PBC0",
+          "url": "https://x.com/mattturck/status/2119457959625498698",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "The label for AI-assisted coding can unfairly imply that the creator put little care into the result. Product building is rewarding partly because predictable technology meets unpredictable human behavior.",
+      "summary_zh": "给 AI 辅助编程贴上的标签，可能让人误以为创作者没有认真投入。做产品的乐趣也来自技术行为的可预测性与人类行为的不可预测性之间的碰撞。",
+      "slang": [
+        {
+          "term": "vibe coding",
+          "definition_en": "Building software by directing AI through natural-language prompts, often with less direct code writing.",
+          "definition_zh": "主要通过自然语言指挥 AI 编写软件、较少亲自写代码的做法。"
+        },
+        {
+          "term": "AI slop",
+          "definition_en": "A dismissive term for low-effort, low-quality AI-generated content.",
+          "definition_zh": "贬指缺乏用心、质量低下的 AI 生成内容。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "vibe coding",
+          "ipa": "",
+          "definition_zh": "主要通过自然语言指挥 AI 生成并调整代码的开发方式。",
+          "example_zh": "作者几乎不再使用这个标签，因为它容易让人误以为创作者没有认真投入。"
+        },
+        {
+          "phrase": "AI slop",
+          "ipa": "",
+          "definition_zh": "对粗制滥造、缺乏用心的 AI 生成内容的贬称。",
+          "example_zh": "作者指出，人们可能把 AI 辅助开发的成果直接视为「AI slop」，忽略创作者投入的心力。"
+        },
+        {
+          "phrase": "negative connotation",
+          "ipa": "",
+          "definition_zh": "一个词语在字面意义之外带有的负面联想。",
+          "example_zh": "作者认为「vibe coding」带有负面联想，容易暗示成品缺乏努力或灵魂。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119592080318341128",
+          "text": "I’ve almost stopped using the term “vibe coding” because there’s a negative connotation to it \n\nIt implies that you didn’t put a lot of effort or soul into the output and it’s just AI slop\n\nBut oftentimes people ARE putting their heart and soul into the work even when using AI coding tools. The 2 are not contradictory\n\nWe need a better word for describing this",
+          "url": "https://x.com/zarazhangrui/status/2119592080318341128",
+          "summary_en": null
+        },
+        {
+          "id": "2119342420412510686",
+          "text": "The joy of building a product comes from the collision between the predictability of how technology behaves &amp; the unpredictability of how humans behave",
+          "url": "https://x.com/zarazhangrui/status/2119342420412510686",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "People visiting San Francisco to meet others are urged to avoid canned networking phrases that can make an approach feel transactional.",
+      "summary_zh": "想在旧金山结识新朋友的人，应少用套话式社交措辞，以免让交流显得功利。",
+      "slang": [
+        {
+          "term": "swap notes",
+          "definition_en": "A networking phrase meaning to exchange observations or experiences.",
+          "definition_zh": "社交场合中表示交流见闻或经验的套话。"
+        },
+        {
+          "term": "pick your brain",
+          "definition_en": "An informal request to get someone's ideas or advice.",
+          "definition_zh": "非正式地请别人分享想法或建议的说法。"
+        },
+        {
+          "term": "synergies",
+          "definition_en": "Potential benefits from people or organizations working together.",
+          "definition_zh": "人与组织合作可能产生的协同收益；也常被当作商业套话。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "swap notes",
+          "ipa": "",
+          "definition_zh": "交流各自的经验、观察或信息。",
+          "example_zh": "作者把这句话列为在旧金山结识他人时应少用的套话，暗示它可能显得过于公式化。"
+        },
+        {
+          "phrase": "synergies",
+          "ipa": "/ˈsɪnərdʒiz/",
+          "definition_zh": "合作后产生的、超过各方单独行动效果的协同收益。",
+          "example_zh": "这里将「synergies」作为应避免的商业套话，反映作者对带有利益交换意味的社交措辞的反感。"
+        },
+        {
+          "phrase": "pick your brain",
+          "ipa": "",
+          "definition_zh": "向某人请教，以获取其经验、知识或建议。",
+          "example_zh": "作者建议结识新朋友时少用这个表达，因为这种开场可能让对方觉得你主要是来索取建议的。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2119670529254981756",
+          "text": "If you are visiting SF, and trying to meet more people, here are a random list of things you should remove from your vocabulary..\n\n> swap notes\n> \"synergies\"\n> pick your brain\n> networking\n> \"san fran\" (tourist tell)\n> grab coffee if you're free\n\nIf you want to meet interesting people here, show your work. The most interesting people I know in the city are not attending that fancy large conference - they are probably at their office. \n\nSo what's the work? It can be as simple as a thoughtful cold email, a five line pointed DM, or complex as some side projects that you have shipped, or a meetup that you are organizing.\n\nIf you put in the effort, it shows, yes, even in this AI era. I still get so much slop across the board, that if I see anyone put in the effort, I try to go out of my way to meet them. \n\nEven the busiest people have 15 mins to give you, if you give them a reason to!",
+          "url": "https://x.com/nikunj/status/2119670529254981756",
+          "summary_en": "Meeting interesting people in San Francisco takes visible effort and a concrete reason to connect: shipped projects, organized meetups, or thoughtful, specific outreach. Generic networking language and vague coffee requests are less compelling than showing your work."
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://www.youtube.com/watch?v=dpY7YzZo4kE",
+      "summary_en": "The available transcript introduces an episode about AI-native software development practices and a course teaching them. It does not include enough of the discussion to establish the guest's specific conclusions.",
+      "summary_zh": "现有文字介绍了一期关于 AI 原生软件开发实践及相关课程的节目，但不足以判断嘉宾讨论中的具体结论。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "anecdotally",
+      "ipa": "/ˌænɪkˈdoʊtəli/",
+      "pos": "adv",
+      "definition_en": "Based on personal accounts or informal observations rather than systematic evidence.",
+      "definition_zh": "根据个人经历或非系统性观察；据个别事例而言",
+      "synonyms": [
+        "informally"
+      ],
+      "example_en": "Anecdotally, users seem happier, but we need survey data to confirm that.",
+      "example_zh": "从个别反馈来看，用户似乎更满意了，但我们需要调查数据来证实这一点。"
+    },
+    {
+      "word": "caregiver",
+      "ipa": "/ˈkerˌɡɪvər/",
+      "pos": "noun",
+      "definition_en": "Someone who regularly looks after a person who needs assistance.",
+      "definition_zh": "照护者；经常照顾需要帮助的人的人",
+      "synonyms": [
+        "carer",
+        "caretaker"
+      ],
+      "example_en": "A caregiver also needs time to rest and seek support.",
+      "example_zh": "照护者也需要时间休息和寻求支持。"
+    },
+    {
+      "word": "cognitive",
+      "ipa": "/ˈkɑːɡnətɪv/",
+      "pos": "adj",
+      "definition_en": "Related to mental processes such as thinking, learning, and remembering.",
+      "definition_zh": "认知的；与思考、学习和记忆等心理过程有关的",
+      "synonyms": [
+        "mental"
+      ],
+      "example_en": "Clear instructions reduce the cognitive effort required to use an app.",
+      "example_zh": "清晰的说明能减少使用应用时所需的认知努力。"
+    },
+    {
+      "word": "iterate",
+      "ipa": "/ˈɪtəreɪt/",
+      "pos": "verb",
+      "definition_en": "To repeat a process, using feedback to improve the result.",
+      "definition_zh": "迭代；根据反馈反复改进",
+      "synonyms": [
+        "refine",
+        "revise"
+      ],
+      "example_en": "We will iterate on the design after testing it with users.",
+      "example_zh": "我们会在用户测试后继续迭代设计。"
+    },
+    {
+      "word": "architecture",
+      "ipa": "/ˈɑːrkɪtektʃər/",
+      "pos": "noun",
+      "definition_en": "The overall structure of a system and how its components fit together.",
+      "definition_zh": "架构；系统的整体结构及其组成部分之间的关系",
+      "synonyms": [
+        "structure",
+        "framework"
+      ],
+      "example_en": "The team chose an architecture that would be easy to maintain.",
+      "example_zh": "团队选择了一种易于维护的架构。"
+    },
+    {
+      "word": "clarity",
+      "ipa": "/ˈklærəti/",
+      "pos": "noun",
+      "definition_en": "The quality of being clear, understandable, or well defined.",
+      "definition_zh": "清晰；明确；易于理解的程度",
+      "synonyms": [
+        "clearness",
+        "precision"
+      ],
+      "example_en": "Clarity about the problem helps us avoid building unnecessary features.",
+      "example_zh": "明确问题有助于我们避免开发不必要的功能。"
+    },
+    {
+      "word": "outsmart",
+      "ipa": "/ˌaʊtˈsmɑːrt/",
+      "pos": "verb",
+      "definition_en": "To defeat or gain an advantage over someone by being cleverer.",
+      "definition_zh": "智胜；凭借更高明的计谋占上风",
+      "synonyms": [
+        "outwit",
+        "outmaneuver"
+      ],
+      "example_en": "You can outsmart yourself by making a simple task unnecessarily complicated.",
+      "example_zh": "把简单任务搞得过于复杂，可能会让你聪明反被聪明误。"
+    },
+    {
+      "word": "budget",
+      "ipa": "/ˈbʌdʒɪt/",
+      "pos": "verb",
+      "definition_en": "To plan how to allocate a limited resource, such as money or time.",
+      "definition_zh": "规划分配；为金钱或时间等有限资源作安排",
+      "synonyms": [
+        "allocate",
+        "set aside"
+      ],
+      "example_en": "Budget time for your own recovery when caring for someone else.",
+      "example_zh": "照顾别人时，也要为自己的恢复预留时间。"
+    }
+  ],
+  "quote": {
+    "text_en": "Well done is better than well said.",
+    "text_zh": "做得好胜过说得好。",
+    "author": "Benjamin Franklin"
+  },
+  "slang_glossary": [
+    {
+      "term": "agents",
+      "definition_en": "AI systems that can pursue goals by taking actions, often using tools across multiple steps.",
+      "definition_zh": "智能体：能够采取行动来完成目标的 AI 系统，通常会分步骤调用工具。"
+    },
+    {
+      "term": "evals",
+      "definition_en": "Short for evaluations: tests used to assess an AI system's capabilities, reliability, or behavior.",
+      "definition_zh": "「evaluations」的简称，指用于评估 AI 能力、可靠性或行为的测试。"
+    },
+    {
+      "term": "software factory",
+      "definition_en": "A metaphor for a repeatable, highly automated process for producing software.",
+      "definition_zh": "软件工厂：比喻通过可重复、高度自动化的流程生产软件。"
+    },
+    {
+      "term": "vibe coding",
+      "definition_en": "Building software by prompting AI and steering its output, often without closely examining all generated code.",
+      "definition_zh": "氛围编程：主要通过自然语言提示和反馈引导 AI 开发软件，往往不会逐行检查所有生成代码。"
+    },
+    {
+      "term": "AI slop",
+      "definition_en": "A dismissive term for low-quality, generic, or carelessly produced AI-generated content.",
+      "definition_zh": "对低质量、套路化或粗制滥造的 AI 生成内容的贬称。"
+    },
+    {
+      "term": "swap notes",
+      "definition_en": "To exchange observations, experiences, or useful information.",
+      "definition_zh": "交流心得；互通经验和信息。"
+    },
+    {
+      "term": "pick your brain",
+      "definition_en": "To ask someone questions to learn from their knowledge or experience.",
+      "definition_zh": "向某人请教，借鉴其知识或经验。"
+    },
+    {
+      "term": "synergies",
+      "definition_en": "Business jargon for benefits expected when people, teams, or resources work together.",
+      "definition_zh": "协同效应：商业用语，指人员、团队或资源合作后带来的额外收益。"
+    },
+    {
+      "term": "anon",
+      "definition_en": "Internet slang for an anonymous person, sometimes used to address an unknown reader.",
+      "definition_zh": "网络用语，指匿名者，有时用于称呼身份不明的读者。"
+    },
+    {
+      "term": "pod",
+      "definition_en": "In this context, an informal abbreviation for podcast or a podcast episode.",
+      "definition_zh": "在此语境中是「podcast」的口语简称，指播客或某一期播客。"
+    },
+    {
+      "term": "VP",
+      "definition_en": "Abbreviation for vice president, a senior leadership title.",
+      "definition_zh": "「vice president」的缩写，指副总裁等高级管理职位。"
+    },
+    {
+      "term": "FDE",
+      "definition_en": "Usually short for forward-deployed engineer: an engineer who works closely with customers to implement solutions.",
+      "definition_zh": "通常指前线部署工程师，即深入客户场景、协助实施解决方案的工程师。"
+    },
+    {
+      "term": "shareholder value",
+      "definition_en": "The financial value a company creates for its shareholders.",
+      "definition_zh": "股东价值：公司为股东创造的财务价值。"
+    },
+    {
+      "term": "cognitive load",
+      "definition_en": "The amount of mental processing required by a task or situation.",
+      "definition_zh": "认知负荷：一项任务或某种情境所需的心智处理量。"
+    },
+    {
+      "term": "二奶村",
+      "definition_en": "A derogatory Chinese expression for a community associated with mistresses financially supported by married men.",
+      "definition_zh": "带贬义的中文俗称，指被认为聚居着由已婚男性供养的婚外伴侣的社区。"
+    },
+    {
+      "term": "dumbest architecture that’ll work",
+      "definition_en": "An informal engineering heuristic: start with the least elaborate system design that meets the need.",
+      "definition_zh": "一种非正式的工程经验法则：先选择能满足需求、复杂程度最低的系统架构。"
+    },
+    {
+      "term": "outsmart yourself",
+      "definition_en": "To cause problems for yourself by trying to be too clever.",
+      "definition_zh": "聪明反被聪明误；因过度耍巧而给自己制造麻烦。"
+    },
+    {
+      "term": "get the job done",
+      "definition_en": "To accomplish the necessary task or achieve the required result.",
+      "definition_zh": "把事情办成；达到所需的结果。"
+    },
+    {
+      "term": "straight-shot",
+      "definition_en": "Used informally here to mean proceeding directly to a solution with few detours.",
+      "definition_zh": "此处的非正式用法，指少走弯路、直接推进到解决方案。"
+    },
+    {
+      "term": "ship",
+      "definition_en": "In software development, to release or deliver a product, feature, or update.",
+      "definition_zh": "软件开发用语，指发布或交付产品、功能或更新。"
+    },
+    {
+      "term": "pre-AI era",
+      "definition_en": "An informal label here for the period before AI-assisted software development became widespread.",
+      "definition_zh": "此处泛指 AI 辅助软件开发尚未普及的时期。"
+    },
+    {
+      "term": "wanna",
+      "definition_en": "An informal written representation of want to.",
+      "definition_zh": "「want to」的口语化拼写，意为「想要」。"
+    }
+  ],
+  "stats": {
+    "builders": 10,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 21,
+    "feedGeneratedAt": "2026-11-09T06:36:37.960Z"
+  }
+}

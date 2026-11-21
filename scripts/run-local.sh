@@ -33,6 +33,14 @@ if [[ "${NO_PUSH:-0}" != "1" ]]; then
     echo "not on main (on $BRANCH) — will generate but not push"
     NO_PUSH=1
   else
+    git fetch origin main
+    # data/ used to be gitignored: drop local untracked copies of files that
+    # are now on main with identical content, so the pull doesn't refuse.
+    git ls-files --others --exclude-standard -- data/ | while read -r f; do
+      if git cat-file -e "origin/main:$f" 2>/dev/null && git show "origin/main:$f" | cmp -s - "$f"; then
+        rm -f "$f"
+      fi
+    done
     git pull --rebase --autostash origin main
   fi
 fi

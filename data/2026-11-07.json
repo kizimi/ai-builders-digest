@@ -1,0 +1,812 @@
+{
+  "date": "2026-11-07",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Plans weekly coverage of a possible Anthropic IPO, drawing on both public-market analysis and AI engineering. Also shared a recap involving several AI companies.",
+      "summary_zh": "计划每周追踪 Anthropic 可能进行的 IPO，结合公开市场分析与 AI 工程视角；另分享了多家 AI 公司的回顾内容。",
+      "slang": [
+        {
+          "term": "IPO",
+          "definition_en": "An initial public offering, when a company first sells shares to the public.",
+          "definition_zh": "首次公开募股，即公司首次向公众出售股票。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "IPO",
+          "ipa": "/ˌaɪ piː ˈoʊ/",
+          "definition_zh": "指公司首次向公众发行股票并上市。",
+          "example_zh": "作者计划每周追踪 Anthropic 可能进行的 IPO，直到上市成行或计划落空。"
+        },
+        {
+          "phrase": "equity hedge fund analyst",
+          "ipa": "",
+          "definition_zh": "指在对冲基金中研究股票及相关投资机会的分析师。",
+          "example_zh": "作者提到自己过去分析大型公司上市的经历，准备结合股票研究与 AI 工程视角报道此事。"
+        },
+        {
+          "phrase": "dust off",
+          "ipa": "",
+          "definition_zh": "比喻重新启用搁置已久的技能、物品或身份。",
+          "example_zh": "这里的「掸掉灰尘」指重新拾起股票分析师的老本行，并非真的清理帽子。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118905788915982341",
+          "text": "we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. \n\nHaving covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.",
+          "url": "https://x.com/swyx/status/2118905788915982341",
+          "summary_en": null
+        },
+        {
+          "id": "2118831214308262043",
+          "text": "@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ",
+          "url": "https://x.com/swyx/status/2118831214308262043",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "A demonstration suggests that a single prompt can now produce an impressive result. The available text does not show what was made.",
+      "summary_zh": "一则演示暗示，单条提示词如今就能生成令人惊讶的成果；现有文字没有说明具体生成了什么。",
+      "slang": [
+        {
+          "term": "prompt",
+          "definition_en": "An instruction given to an AI model to generate or change an output.",
+          "definition_zh": "给 AI 模型的指令，用于生成或修改输出。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "prompt",
+          "ipa": "/prɑːmpt/",
+          "definition_zh": "指提供给 AI、用于引导其生成结果的输入指令。",
+          "example_zh": "作者感叹如今只用一条提示词就能得到令人印象深刻的结果，但文字没有说明具体生成了什么。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118939076791546000",
+          "text": "Quite cool what you can do with a single prompt these days 👀",
+          "url": "https://x.com/thsottiaux/status/2118939076791546000",
+          "summary_en": null
+        },
+        {
+          "id": "2118938956301779171",
+          "text": "Get me out of the basement\n\nhttps://t.co/SsG3P83NBg https://t.co/eeASj3vnsN",
+          "url": "https://x.com/thsottiaux/status/2118938956301779171",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Flagged something for the ChatGPT Images product team and teased an unusually compelling interview that will be released sooner than planned. The available text does not reveal either topic in detail.",
+      "summary_zh": "向 ChatGPT Images 产品团队指出了一项内容，并预告一场令人印象深刻、将提前发布的访谈；现有文字未交代两者的具体主题。",
+      "slang": [
+        {
+          "term": "shipping",
+          "definition_en": "Releasing a product, feature, or piece of content.",
+          "definition_zh": "发布产品、功能或内容。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Paging",
+          "ipa": "/ˈpeɪdʒɪŋ/",
+          "definition_zh": "在社交媒体中表示公开呼叫某人，希望对方注意或回应。",
+          "example_zh": "作者用这个词呼叫 ChatGPT Images 的产品经理，希望她关注所附内容。"
+        },
+        {
+          "phrase": "PM",
+          "ipa": "/ˌpiː ˈem/",
+          "definition_zh": "此处是产品经理的英文缩写。",
+          "example_zh": "作者用 PM 指负责 ChatGPT Images 产品工作的那位联系人。"
+        },
+        {
+          "phrase": "shipping",
+          "ipa": "/ˈʃɪpɪŋ/",
+          "definition_zh": "在科技和创作语境中指正式发布产品、功能或内容。",
+          "example_zh": "这次访谈让作者很受震撼，因此他准备加快这一期节目的发布。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118869042153095422",
+          "text": "Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09",
+          "url": "https://x.com/petergyang/status/2118869042153095422",
+          "summary_en": null
+        },
+        {
+          "id": "2118852799094206787",
+          "text": "Alright, I just interviewed @jsnnsa and he blew my mind the most out of all my guests since probably @steipete. \n\nGoing to expedite shipping our episode. \n\nSubscribe here to get it soon: https://t.co/744uInp9aE https://t.co/cYja0eI996 https://t.co/Rma4NLvkCn",
+          "url": "https://x.com/petergyang/status/2118852799094206787",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "Raises a tongue-in-cheek question about how shrimp welfare advocates would react to an unspecified linked item.",
+      "summary_zh": "以玩笑口吻猜测关注虾类福利的人会如何看待一项未在文字中说明的内容。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "shrimp welfare",
+          "ipa": "",
+          "definition_zh": "指关注虾所承受的痛苦及其养殖、运输和处理条件的动物福利议题。",
+          "example_zh": "作者带着调侃意味，询问关注虾类福利的人会如何看待链接中的内容；文字本身没有交代具体事件。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118826112562434303",
+          "text": "what do the shrimp welfare ppl think about this one I wonder https://t.co/3jInoOgkac",
+          "url": "https://x.com/thenanyu/status/2118826112562434303",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "Argues that practical software for overlooked problems deserves more attention amid the rush to build agents. Points to creator tools with built-in MCP support as a way for agents to assist while people keep working in familiar apps.",
+      "summary_zh": "认为在大量人开发智能体的同时，改善鱼类品质等具体问题的软件也值得关注。带有 MCP 支持的创作工具让智能体协助完成部分工作，同时让用户继续在熟悉的应用中操作。",
+      "slang": [
+        {
+          "term": "agents",
+          "definition_en": "AI systems that can take actions or carry out multistep tasks.",
+          "definition_zh": "能够执行操作或完成多步骤任务的 AI 系统。"
+        },
+        {
+          "term": "MCP",
+          "definition_en": "Model Context Protocol, a standard for connecting AI systems to tools and data.",
+          "definition_zh": "模型上下文协议，用于将 AI 系统连接到工具和数据的标准。"
+        },
+        {
+          "term": "shipping",
+          "definition_en": "Releasing a product or feature.",
+          "definition_zh": "发布产品或功能。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "agents",
+          "ipa": "/ˈeɪdʒənts/",
+          "definition_zh": "指能够调用工具并执行多步任务的 AI 智能体。",
+          "example_zh": "作者认为大家过于热衷开发智能体，也应关注用软件解决具体问题，并让智能体融入现有创作工具。"
+        },
+        {
+          "phrase": "MCPs",
+          "ipa": "/ˌem siː ˈpiːz/",
+          "definition_zh": "此处泛指基于模型上下文协议、让 AI 连接应用工具的集成接口。",
+          "example_zh": "作者喜欢创作应用内置 MCP 接口的趋势，因为这样智能体可以直接参与用户在熟悉工具中的工作。"
+        },
+        {
+          "phrase": "power users",
+          "ipa": "",
+          "definition_zh": "指熟练掌握工具并经常使用其高级功能的重度用户。",
+          "example_zh": "这些用户可以让智能体完成部分操作，同时继续在自己熟悉的创作应用中协作和加工。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118859267314958761",
+          "text": "too many people building agents and not enough people using software to improve the quality of fish https://t.co/3ewG2QhovT",
+          "url": "https://x.com/trq212/status/2118859267314958761",
+          "summary_en": null
+        },
+        {
+          "id": "2118822238262853904",
+          "text": "a pattern I’m liking: creator apps like Instagram Edits and Roblox Studio shipping with built-in MCPs, so agents can do some of the work while power users can collaborate and continue the work in tools that they're used to",
+          "url": "https://x.com/trq212/status/2118822238262853904",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Jokes that a WebAssembly version of GTA 6 might arrive before the game itself, then shares a sentiment about the value of discovery.",
+      "summary_zh": "开玩笑说 GTA 6 的 WebAssembly 版本可能比游戏本体先出现，同时表达了对探索未知的期待。",
+      "slang": [
+        {
+          "term": "wasm",
+          "definition_en": "WebAssembly, a format for running compiled code in browsers and other environments.",
+          "definition_zh": "WebAssembly 的缩写，一种可在浏览器等环境中运行编译代码的格式。"
+        }
+      ],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2118928276118986991",
+          "text": "Imagine we get gta6.wasm before gta6",
+          "url": "https://x.com/rauchg/status/2118928276118986991",
+          "summary_en": null
+        },
+        {
+          "id": "2118916001152803057",
+          "text": "Somewhere, something incredible is waiting to be known",
+          "url": "https://x.com/rauchg/status/2118916001152803057",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Suggests that files and GPU computing will be central to future software and AI workflows, without elaborating in the available text.",
+      "summary_zh": "认为文件与 GPU 算力将成为未来软件和 AI 工作流程的核心，但现有文字没有进一步解释。",
+      "slang": [
+        {
+          "term": "GPUs",
+          "definition_en": "Graphics processing units, chips widely used to train and run AI models.",
+          "definition_zh": "图形处理器，广泛用于训练和运行 AI 模型的芯片。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "GPUs",
+          "ipa": "/ˌdʒiː piː ˈjuːz/",
+          "definition_zh": "指擅长并行计算、广泛用于 AI 训练和推理的图形处理器。",
+          "example_zh": "作者将 GPU 与文件并列为未来的重要基础，但没有进一步解释具体工作流程。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118723097901846580",
+          "text": "The future is files. And GPUs. https://t.co/fbI1NHn8u5",
+          "url": "https://x.com/levie/status/2118723097901846580",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "Praises computer use through a real Chromium browser for its compatibility with websites. Also highlights a reported experiment in which advice about moral dilemmas reduced malicious behavior and improved efficiency, though the quoted claim lacks methodological detail.",
+      "summary_zh": "称赞基于真实 Chromium 浏览器的电脑操作能力及其网站兼容性；还转述一项实验声称，道德困境建议降低了恶意行为并提高了效率，但引文未提供方法细节。",
+      "slang": [
+        {
+          "term": "computer use",
+          "definition_en": "AI operating software through a visual interface, such as clicking and typing in a browser.",
+          "definition_zh": "AI 通过可视界面操作软件，例如在浏览器中点击和输入。"
+        },
+        {
+          "term": "tokens",
+          "definition_en": "Units of text processed by an AI model.",
+          "definition_zh": "AI 模型处理文本时使用的计量单位。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Computer use",
+          "ipa": "",
+          "definition_zh": "在 AI 语境中指模型通过操作电脑界面来完成任务的能力。",
+          "example_zh": "作者称赞 Aside 的电脑操作体验，并认为使用真实 Chromium 浏览器有助于访问各种网站。"
+        },
+        {
+          "phrase": "Chromium",
+          "ipa": "/ˈkroʊmiəm/",
+          "definition_zh": "指为 Chrome 等浏览器提供基础的开源浏览器项目。",
+          "example_zh": "作者强调 Aside 使用真实的 Chromium 浏览器，并据此认为它较少受到网站访问限制。"
+        },
+        {
+          "phrase": "tokens",
+          "ipa": "/ˈtoʊkənz/",
+          "definition_zh": "指语言模型处理文本时使用的基本计量单位，可能是词、词的一部分或符号。",
+          "example_zh": "作者转引的说法用三百万个 token 衡量建议文本的规模，并声称这些建议改善了模型行为；推文未提供验证细节。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118951284376285508",
+          "text": "Computer use on Aside is *amazing* and also has an added benefit of literally being a real Chromium browser that few/almost no sites can block https://t.co/jmZVxOansa",
+          "url": "https://x.com/garrytan/status/2118951284376285508",
+          "summary_en": null
+        },
+        {
+          "id": "2118950671886287323",
+          "text": "\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\" https://t.co/eQt5M7vZrX",
+          "url": "https://x.com/garrytan/status/2118950671886287323",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "Pokes fun at the status competition among venture investors who enter different rounds of an in-demand deal.",
+      "summary_zh": "调侃风险投资人在热门交易的不同批次中入场时产生的地位攀比。",
+      "slang": [
+        {
+          "term": "tranche",
+          "definition_en": "A distinct portion or batch of an investment deal.",
+          "definition_zh": "一笔投资交易中的某个批次或部分。"
+        },
+        {
+          "term": "hot deal",
+          "definition_en": "An investment opportunity attracting strong investor demand.",
+          "definition_zh": "受到投资者热烈追捧的投资机会。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "VCs",
+          "ipa": "/ˌviː ˈsiːz/",
+          "definition_zh": "指向高增长潜力创业公司投资的风险投资人或机构。",
+          "example_zh": "作者调侃参与同一热门项目的投资人，也会根据进入批次比较彼此的地位。"
+        },
+        {
+          "phrase": "tranche",
+          "ipa": "/trɑːnʃ/",
+          "definition_zh": "指融资或交易中划分出来的一批资金或投资份额。",
+          "example_zh": "推文比较第二批和第三批进入交易的投资人，笑点在于这种细微先后也能成为优越感的来源。"
+        },
+        {
+          "phrase": "hot deal",
+          "ipa": "",
+          "definition_zh": "指受到投资者追捧、参与机会竞争激烈的投资交易。",
+          "example_zh": "这里指一个抢手的融资项目，其热度构成投资人争夺批次地位的背景。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118791325394845839",
+          "text": "How VCs who got into the 2nd tranche of a hot deal look at the VCs in the third tranche https://t.co/pU1gEhbacZ",
+          "url": "https://x.com/mattturck/status/2118791325394845839",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "Argues that a personal website can show a person's work, thinking, and taste more clearly than a list of job titles, while giving them more freedom than existing social platforms.",
+      "summary_zh": "认为个人网站比职位列表更能展示实际作品、思考方式和审美，也让个人表达不受现有社交平台形式的限制。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "taste",
+          "ipa": "/teɪst/",
+          "definition_zh": "此处指一个人在审美、选择和作品质量上的判断力。",
+          "example_zh": "作者认为个人网站能通过实际作品展示一个人的品位与判断力，比职位列表提供更丰富的信息。"
+        },
+        {
+          "phrase": "confined",
+          "ipa": "/kənˈfaɪnd/",
+          "definition_zh": "指受到边界、规则或既定形式的限制。",
+          "example_zh": "作者鼓励用个人网站展示自己，从而获得超出现有社交平台形式限制的表达空间。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118939184841052386",
+          "text": "As I've said before, your personal website is the new resume\n\nLinkedIn shows a list of titles; your personal website shows your taste, your thinking, your actual work\n\nYou don't need to be confined by the existing social media platforms https://t.co/Eysl2kgvsa",
+          "url": "https://x.com/zarazhangrui/status/2118939184841052386",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Reintroduced a local, open-source tool that analyzes messages and calls on a Mac without AI. A separate post satirizes startup fundraising and launch spending; its available text cuts off before the full plan.",
+      "summary_zh": "重新介绍一款在 Mac 上本地分析消息与通话、开源且不使用 AI 的工具。另一则内容讽刺初创公司融资和发布推广开支，但现有文字在计划讲完前就已截断。",
+      "slang": [
+        {
+          "term": "preseed",
+          "definition_en": "An early stage of startup funding, usually before a seed round.",
+          "definition_zh": "初创公司通常早于种子轮的早期融资阶段。"
+        },
+        {
+          "term": "launch video",
+          "definition_en": "A promotional video released when a product or company debuts.",
+          "definition_zh": "产品或公司推出时发布的宣传视频。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "open source",
+          "ipa": "",
+          "definition_zh": "指源代码公开，并按相应许可证允许使用、修改或分发的软件。",
+          "example_zh": "作者将开源与本地运行、不使用 AI 并列，介绍这款分析消息和通话记录的 Mac 工具。"
+        },
+        {
+          "phrase": "preseed",
+          "ipa": "/ˌpriːˈsiːd/",
+          "definition_zh": "指创业公司在种子轮之前进行的早期融资阶段。",
+          "example_zh": "作者在讽刺性的创业计划中提出先融资两百万美元，再把大量资金投入发布视频和推广。"
+        },
+        {
+          "phrase": "impressions",
+          "ipa": "/ɪmˈpreʃənz/",
+          "definition_zh": "在营销中指内容或广告被展示的次数，不等于独立观看人数。",
+          "example_zh": "作者把购买大量曝光列为发布预算的一部分，用来调侃创业公司对宣传声量的重视。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118840414853861627",
+          "text": "(re) introducing texts wrapped\n\n&gt; imessage, whatsapp and phone calls analyzed\n&gt; one terminal command, full disk access and that's it (or use claude code / codex)\n&gt; runs on Mac, 100% local, no AI, open source\n&gt; fresh coat of paint, new insights, better accuracy\n\nwrap2026 dot com https://t.co/u6hprVFnBm",
+          "url": "https://x.com/nikunj/status/2118840414853861627",
+          "summary_en": null
+        },
+        {
+          "id": "2118758688567792008",
+          "text": "ok so here's how we get to building a 100M company in two weeks before thanksgiving.. \n\nfirst, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch video, $200k to promote the launch video to xM impressions - i have six agencies lined up for this don't sweat with no paid partnerships tag duhh, and $500k for the tokens i'm going to obliterate to have a resemblance of a product. again its all token spend and no employee spend because vcs dont want that. solo founders is hot again so i can fully get away with this lfg.\n\nok, so next we use the token spend that i can vibe code and sell to \"wink friendly wink\" customers and have them give me LOIs and cARR - in return for using their products obviously. scratch mine, scratch yours. ok then i can fully wrap in the most creative financial metrics possible to show xM in revenue of ARR because who even knows what that means anymore. \n\nand then i'm going to run the tighteeest possible process as possible for my \"already oversubscribed seed\". get some sick angels at a discount duhh, fomo VCs, get that tier 1 TS, shop it, and tranche it to the moon baby. first at 40M, then 80M and then finally a few angels at $100M. \n\nof course i'm going to incorporate the company as late as possible even though all the machinery is there. so i can claim 0->10M in revenue on day 14 or whatever. \n\nand yeah completely forgot that i need a sick vision and a full deck, that will need $100k for someone to drill that to me cause i ain't got no clue what this category even means. don't sweat, there's a fundraising expert who might take x% and some cash or whatever to help me whisper to the right networks. yeah, that's a thing. \n\ndiligence? who needs charts and due diligence, we live in the token economy, and lfg economy baby. elections and the market selloff? don't sweat, the seed market is still red hot, it might take a day more, but this will still most def work.\n\nanyway, i'm going to go try this and i'll see you in two weeks eh?\n\n(before i get obliterated this is satire, but every sentence in there individually has personally happened to me)",
+          "url": "https://x.com/nikunj/status/2118758688567792008",
+          "summary_en": "A satirical playbook for reaching a $100M startup valuation in two weeks skewers hype-driven AI fundraising: lavish launch marketing, token-heavy product development, reciprocal customer deals, and inflated revenue metrics. Investor FOMO, escalating funding valuations, and delayed incorporation manufacture the appearance of extraordinary growth."
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Shared a team update and praised another linked item. The available text gives no substantive details about the linked content.",
+      "summary_zh": "分享了团队近况，并称赞另一项链接内容；现有文字没有提供该内容的具体信息。",
+      "slang": [
+        {
+          "term": "banger",
+          "definition_en": "Slang for something especially good or impressive.",
+          "definition_zh": "俚语，指特别出色或令人印象深刻的内容。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "banger",
+          "ipa": "/ˈbæŋər/",
+          "definition_zh": "俚语，指特别精彩、令人兴奋的作品或内容。",
+          "example_zh": "作者只用这个词强烈称赞链接中的内容，但没有说明其主题。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118757047026028939",
+          "text": "the @every team, nov 2026 \n\nso proud of this crew! https://t.co/qXDvQa02CL",
+          "url": "https://x.com/danshipper/status/2118757047026028939",
+          "summary_en": null
+        },
+        {
+          "id": "2118707652918485148",
+          "text": "banger https://t.co/Qm1EH443Nf",
+          "url": "https://x.com/danshipper/status/2118707652918485148",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "Shared a conversation and argued that ambitious technology requires both urgency and patience, using Starship's long development as the example.",
+      "summary_zh": "分享了一场对谈，并以 Starship 的长期研发为例，认为实现雄心勃勃的技术目标既需要紧迫感，也需要耐心。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "urgency",
+          "ipa": "/ˈɜːrdʒənsi/",
+          "definition_zh": "指推动事情尽快取得进展的紧迫感。",
+          "example_zh": "作者以 Starship 的长期研发为例，强调雄心勃勃的技术项目既要迅速行动，也要有耐心等待积累。"
+        },
+        {
+          "phrase": "overnight",
+          "ipa": "/ˌoʊvərˈnaɪt/",
+          "definition_zh": "此处比喻在极短时间内迅速完成。",
+          "example_zh": "作者说 Starship 并非一夜建成，借此提醒人们重大技术成果需要长期投入。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2118733093230240144",
+          "text": "Full conversation at @spc with @traestephens https://t.co/tvo01XNqet",
+          "url": "https://x.com/adityaag/status/2118733093230240144",
+          "summary_en": null
+        },
+        {
+          "id": "2118733089887170878",
+          "text": "SpaceX didn’t build Starship overnight. Ambitious technology demands both urgency &amp; patience. https://t.co/TfJgO7wkIu https://t.co/Ch2lkkQbiI",
+          "url": "https://x.com/adityaag/status/2118733089887170878",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "summary_en": "Biological AI is moving from mapping cells to predicting outcomes and then choosing the next experiment. The key shift is using models to guide research decisions, rather than ending the work at a prediction.",
+      "summary_zh": "生物学 AI 正从绘制细胞图谱、预测结果，走向指导下一步实验。关键变化是让模型参与研究决策，而非只产出预测。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "commit",
+      "ipa": "/kəˈmɪt/",
+      "pos": "verb",
+      "definition_en": "To make a firm decision to devote time or resources to something.",
+      "definition_zh": "承诺投入时间或资源；致力于",
+      "synonyms": [
+        "pledge",
+        "dedicate"
+      ],
+      "example_en": "The team committed to publishing an update every week.",
+      "example_zh": "团队承诺每周发布一次更新。"
+    },
+    {
+      "word": "equity",
+      "ipa": "/ˈekwəti/",
+      "pos": "noun",
+      "definition_en": "Ownership in a company, usually represented by shares.",
+      "definition_zh": "股权；通常以股票形式体现的公司所有权",
+      "synonyms": [
+        "ownership",
+        "shareholding"
+      ],
+      "example_en": "She analyzes company earnings as an equity analyst.",
+      "example_zh": "她是一名股票分析师，负责分析公司的盈利情况。"
+    },
+    {
+      "word": "unironically",
+      "ipa": "/ˌʌnaɪˈrɑːnɪkli/",
+      "pos": "adv",
+      "definition_en": "Sincerely, without joking or expressing the opposite of what one means.",
+      "definition_zh": "真心实意地；并非在开玩笑或说反话",
+      "synonyms": [
+        "sincerely",
+        "earnestly"
+      ],
+      "example_en": "I unironically think this launch video is excellent.",
+      "example_zh": "我是真心觉得这个产品发布视频很棒。"
+    },
+    {
+      "word": "expedite",
+      "ipa": "/ˈekspədaɪt/",
+      "pos": "verb",
+      "definition_en": "To make a process happen more quickly.",
+      "definition_zh": "加快；促使某个流程更快完成",
+      "synonyms": [
+        "accelerate",
+        "hasten"
+      ],
+      "example_en": "We will expedite editing so the episode can come out tomorrow.",
+      "example_zh": "我们会加快剪辑，让这期节目明天就能上线。"
+    },
+    {
+      "word": "acquire",
+      "ipa": "/əˈkwaɪər/",
+      "pos": "verb",
+      "definition_en": "To obtain something; in business, to buy a company or a controlling interest in it.",
+      "definition_zh": "获得；在商业语境中指收购公司或其控股权",
+      "synonyms": [
+        "purchase",
+        "obtain"
+      ],
+      "example_en": "A model developer may acquire an app to reach more users.",
+      "example_zh": "模型开发商可能通过收购应用来触达更多用户。"
+    },
+    {
+      "word": "enterprise",
+      "ipa": "/ˈentərpraɪz/",
+      "pos": "noun",
+      "definition_en": "A business or organization, especially a large one; often used before another noun to describe business customers or products.",
+      "definition_zh": "企业；也常放在其他名词前，表示面向企业客户的",
+      "synonyms": [
+        "business",
+        "company"
+      ],
+      "example_en": "Enterprise customers want control over which models their teams use.",
+      "example_zh": "企业客户希望能够控制团队使用哪些模型。"
+    },
+    {
+      "word": "collaborate",
+      "ipa": "/kəˈlæbəreɪt/",
+      "pos": "verb",
+      "definition_en": "To work together with others toward a shared result.",
+      "definition_zh": "协作；与他人共同完成某项工作",
+      "synonyms": [
+        "cooperate",
+        "work together"
+      ],
+      "example_en": "Designers can collaborate with agents inside familiar tools.",
+      "example_zh": "设计师可以在熟悉的工具中与智能体协作。"
+    }
+  ],
+  "quote": {
+    "text_en": "Build tools that turn curiosity into action and action into understanding.",
+    "text_zh": "打造让好奇心化为行动、让行动带来理解的工具。",
+    "author": "Original editorial quote"
+  },
+  "slang_glossary": [
+    {
+      "term": "IPO",
+      "definition_en": "Initial public offering: a company's first offering of shares to the public.",
+      "definition_zh": "首次公开募股：公司首次向公众发行股票。"
+    },
+    {
+      "term": "mega-IPO",
+      "definition_en": "An informal term for an exceptionally large initial public offering.",
+      "definition_zh": "超大规模首次公开募股；属于非正式说法。"
+    },
+    {
+      "term": "$BABA / $TEAM",
+      "definition_en": "Cashtags using the stock ticker symbols for Alibaba and Atlassian.",
+      "definition_zh": "股票代码标签，分别代表阿里巴巴和 Atlassian。"
+    },
+    {
+      "term": "dust off",
+      "definition_en": "To start using something again after leaving it unused for a while.",
+      "definition_zh": "重新启用；把搁置了一段时间的东西或技能重新用起来。"
+    },
+    {
+      "term": "wear a hat / analyst hat / engineer hat",
+      "definition_en": "A metaphor for taking on a particular professional role or perspective.",
+      "definition_zh": "用「戴某顶帽子」比喻承担某种职业角色或采用某种专业视角。"
+    },
+    {
+      "term": "equity hedge fund",
+      "definition_en": "An investment fund that uses strategies involving stocks and related instruments, potentially including both long and short positions.",
+      "definition_zh": "股票对冲基金：采用股票及相关金融工具进行投资的基金，可能同时持有多头和空头仓位。"
+    },
+    {
+      "term": "AI engineer",
+      "definition_en": "An engineer who builds systems or applications using artificial intelligence.",
+      "definition_zh": "AI 工程师：利用人工智能构建系统或应用的工程师。"
+    },
+    {
+      "term": "VC",
+      "definition_en": "Venture capital or venture capitalist; here, a person who invests in startups.",
+      "definition_zh": "风险投资或风险投资人；原文中指投资初创公司的人。"
+    },
+    {
+      "term": "writer-VC-extraordinaire",
+      "definition_en": "A playful label for someone considered outstanding as both a writer and a venture capitalist.",
+      "definition_zh": "对兼具出色写作能力与风险投资能力的人的俏皮称呼。"
+    },
+    {
+      "term": "cooked",
+      "definition_en": "In this context, performed exceptionally well or created something impressive; elsewhere, it can mean ruined or exhausted.",
+      "definition_zh": "此处表示「发挥出色」或「做出了很厉害的东西」；在其他语境中也可能表示「完蛋了」或「累垮了」。"
+    },
+    {
+      "term": "prompt",
+      "definition_en": "An instruction or input given to an AI model to guide its response.",
+      "definition_zh": "提示词：提供给 AI 模型、用于引导其输出的指令或输入。"
+    },
+    {
+      "term": "paging",
+      "definition_en": "An informal way to call someone's attention, especially by tagging them online.",
+      "definition_zh": "在线「呼叫」某人，常通过 @ 对方来引起注意。"
+    },
+    {
+      "term": "PM",
+      "definition_en": "Product manager in this context: someone responsible for a product's direction and priorities.",
+      "definition_zh": "此处指产品经理，负责产品方向与需求优先级。"
+    },
+    {
+      "term": "blew my mind",
+      "definition_en": "Amazed me or radically expanded my understanding.",
+      "definition_zh": "让我大开眼界；让我极为震撼。"
+    },
+    {
+      "term": "shipping",
+      "definition_en": "Releasing a product, feature, or piece of content so people can use or access it.",
+      "definition_zh": "发布或交付产品、功能或内容，让用户能够使用或获取。"
+    },
+    {
+      "term": "labs",
+      "definition_en": "Shorthand here for organizations that develop AI models.",
+      "definition_zh": "此处是 AI 模型研发机构或公司的简称。"
+    },
+    {
+      "term": "open source",
+      "definition_en": "Software whose source code is available under a license that permits use, modification, and redistribution.",
+      "definition_zh": "开源：源代码通过允许使用、修改和再分发的许可证提供的软件。"
+    },
+    {
+      "term": "play out",
+      "definition_en": "To develop over time and eventually reach an outcome.",
+      "definition_zh": "逐步发展、演变，并最终产生某种结果。"
+    },
+    {
+      "term": "ppl",
+      "definition_en": "An informal written abbreviation for people.",
+      "definition_zh": "people 的非正式书面缩写，意为「人们」。"
+    },
+    {
+      "term": "shrimp welfare",
+      "definition_en": "A niche animal-welfare topic concerned with the living conditions and treatment of shrimp.",
+      "definition_zh": "虾类福利：关注虾的生活条件与所受对待的动物福利议题。"
+    },
+    {
+      "term": "agents",
+      "definition_en": "AI systems that can take actions, use tools, and carry out tasks toward a goal.",
+      "definition_zh": "智能体：能够采取行动、调用工具并朝某个目标执行任务的 AI 系统。"
+    },
+    {
+      "term": "creator apps",
+      "definition_en": "Applications designed for making or editing content such as videos, games, or graphics.",
+      "definition_zh": "创作者应用：用于制作或编辑视频、游戏、图像等内容的软件。"
+    },
+    {
+      "term": "MCP",
+      "definition_en": "Model Context Protocol: a standard for connecting AI applications to external tools and data sources.",
+      "definition_zh": "模型上下文协议：用于将 AI 应用连接到外部工具和数据源的标准。"
+    },
+    {
+      "term": "power users",
+      "definition_en": "Experienced users who use a tool extensively and often rely on its advanced features.",
+      "definition_zh": "资深用户或重度用户：频繁使用工具，并熟练运用高级功能的人。"
+    },
+    {
+      "term": "GTA 6",
+      "definition_en": "An abbreviation for the video game Grand Theft Auto VI.",
+      "definition_zh": "电子游戏《侠盗猎车手 VI》的简称。"
+    },
+    {
+      "term": "wasm",
+      "definition_en": "WebAssembly: a portable binary instruction format used to run compiled code in browsers and other environments.",
+      "definition_zh": "WebAssembly 的简称：一种可移植的二进制指令格式，可在浏览器等环境中运行编译后的代码。"
+    },
+    {
+      "term": "we got X before GTA 6",
+      "definition_en": "A meme expressing surprise that something happened before a long-awaited game's release; the sample adapts it to an imagined WebAssembly version.",
+      "definition_zh": "一种网络梗，用「某事竟然比 GTA 6 还先出现」表达惊讶；原文将其改编为对 WebAssembly 版本的想象。"
+    },
+    {
+      "term": "GPUs",
+      "definition_en": "Graphics processing units: processors suited to parallel computation and widely used for AI training and inference.",
+      "definition_zh": "图形处理器：擅长并行计算，广泛用于 AI 模型训练与推理。"
+    },
+    {
+      "term": "computer use",
+      "definition_en": "An AI capability for operating graphical interfaces through actions such as clicking, typing, and scrolling.",
+      "definition_zh": "计算机操作能力：AI 通过点击、输入和滚动等动作操作图形界面的能力。"
+    },
+    {
+      "term": "tokens",
+      "definition_en": "Units of text or other represented information that an AI model processes.",
+      "definition_zh": "词元：AI 模型处理文本或其他信息时使用的基本单位。"
+    },
+    {
+      "term": "tranche",
+      "definition_en": "A portion of financing, an investment, or securities separated from a larger total.",
+      "definition_zh": "融资、投资或证券总额中划分出来的一批、一部分或一个层级。"
+    },
+    {
+      "term": "hot deal",
+      "definition_en": "An investment opportunity attracting strong interest, or a particularly attractive commercial offer.",
+      "definition_zh": "热门投资项目；也可指特别有吸引力的交易或优惠。"
+    },
+    {
+      "term": "preseed",
+      "definition_en": "A very early startup funding stage, typically before a seed round.",
+      "definition_zh": "种子前轮：通常发生在种子轮之前的初创企业早期融资阶段。"
+    },
+    {
+      "term": "launch video",
+      "definition_en": "A promotional video introducing a new product, feature, or company.",
+      "definition_zh": "发布宣传视频：用于介绍新产品、新功能或新公司的推广视频。"
+    },
+    {
+      "term": "banger",
+      "definition_en": "Slang for something exceptionally good, exciting, or memorable, especially a song or piece of content.",
+      "definition_zh": "形容特别精彩、带劲或令人难忘的作品，尤其常用于歌曲或内容。"
+    }
+  ],
+  "stats": {
+    "builders": 13,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 29,
+    "feedGeneratedAt": "2026-11-07T06:25:13.003Z"
+  }
+}
