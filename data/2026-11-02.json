@@ -1,0 +1,693 @@
+{
+  "date": "2026-11-02",
+  "builders": [
+    {
+      "name": "Andrej Karpathy",
+      "handle": "karpathy",
+      "summary_en": "HackerTube uses Claude to distill video recommendations from 43 million Hacker News comments into a curated list of 6,454 videos. The claim is that this produces better viewing choices than YouTube recommendations.",
+      "summary_zh": "HackerTube 用 Claude 从 4300 万条 Hacker News 评论中筛出 6454 个被反复推荐的视频。其核心主张是，这种筛选方式比 YouTube 推荐更有用。",
+      "slang": [
+        {
+          "term": "weekend hack",
+          "definition_en": "A small project built quickly in spare time.",
+          "definition_zh": "利用周末等空闲时间快速做出的小项目。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Weekend hack",
+          "ipa": "",
+          "definition_zh": "指利用周末快速做出的实验性小项目。",
+          "example_zh": "Karpathy 用这个说法介绍 HackerTube，强调这是一个用约两小时完成的个人实验项目。"
+        },
+        {
+          "phrase": "filter down",
+          "ipa": "",
+          "definition_zh": "指从大量内容中逐步筛选出更小、更有价值的集合。",
+          "example_zh": "他让 Claude 从四千三百万条 HN 评论中筛出反复被推荐的视频，最终得到六千四百五十四个视频。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2116957135661945283",
+          "text": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5:\nhttps://t.co/JIhXN7OSh1\n\n- Excellent recs without any logins (state is kept in local browser session)\n- Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads\n- Underlying data from the comment analysis as one zip file, point your Claude at it and ask for your own version\n- HackerTube Longs ✊\n\nA bit more on the process:\nI use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default. I only talk to Claude and have it do everything, the only \"manual work\" I helped with in tandem was in the browser (reminiscent of MenuGen): 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box for serving and 3) I bought the domain name. Once the box was up I gave Claude the IP and told it update, secure, harden, deploy and optimize the code, and it did the whole thing.\n\nMany awesome projects that would have normally taken weeks/months even can now be few-shotted for breakfast. What else are we not thinking of.",
+          "url": "https://x.com/karpathy/status/2116957135661945283",
+          "summary_en": "HackerTube filters 43 million Hacker News comments into 6,454 repeatedly recommended videos, offering login-free discovery and representative thumbnails. Built and deployed largely through Claude in about two hours, it illustrates how AI agents can compress ambitious side projects from weeks into hours."
+        }
+      ]
+    },
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "The available post is a reply containing only a link, so its takeaway cannot be determined from the supplied text.",
+      "summary_zh": "所提供的帖子只是附带链接的回复，无法从现有文字判断其观点或内容。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2116782055665402157",
+          "text": "@karpathy https://t.co/ff9Go6a7Zd url",
+          "url": "https://x.com/swyx/status/2116782055665402157",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "The posts give a brief progress update and joke that a dog found a bug the team had missed for two weeks. No technical details of the fix are provided.",
+      "summary_zh": "帖子简短记录进度，并开玩笑说一只狗找到了团队两周没发现的程序错误；没有提供修复细节。",
+      "slang": [
+        {
+          "term": "patched a bug",
+          "definition_en": "Fixed a defect in software.",
+          "definition_zh": "修复软件中的错误。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "patched",
+          "ipa": "/pætʃt/",
+          "definition_zh": "指通过修改代码修复软件中的问题。",
+          "example_zh": "作者开玩笑说，自己的狗修复了团队两周都没找到的软件问题。"
+        },
+        {
+          "phrase": "bug",
+          "ipa": "/bʌɡ/",
+          "definition_zh": "指使软件出现错误或异常行为的缺陷。",
+          "example_zh": "这里的 bug 指团队持续两周未能定位的问题，推文用狗解决问题制造幽默效果。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2117035794678546764",
+          "text": "Day 28/ Banked 2/2",
+          "url": "https://x.com/thsottiaux/status/2117035794678546764",
+          "summary_en": null
+        },
+        {
+          "id": "2116936205623611781",
+          "text": "My dog just patched that bug we couldn’t find for two weeks. Clever dog",
+          "url": "https://x.com/thsottiaux/status/2116936205623611781",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "An upcoming conversation explores caring for parents with cancer and where ChatGPT might help. A separate excerpt questions whether products involving creation always need a conventional user interface.",
+      "summary_zh": "即将推出的对谈探讨照顾患癌父母的经历，以及 ChatGPT 可以在哪些环节提供帮助。另一段摘录则提出：涉及创作的产品是否总需要传统用户界面。",
+      "slang": [
+        {
+          "term": "UI",
+          "definition_en": "User interface: the controls and screens through which someone uses a product.",
+          "definition_zh": "用户界面，即使用产品时接触到的页面和操作控件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "UI",
+          "ipa": "",
+          "definition_zh": "即用户界面，指用户与产品交互时使用的视觉和操作入口。",
+          "example_zh": "引文质疑产品是否一定需要界面，并把这个问题与用户是否需要亲自参与创作联系起来。"
+        },
+        {
+          "phrase": "heart-to-heart",
+          "ipa": "",
+          "definition_zh": "指坦诚交流个人感受的深入谈话。",
+          "example_zh": "作者用这个词形容与 Ashley 的对谈，内容涉及照顾患癌父母的经历，以及 AI 可能提供的帮助。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2117059131349868790",
+          "text": "Upcoming episodes of Behind the Craft:\n\n1. Ashley Alexander\n\nAshley is VP of Product at @OpenAI. We had a heart-to-heart conversation about what it's like to care for parents through cancer and where ChatGPT and AI can help.\n\n2. Nate Parrott\n\n@nateparrott is the @AnthropicAI designer behind Claude Design, Dashboard, Motion, and more. He was refreshingly honest about how to get Claude to avoid designing AI slop with a live walkthrough of a real example.\n\n3. Matt Pocock\n\nMatt's AI skills for working with coding agents have 300K+ (!) GitHub stars. He teaches an excellent course on engineering fundamentals, and I can't wait to learn from him how to build software factories the right way.\n\n4. Jacob Sansbury\n\n@jsnnsa, according to my friend and a16z partner @illscience, has built the most AI-pilled gaming company in the world with just 10 people and $32M/year in Claude spend. Excited to dig into all this with him.\n\nWith all my interviews, I try to find people who are builders and practitioners who can talk about topics that I genuinely care about.\n\n📌 Subscribe to get all the episodes soon:\nhttps://t.co/NSTj7ijxE0\n\nThanks for your support!",
+          "url": "https://x.com/petergyang/status/2117059131349868790",
+          "summary_en": "Upcoming Behind the Craft interviews explore AI in caregiving, avoiding generic AI design, engineering effective coding-agent workflows, and running a small gaming company with massive AI spending. The series emphasizes practical lessons from builders."
+        },
+        {
+          "id": "2116987415319740756",
+          "text": "\"It really makes you question, why do you want a person in your product? Is your product something that needs a UI?\"\n\nFrom @jacalulu (product director at @GoogleLabs):\n\n\"Anything that involves me creating something. Anything where I want to learn something, there might be a reason for me to interact.\n\nAnytime I want to be entertained or consume something, I'm still the one using the product.\n\nBut there are definitely products that I use today that I would be more than happy to not use, or at least not be the main person interacting with the interface.\"\n\n📌 Watch our full episode here: https://t.co/8hLt6x6atQ",
+          "url": "https://x.com/petergyang/status/2116987415319740756",
+          "summary_en": "AI agents challenge whether every product needs direct human interaction or a UI. Creation, learning, and entertainment retain reasons for hands-on engagement, while other tasks may be better delegated to agents."
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "A game project now has an intro video, a fire wielding taekwondo character, and generated sprites in place of 3D models. The creator hopes to have a playable sample of the core experience next week.",
+      "summary_zh": "一个游戏项目新增了开场视频和使用火焰战斗的跆拳道角色，并用生成的精灵图替换了 3D 模型。创作者希望下周完成展示核心玩法的样片。",
+      "slang": [
+        {
+          "term": "vertical slice",
+          "definition_en": "A small, playable sample that demonstrates a game's core experience.",
+          "definition_zh": "展示游戏核心体验的一小段可玩内容。"
+        },
+        {
+          "term": "sprites",
+          "definition_en": "Two-dimensional images used to represent characters or objects in a game.",
+          "definition_zh": "游戏中用于呈现角色或物体的二维图像。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "vertical slice",
+          "ipa": "",
+          "definition_zh": "指范围较小但贯穿关键系统、能够展示完整核心体验的可玩游戏片段。",
+          "example_zh": "作者希望下周做出一个可玩的核心体验样本，把正在整合的角色、美术和其他要素串起来。"
+        },
+        {
+          "phrase": "sprites",
+          "ipa": "/spraɪts/",
+          "definition_zh": "指游戏中用于呈现角色或其他物体的二维图像。",
+          "example_zh": "作者把游戏美术从三维模型改为生成的二维精灵图，以调整整体视觉风格。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2116977363728867664",
+          "text": "also had a little highlight intro video\n\nI like how its all coming together! hoping to have a vertical slice sometime next week https://t.co/YAurDfYM5S",
+          "url": "https://x.com/trq212/status/2116977363728867664",
+          "summary_en": null
+        },
+        {
+          "id": "2116976789046350040",
+          "text": "adding a new character: a taekwondo master that fights with fire\n\nI also updated the art style from 3d models to use generated sprites https://t.co/4F60NS4TQy https://t.co/hLIVplRPrW",
+          "url": "https://x.com/trq212/status/2116976789046350040",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "Subsidized AI subscription prices may rise or benefits may shrink when providers stop absorbing costs. Replit also offers a setting that turns feedback submitted through a site's widget into prompts for building agents.",
+      "summary_zh": "帖子警告，依赖补贴的 AI 订阅价格或权益可能难以维持。Replit 还提供一个开关，可将网站用户通过反馈组件提交的意见转成开发智能体的提示。",
+      "slang": [
+        {
+          "term": "rug pulled",
+          "definition_en": "Slang for having an expected benefit or deal abruptly withdrawn.",
+          "definition_zh": "俚语，指原本依赖的优惠或承诺突然被撤回。"
+        },
+        {
+          "term": "agents",
+          "definition_en": "AI systems that can carry out tasks using tools or software.",
+          "definition_zh": "能够调用工具或软件执行任务的 AI 系统。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "rug pulled",
+          "ipa": "",
+          "definition_zh": "比喻原本依赖的支持或优惠被突然撤走，让人措手不及。",
+          "example_zh": "作者警告，享受补贴价 AI 订阅的用户可能突然失去优惠；这里没有具体说明会涨价还是削减权益。"
+        },
+        {
+          "phrase": "feedback widget",
+          "ipa": "",
+          "definition_zh": "指嵌入网页、用于收集用户意见的小型界面组件。",
+          "example_zh": "在 Replit 中开启这个组件后，网站用户提交的反馈可以变成智能体执行开发任务的提示。"
+        },
+        {
+          "phrase": "prompts",
+          "ipa": "/prɑːmpts/",
+          "definition_zh": "指输入给 AI、用于引导其生成内容或执行任务的指令。",
+          "example_zh": "这里的提示来自用户反馈，智能体据此继续构建或修改网站。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2117010858845089805",
+          "text": "If you’re enjoying a subsidized AI subscription get ready to get rug pulled. https://t.co/XCjMc61pir",
+          "url": "https://x.com/amasad/status/2117010858845089805",
+          "summary_en": null
+        },
+        {
+          "id": "2116998155925360965",
+          "text": "You can enable this on Replit with one toggle. If you enable the “feedback widget” on your site, users’ feedback become prompts for the agents to build. https://t.co/QLBwKenews",
+          "url": "https://x.com/amasad/status/2116998155925360965",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Formula 1 is presented as a showcase of advanced technology and human skill. Another post argues for wider access to local AI models so people can retain control of their own intelligence, while acknowledging that the largest models remain hard to run locally.",
+      "summary_zh": "帖子将一级方程式赛车视为先进技术与人类能力结合的展示。另一条主张推广本地 AI 模型，让个人掌握更多自主权，同时承认超大模型目前仍难以在本地运行。",
+      "slang": [
+        {
+          "term": "local models",
+          "definition_en": "AI models run on a user's own device or infrastructure.",
+          "definition_zh": "在用户自己的设备或基础设施上运行的 AI 模型。"
+        },
+        {
+          "term": "absolute unit",
+          "definition_en": "Informal expression for something exceptionally large.",
+          "definition_zh": "形容体量特别庞大的口语说法。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Local models",
+          "ipa": "",
+          "definition_zh": "指在用户自己的设备或本地计算环境中运行的 AI 模型。",
+          "example_zh": "作者主张本地模型应继续普及，把它们与个人掌控自身智能工具的能力联系起来。"
+        },
+        {
+          "phrase": "absolute unit",
+          "ipa": "",
+          "definition_zh": "是形容某人或某物体量格外庞大的网络俚语。",
+          "example_zh": "作者用这个说法调侃规模极大的模型，并承认它们目前可能难以在本地运行。"
+        },
+        {
+          "phrase": "out of reach",
+          "ipa": "",
+          "definition_zh": "指受资源、能力或条件限制而暂时无法获得或实现。",
+          "example_zh": "这里指超大模型的本地运行暂时超出可实现的条件，并非模型本身无法被访问。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2117039740096847920",
+          "text": "F1 is basically the perfect competition for our times. The celebration of extraordinary technology and extraordinary human ability. That’s what Vercel stands for! (also: winning) https://t.co/XkxVDnmWjE",
+          "url": "https://x.com/rauchg/status/2117039740096847920",
+          "summary_en": null
+        },
+        {
+          "id": "2117000819623243925",
+          "text": "Own your intelligence.\n\nAnyone that opposes this has something to sell you (perhaps your own intelligence back to you.)\n\nLocal models need to continue proliferating. The “absolute unit” massive models may be out of reach for now locally, so your best option is to, indeed, keep your options open. Own your harness, data, connections, runtime: your agents. Embrace open source.",
+          "url": "https://x.com/rauchg/status/2117000819623243925",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "As agents take on more of the execution, many jobs may shift toward guiding and supporting their work. The post suggests this change will extend beyond coding.",
+      "summary_zh": "随着智能体承担更多执行工作，许多岗位可能转向指导和支持智能体完成任务；这种变化可能不限于编程。",
+      "slang": [
+        {
+          "term": "agents",
+          "definition_en": "AI systems that can carry out tasks with some autonomy.",
+          "definition_zh": "能够在一定程度上自主执行任务的 AI 系统。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "agents",
+          "ipa": "/ˈeɪdʒənts/",
+          "definition_zh": "指能围绕目标执行任务、推进工作流程的 AI 智能体。",
+          "example_zh": "作者认为工作分工正在变化：智能体承担更多执行，人类则越来越多地指导和支持智能体。"
+        },
+        {
+          "phrase": "incrementally",
+          "ipa": "/ˌɪŋkrəˈmentəli/",
+          "definition_zh": "指以小幅、逐步累积的方式改进。",
+          "example_zh": "作者用它描述智能体帮助人类把原有工作做得稍好或稍快，并将其与人类转而协助智能体工作的变化作比较。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2117134917847093491",
+          "text": "Increasingly this will be the new job description for a lot of roles, not just coding. We’re clearly moving from a world where agents help us do our work incrementally better or faster, to us helping agents do their work.\n\nThis turns everyone in one of these positions to that of a manager of a team of agents, instead of an individual contributor with just some added leverage from AI. The biggest areas of impact will be information-heavy jobs, like coding, cybersecurity, legal work, biotech, engineering, and many other fields. \n\nAnd as a result, in these jobs your leverage will begin to be decoupled from the normal ratio of hours spent working to output generated. For essentially the history of knowledge work the main variable you had to play with was hours of work done (assuming fixed level talent/coordination/strategy). \n\nNow we’ve separated these variables because agents can parallelize work for us, to in theory execute as much as we need to pull off whatever goal we’re trying to accomplish. The people and organizations that discover this sooner, and orient their operations around it, will see compounding gains in their workflows.",
+          "url": "https://x.com/levie/status/2117134917847093491",
+          "summary_en": "Information-heavy roles are shifting from individuals assisted by AI toward humans managing teams of agents. Parallel agent work could decouple output from human hours, giving people and organizations that reorganize early compounding productivity gains."
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "Particle-1 is claimed to match much larger models on agentic retrieval at about one twenty-third of their cost. A separate post suggests practical robotics is close to broader use.",
+      "summary_zh": "帖子称 Particle-1 在智能体检索任务上可达到更大模型的效果，成本约为其二十三分之一。另一条则认为实用型机器人即将更广泛地出现。",
+      "slang": [
+        {
+          "term": "agentic retrieval",
+          "definition_en": "Information retrieval performed as part of an AI agent's task workflow.",
+          "definition_zh": "AI 智能体在执行任务过程中进行的信息检索。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "agentic retrieval",
+          "ipa": "",
+          "definition_zh": "指由 AI 智能体根据任务需要主动规划和执行的信息检索。",
+          "example_zh": "推文声称 Particle-1 在这类检索任务上能达到更大模型的水平，而价格约为其二十三分之一。"
+        },
+        {
+          "phrase": "robotics",
+          "ipa": "/roʊˈbɑːtɪks/",
+          "definition_zh": "指研究和开发机器人及其感知、控制与行动能力的技术领域。",
+          "example_zh": "作者表示具有实际用途的机器人技术即将到来，但所给文字没有提供具体产品或时间表。"
+        },
+        {
+          "phrase": "nigh",
+          "ipa": "/naɪ/",
+          "definition_zh": "是带有古雅或戏剧化语气的说法，表示某事即将到来。",
+          "example_zh": "作者用 nigh 简短而夸张地表达对实用机器人即将普及的期待。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2117137390016073977",
+          "text": "Particle-1 is as good as much larger models for agentic retrieval but 1/23 the price\n\nhttps://t.co/1CmqlXOx8D https://t.co/7s33EuSO0L",
+          "url": "https://x.com/garrytan/status/2117137390016073977",
+          "summary_en": null
+        },
+        {
+          "id": "2116941191526895975",
+          "text": "Practical robotics is nigh https://t.co/uFs7HoCLvs",
+          "url": "https://x.com/garrytan/status/2116941191526895975",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "The post proposes turning a conventional page of personal links into an interactive tree metaphor. The supplied text does not describe how it works.",
+      "summary_zh": "帖子提出把常见的个人链接列表设计成一棵树，但所提供的文字没有说明具体交互方式。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2117086544586780867",
+          "text": "What if your Linktree were an actual tree https://t.co/3ozuquLIIC https://t.co/WEzBKd6aaF",
+          "url": "https://x.com/zarazhangrui/status/2117086544586780867",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "One post expresses enthusiasm for Argon; another calls an unspecified action anticompetitive. The supplied text does not identify the product details or the action being criticized.",
+      "summary_zh": "一条帖子表达了对 Argon 的赞赏，另一条批评某项未说明的做法妨碍竞争。现有文字不足以判断产品细节或所批评的具体行为。",
+      "slang": [
+        {
+          "term": "cooks",
+          "definition_en": "Slang meaning performs impressively or produces good results.",
+          "definition_zh": "俚语，表示表现出色或做出了好成果。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "cooks",
+          "ipa": "/kʊks/",
+          "definition_zh": "在网络俚语中表示表现出色、很能打或做出了精彩成果。",
+          "example_zh": "作者用 cooks 称赞 Argon，但提供的文字没有说明具体哪项能力让他满意。"
+        },
+        {
+          "phrase": "anti competitive",
+          "ipa": "",
+          "definition_zh": "指妨碍市场公平竞争或限制其他参与者竞争机会的。",
+          "example_zh": "作者用这个说法批评某项行为，但推文文字没有交代具体行为，因此无法判断其依据。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2117014507083948453",
+          "text": "argon cooks https://t.co/RmZ0FeQLpM",
+          "url": "https://x.com/danshipper/status/2117014507083948453",
+          "summary_en": null
+        },
+        {
+          "id": "2116978123044688304",
+          "text": "this is anti competitive and not cool https://t.co/3hu26UpLkX",
+          "url": "https://x.com/danshipper/status/2116978123044688304",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Unsupervised Learning",
+      "title": "Ep 95: Modal CEO on the Future of Inference, the Chaos of the GPU Market &amp; Origins of the Sandbox Bet",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "summary_en": "The excerpt describes GPU sourcing as an inefficient market where buyers still find supply through conferences, hotel meetings, and personal contacts.",
+      "summary_zh": "摘录指出，GPU 采购市场仍不够高效，买家常要通过行业会议、酒店会面和私人联系寻找供应。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "representative",
+      "ipa": "/ˌreprɪˈzentətɪv/",
+      "pos": "adj",
+      "definition_en": "Accurately reflecting the typical qualities of something.",
+      "definition_zh": "有代表性的；能体现典型特征的",
+      "synonyms": [
+        "typical",
+        "illustrative"
+      ],
+      "example_en": "The thumbnail shows a representative frame from the video.",
+      "example_zh": "缩略图展示了视频中具有代表性的一帧。"
+    },
+    {
+      "word": "underlying",
+      "ipa": "/ˌʌndərˈlaɪɪŋ/",
+      "pos": "adj",
+      "definition_en": "Forming the basis of something, even when not immediately visible.",
+      "definition_zh": "底层的；构成基础的；潜在的",
+      "synonyms": [
+        "foundational",
+        "fundamental"
+      ],
+      "example_en": "You can download the underlying data and build your own version.",
+      "example_zh": "你可以下载底层数据，构建自己的版本。"
+    },
+    {
+      "word": "metadata",
+      "ipa": "/ˈmetədeɪtə/",
+      "pos": "noun",
+      "definition_en": "Information describing other data, such as a video's title, duration, and upload date.",
+      "definition_zh": "元数据；描述其他数据的信息，例如视频标题、时长和上传日期",
+      "synonyms": [
+        "descriptive data"
+      ],
+      "example_en": "The app retrieves video metadata through an API.",
+      "example_zh": "该应用通过 API 获取视频元数据。"
+    },
+    {
+      "word": "harden",
+      "ipa": "/ˈhɑːrdən/",
+      "pos": "verb",
+      "definition_en": "To make a computer system more resistant to attacks.",
+      "definition_zh": "加固；增强计算机系统抵御攻击的能力",
+      "synonyms": [
+        "secure",
+        "fortify"
+      ],
+      "example_en": "Before launching the site, harden the server.",
+      "example_zh": "上线网站之前，先对服务器进行安全加固。"
+    },
+    {
+      "word": "deploy",
+      "ipa": "/dɪˈplɔɪ/",
+      "pos": "verb",
+      "definition_en": "To release software into an environment where it can run and be used.",
+      "definition_zh": "部署；将软件发布到可运行和使用的环境中",
+      "synonyms": [
+        "release",
+        "roll out"
+      ],
+      "example_en": "The team deployed the app to a remote server.",
+      "example_zh": "团队将应用部署到了远程服务器上。"
+    },
+    {
+      "word": "reminiscent",
+      "ipa": "/ˌremɪˈnɪsənt/",
+      "pos": "adj",
+      "definition_en": "Making you think of something similar from the past; usually followed by of.",
+      "definition_zh": "令人联想到的；使人想起的；通常与 of 连用",
+      "synonyms": [
+        "evocative",
+        "suggestive"
+      ],
+      "example_en": "The workflow was reminiscent of an earlier project.",
+      "example_zh": "这个工作流程让人想起了之前的一个项目。"
+    },
+    {
+      "word": "in tandem",
+      "ipa": "/ɪn ˈtændəm/",
+      "pos": "adverbial phrase",
+      "definition_en": "Together or in coordination with someone or something.",
+      "definition_zh": "共同地；协同地",
+      "synonyms": [
+        "together",
+        "jointly"
+      ],
+      "example_en": "She worked in tandem with Claude to launch the website.",
+      "example_zh": "她与 Claude 协同工作，上线了这个网站。"
+    }
+  ],
+  "quote": {
+    "text_en": "It always seems impossible until it's done.",
+    "text_zh": "事情在完成之前，总显得不可能。",
+    "author": "Unknown; often attributed to Nelson Mandela"
+  },
+  "slang_glossary": [
+    {
+      "term": "weekend hack",
+      "definition_en": "A small, experimental project built quickly over a weekend.",
+      "definition_zh": "利用周末快速完成的小型实验项目。"
+    },
+    {
+      "term": "patched a bug",
+      "definition_en": "Fixed a software defect by changing the code.",
+      "definition_zh": "通过修改代码修复了软件缺陷。"
+    },
+    {
+      "term": "UI",
+      "definition_en": "User interface: the controls and visual elements through which someone uses software.",
+      "definition_zh": "用户界面；使用软件时接触到的控件和视觉元素。"
+    },
+    {
+      "term": "vertical slice",
+      "definition_en": "A narrow but working implementation spanning all layers needed for a feature.",
+      "definition_zh": "纵向切片；范围较小、但贯通实现某项功能所需各层的可用版本。"
+    },
+    {
+      "term": "sprites",
+      "definition_en": "Two-dimensional graphics used for characters, objects, or effects in games.",
+      "definition_zh": "精灵图；游戏中用于角色、物体或特效的二维图像。"
+    },
+    {
+      "term": "rug pulled",
+      "definition_en": "Had support, access, or promised value abruptly withdrawn; in crypto, often refers to developers abandoning a project and taking funds.",
+      "definition_zh": "突然被撤走支持、权限或承诺的价值；在加密货币领域，也常指项目方卷款跑路。"
+    },
+    {
+      "term": "agents",
+      "definition_en": "AI systems that take actions and use tools to work toward a goal.",
+      "definition_zh": "智能体；能够采取行动并使用工具来推进目标的 AI 系统。"
+    },
+    {
+      "term": "local models",
+      "definition_en": "AI models running on a user's own device or locally controlled hardware.",
+      "definition_zh": "本地模型；运行在用户自己的设备或本地可控硬件上的 AI 模型。"
+    },
+    {
+      "term": "absolute unit",
+      "definition_en": "An informal expression for someone or something impressively large or powerful.",
+      "definition_zh": "形容体型、规模或能力惊人的人或事物，类似「庞然大物」或「猛得离谱」。"
+    },
+    {
+      "term": "agentic retrieval",
+      "definition_en": "Information retrieval in which an AI agent chooses and adjusts search steps.",
+      "definition_zh": "智能体式检索；由 AI 智能体自主选择并调整搜索步骤的信息获取方式。"
+    },
+    {
+      "term": "cooks",
+      "definition_en": "Slang meaning performs impressively or produces excellent work.",
+      "definition_zh": "俚语，指表现出色、发挥很强，或做出了精彩成果。"
+    },
+    {
+      "term": "HN",
+      "definition_en": "Hacker News, an online community focused on technology and startups.",
+      "definition_zh": "Hacker News 的缩写，是关注科技和创业的网络社区。"
+    },
+    {
+      "term": "recs",
+      "definition_en": "An informal abbreviation for recommendations.",
+      "definition_zh": "recommendations 的口语缩写，意为「推荐内容」或「推荐建议」。"
+    },
+    {
+      "term": "browser session",
+      "definition_en": "A period of browser activity and its associated temporary state.",
+      "definition_zh": "浏览器会话；一段浏览活动及其关联的临时状态。"
+    },
+    {
+      "term": "thumbnail",
+      "definition_en": "A small preview image representing a video or other content.",
+      "definition_zh": "缩略图；代表视频或其他内容的小型预览图片。"
+    },
+    {
+      "term": "super duper",
+      "definition_en": "A playful, informal intensifier meaning extremely.",
+      "definition_zh": "带有俏皮语气的加强表达，意为「超级」或「特别」。"
+    },
+    {
+      "term": "A/B test",
+      "definition_en": "An experiment comparing two versions to measure which performs better.",
+      "definition_zh": "A/B 测试；比较两个版本的表现，以判断哪个效果更好。"
+    },
+    {
+      "term": "hyper-optimized",
+      "definition_en": "Optimized to an extreme degree, often for a narrow metric such as clicks.",
+      "definition_zh": "经过极度优化的，常指围绕点击量等单一指标反复打磨。"
+    },
+    {
+      "term": "API key",
+      "definition_en": "A credential used to identify or authorize an application accessing an API.",
+      "definition_zh": "API 密钥；用于识别或授权应用调用接口的凭证。"
+    },
+    {
+      "term": "VPS box",
+      "definition_en": "An informal name for a virtual private server used to run applications.",
+      "definition_zh": "对虚拟专用服务器的口语称呼，可用于运行应用和托管网站。"
+    },
+    {
+      "term": "booted up",
+      "definition_en": "Started a computer, server, or system.",
+      "definition_zh": "启动了计算机、服务器或系统。"
+    },
+    {
+      "term": "IP",
+      "definition_en": "Here, an IP address identifying a server on a network.",
+      "definition_zh": "此处指 IP 地址，即服务器在网络上的地址。"
+    },
+    {
+      "term": "harden",
+      "definition_en": "To reduce a system's security weaknesses and exposure to attack.",
+      "definition_zh": "安全加固；减少系统漏洞和可被攻击的入口。"
+    },
+    {
+      "term": "deploy",
+      "definition_en": "To put software into an environment where it can run and serve users.",
+      "definition_zh": "部署；将软件放到能够运行并为用户提供服务的环境中。"
+    },
+    {
+      "term": "few-shotted",
+      "definition_en": "Used playfully here to mean completed with just a few AI prompts or interactions; technically, few-shot prompting supplies a few examples.",
+      "definition_zh": "此处戏称只需几次 AI 提示或交互就完成；技术上的少样本提示则指提供少量示例。"
+    },
+    {
+      "term": "for breakfast",
+      "definition_en": "A figurative expression suggesting something can be done easily or quickly.",
+      "definition_zh": "比喻做起来轻松或迅速，类似「吃顿早饭的工夫就搞定」。"
+    },
+    {
+      "term": "banked",
+      "definition_en": "Secured or accumulated for later use; the exact meaning of the sample's progress notation is unclear.",
+      "definition_zh": "已攒下、已存好或已确保获得；样本中进度标记的具体含义不明确。"
+    },
+    {
+      "term": "heart-to-heart",
+      "definition_en": "An open, sincere conversation about personal feelings or concerns.",
+      "definition_zh": "坦诚交心的谈话，通常涉及个人感受或忧虑。"
+    },
+    {
+      "term": "AI slop",
+      "definition_en": "A dismissive term for low-quality, generic, or carelessly produced AI-generated content.",
+      "definition_zh": "对低质量、千篇一律或粗制滥造的 AI 生成内容的贬称。"
+    },
+    {
+      "term": "walkthrough",
+      "definition_en": "A guided, step-by-step demonstration of a process or example.",
+      "definition_zh": "逐步讲解或操作演示。"
+    }
+  ],
+  "stats": {
+    "builders": 11,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 22,
+    "feedGeneratedAt": "2026-11-02T06:35:38.590Z"
+  }
+}

@@ -1,0 +1,715 @@
+{
+  "date": "2026-11-20",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Confident predictions that a team cannot reach state of the art can attract attention even when they are quickly disproved. Social media rewards both the original claim and the later apology.",
+      "summary_zh": "断言某团队不可能达到最先进水平，即使很快被事实推翻，也可能获得大量关注。社交媒体甚至会同时奖励错误预测和事后的道歉。",
+      "slang": [
+        {
+          "term": "SOTA",
+          "definition_en": "State of the art; the best demonstrated performance in a field.",
+          "definition_zh": "最先进水平；某一领域已展示出的最佳表现。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "SOTA",
+          "ipa": "",
+          "definition_zh": "指某个技术领域当前最先进的水平，是 state of the art 的缩写。",
+          "example_zh": "有人断言某团队达到 SOTA 的概率已降为零，三个月后却被成果打脸；作者借此讽刺社交媒体的流量机制。"
+        },
+        {
+          "phrase": "bearing in mind",
+          "ipa": "",
+          "definition_zh": "指在思考或判断时始终记住某个因素。",
+          "example_zh": "作者提醒读者，刷社交媒体时要记住：武断预测和事后道歉都可能获得大量点赞。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123659761887625602",
+          "text": "you cant be serious https://t.co/pll3CcsPFp",
+          "url": "https://x.com/swyx/status/2123659761887625602",
+          "summary_en": null
+        },
+        {
+          "id": "2123591875349422435",
+          "text": "when scrolling social media i think it is worth bearing in mind that you can say “odds of reaching SOTA have dropped to zero” and get alot of likes and then 3 months later when they have reached SOTA you post apology form and get even more likes and the subject of your writing prints it out and thanks you for motivation\n\ntheres no consequences at all for inaccuracy and every incentive for hyperbole and the x algorithm is tuned for this",
+          "url": "https://x.com/swyx/status/2123591875349422435",
+          "summary_en": "Social media rewards confident hyperbole even when it proves wrong: both inaccurate predictions and subsequent apologies can attract engagement. X’s incentives favor attention over accountability."
+        }
+      ]
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_en": "The Gemini app on Mac can now carry out tasks on the user's computer, addressing a frequently requested capability.",
+      "summary_zh": "Mac 版 Gemini 应用现在可以在用户的电脑上执行任务，回应了一项呼声很高的功能需求。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "feature request",
+          "ipa": "",
+          "definition_zh": "指用户向产品团队提出的功能需求。",
+          "example_zh": "让 Gemini 在 Mac 上代用户执行电脑任务，是用户呼声很高的一项功能需求。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123534862569324703",
+          "text": "Gemini app on Mac can now do tasks on your computer, a top feature request! https://t.co/WZL40Vz57r",
+          "url": "https://x.com/joshwoodward/status/2123534862569324703",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "Improving an experience already used by 1.2 billion people is an ambitious product strategy whose results remain to be seen. A separate post alludes to a new version of ChatGPT without giving details.",
+      "summary_zh": "直接改进已有 12 亿用户使用的产品体验是一项雄心很大的策略，成效仍有待观察。另一条帖子提及新版 ChatGPT，但没有提供具体信息。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "in place",
+          "ipa": "",
+          "definition_zh": "指直接在现有系统或环境中进行操作或改进。",
+          "example_zh": "团队想直接改进已有十二亿用户使用的体验，强调的是对现有产品进行升级。"
+        },
+        {
+          "phrase": "plays out",
+          "ipa": "",
+          "definition_zh": "指某个计划或局势逐步发展并显现结果。",
+          "example_zh": "作者表示要看看这套策略最终如何发展，目前尚未断言它会成功。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123612889416339762",
+          "text": "Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place. Let's see if the strategy plays out.",
+          "url": "https://x.com/thsottiaux/status/2123612889416339762",
+          "summary_en": null
+        },
+        {
+          "id": "2123612433923051976",
+          "text": "Le ChatGPT 2.0 https://t.co/QooOVLPLlf",
+          "url": "https://x.com/thsottiaux/status/2123612433923051976",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Google's large workforce may give it an advantage by letting many employees test new models and tools before public release. A separate post invites a visual comparison of two AI models.",
+      "summary_zh": "谷歌庞大的员工规模可能成为优势，让大量内部用户在公开发布前测试新模型和工具。另一条帖子邀请读者比较两个 AI 模型的视觉表现。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "competitive advantages",
+          "ipa": "",
+          "definition_zh": "指企业相较竞争对手拥有的有利条件。",
+          "example_zh": "作者认为，Google 能让十万多名员工提前测试模型和工具，庞大的员工规模因此可能成为竞争优势。"
+        },
+        {
+          "phrase": "wide release",
+          "ipa": "",
+          "definition_zh": "指产品或功能面向广大用户正式开放。",
+          "example_zh": "Google 员工可以在模型和工具大规模对外发布前先行测试。"
+        },
+        {
+          "phrase": "head to head",
+          "ipa": "",
+          "definition_zh": "指让两个竞争对象直接对比或较量。",
+          "example_zh": "作者把两个模型生成的涩谷夜景放在一起比较，并邀请读者观看更多直接对比。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123648490844897389",
+          "text": "People make fun of Google for being large and bureaucratic but I think one of their competitive advantages is they have 100,000+ employees testing their latest models and tools before wide release.\n\nAt that employee population you can even run staff-only A/B tests that are stat sig :)",
+          "url": "https://x.com/petergyang/status/2123648490844897389",
+          "summary_en": null
+        },
+        {
+          "id": "2123620968568676457",
+          "text": "Opus 5.5 vs Gemini 4 Neon for Shibuya Crossing at night. Which one do you prefer?\n\n📌 Watch my 4 other head to head comparisons here: https://t.co/8rKllg4xBx https://t.co/QrSv4LzvmI https://t.co/p7nr6lHYU0",
+          "url": "https://x.com/petergyang/status/2123620968568676457",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "AI can scale software's practical uses while also opening room for more creative work. The argument is that building software should be treated as an artistic pursuit as well as a production process.",
+      "summary_zh": "AI 既能扩大软件的实用价值，也能为创造性工作打开空间。其观点是，开发软件既是生产过程，也可以是艺术创作。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "utility",
+          "ipa": "/juːˈtɪləti/",
+          "definition_zh": "指事物满足实际需求的用途或实用价值。",
+          "example_zh": "作者认为软件既有艺术性，也有实用价值，并借此强调 AI 编程还应服务于创意表达。"
+        },
+        {
+          "phrase": "Industrial Revolution",
+          "ipa": "",
+          "definition_zh": "指工业革命，此处比喻生产能力和效率发生巨大跃升。",
+          "example_zh": "作者用工业革命比喻 AI 扩大软件生产能力的一面。"
+        },
+        {
+          "phrase": "Renaissance",
+          "ipa": "/ˈrenəsɑːns/",
+          "definition_zh": "指文艺复兴，也可比喻艺术与创造力的重新繁荣。",
+          "example_zh": "作者把 AI 同时比作文艺复兴，表达它也能推动软件成为更丰富的艺术创作。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123524052195463568",
+          "text": "Software is both art and utility. AI is both an Industrial Revolution and a Renaissance.\n\nFactories are for utilities, at AIE Code I talked about how we can make better art. https://t.co/KrETTn6hA3",
+          "url": "https://x.com/trq212/status/2123524052195463568",
+          "summary_en": null
+        },
+        {
+          "id": "2123457177419760100",
+          "text": "https://t.co/2jiFanMHll",
+          "url": "https://x.com/trq212/status/2123457177419760100",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "A personal agent can reportedly be created from a single prompt. The posts also propose defining an explicit contract with an agent as a pattern other products may adopt.",
+      "summary_zh": "帖子称，只需一段提示词就能创建个人智能体；同时提出与智能体明确约定职责的模式，并预测其他产品会借鉴。",
+      "slang": [
+        {
+          "term": "personal agent",
+          "definition_en": "An AI assistant that acts on behalf of an individual across tasks.",
+          "definition_zh": "代表个人处理各类任务的 AI 助手。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "personal agent",
+          "ipa": "",
+          "definition_zh": "指为个人处理任务或提供持续协助的 AI 智能体。",
+          "example_zh": "作者称，用户只需一条提示就能创建类似 Muse 的个人智能体。"
+        },
+        {
+          "phrase": "contract",
+          "ipa": "/ˈkɑːntrækt/",
+          "definition_zh": "指明确约定职责、规则和预期的契约。",
+          "example_zh": "这里指人与智能体之间的明确约定；推文没有说明它是否具有法律效力。"
+        },
+        {
+          "phrase": "paradigm",
+          "ipa": "/ˈpærədaɪm/",
+          "definition_zh": "指组织思考或实践的一套基本模式。",
+          "example_zh": "作者把与智能体订立契约视为一种产品交互范式，并预测其他产品会效仿。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123535544718418191",
+          "text": "Build your own Muse-like personal agent with one prompt. https://t.co/24iScdeQvb",
+          "url": "https://x.com/amasad/status/2123535544718418191",
+          "summary_en": null
+        },
+        {
+          "id": "2123535362568134894",
+          "text": "Having a contract with your agent is a paradigm I expect many will copy from us https://t.co/ye6WQLu6Xq",
+          "url": "https://x.com/amasad/status/2123535362568134894",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "An agent could help founders build a company from its earliest stage. As AI expands what one person can create, engineering value is framed as depending more on outcomes and judgment than on implementation debates.",
+      "summary_zh": "智能体可以从创业之初帮助创始人搭建公司。随着 AI 扩大个人的创造能力，工程师的价值将更多取决于成果和判断力，而非实现细节之争。",
+      "slang": [
+        {
+          "term": "1000x engineer",
+          "definition_en": "Hyperbole for an engineer whose impact is vastly amplified by AI and a focus on outcomes.",
+          "definition_zh": "夸张说法，指借助 AI 并聚焦成果而大幅放大影响力的工程师。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "1000x engineer",
+          "ipa": "",
+          "definition_zh": "指产出或影响力被夸张地形容为普通工程师一千倍的工程师。",
+          "example_zh": "作者认为，AI 让注重结果且富有创造力的工程师获得极大的能力放大；这里的一千倍是修辞表达。"
+        },
+        {
+          "phrase": "tabs-vs-spaces-debating",
+          "ipa": "",
+          "definition_zh": "指纠结代码缩进该用制表符还是空格，常用来讽刺过度争论细节。",
+          "example_zh": "作者用缩进之争代表低价值的实现细节争论，认为这种习惯会削弱工程师的贡献。"
+        },
+        {
+          "phrase": "miss-forest-for-trees",
+          "ipa": "",
+          "definition_zh": "指过度关注局部细节而看不到整体。",
+          "example_zh": "作者用这个压缩写法形容缺乏全局判断的工程师，强调 AI 时代判断力对工程价值的影响。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123553975945556144",
+          "text": "A company’s genesis is the agent that helps you build the company https://t.co/JAeoreokGR",
+          "url": "https://x.com/rauchg/status/2123553975945556144",
+          "summary_en": null
+        },
+        {
+          "id": "2123505400591106113",
+          "text": "My “is engineering a valuable pursuit” math. \n\nAn outcome-oriented, creative engineer is now a 1000x engineer.\n\nA tabs-vs-spaces-debating, miss-forest-for-trees engineer is now a -10x engineer.\n\nThe regular knowledge worker is now a 2x engineer.\n\nThis is also backed by the distribution of token consumption we see in both our startups and enterprise base. Engineers and software factories will consume exponentially more tokens.\n\nIf there’s a takeaway from Anthropic’s success, it’s that coding is the #1 killer app of AI.",
+          "url": "https://x.com/rauchg/status/2123505400591106113",
+          "summary_en": "AI dramatically amplifies creative, outcome-focused engineering while making fixation on minor technical debates more costly. Token usage across startups and enterprises supports the view that coding is AI’s leading killer app."
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "The post endorses an argument that building advanced AI is necessary to avoid catastrophic outcomes. It offers no supporting reasoning in the supplied text.",
+      "summary_zh": "帖子赞同一种观点：开发先进 AI 是避免灾难性结果所必需的。所提供的文字没有展开论证。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "Hard agree",
+          "ipa": "",
+          "definition_zh": "是一种网络口语，表示非常赞同。",
+          "example_zh": "作者用这句话强烈赞同所引用的 Bostrom 观点，但没有在推文中展开论证。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123496208316694669",
+          "text": "Bostrom: \"if nobody builds it, everyone dies\"\n\nHard agree https://t.co/4PsIoscsD8",
+          "url": "https://x.com/garrytan/status/2123496208316694669",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "One post jokes that Nasdaq is keeping its options open, but the supplied text does not say what prompted the remark. Another points to an earlier conversation without describing its substance.",
+      "summary_zh": "一条帖子调侃纳斯达克在两边下注，但所提供的文字没有说明所指何事。另一条提到此前的一次对话，却未交代讨论内容。",
+      "slang": [
+        {
+          "term": "hedging their bets",
+          "definition_en": "Keeping multiple options open to reduce the risk of backing the wrong outcome.",
+          "definition_zh": "同时保留多种选择，以降低押错方向的风险。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "hedging their bets",
+          "ipa": "",
+          "definition_zh": "指同时保留多种选择，以降低押错方向的风险。",
+          "example_zh": "作者调侃 NASDAQ 在两边下注或留后路，但提供的文字没有交代具体背景。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123465585166295351",
+          "text": "lol NASDAQ hedging their bets https://t.co/nwoIV114l5",
+          "url": "https://x.com/mattturck/status/2123465585166295351",
+          "summary_en": null
+        },
+        {
+          "id": "2123424356286017975",
+          "text": "My earlier conversation with the truly excellent @felixrieseberg here:\n\nhttps://t.co/odrvhyQXcY",
+          "url": "https://x.com/mattturck/status/2123424356286017975",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Product discussion should focus on what is being built, who it serves, and why, rather than maximizing attention around implementation. The posts also raise concern about protecting older adults from network attacks and impersonation.",
+      "summary_zh": "产品讨论应聚焦做什么、服务谁以及为什么做，而不是围绕实现方式争取关注。帖子还关注如何保护老年人免受网络攻击和冒充骗局侵害。",
+      "slang": [
+        {
+          "term": "PR-maxxing",
+          "definition_en": "Optimizing actions or messaging primarily for publicity and attention.",
+          "definition_zh": "主要以获取公关曝光和关注度为目标来安排做法或话术。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "PR-maxxing",
+          "ipa": "",
+          "definition_zh": "指把公关曝光和声量最大化当作主要追求的网络调侃说法。",
+          "example_zh": "作者用这个词批评过度追求宣传，主张产品讨论应关注做什么、为谁做以及为什么做。"
+        },
+        {
+          "phrase": "network attacks",
+          "ipa": "",
+          "definition_zh": "指利用网络对系统、服务或用户实施的攻击。",
+          "example_zh": "作者担心网络攻击会危及老年人，并思考能在哪些层面提供保护。"
+        },
+        {
+          "phrase": "impersonation attempts",
+          "ipa": "",
+          "definition_zh": "指试图冒充他人或可信机构来欺骗目标的行为。",
+          "example_zh": "作者想到父母和祖父母可能遭遇身份冒充，因此提出老年人防护问题。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123521753381232917",
+          "text": "Same same, but now it’s PR-maxxing 🤦‍♂️\n\nFocus on the what, who and why, and not on the how!! https://t.co/O3cjhVuuP1",
+          "url": "https://x.com/nikunj/status/2123521753381232917",
+          "summary_en": null
+        },
+        {
+          "id": "2123426647273800172",
+          "text": "As these network attacks and impersonation attempts happen, who's securing the elderly? \n\nEspecially thinking about my parents and grandparents.\n\nThere are four layers I can think through where this could work.\n\nOne is at the browser level, where somebody builds a secure browser that ensures that whatever websites they're going to are secured. Texts typically lead to a link, even for payments. This is why browser is key.\n\nTwo could be at the network layer, where there is a physical device, similar to Pi-hole, or an Onavo-like VPN on your phone, that blocks websites that could be deemed unsafe.\n\nThree could be at the payments layer, where transactions that look like scams get flagged before the money leaves.\n\nAnd fourth and most crazy could be at the phone level, where everything is monitored, and you're only getting calls from your loved ones. Cloned voices would work with a provider like Reality Defender. \n\nThere are individual solutions for this today but none neatly packaged. \n\nThis could all be packaged with insurance that covers any activities on the OS or phone. In that way, incentives are aligned to keep this on the edge.\n\nThe buyer would be the kids, someone like me, who get alerted when something looks off.",
+          "url": "https://x.com/nikunj/status/2123426647273800172",
+          "summary_en": "Protecting older adults from scams could combine browser and network safeguards, payment screening, and phone-level impersonation detection into one service. Adult children could buy it for their parents, receive alerts, and get insurance coverage that aligns the provider’s incentives with preventing fraud."
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_en": "A fix was added to OpenClaw for users of its embedded harness. The post says most other harnesses have yet to receive the corresponding update.",
+      "summary_zh": "OpenClaw 已为使用内嵌运行框架的用户加入一项修复。帖子称多数其他运行框架尚未获得相应更新。",
+      "slang": [
+        {
+          "term": "harness",
+          "definition_en": "The software framework that runs and connects an AI agent to tools and tasks.",
+          "definition_zh": "运行 AI 智能体并将其连接到工具和任务的软件框架。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Landed a fix",
+          "ipa": "",
+          "definition_zh": "指已将修复代码成功合入项目。",
+          "example_zh": "作者表示，昨天已经把相关修复合入 OpenClaw。"
+        },
+        {
+          "phrase": "embedded harness",
+          "ipa": "",
+          "definition_zh": "指内嵌于产品中、负责组织和运行智能体的执行框架。",
+          "example_zh": "作者说明，这次 OpenClaw 修复适用于使用其内嵌执行框架的少数用户，并提到多数其他框架尚未更新。"
+        },
+        {
+          "phrase": "plugin",
+          "ipa": "/ˈplʌɡɪn/",
+          "definition_zh": "指通过接入宿主程序来扩展其功能的软件组件。",
+          "example_zh": "作者用插件形态解释这项修复的使用背景，表明修复是否生效与用户采用的运行环境有关。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123487048250327497",
+          "text": "Landed a fix for that in OpenClaw yesterday (for the few folks using the embedded harness instead of codex, since it’s a plugin), most harnesses aren’t updated yet. https://t.co/hyjqyZw1AU",
+          "url": "https://x.com/steipete/status/2123487048250327497",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "The post asks who is working to stop ongoing infrastructure attacks and how people in AI can help.",
+      "summary_zh": "帖子询问谁在应对当前的基础设施攻击，以及 AI 从业者能如何提供帮助。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "infrastructure attacks",
+          "ipa": "",
+          "definition_zh": "指针对支撑社会或技术系统运行的基础设施实施的攻击。",
+          "example_zh": "作者询问谁正在协助阻止这些攻击，以及 AI 从业者能如何参与；推文没有说明具体攻击对象。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123435061236404385",
+          "text": "who is working on helping stop the infrastructure attacks happening right now, and how can people in AI help?",
+          "url": "https://x.com/danshipper/status/2123435061236404385",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "Progress in AI is presented as a shared gain rather than a zero-sum contest. The posts congratulate Anthropic and argue that supporting people who later build important companies is a meaningful outcome for a startup community.",
+      "summary_zh": "帖子将 AI 进步视为行业共同受益的成果，而非零和竞争；同时祝贺 Anthropic，并认为支持日后参与建设重要公司的人成长，也是创业社群的重要成果。",
+      "slang": [
+        {
+          "term": "zero-sum",
+          "definition_en": "A situation where one side's gain necessarily equals another side's loss.",
+          "definition_zh": "一方所得必然等于另一方所失的局面。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "zero-sum",
+          "ipa": "/ˌzɪroʊ ˈsʌm/",
+          "definition_zh": "指一方的收益必然对应另一方同等损失的零和关系。",
+          "example_zh": "作者认为 Anthropic 的进展值得整个行业庆祝，因为一家公司的进步也可能让其他人共同受益。"
+        },
+        {
+          "phrase": "venture capital",
+          "ipa": "",
+          "definition_zh": "指投资高增长潜力初创企业并承担较高风险的资本。",
+          "example_zh": "作者把风险投资从业者与科技行业其他群体并列，呼吁大家为推动人类进步感到自豪。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2123579739868959110",
+          "text": "I am just immensely proud of our industry today.\n\nThis is not a zero-sum day.\n\nAll of us in \"computers\" / silicon valley / venture capital should be proud. \n\nWe are all helping to accelerate progress for humanity. \n\nWhat a time to be alive.",
+          "url": "https://x.com/adityaag/status/2123579739868959110",
+          "summary_en": null
+        },
+        {
+          "id": "2123494873919783073",
+          "text": "Congratulations to the folks at Anthropic.\n\nSPC's goal isn't just to get people to start companies. \n\nToday is a good day to explain why.\n\nTwo of the people who helped build Anthropic spent significant time at @spc.\n\n@nottombrown showed up at SPC in 2016 with no ML background. He spent his days working through papers with other members, then co-founded Anthropic.\n\n@trq212 joined SPC having just wound down his gaming company. He was working on interpretability when a fellow member asked if he'd tried Claude Code. Soon he was helping build a tool most of us use every day. \n\nIf you put ambitious people next to each other, it leads to extraordinary things.\n\nSometimes the impact comes years later.\n\nI'm so happy for Tom, for Thariq, and for all of my friends at @AnthropicAI.",
+          "url": "https://x.com/adityaag/status/2123494873919783073",
+          "summary_en": "SPC’s purpose extends beyond helping people start companies: bringing ambitious people together can enable learning and collaborations whose impact emerges years later. The paths of two members who went on to help build Anthropic illustrate that long-term value."
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "handle": "claudeai",
+      "summary_en": "The supplied posts contain only links, so their substantive claims cannot be determined from the provided text.",
+      "summary_zh": "所提供的帖子只有链接，无法从现有文字判断其具体内容或主张。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2123431928414273582",
+          "text": "https://t.co/Lvg7iH5c8n",
+          "url": "https://x.com/claudeai/status/2123431928414273582",
+          "summary_en": null
+        },
+        {
+          "id": "2123431925918433403",
+          "text": "https://t.co/7YnqMnFefK",
+          "url": "https://x.com/claudeai/status/2123431925918433403",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "No Priors",
+      "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+      "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+      "summary_en": "AI has transformed digital experiences more visibly than the physical world. Even striking advances such as self-driving rides quickly become ordinary, suggesting the next challenge is changing how the physical world works.",
+      "summary_zh": "AI 对数字体验的改变比对物理世界的改变更明显。即使自动驾驶出行最初令人惊叹，也会很快变得寻常；下一步的挑战是改变现实世界的运作方式。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "inaccuracy",
+      "ipa": "/ɪnˈækjərəsi/",
+      "pos": "noun",
+      "definition_en": "A lack of correctness or precision.",
+      "definition_zh": "不准确；错误",
+      "synonyms": [
+        "incorrectness",
+        "error",
+        "imprecision"
+      ],
+      "example_en": "The post spread widely despite its inaccuracy.",
+      "example_zh": "这条帖子虽然不准确，却仍被广泛传播。"
+    },
+    {
+      "word": "incentive",
+      "ipa": "/ɪnˈsentɪv/",
+      "pos": "noun",
+      "definition_en": "Something that encourages a person to act in a particular way.",
+      "definition_zh": "激励；促使人采取某种行动的因素",
+      "synonyms": [
+        "motivation",
+        "inducement"
+      ],
+      "example_en": "Social platforms give writers an incentive to make dramatic claims.",
+      "example_zh": "社交平台让作者有动力发表夸张的言论。"
+    },
+    {
+      "word": "hyperbole",
+      "ipa": "/haɪˈpɜːrbəli/",
+      "pos": "noun",
+      "definition_en": "Exaggerated language used for emphasis or effect.",
+      "definition_zh": "夸张的言辞；夸张手法",
+      "synonyms": [
+        "exaggeration",
+        "overstatement"
+      ],
+      "example_en": "Calling every new model revolutionary is hyperbole.",
+      "example_zh": "把每一个新模型都称为革命性突破，是一种夸张。"
+    },
+    {
+      "word": "bureaucratic",
+      "ipa": "/ˌbjʊrəˈkrætɪk/",
+      "pos": "adj",
+      "definition_en": "Involving complicated official rules, procedures, and layers of administration.",
+      "definition_zh": "官僚化的；行政程序繁琐的",
+      "synonyms": [
+        "procedural",
+        "rule-bound"
+      ],
+      "example_en": "A bureaucratic approval process can slow down product releases.",
+      "example_zh": "繁琐的审批流程可能拖慢产品发布。"
+    },
+    {
+      "word": "eligible",
+      "ipa": "/ˈelɪdʒəbəl/",
+      "pos": "adj",
+      "definition_en": "Meeting the conditions required to receive something or participate.",
+      "definition_zh": "符合条件的；有资格的",
+      "synonyms": [
+        "qualified",
+        "entitled"
+      ],
+      "example_en": "Only eligible users can enable the new feature.",
+      "example_zh": "只有符合条件的用户才能启用这项新功能。"
+    },
+    {
+      "word": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "pos": "noun",
+      "definition_en": "The main point or lesson learned from an experience or piece of information.",
+      "definition_zh": "要点；主要收获；核心结论",
+      "synonyms": [
+        "lesson",
+        "key point"
+      ],
+      "example_en": "My main takeaway is that different models excel at different tasks.",
+      "example_zh": "我的主要收获是，不同模型各有所长。"
+    },
+    {
+      "word": "rave",
+      "ipa": "/reɪv/",
+      "pos": "adj",
+      "definition_en": "Expressing very enthusiastic praise, especially in a review.",
+      "definition_zh": "高度赞扬的；热情称赞的，常用于评价",
+      "synonyms": [
+        "glowing",
+        "enthusiastic"
+      ],
+      "example_en": "The new model received rave reviews from early testers.",
+      "example_zh": "这款新模型获得了早期测试者的高度好评。"
+    }
+  ],
+  "quote": {
+    "text_en": "Nothing in life is to be feared, it is only to be understood.",
+    "text_zh": "生活中没有什么值得恐惧，只有需要理解的事物。",
+    "author": "Marie Curie"
+  },
+  "slang_glossary": [
+    {
+      "term": "SOTA",
+      "definition_en": "Short for state of the art: the best demonstrated performance in a particular field or benchmark.",
+      "definition_zh": "「state of the art」的缩写，指某一领域或基准测试中已展示的最先进水平。"
+    },
+    {
+      "term": "personal agent",
+      "definition_en": "An AI assistant that can take actions and carry out tasks on a user's behalf.",
+      "definition_zh": "个人智能体：能够代表用户采取行动、执行任务的 AI 助手。"
+    },
+    {
+      "term": "1000x engineer",
+      "definition_en": "A hyperbolic label for an engineer claimed to be a thousand times more productive than a typical engineer.",
+      "definition_zh": "「千倍工程师」：夸张地形容生产力远超普通工程师的人，并非严格衡量指标。"
+    },
+    {
+      "term": "hedging their bets",
+      "definition_en": "Keeping multiple options open to reduce the risk of relying on just one.",
+      "definition_zh": "多方布局；保留多种选择，降低押注单一路径的风险。"
+    },
+    {
+      "term": "PR-maxxing",
+      "definition_en": "Internet slang for aggressively maximizing publicity or favorable public perception.",
+      "definition_zh": "网络用语，指极力追求曝光度或正面公众形象；PR 指公共关系。"
+    },
+    {
+      "term": "harness",
+      "definition_en": "In AI development, the surrounding software that runs a model, supplies tools, or evaluates its behavior.",
+      "definition_zh": "在 AI 开发中，指运行模型、提供工具或评估模型行为的外围软件框架。"
+    },
+    {
+      "term": "zero-sum",
+      "definition_en": "Describing a situation in which one participant's gain is balanced by another's loss.",
+      "definition_zh": "零和的：一方的收益对应另一方的损失。"
+    },
+    {
+      "term": "apology form",
+      "definition_en": "A meme template used to jokingly retract criticism after someone or something performs better than expected.",
+      "definition_zh": "「道歉表」梗：当某人或某事表现超出预期时，用来戏谑地收回先前批评的模板。"
+    },
+    {
+      "term": "fuuuuuuck",
+      "definition_en": "An elongated spelling of a profanity, used to express intense frustration or disbelief.",
+      "definition_zh": "英语粗口 fuck 的拉长写法，用来表达强烈的烦躁、震惊或难以置信。"
+    },
+    {
+      "term": "plays out",
+      "definition_en": "Develops over time and produces an eventual result.",
+      "definition_zh": "逐步展开；发展并最终产生结果。"
+    },
+    {
+      "term": "roll out",
+      "definition_en": "To introduce a product or feature to users, often gradually.",
+      "definition_zh": "推出或逐步向用户开放产品、功能。"
+    },
+    {
+      "term": "A/B tests",
+      "definition_en": "Experiments that compare two versions using separate groups to measure their effects.",
+      "definition_zh": "A/B 测试：让不同组分别使用两个版本，以比较其效果的实验。"
+    },
+    {
+      "term": "stat sig",
+      "definition_en": "Informal shorthand for statistically significant: meeting a specified statistical threshold under a test's assumptions, without necessarily implying practical importance.",
+      "definition_zh": "「具有统计显著性」的简称：在检验假设下达到指定统计阈值，但不一定意味着实际影响很大。"
+    },
+    {
+      "term": "head-to-head",
+      "definition_en": "Describing a direct comparison or competition between two alternatives.",
+      "definition_zh": "直接对比的；正面对决的。"
+    },
+    {
+      "term": "rave reviews",
+      "definition_en": "Reviews that express strong enthusiasm and praise.",
+      "definition_zh": "热烈好评；高度赞扬的评价。"
+    },
+    {
+      "term": "pin",
+      "definition_en": "In interface design, to keep an item fixed in an easily accessible location.",
+      "definition_zh": "在界面中将项目固定在便于访问的位置。"
+    },
+    {
+      "term": "tab bar",
+      "definition_en": "An interface element containing tabs for switching between sections or features.",
+      "definition_zh": "标签栏：包含多个标签、用于切换页面区域或功能的界面组件。"
+    }
+  ],
+  "stats": {
+    "builders": 14,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 33,
+    "feedGeneratedAt": "2026-11-20T06:29:26.095Z"
+  }
+}

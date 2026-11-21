@@ -1,0 +1,858 @@
+{
+  "date": "2026-11-18",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "The Astra launch drew criticism for an ad that should have been caught before release, even though the model itself appears to be a solid incremental improvement. Separately, project-specific agents now retain their own memory across sessions and can coordinate when needed.",
+      "summary_zh": "Astra 发布时的广告受到批评，但模型本身被认为是扎实的小幅升级。另一个进展是，不同项目的智能体各自保留跨会话记忆，必要时还能相互协作。",
+      "slang": [
+        {
+          "term": "inter-session context",
+          "definition_en": "Information retained or surfaced across separate conversations or work sessions.",
+          "definition_zh": "在不同对话或工作会话之间保留或呈现的上下文信息。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "saw this coming a mile away",
+          "ipa": "",
+          "definition_zh": "指很早就能预见某件事会发生，通常强调征兆十分明显。",
+          "example_zh": "他认为 Astra 广告的问题本应早被决策者看出来，并在发布前叫停。"
+        },
+        {
+          "phrase": "inter-session context",
+          "ipa": "",
+          "definition_zh": "指跨多次会话保留和传递的上下文信息。",
+          "example_zh": "这些项目智能体会默认获得此前会话的相关信息，让工作可以跨会话延续。"
+        },
+        {
+          "phrase": "memory bank",
+          "ipa": "",
+          "definition_zh": "指系统用于保存和调用长期信息的记忆库。",
+          "example_zh": "不同项目的 Devin 各自拥有独立记忆库，同时可以在需要时彼此沟通。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122862646265520150",
+          "text": "the fact that nobody with decisionmaking power saw this coming a mile away and vetoed the 6.2 astra ad is my primary critique of the astra launch\n\nthe model itself is solid minor version improvement guys, efficiency is one of the three most impt RL objectives rn and they are world leading here!!! i am daily driving astra and it is the best workflow automation model i’ve used, no longer getting stuck in horrible loops and efficiently learning thru compactions and skill writing. it’s running a lot of our content publishing pipeline for @latentspacepod and @aiDotEngineer and we wouldnt have nearly the revenue efficiency (>1m/employee) that we have as a bootstrapped business without it",
+          "url": "https://x.com/swyx/status/2122862646265520150",
+          "summary_en": "Astra’s launch ad showed poor judgment, but the model delivers solid improvements in efficiency and workflow automation, with fewer loops and better learning across context compactions. It powers substantial publishing work and helps sustain a bootstrapped business generating over $1 million in revenue per employee."
+        },
+        {
+          "id": "2122818291144229075",
+          "text": "technical details:\n\n> inter-session context is surfaced by default. Teams now create dedicated bots for different projects; while these different devins can talk to each other when necessary, they each have their own individual memory bank and goals. Each bot now has its own, long lived identity.  The transition from \"Devin is a swarm of ephemeral agents\" to \"Devin is a collection of bots, each with their own persistent identity and memory\" is changing how people use and prompt Devin.\n\nhttps://t.co/maw20vdPs8",
+          "url": "https://x.com/swyx/status/2122818291144229075",
+          "summary_en": "Devin is shifting from ephemeral agent swarms to persistent, project-specific bots with their own identities, memories, and goals. Cross-session context and communication between bots are changing how teams use and prompt the system."
+        }
+      ]
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_en": "Gemini's task-completion feature is now free in six countries, aiming to handle everyday tasks when users are busy. The team is asking people to share what they have delegated to it.",
+      "summary_zh": "Gemini 的任务代办功能已在六个国家免费开放，目标是在用户忙碌时完成日常事务。团队也在征集用户实际交给它处理的任务案例。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "piling up",
+          "ipa": "",
+          "definition_zh": "指事情不断积压，越堆越多。",
+          "example_zh": "他描述用户忙于上课、开会和接送孩子时，待办任务持续积压的情况，以此说明 Gemini 的用途。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122737429476253889",
+          "text": "Reply back with tasks that Gemini did for you! \nhttps://t.co/CEwsM02goB",
+          "url": "https://x.com/joshwoodward/status/2122737429476253889",
+          "summary_en": null
+        },
+        {
+          "id": "2122737427970425171",
+          "text": "Gemini can now do your tasks free of charge in six countries! We’ve built it for anyone who has tasks piling up during all the classes, meetings, and school drop-offs that fill the day. Our goal is for Gemini to get the job done and save you time and money along the way.\n\n3 major updates:\n\n1) Running on our new Gemini 4 Hydrogen model, Gemini can get stuff done at no cost for hundreds of millions of people across the US, Japan, Korea, Canada, Australia, and India.\n\n2) Many highly requested features are rolling out now, starting in the US:\n* Call local businesses (via Google Duplex)\n* Pay and check out (via Google Pay)\n* Text Gemini on Android or iOS (via RCS)\n* Forward emails to Gemini (via Gmail)\n* Sign into sites without sharing passwords outside Google (via Google Password Manager)\n\n3) We’ve also landed our biggest update yet for the Gemini <> Google Workspace integration. The tools trigger more reliably, and you can do much more without ever leaving Gemini. Draft or send emails. Create and edit Docs or Sheets. Add multiple Calendar events at once.\n\nReady to hand off your next task? We can’t wait to see what Gemini crosses off your list first.",
+          "url": "https://x.com/joshwoodward/status/2122737427970425171",
+          "summary_en": "Gemini is rolling out free task execution powered by Gemini 4 Hydrogen in six countries, with features starting in the US for business calls, checkout, texting, email forwarding, and secure website sign-ins. Its upgraded Workspace integration also supports more reliable email, document, spreadsheet, and calendar actions."
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "Sol 6.2 ultrafast feels markedly quicker for eligible Pro users, with broader access planned over time. Early reviewers may have tested an older build because substantial changes landed in the final days before release.",
+      "summary_zh": "符合条件的 Pro 用户可体验速度明显更快的 Sol 6.2 ultrafast，未来计划扩大覆盖。早期测评者可能测试的是旧版本，因为发布前几天模型又有较大改动。",
+      "slang": [
+        {
+          "term": "model vibes",
+          "definition_en": "The subjective feel of using a model, such as speed, style, and responsiveness.",
+          "definition_zh": "使用模型时对速度、风格和响应方式的主观感受。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "quite the blast",
+          "ipa": "",
+          "definition_zh": "指某种体验格外畅快、令人兴奋。",
+          "example_zh": "他用这个口语表达形容 Sol ultrafast 的使用体验，强调速度提升带来的畅快感。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122929829863735594",
+          "text": "If you have Pro 200/500, I do recommend trying out 6.2 Sol ultrafast, it's quite the blast to use and a completely different feel. I'm excited to keep pushing in bringing these speeds to more users over time.",
+          "url": "https://x.com/thsottiaux/status/2122929829863735594",
+          "summary_en": null
+        },
+        {
+          "id": "2122929634916679820",
+          "text": "One of the funny reasons for the difference in vibes between the influencers and the crowd today on 6.2 Sol/Astra is that we gave a few folks access a while ago and then made a lot of changes in the last 3-4 days and I'm pretty sure no re-testing was done within those days and the videos were produced last week.\n\nDon't get me wrong, while the models are a hefty jump compared to their GPT predecessors, they are by no means perfect and there are a few things the teams are excited for the models to get better at in future iterations in terms of taste and niceness of use. Love all the feedback and we hear you!",
+          "url": "https://x.com/thsottiaux/status/2122929634916679820",
+          "summary_en": "Differences between influencer reviews and public reactions to 6.2 Sol/Astra may reflect substantial changes made in the final days before launch, after review videos were produced. The models are described as a major improvement over their GPT predecessors, with further work needed on taste and usability."
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "A joke about conspiring against Astra reviews accompanies an early impression that Astra 6.2 may outperform Fable at website design. A fuller evaluation is promised later.",
+      "summary_zh": "一则关于操纵 Astra 评价的玩笑之后，初步体验认为 Astra 6.2 的网站设计能力可能超过 Fable。更完整的评测尚待发布。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "paid off",
+          "ipa": "",
+          "definition_zh": "在此指花钱收买某人，让其按自己的意愿行事。",
+          "example_zh": "他开玩笑说自己收买了其他网红，让他们给 Astra 差评，营造夸张的阴谋论笑点。"
+        },
+        {
+          "phrase": "dare I say",
+          "ipa": "",
+          "definition_zh": "用于试探性地提出一个可能引发争议或令人意外的看法。",
+          "example_zh": "他说 Astra 6.2 的网站设计表现可能超过 Fable，用这个表达为大胆判断加上试探语气。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122883865643720927",
+          "text": "Ok I'll tell you guys the truth - since I didn't get early access the GPT-6.2 Astra I paid off all the other influencers so they could leave negative reviews.\n\nYes it's indeed a big conspiracy. Also you MUST eat my brisket I won't accept no for an answer.",
+          "url": "https://x.com/petergyang/status/2122883865643720927",
+          "summary_en": null
+        },
+        {
+          "id": "2122869524773179771",
+          "text": "Ok I've been testing and dare I say Astra 6.2 is better than Fable at website design?\n\n Sharing my unbiased review tmr :)\n\n📌 Sign up here: https://t.co/744uInp9aE https://t.co/6VxRhEMIBN",
+          "url": "https://x.com/petergyang/status/2122869524773179771",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "Running many agents in parallel could improve software performance by letting them explore competing approaches. This frames agent coordination as another way to scale AI capability beyond larger models and longer reasoning.",
+      "summary_zh": "让大量智能体并行探索不同方案，可能优化软件性能。这将智能体协作视为扩大 AI 能力的另一条路径，与扩大模型和延长推理时间并列。",
+      "slang": [
+        {
+          "term": "agent swarms",
+          "definition_en": "Groups of AI agents working in parallel or coordinating on a shared problem.",
+          "definition_zh": "并行工作或协同解决同一问题的一组 AI 智能体。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Agent swarms",
+          "ipa": "",
+          "definition_zh": "指多个智能体协同或并行工作形成的智能体群。",
+          "example_zh": "他提出让大量智能体同时探索不同方案，以改善软件性能并扩展 AI 能力。"
+        },
+        {
+          "phrase": "scaling frontier",
+          "ipa": "",
+          "definition_zh": "指通过扩大规模来提升能力的下一个探索方向。",
+          "example_zh": "他把智能体群视为 AI 扩展的新方向，认为增加并行工作的智能体数量也能提升能力。"
+        },
+        {
+          "phrase": "in parallel",
+          "ipa": "",
+          "definition_zh": "指多个计算任务或工作流程同时进行。",
+          "example_zh": "多个智能体同时尝试不同方法，是他提出的软件优化思路的核心。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122817367679901830",
+          "text": "How scaling agent swarms can optimize software performance. https://t.co/RbOtj6u9aQ",
+          "url": "https://x.com/amasad/status/2122817367679901830",
+          "summary_en": null
+        },
+        {
+          "id": "2122809964649459861",
+          "text": "Agent swarms are the next scaling frontier for AI.\n\nFor years, we’ve scaled intelligence by training larger models and giving them more time to think. But there’s another dimension: running many agents in parallel, exploring different approaches, challenging each other, and working together on solutions that no single agent could easily discover.\n\nOpenAI has already demonstrated the potential of this approach with breakthroughs in mathematics.\n\nUntil now, experimenting with agent swarms yourself required building complicated orchestration infrastructure.\n\nStarting today on Replit, spinning up a swarm of agents is just one prompt away.\n\nExcited to see what people discover when we make collective machine intelligence programmable by anyone.",
+          "url": "https://x.com/amasad/status/2122809964649459861",
+          "summary_en": "Parallel agent swarms offer another way to scale AI capabilities by exploring competing approaches and collaborating on solutions. Replit now lets users launch a swarm with a single prompt, removing the need to build complex orchestration infrastructure."
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "A new browser performance tool is presented as a step toward software that measures and improves its own web vitals. A separate product receives a brief visual endorsement.",
+      "summary_zh": "一款新的浏览器性能工具被视为软件自行测量并优化网页性能指标的进展。另一款产品则获得了简短的视觉设计好评。",
+      "slang": [
+        {
+          "term": "web vitals",
+          "definition_en": "Metrics used to assess a website's loading speed, responsiveness, and visual stability.",
+          "definition_zh": "衡量网页加载速度、交互响应和视觉稳定性的指标。"
+        },
+        {
+          "term": "self-optimizing software",
+          "definition_en": "Software that uses feedback or automation to improve its own performance.",
+          "definition_zh": "利用反馈或自动化机制改进自身性能的软件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "web performance",
+          "ipa": "",
+          "definition_zh": "指网页在加载速度、响应速度等方面的性能表现。",
+          "example_zh": "他认为这款浏览器性能工具对提升网页性能具有重要意义。"
+        },
+        {
+          "phrase": "self-optimizing software",
+          "ipa": "",
+          "definition_zh": "指能够自动评估自身表现并进行优化的软件。",
+          "example_zh": "他将新工具描述为软件自动测量并改善网页性能的一步。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122846434177531945",
+          "text": "fx is beautiful, try it out! https://t.co/XR5y7bqLD5",
+          "url": "https://x.com/rauchg/status/2122846434177531945",
+          "summary_en": null
+        },
+        {
+          "id": "2122830064152899991",
+          "text": "Actually a huge deal for web performance. 𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛 𝚟𝚒𝚝𝚊𝚕𝚜 is so smart… self-optimizing software is here! https://t.co/rTkIyaUmLh",
+          "url": "https://x.com/rauchg/status/2122830064152899991",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Ryo Lu",
+      "handle": "ryolu_",
+      "summary_en": "New tools make ambitious ideas feasible, but realizing them still requires care and sustained effort.",
+      "summary_zh": "新工具让大胆的想法变得可行，但真正实现它们仍需细致打磨和持续投入。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2122929249967554583",
+          "text": "crazy ideas are now possible\nbut it takes just as much care and effort https://t.co/ULe64rH1CZ",
+          "url": "https://x.com/ryolu_/status/2122929249967554583",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "Shareholders and current or former employees are urged to speak up about an unspecified matter. Another post asks how quickly an unspecified action could happen, so the underlying issue cannot be determined from the available text.",
+      "summary_zh": "一条内容呼吁股东及现任、前任员工就某件事发声；另一条询问某项行动能有多快。现有文字没有交代具体事件，无法判断其所指。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "shareholder",
+          "ipa": "/ˈʃerˌhoʊldər/",
+          "definition_zh": "指持有公司股份的股东。",
+          "example_zh": "他呼吁股东以及现任、前任员工发声，但推文正文没有交代具体涉及什么事项。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122913046603649325",
+          "text": "If you’re a shareholder, employee or former employee your voice is needed here https://t.co/w6gz1FYpKZ",
+          "url": "https://x.com/garrytan/status/2122913046603649325",
+          "summary_en": null
+        },
+        {
+          "id": "2122912201300427198",
+          "text": "How fast can they do this? https://t.co/2hyyUWbFHk",
+          "url": "https://x.com/garrytan/status/2122912201300427198",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "Daytona is introducing macOS sandboxes for agents that operate computers and build or test Apple apps. A separate investment backs continual learning as a way for AI systems to accumulate capability over time.",
+      "summary_zh": "Daytona 推出 macOS 沙盒，供电脑操作智能体以及 Apple 应用的构建和测试使用。另一笔投资押注持续学习，希望 AI 系统的能力能随经验不断积累。",
+      "slang": [
+        {
+          "term": "agentic infra",
+          "definition_en": "Infrastructure for running AI agents, including their tools and execution environments.",
+          "definition_zh": "支持 AI 智能体运行的基础设施，包括工具和执行环境。"
+        },
+        {
+          "term": "sandbox",
+          "definition_en": "An isolated environment where software or agents can run and be tested.",
+          "definition_zh": "供软件或智能体运行与测试的隔离环境。"
+        },
+        {
+          "term": "continual learning",
+          "definition_en": "A system's ability to learn from new information over time while retaining useful prior knowledge.",
+          "definition_zh": "系统持续从新信息中学习，同时保留已有有用知识的能力。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "macOS sandboxes",
+          "ipa": "",
+          "definition_zh": "指运行 macOS 的隔离环境，可供程序或智能体执行和测试任务。",
+          "example_zh": "Daytona 提供这类环境，让智能体操作 Mac，并构建和测试 Apple 应用。"
+        },
+        {
+          "phrase": "computer-use agents",
+          "ipa": "",
+          "definition_zh": "指能够操作电脑界面并执行任务的 AI 智能体。",
+          "example_zh": "推文介绍的 macOS 沙箱为这类智能体提供了在 Mac 上工作的环境。"
+        },
+        {
+          "phrase": "continual learning",
+          "ipa": "",
+          "definition_zh": "指 AI 系统在持续接收新经验或数据时不断学习并积累能力。",
+          "example_zh": "他把持续学习作为此次投资的核心方向，并用智能随时间积累增值来描述其潜力。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122726760185741673",
+          "text": "Daytona continues to push agentic infra innovation - first to provide macOS sandboxes, for computer-use agents on Macs and building and testing Apple apps https://t.co/wAYXaDLpXK",
+          "url": "https://x.com/mattturck/status/2122726760185741673",
+          "summary_en": null
+        },
+        {
+          "id": "2122717441461739571",
+          "text": "Building intelligence that compounds: excited to announce our investment in @remanencelabs and partner with @plcedoz, @hparams and Axel Moyal - a $30M seed co-led with @eqt. \n\nMore on continual learning and the thesis here:\n\nhttps://t.co/RvHyxj2gOo",
+          "url": "https://x.com/mattturck/status/2122717441461739571",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "An old commercial prompts appreciation, while a separate creation is described as having been produced in a single attempt. The creator offers to share the prompt behind it.",
+      "summary_zh": "一条内容表达了对老广告的喜爱；另一件作品据称一次生成成功，创作者愿意分享所用提示词。",
+      "slang": [
+        {
+          "term": "one-shotted",
+          "definition_en": "Produced successfully in a single attempt or with one prompt.",
+          "definition_zh": "一次尝试或只用一条提示词就成功生成。"
+        },
+        {
+          "term": "prompt",
+          "definition_en": "An instruction given to an AI model to generate an output.",
+          "definition_zh": "提供给 AI 模型以生成结果的指令。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "one-shotted",
+          "ipa": "/ˈwʌnˌʃɑːtɪd/",
+          "definition_zh": "在 AI 创作语境中指一次尝试就生成了所需结果。",
+          "example_zh": "她说这份作品一次生成就完成了，并表示可以私信索取所用的提示词。"
+        },
+        {
+          "phrase": "prompt",
+          "ipa": "/prɑːmpt/",
+          "definition_zh": "指提供给 AI、用于引导其生成内容的指令或输入。",
+          "example_zh": "她愿意分享生成这份作品时使用的提示词，供感兴趣的人参考。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122787795634987498",
+          "text": "I love old commercials https://t.co/yEXZXxdviY",
+          "url": "https://x.com/zarazhangrui/status/2122787795634987498",
+          "summary_en": null
+        },
+        {
+          "id": "2122744253302653222",
+          "text": "This was one-shotted. DM me if you want the prompt",
+          "url": "https://x.com/zarazhangrui/status/2122744253302653222",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Online sentiment about leading AI models is swinging quickly, with recent releases from Anthropic and Gemini drawing praise after a period of OpenAI momentum. A personal update also reflects on a work-heavy year and a desire to make more room for life outside work.",
+      "summary_zh": "社交平台对主流 AI 模型的评价变化很快：此前 OpenAI 声势较强，近期 Anthropic 和 Gemini 的新品获得更多赞誉。一则个人近况也提到过去一年工作繁忙，希望未来为工作之外的生活留出更多空间。",
+      "slang": [
+        {
+          "term": "model vibes",
+          "definition_en": "Subjective impressions of a model's quality and user experience.",
+          "definition_zh": "对模型质量和使用体验的主观印象。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "model vibes",
+          "ipa": "",
+          "definition_zh": "指人们对模型表现的主观感受和整体印象。",
+          "example_zh": "他感叹 X 上对各家模型的观感变化很快，近期的赞誉转向了 Anthropic 和 Gemini。"
+        },
+        {
+          "phrase": "yo-yo",
+          "ipa": "/ˈjoʊˌjoʊ/",
+          "definition_zh": "在此比喻评价或状态来回摆动、反复变化。",
+          "example_zh": "他用悠悠球的往返运动形容模型口碑快速波动，热门对象不断更换。"
+        },
+        {
+          "phrase": "had the mantle",
+          "ipa": "",
+          "definition_zh": "在此指占据公认的领先地位。",
+          "example_zh": "他觉得过去几个月 OpenAI 曾占据领先位置，而现在其他公司的新版本获得了更多赞誉。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122889175053832557",
+          "text": "Grateful for another trip around the sun today with the best family, friends and founders/coworkers ✌️\n\nLife’s been chaotically busy with just work, computer, family and some sleep. \n\nNot much time for anything else. \n\nGoal for next year is to do all of those, get fit, be present and be funmaxxing as much as possible. \n\nSend me your best tips on how to do it all!",
+          "url": "https://x.com/nikunj/status/2122889175053832557",
+          "summary_en": null
+        },
+        {
+          "id": "2122833396787495317",
+          "text": "The model vibes yo-yo in the X sphere is freaking wild..\n\nFor the last few months, it felt like @OpenAI had the mantle.\n\nNow @AnthropicAI with their 5.5 release and @GeminiApp with their Carbon release seem to be getting all the accolades. \n\nYour turn @grok to surprise us all!",
+          "url": "https://x.com/nikunj/status/2122833396787495317",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "The team has published its ratings of Astra and Sol 6.2, describing the release as unusually notable among frontier models. It has also introduced a new evaluation benchmark, though the available text does not explain its criteria.",
+      "summary_zh": "团队公布了对 Astra 和 Sol 6.2 的评分，认为这次前沿模型发布格外值得关注。同时推出了一个新的评测基准，但现有文字未说明评测标准。",
+      "slang": [
+        {
+          "term": "frontier model",
+          "definition_en": "An AI model near the current leading edge of capability.",
+          "definition_zh": "能力接近当前技术前沿的 AI 模型。"
+        },
+        {
+          "term": "bench",
+          "definition_en": "Short for benchmark, a test used to compare model performance.",
+          "definition_zh": "benchmark 的缩写，指用于比较模型表现的测试。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "frontier model",
+          "ipa": "",
+          "definition_zh": "指处于当前 AI 能力前沿的模型。",
+          "example_zh": "他把 Astra 和 Sol 6.2 放在前沿模型发布的范围内比较，并认为这次发布十分少见。"
+        },
+        {
+          "phrase": "comp",
+          "ipa": "/kɑːmp/",
+          "definition_zh": "是 comparable 的口语缩写，指用于比较的相似对象或案例。",
+          "example_zh": "他说 opus 5 是最接近的参照，用它来说明这次发布给人的整体感觉。"
+        },
+        {
+          "phrase": "bench",
+          "ipa": "/bentʃ/",
+          "definition_zh": "在模型评测语境中是 benchmark 的简称，指评测基准。",
+          "example_zh": "他宣布了一个新的评测基准，但推文正文没有说明评测标准或具体方法。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122858139989012510",
+          "text": "the @every team's full ratings for Astra and Sol 6.2\n\nhard to remember a frontier model release like this. opus 5 is the closest comp\nhttps://t.co/j5t0TLxxcn https://t.co/PgB9RcUE4w",
+          "url": "https://x.com/danshipper/status/2122858139989012510",
+          "summary_en": null
+        },
+        {
+          "id": "2122852558007894417",
+          "text": "introducing the inverse @roon bench from @every https://t.co/A62NFjZICb",
+          "url": "https://x.com/danshipper/status/2122852558007894417",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama",
+      "summary_en": "Sol and Astra 6.2 have launched with strong capabilities and efficient token use, with Sol ultrafast highlighted for its speed. Future releases will focus on making the models more pleasant to work with.",
+      "summary_zh": "Sol 和 Astra 6.2 已发布，主打较强能力与高效的 token 使用，其中 Sol ultrafast 的速度尤其受到强调。后续版本将着重改善模型的使用体验。",
+      "slang": [
+        {
+          "term": "token-efficient",
+          "definition_en": "Able to achieve a result while using relatively few model tokens.",
+          "definition_zh": "用相对较少的模型 token 完成任务。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "token-efficient",
+          "ipa": "/ˈtoʊkən ɪˌfɪʃənt/",
+          "definition_zh": "指模型能够以较少的 token 消耗完成任务。",
+          "example_zh": "他强调 Sol 和 Astra 6.2 在能力较强的同时能高效利用 token，并希望这能提升用户获得的价值。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122798042734633452",
+          "text": "Although the new models are very smart, we have more work ahead of us on making the models nice to work with, and will prioritize that for upcoming releases.\n\nBut even if it takes a little extra work, the intelligence and capability are extraordinary.",
+          "url": "https://x.com/sama/status/2122798042734633452",
+          "summary_en": null
+        },
+        {
+          "id": "2122798039899263456",
+          "text": "6.2 Sol and Astra are out.\n\nThese models can do amazing things and are very token-efficient; we hope people will get great value from them.\n\nIn particular, 6.2 Sol ultrafast is something I think people will really enjoy. https://t.co/KNjtDKRwj7",
+          "url": "https://x.com/sama/status/2122798039899263456",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "title": "Building Visual Intelligence — Andreas Blattmann &amp; Dustin Podell, Black Forest Labs",
+      "url": "https://www.youtube.com/watch?v=8cGfJOU3AlQ",
+      "summary_en": "The episode features Black Forest Labs and introduces the team's roots in latent diffusion and image generation. The provided transcript excerpt ends before any substantive discussion or technical claims.",
+      "summary_zh": "本期介绍 Black Forest Labs 团队及其在潜在扩散和图像生成领域的背景。所提供的逐字稿片段止于嘉宾介绍，尚未包含具体技术观点或讨论结论。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "veto",
+      "ipa": "/ˈviːtoʊ/",
+      "pos": "verb",
+      "definition_en": "To reject or block a proposal using one's authority.",
+      "definition_zh": "运用职权否决或阻止某项提议。",
+      "synonyms": [
+        "reject",
+        "block"
+      ],
+      "example_en": "The director vetoed the advertisement before its release.",
+      "example_zh": "主管在广告发布前否决了它。"
+    },
+    {
+      "word": "ephemeral",
+      "ipa": "/ɪˈfemərəl/",
+      "pos": "adj",
+      "definition_en": "Existing for only a short time.",
+      "definition_zh": "短暂存在的；转瞬即逝的。",
+      "synonyms": [
+        "short-lived",
+        "transient"
+      ],
+      "example_en": "Ephemeral agents disappear after completing their assigned tasks.",
+      "example_zh": "临时智能体在完成分配的任务后便会消失。"
+    },
+    {
+      "word": "persistent",
+      "ipa": "/pərˈsɪstənt/",
+      "pos": "adj",
+      "definition_en": "Continuing to exist over time rather than being reset or removed.",
+      "definition_zh": "持续存在的；不会随会话结束而重置或消失的。",
+      "synonyms": [
+        "lasting",
+        "enduring"
+      ],
+      "example_en": "A persistent identity helps the bot maintain continuity across sessions.",
+      "example_zh": "持久身份有助于机器人在不同会话之间保持连续性。"
+    },
+    {
+      "word": "proactive",
+      "ipa": "/proʊˈæktɪv/",
+      "pos": "adj",
+      "definition_en": "Taking action in anticipation of needs or problems.",
+      "definition_zh": "主动采取行动、提前应对需求或问题的。",
+      "synonyms": [
+        "anticipatory",
+        "forward-looking"
+      ],
+      "example_en": "The proactive assistant flags publishing delays before they become serious.",
+      "example_zh": "这个主动型助手会在发布延误变得严重之前发出提醒。"
+    },
+    {
+      "word": "bootstrapped",
+      "ipa": "/ˈbuːtstræpt/",
+      "pos": "adj",
+      "definition_en": "Built and funded primarily with the founders' resources and business revenue.",
+      "definition_zh": "主要依靠创始人自有资金和经营收入发展起来的。",
+      "synonyms": [
+        "self-funded",
+        "self-financed"
+      ],
+      "example_en": "The bootstrapped company uses automation to keep operating costs low.",
+      "example_zh": "这家依靠自身资金发展的公司利用自动化降低运营成本。"
+    },
+    {
+      "word": "compaction",
+      "ipa": "/kəmˈpækʃən/",
+      "pos": "noun",
+      "definition_en": "In AI workflows, the compression of conversation context to preserve useful information within limited space.",
+      "definition_zh": "在 AI 工作流中，压缩对话上下文，以便在有限空间内保留有用信息的过程。",
+      "synonyms": [
+        "compression",
+        "condensation"
+      ],
+      "example_en": "Context compaction lets the agent continue working after a long conversation.",
+      "example_zh": "上下文压缩让智能体能够在长时间对话后继续工作。"
+    },
+    {
+      "word": "porting",
+      "ipa": "/ˈpɔːrtɪŋ/",
+      "pos": "noun",
+      "definition_en": "The process of adapting software to run on a different platform.",
+      "definition_zh": "将软件改造以便在另一平台上运行的过程；软件移植。",
+      "synonyms": [
+        "adaptation",
+        "migration"
+      ],
+      "example_en": "Porting the app to another operating system required changes to its interface.",
+      "example_zh": "将应用移植到另一个操作系统需要修改其界面。"
+    }
+  ],
+  "quote": {
+    "text_en": "Well done is better than well said.",
+    "text_zh": "做得好胜过说得好。",
+    "author": "Benjamin Franklin"
+  },
+  "slang_glossary": [
+    {
+      "term": "inter-session context",
+      "definition_en": "Information carried or made available across separate AI sessions.",
+      "definition_zh": "跨不同 AI 会话保留或提供的上下文信息。"
+    },
+    {
+      "term": "model vibes",
+      "definition_en": "An informal impression of a model's behavior and quality.",
+      "definition_zh": "对模型表现和质量的主观直觉感受。"
+    },
+    {
+      "term": "agent swarms",
+      "definition_en": "Groups of AI agents working together on tasks.",
+      "definition_zh": "共同执行任务的一组 AI 智能体。"
+    },
+    {
+      "term": "web vitals",
+      "definition_en": "Metrics used to assess aspects of website user experience.",
+      "definition_zh": "用于衡量网站用户体验各方面表现的指标。"
+    },
+    {
+      "term": "self-optimizing software",
+      "definition_en": "Software that adjusts itself to improve performance or outcomes.",
+      "definition_zh": "能够自行调整以改善性能或结果的软件。"
+    },
+    {
+      "term": "agentic infra",
+      "definition_en": "Infrastructure supporting autonomous AI agents.",
+      "definition_zh": "支持自主 AI 智能体运行的基础设施。"
+    },
+    {
+      "term": "sandbox",
+      "definition_en": "An isolated environment for running or testing code.",
+      "definition_zh": "用于运行或测试代码的隔离环境。"
+    },
+    {
+      "term": "continual learning",
+      "definition_en": "Learning from new information over time while retaining prior knowledge.",
+      "definition_zh": "持续吸收新信息，同时保留已有知识的学习方式。"
+    },
+    {
+      "term": "one-shotted",
+      "definition_en": "Completed successfully in a single attempt.",
+      "definition_zh": "一次尝试就成功完成了。"
+    },
+    {
+      "term": "prompt",
+      "definition_en": "Input or instructions given to an AI model.",
+      "definition_zh": "提供给 AI 模型的输入或指令；提示词。"
+    },
+    {
+      "term": "frontier model",
+      "definition_en": "An AI model near the leading edge of current capabilities.",
+      "definition_zh": "能力接近当前技术前沿的 AI 模型。"
+    },
+    {
+      "term": "bench",
+      "definition_en": "Informal shorthand for a benchmark or benchmark evaluation.",
+      "definition_zh": "benchmark 的口语缩写，指基准测试或评测。"
+    },
+    {
+      "term": "token-efficient",
+      "definition_en": "Achieving useful results with relatively few model tokens.",
+      "definition_zh": "以相对较少的模型词元获得有效结果的。"
+    },
+    {
+      "term": "saw this coming a mile away",
+      "definition_en": "Could easily predict what would happen.",
+      "definition_zh": "早就能明显预见到会发生什么。"
+    },
+    {
+      "term": "solid",
+      "definition_en": "Informally, dependable and good in quality.",
+      "definition_zh": "口语中指可靠、质量不错的。"
+    },
+    {
+      "term": "RL",
+      "definition_en": "Reinforcement learning, a training approach guided by rewards.",
+      "definition_zh": "强化学习，一种以奖励信号引导训练的方法。"
+    },
+    {
+      "term": "rn",
+      "definition_en": "Texting abbreviation for right now.",
+      "definition_zh": "right now 的聊天缩写，意为「现在」。"
+    },
+    {
+      "term": "daily driving",
+      "definition_en": "Using a tool regularly as one's main option.",
+      "definition_zh": "将某个工具作为主力日常使用。"
+    },
+    {
+      "term": "workflow automation",
+      "definition_en": "Using software to execute sequences of work with reduced manual effort.",
+      "definition_zh": "利用软件执行连续工作步骤，减少人工操作。"
+    },
+    {
+      "term": "loops",
+      "definition_en": "In this context, repetitive agent behavior that fails to make progress.",
+      "definition_zh": "此处指智能体反复执行却无法推进任务的循环。"
+    },
+    {
+      "term": "compactions",
+      "definition_en": "Processes that compress an agent's accumulated context.",
+      "definition_zh": "压缩智能体已积累上下文的操作。"
+    },
+    {
+      "term": "skill writing",
+      "definition_en": "Creating reusable instructions or procedures for an AI agent.",
+      "definition_zh": "为 AI 智能体编写可复用的指令或操作流程。"
+    },
+    {
+      "term": "content publishing pipeline",
+      "definition_en": "A connected sequence of steps for preparing and publishing content.",
+      "definition_zh": "用于准备和发布内容的一整套连续流程。"
+    },
+    {
+      "term": "bootstrapped business",
+      "definition_en": "A business funded mainly through its founders and operating revenue.",
+      "definition_zh": "主要依靠创始人资金和经营收入发展的企业。"
+    },
+    {
+      "term": "memory bank",
+      "definition_en": "A store of information an agent can retrieve later.",
+      "definition_zh": "供智能体之后检索使用的信息存储库。"
+    },
+    {
+      "term": "multi-agent teams",
+      "definition_en": "Multiple AI agents organized to collaborate.",
+      "definition_zh": "由多个 AI 智能体组成的协作团队。"
+    },
+    {
+      "term": "always on",
+      "definition_en": "Continuously available or operating.",
+      "definition_zh": "持续在线、可用或运行的。"
+    },
+    {
+      "term": "ROI",
+      "definition_en": "Return on investment; benefits evaluated against the cost invested.",
+      "definition_zh": "投资回报，衡量收益与投入成本的关系。"
+    },
+    {
+      "term": "own outcomes",
+      "definition_en": "Take responsibility for achieving results.",
+      "definition_zh": "对最终结果承担责任。"
+    },
+    {
+      "term": "collab",
+      "definition_en": "Informal shortening of collaborate or collaboration.",
+      "definition_zh": "collaborate 或 collaboration 的口语缩写，意为「协作」。"
+    },
+    {
+      "term": "subagents",
+      "definition_en": "Agents delegated portions of work by another agent.",
+      "definition_zh": "接受其他智能体委派、负责部分工作的子智能体。"
+    },
+    {
+      "term": "interactive artifacts",
+      "definition_en": "Outputs users can interact with, such as small apps or dashboards.",
+      "definition_zh": "用户可交互操作的产出，例如小应用或仪表盘。"
+    },
+    {
+      "term": "devinapps",
+      "definition_en": "A name used in the sample for interactive app outputs associated with Devin.",
+      "definition_zh": "样本中用于指代 Devin 相关交互式应用产出的名称。"
+    },
+    {
+      "term": "AIE",
+      "definition_en": "In this context, shorthand apparently referring to an AI Engineer event.",
+      "definition_zh": "根据上下文推测，指某场 AI Engineer 活动的简称。"
+    },
+    {
+      "term": "AEO",
+      "definition_en": "In this context, likely answer engine optimization: improving visibility in AI-generated answers.",
+      "definition_zh": "根据上下文推测，指「答案引擎优化」，即提高内容在 AI 生成答案中的可见度。"
+    },
+    {
+      "term": "QA",
+      "definition_en": "Quality assurance: checking that a product meets expected standards.",
+      "definition_zh": "质量保证：检查产品是否达到预期标准。"
+    },
+    {
+      "term": "cross-platform app porting",
+      "definition_en": "Adapting an application to run on different platforms.",
+      "definition_zh": "将应用移植到不同平台上运行。"
+    },
+    {
+      "term": "worktree hell",
+      "definition_en": "A joking complaint about the difficulty of managing many Git working trees.",
+      "definition_zh": "戏称管理大量 Git 工作树时的混乱和麻烦。"
+    },
+    {
+      "term": "ofc",
+      "definition_en": "Texting abbreviation for of course.",
+      "definition_zh": "of course 的聊天缩写，意为「当然」。"
+    },
+    {
+      "term": "hyped",
+      "definition_en": "Heavily promoted or surrounded by excitement.",
+      "definition_zh": "被大力宣传、炒热或引发高度兴奋的。"
+    },
+    {
+      "term": "/goal",
+      "definition_en": "A slash-command label mentioned as a way to direct goal-based agent work; its exact behavior is unspecified.",
+      "definition_zh": "文中提到的目标导向智能体工作斜杠命令，其具体行为未说明。"
+    },
+    {
+      "term": "ultracode / ultra mode",
+      "definition_en": "Labels mentioned for intensified coding or agent operation; their exact behavior is unspecified.",
+      "definition_zh": "文中提到的强化编码或智能体运行模式名称，具体行为未说明。"
+    },
+    {
+      "term": "loop engineering",
+      "definition_en": "Designing repeated agent execution and feedback cycles to pursue a goal.",
+      "definition_zh": "设计智能体反复执行与接收反馈的循环，以推进目标。"
+    }
+  ],
+  "stats": {
+    "builders": 13,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 33,
+    "feedGeneratedAt": "2026-11-18T06:28:37.829Z"
+  }
+}

@@ -1,0 +1,926 @@
+{
+  "date": "2026-10-27",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Questions whether a hypothetical $2 trillion valuation would make Anthropic stock worth buying and wonders how many of his frequent respondents are AI.",
+      "summary_zh": "他提出假设：若 Anthropic 估值达到 2 万亿美元，股票是否还值得买；也好奇经常回复他的人中有多少是 AI。",
+      "slang": [
+        {
+          "term": "reply guys",
+          "definition_en": "People who frequently reply to someone's social media posts.",
+          "definition_zh": "经常在某人社交媒体帖子下回复的人。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "valuation",
+          "ipa": "/ˌvæljuˈeɪʃən/",
+          "definition_zh": "指市场或投资者对一家公司的整体价值估算。",
+          "example_zh": "他问的是：如果公司估值达到两万亿美元，大家是否还愿意买入其股票，重点在于买入价格是否合理。"
+        },
+        {
+          "phrase": "reply guys",
+          "ipa": "",
+          "definition_zh": "网络俚语，指经常在某个人的帖子下回复、刷存在感的人。",
+          "example_zh": "他想知道，经常在自己帖子下留言的这些人中，有多少其实是 AI。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114864999709753526",
+          "text": "will you buy $ANT stock at a $2T valuation?",
+          "url": "https://x.com/swyx/status/2114864999709753526",
+          "summary_en": null
+        },
+        {
+          "id": "2114824910707277997",
+          "text": "@grok how many of my reply guys are ai",
+          "url": "https://x.com/swyx/status/2114824910707277997",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_en": "A partnership with the US Army and USO aims to help deployed service members share family moments they would otherwise miss. The available post cuts off before explaining how.",
+      "summary_zh": "与美国陆军和 USO 的合作旨在帮助驻外军人分享原本会错过的家庭时刻；现有内容截断，未说明具体方式。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "deployed",
+          "ipa": "/dɪˈplɔɪd/",
+          "definition_zh": "军事语境中指被派驻到任务地点执行任务的。",
+          "example_zh": "这里形容在外执行任务的军人，说明他们为什么会错过孩子迈出第一步等家庭时刻。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114840670016065576",
+          "text": "https://t.co/CC63BMiD4z",
+          "url": "https://x.com/joshwoodward/status/2114840670016065576",
+          "summary_en": null
+        },
+        {
+          "id": "2114840668296409568",
+          "text": "🇺🇸 For a deployed service member, missing family moments adds up. Baby’s first step. The first performance. Sharing a laugh.\n\nIn honor of National Day of the Deployed, we’re excited to partner with @USArmy and @The_USO to bring Google Beam to 20 locations so deployed service members can experience lifelike, 3D video connections with their loved ones.\n\n🎥 Watch the docuseries below",
+          "url": "https://x.com/joshwoodward/status/2114840668296409568",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "Terra is presented as a model with stronger writing, personality, nuanced instruction following, and computer use. The post also claims twice the usage allowance of 6.1 Sol.",
+      "summary_zh": "Terra 被称为在写作、表达个性、理解细致要求和操作电脑方面表现更强；帖子还称其使用额度是 6.1 Sol 的两倍。",
+      "slang": [
+        {
+          "term": "computer use",
+          "definition_en": "An AI model's ability to operate software through a computer interface.",
+          "definition_zh": "AI 模型通过电脑界面操作软件的能力。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "computer use",
+          "ipa": "",
+          "definition_zh": "在 AI 领域指模型操作电脑界面、使用软件并完成任务的能力。",
+          "example_zh": "他把操作电脑列为 Terra 的优势之一，但这段文字没有提供具体任务或测试结果。"
+        },
+        {
+          "phrase": "Packs a punch",
+          "ipa": "",
+          "definition_zh": "指某个产品或事物表现强劲、效果显著。",
+          "example_zh": "他用这个说法强调 Terra 的整体能力很强，是带有宣传色彩的正面评价。"
+        },
+        {
+          "phrase": "across the board",
+          "ipa": "",
+          "definition_zh": "表示在各个方面或所有相关类别中普遍如此。",
+          "example_zh": "这里与「Packs a punch」连用，表达模型在多个方面都有强劲表现，而非仅擅长写作。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114800277677092936",
+          "text": "Day 22/ Terra is back! \n\nOur first model that is significantly better at writing,  personality and nuanced understanding of requests.\n\nPacks a punch across the board, very good at computer use, and gives 2X more usage than 6.1 Sol across API and subscriptions. https://t.co/1ilnCkAPuy",
+          "url": "https://x.com/thsottiaux/status/2114800277677092936",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Tagging agents to handle online tasks may become common enough to displace people's own reading and browsing. He sees an early sign of that shift and considers it troubling.",
+      "summary_zh": "他认为，让智能体代劳网上任务可能逐渐取代人们亲自阅读和浏览；他已看到这种趋势的早期迹象，并认为总体上令人担忧。",
+      "slang": [
+        {
+          "term": "agent",
+          "definition_en": "AI software that carries out tasks on a user's behalf.",
+          "definition_zh": "替用户执行任务的 AI 软件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "agent",
+          "ipa": "/ˈeɪdʒənt/",
+          "definition_zh": "在 AI 语境中指能接受委托并执行任务的智能体。",
+          "example_zh": "他预测，人们会直接标记自己的智能体，让它代为阅读或处理网上事务，并对此趋势表示担忧。"
+        },
+        {
+          "phrase": "early signal",
+          "ipa": "",
+          "definition_zh": "指某种趋势尚未普及时就已出现的初步迹象。",
+          "example_zh": "他把帖子中标记机器人的行为视为一个早期迹象，认为这可能预示人们将更多网上活动交给智能体。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114928082712998087",
+          "text": "@bot This is probably not a good thing overall",
+          "url": "https://x.com/petergyang/status/2114928082712998087",
+          "summary_en": null
+        },
+        {
+          "id": "2114927195332460940",
+          "text": "In the near future, instead of reading or doing anything online, people are just going to tag their agent to do it. \n\n@bot is an early signal of this.",
+          "url": "https://x.com/petergyang/status/2114927195332460940",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "The post alludes to a design review calling something delightful, but the available text does not show the design or explain the critique.",
+      "summary_zh": "帖子提到一次设计评审把某个方案称为「令人愉悦」，但现有文字没有展示方案或解释评价。",
+      "slang": [
+        {
+          "term": "design crit",
+          "definition_en": "A design critique or review session.",
+          "definition_zh": "讨论并评价设计方案的评审会。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "design crit",
+          "ipa": "",
+          "definition_zh": "设计行业中对设计方案进行集体审视与反馈的评议活动。",
+          "example_zh": "「crit」是「critique」的简称；他引用设计评议中别人给出的「令人愉悦」这一评价，但文字没有展示被评价的设计。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114800172270252037",
+          "text": "“Delightful” they said in the design crit \n\nhttps://t.co/yrse5yfssx",
+          "url": "https://x.com/thenanyu/status/2114800172270252037",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "Plans to demonstrate a World of Warcraft shaman build at the closing keynote of an AI engineering event.",
+      "summary_zh": "他计划在一场 AI 工程活动的闭幕主题演讲中展示自己的《魔兽世界》萨满角色配置。",
+      "slang": [
+        {
+          "term": "build",
+          "definition_en": "A game's chosen combination of character abilities, equipment, and strategy.",
+          "definition_zh": "游戏角色的技能、装备与玩法配置。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "shaman build",
+          "ipa": "",
+          "definition_zh": "在游戏中指萨满职业的技能、天赋和装备搭配方案。",
+          "example_zh": "这里的「build」是《魔兽世界》的角色配置，他说要在 AI 工程活动的闭幕演讲上分享自己的萨满玩法。"
+        },
+        {
+          "phrase": "closing keynote",
+          "ipa": "",
+          "definition_zh": "指会议或活动接近结束时安排的主旨演讲。",
+          "example_zh": "他计划在 AIE Code 的闭幕主旨演讲中分享游戏配置，形成技术会议与游戏话题之间的反差。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114796261362835842",
+          "text": "going to be sharing my WoW forever shaman build at the AIE Code closing keynote https://t.co/KRHSYRa4Jk",
+          "url": "https://x.com/trq212/status/2114796261362835842",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "Different research fields appear to want different terms for releasing AI discoveries, from immediate publication to open source and conference support. He also suggests software is moving from enabling work toward running it.",
+      "summary_zh": "不同学科对发布 AI 科研成果的期待并不相同，有的主张直接发表，有的还要求开源和会议支持。他也提出，软件正从辅助工作走向直接执行工作。",
+      "slang": [
+        {
+          "term": "open source",
+          "definition_en": "Making software's source code publicly available for use and modification under a license.",
+          "definition_zh": "按许可公开软件源代码，供他人使用和修改。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Open source it",
+          "ipa": "",
+          "definition_zh": "指将相关代码或项目按开源方式公开，允许他人依许可使用和修改。",
+          "example_zh": "他用这句话概括计算机科学界对发布研究发现的诉求，并打趣说他们还希望获得会议经费支持。"
+        },
+        {
+          "phrase": "Software ate the world",
+          "ipa": "",
+          "definition_zh": "科技圈常见隐喻，指软件已广泛重塑各行各业。",
+          "example_zh": "他接着说软件正在学习如何运转世界，借此表达软件从支持工作走向承担执行职责的变化。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114890745471545419",
+          "text": "OpenAI asked three scientific communities how to release its discoveries and got three different answers:\n\nMathematicians: “Just post it. Who gives a shit anymore.”\n\nComputer scientists: “Open source it, but also pay for our conference.”\n\nPhysicists: “Leave it to us, nerds.” https://t.co/5cpEOIADpY",
+          "url": "https://x.com/amasad/status/2114890745471545419",
+          "summary_en": null
+        },
+        {
+          "id": "2114769129282601053",
+          "text": "Software ate the world, now it's learning to run it. https://t.co/e0XiyjLgv8",
+          "url": "https://x.com/amasad/status/2114769129282601053",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Built a reproduction of covert communication through CPU behavior between isolated Firecracker microVMs. He reports that it works without internet access on both x86 and Apple silicon.",
+      "summary_zh": "他复现了隔离的 Firecracker 微型虚拟机之间借助 CPU 行为进行隐蔽通信的方法，并称其在无网络条件下可运行于 x86 和苹果芯片。",
+      "slang": [
+        {
+          "term": "microVM",
+          "definition_en": "A lightweight virtual machine designed for fast startup and isolation.",
+          "definition_zh": "强调快速启动与隔离的轻量级虚拟机。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "covert communication",
+          "ipa": "",
+          "definition_zh": "指通过隐蔽或非预期渠道传递信息的通信方式。",
+          "example_zh": "他称自己复现了利用 CPU 进行隐蔽通信的发现，即使虚拟机无法访问互联网也能交换信息。"
+        },
+        {
+          "phrase": "Firecracker microVMs",
+          "ipa": "",
+          "definition_zh": "指由 Firecracker 技术运行的轻量级虚拟机。",
+          "example_zh": "他的实验在同一宿主机上运行至少两个这样的虚拟机，并尝试通过 CPU 相关行为让它们通信。"
+        },
+        {
+          "phrase": "host",
+          "ipa": "/hoʊst/",
+          "definition_zh": "虚拟化语境中指承载并运行虚拟机的宿主计算机。",
+          "example_zh": "这里的宿主机运行多个 Firecracker 虚拟机，他强调普通宿主环境也能运行这项复现。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114770919436808572",
+          "text": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU.\n\nIt runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip.\n\nI was able to chat via 3 separate mechanisms:\n① CPU contention\n② Cache eviction timing\n③ DRAM bandwidth contention \n\n… across multiple CPUs, defeating all Firecracker's production recommendations (no SMT, no KSM, tenants pinned to different cores.)\n\nEssentially, if shared hardware is involved, there's a good chance your agents can communicate covertly. And with really decent latency.\n\nThe good news: this is decidedly different from a *side-channel attack* where the agents could steal information (Meltdown/Spectre), a category of attack that providers like Vercel Sandbox mitigate. Further, in our real-world environment, these 'whispering' techniques are much harder to pull off and easier for us to monitor and detect (sampling hardware counters + lots of at-scale statistical data.)\n\nNoteworthy: ironically, OpenAI and Anthropic's models refused to do this work. Open weight models got the job done. I'm worried the labs' stance might backfire and get in the way of helping developers build correct and secure systems. e.g: building a secure sandbox requires having this kind of analysis, and without it, we'll have a less secure world.",
+          "url": "https://x.com/rauchg/status/2114770919436808572",
+          "summary_en": "cpu-chat demonstrates covert communication between isolated Firecracker microVMs through CPU contention, cache timing, and DRAM bandwidth, even with recommended isolation settings. The experiment highlights shared-hardware risks and argues that models refusing security research can hinder developers’ ability to build secure systems."
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Points to a claim that the average Fortune 500 Anthropic customer spends less than 0.1% of its expenses on Anthropic, suggesting room for enterprise AI spending to grow. The excerpt does not include the source or full qualification of that figure.",
+      "summary_zh": "他指出一项说法：Anthropic 的《财富》500 强客户平均将不到总支出的 0.1% 花在 Anthropic 上，暗示企业 AI 支出仍有增长空间；节选未提供该数字的来源和完整限定条件。",
+      "slang": [
+        {
+          "term": "token prices",
+          "definition_en": "The prices charged for units of text processed or generated by an AI model.",
+          "definition_zh": "AI 模型处理或生成文本时，按 token 计收的价格。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "asymptote",
+          "ipa": "/ˈæsɪmptoʊt/",
+          "definition_zh": "这里用作动词，指某个数值逐渐趋近一个极限。",
+          "example_zh": "他认为企业花在 Anthropic 上的费用占比可能增长，但最终会趋近某个水平，并提到 token 降价等影响因素。"
+        },
+        {
+          "phrase": "token prices",
+          "ipa": "",
+          "definition_zh": "指模型处理文本等内容时，按 token 计量单位收取的价格。",
+          "example_zh": "他指出 token 价格下降会影响企业支出，因此使用量增加未必会让支出占比同比例增加。"
+        },
+        {
+          "phrase": "Fortune 500",
+          "ipa": "",
+          "definition_zh": "指《财富》杂志按营业收入评出的美国五百强企业。",
+          "example_zh": "他引用这一企业群体中 Anthropic 客户的平均支出占比，借此讨论大型企业未来的 AI 支出空间。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114761816199098587",
+          "text": "This is the key stat. The average Fortune 500 customer of Anthropic spends less than .1% of their expenses on Anthropic. \n\nWhile that number likely will eventually asymptote somewhere (token prices coming down, and other large enterprise spend areas not going away), there’s no reason it can’t be 10-50X higher than this, reaching a “mere” 1-5% of spend. Which would still be a fraction of what most startups are spending.\n\nThus, you can see how big of a divide there is between the frontier users of AI and the rest of the world still.\n\nToday, only a microscopically small set of companies are actually using agents for large amounts of background tasks and inside of workflows that aren’t human prompted. This Fortune 500 spend is likely dominated by coding tasks and broad employee productivity use-cases.\n\nBut the big jump will come as these enterprises start to rewire their underlying processes for agents, which we’re now in the earliest stages of seeing. Agents processing large amounts of data in the enterprises; swarms doing coding, bio research, cyber, and other large fan out tasks; background workflows executing tasks in processes, and so on. All of these use cases generally are 100X bigger consumers of tokens, and much closer to direct ROI on the spend.\n\nThis S-1 gives you a sense of both the strength of the frontier lab business model - even amidst massive competition - and how early we are in the build out of AI.",
+          "url": "https://x.com/levie/status/2114761816199098587",
+          "summary_en": "Anthropic reportedly accounts for less than 0.1% of its average Fortune 500 customer’s expenses, suggesting substantial growth potential as enterprises move beyond coding and employee productivity tools. Autonomous background workflows could drive much higher token consumption as companies redesign processes around agents."
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "Encourages people to publicly share the tools and technologies they use. No further rationale is available in the text.",
+      "summary_zh": "他鼓励人们公开自己使用的工具和技术组合；现有文字没有提供更多理由。",
+      "slang": [
+        {
+          "term": "stack",
+          "definition_en": "The set of tools and technologies used to build or run something.",
+          "definition_zh": "用于构建或运行产品的一套工具与技术。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "stack",
+          "ipa": "/stæk/",
+          "definition_zh": "科技语境中指一个人或团队使用的技术、软件和工具组合。",
+          "example_zh": "他鼓励大家公开自己的工具组合，让别人知道自己用哪些技术和软件开展工作。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114739519622963671",
+          "text": "Publish your stack https://t.co/uhw9AK7ee1",
+          "url": "https://x.com/garrytan/status/2114739519622963671",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "Generated a video about Anthropic's S-1 with a single prompt and no editing. He also jokes that its Monday filing left investors in meetings when they wanted to publish analyses.",
+      "summary_zh": "他用一次提示词、未经剪辑生成了介绍 Anthropic S-1 文件的视频；还调侃文件周一发布，让投资人忙于例会，来不及发表分析。",
+      "slang": [
+        {
+          "term": "one shot",
+          "definition_en": "Producing an output from a single prompt without iterative edits.",
+          "definition_zh": "只用一次提示词生成结果，不反复修改。"
+        },
+        {
+          "term": "S-1 teardown",
+          "definition_en": "A detailed analysis of a company's US IPO registration filing.",
+          "definition_zh": "对公司美国 IPO 注册文件的详细拆解分析。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "ONE SHOT",
+          "ipa": "",
+          "definition_zh": "这里指只尝试一次，就直接获得可用的生成结果。",
+          "example_zh": "他紧接着解释只输入了一次提示词、没有编辑，强调这段视频一次生成即可使用。"
+        },
+        {
+          "phrase": "S-1",
+          "ipa": "",
+          "definition_zh": "指企业向美国证券监管机构提交的证券发行注册文件，常见于首次公开募股。",
+          "example_zh": "他围绕 Anthropic 的 S-1 制作重点视频，并调侃文件发布时间让投资人来不及立即发表分析。"
+        },
+        {
+          "phrase": "teardowns",
+          "ipa": "/ˈterdaʊnz/",
+          "definition_zh": "在商业和科技内容中指对产品、公司或文件进行细致拆解的分析。",
+          "example_zh": "这里指投资人对 S-1 内容的逐项分析；他以调侃口吻描述大家急着发布此类内容的场景。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114829981884817513",
+          "text": "Anthropic S-1 highlights video\n\nONE SHOT (just one prompt, no editing) using @synthesiaIO Syren https://t.co/n04eP7w39f",
+          "url": "https://x.com/mattturck/status/2114829981884817513",
+          "summary_en": null
+        },
+        {
+          "id": "2114755282181955616",
+          "text": "Particularly evil of Anthropic to file their S-1 on a Monday morning when all VCs are stuck in Monday team and partner meetings, making us unable to provide immediate #thoughtleadership with those S-1 teardowns that everyone is dying to read",
+          "url": "https://x.com/mattturck/status/2114755282181955616",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Focuses on Anthropic's compute contracts in its S-1, highlighting reported purchase commitments and leases measured in hundreds of billions of dollars. The excerpt ends before giving the full figures or their terms.",
+      "summary_zh": "他重点研究 Anthropic S-1 文件中的算力合同，提到规模达数千亿美元的采购承诺和租赁；节选在列出完整数字及条款前截断。",
+      "slang": [
+        {
+          "term": "compute",
+          "definition_en": "Computing capacity used to train or run AI models.",
+          "definition_zh": "训练或运行 AI 模型所需的计算能力。"
+        },
+        {
+          "term": "S-1",
+          "definition_en": "A US registration filing that discloses information about a company seeking to go public.",
+          "definition_zh": "拟在美国上市的公司提交、披露业务与财务信息的注册文件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "compute contracts",
+          "ipa": "",
+          "definition_zh": "指采购或租用计算资源及相关服务的合同。",
+          "example_zh": "这是他阅读 Anthropic S-1 时最关注的部分，重点在算力安排带来的采购与租赁义务。"
+        },
+        {
+          "phrase": "purchase commitments",
+          "ipa": "",
+          "definition_zh": "指企业已承诺在未来购买商品或服务的合同义务。",
+          "example_zh": "他引用文件中的采购承诺金额，用来讨论未来承担的支出义务；这不等于已经支付的费用。"
+        },
+        {
+          "phrase": "leases",
+          "ipa": "/ˈliːsɪz/",
+          "definition_zh": "指按合同在一定期限内付费使用资产的租赁安排。",
+          "example_zh": "他把租赁金额与采购承诺并列讨论，但帖子被截断，无法从现有文字确定这些租赁的完整期限与条款。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114929285890990574",
+          "text": "Maybe I should just change my job.. https://t.co/kHDC0z48LF",
+          "url": "https://x.com/nikunj/status/2114929285890990574",
+          "summary_en": null
+        },
+        {
+          "id": "2114761204333998427",
+          "text": "The main thing I wanted to dig into @AnthropicAI's S-1 was the compute contracts..\n\nA few things that stood out (built in conjuction with Opus 5.5):\n\n> At June 30, Anthropic had $265.6B of purchase commitments and $321.4B of leases that hadn’t started. That’s a $587B subtotal, payable over years, including some conditional leases. The latest aggregate total is still blank in the filing.\n\n> The contracts are very different. Google and Amazon require minimum spending regardless of usage. SpaceXAI’s agreements have a potential value of $120.5B, but either party can cancel on 90 days’ notice after initial locked periods end in January and March 2027.\n\n> Anthropic Direct separates chips, buildings, power and operations into different contracts. It lets Anthropic reserve a building early and commit to chips later. It also means one supplier can start billing before the others are ready. Equipment rent can begin before the compute is usable.\n\n> Broadcom’s $42B facility never hands Anthropic cash. Notes settle specific equipment rent bills. The facility excludes each equipment pod’s first quarterly payment and any rent due before it is ready for service. Anthropic has to find a way to fund those payments elsewhere.\n\n> Those notes carry 9% interest, added to the balance quarterly, and can convert at 90% of the trailing 30-day average share price after IPO. New notes issued during specified revenue-breach periods get 13% interest and an 85% conversion price. The share-price measure is volume-weighted.\n\n> That interest sits on top of the equipment lease’s own financing charge, whose rate is confidential. The investor chooses whether to convert the notes. Otherwise, principal and accumulated interest come due in cash.\n\n> Anthropic treats Trainium, TPUs, NVIDIA and AMD GPUs as a shared fleet across model development, paying customers and internal use. It doesn’t disclose a fixed physical split between training and inference. The supplier bill can be fixed while the work assigned to the hardware changes.\n\n> Revenue per dollar of total compute and infrastructure expense rose from $0.57 in Q2 2025 to $2.08 in Q2 2026. Pricing, utilization, technical improvements and when capacity arrives all affect that ratio. It’s a substantial improvement in monetizing the compute base.\n\n> About 80% of H1 revenue was consumption-based. Most compute commitments however run for years. With quarterly releases, this bifurcation between usage and subscription will be interesting to monitor. \n\nSource: https://t.co/97KqkyyfpS",
+          "url": "https://x.com/nikunj/status/2114761204333998427",
+          "summary_en": "An analysis of Anthropic’s S-1 identifies $587 billion in purchase commitments and uncommenced leases, with varying cancellation rights and risks of equipment billing before compute becomes usable. Broadcom’s $42 billion financing facility covers only certain equipment rent payments, leaving funding gaps while adding interest and potential equity dilution."
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_en": "Reports that Bun's ahead-of-time compiler made his test workload two to three times faster while using less than half the memory.",
+      "summary_zh": "他报告称，在自己的测试负载中，Bun 的预先编译器使性能提升至原来的两到三倍，内存占用降至一半以下。",
+      "slang": [
+        {
+          "term": "AOT compiler",
+          "definition_en": "An ahead-of-time compiler that translates code before it runs.",
+          "definition_zh": "在程序运行前将代码编译好的预先编译器。"
+        },
+        {
+          "term": "banger",
+          "definition_en": "Informal praise for something considered especially good.",
+          "definition_zh": "口语中称某事物非常出色。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "AOT compiler",
+          "ipa": "",
+          "definition_zh": "指在程序运行之前预先完成编译的编译器。",
+          "example_zh": "他周末测试了 Bun 的 AOT 编译器，并报告测试负载的性能和内存使用都有明显改善。"
+        },
+        {
+          "phrase": "nothing short of amazing",
+          "ipa": "",
+          "definition_zh": "表示完全称得上惊艳，用于强烈强调赞赏。",
+          "example_zh": "他用这个表达评价测试结果，随后以性能提升两到三倍、内存使用不到一半来说明原因。"
+        },
+        {
+          "phrase": "Banger",
+          "ipa": "/ˈbæŋər/",
+          "definition_zh": "网络俚语，指特别出色、令人兴奋的作品或事物。",
+          "example_zh": "他单独用这个词强烈称赞链接中的内容，但现有文字没有说明具体称赞的对象。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114879798434758905",
+          "text": "I spent some time on the weekend to test bun's AOT compiler and results are nothing short of amazing. Performance up 2-3x, memory use less than half. https://t.co/2yobmkrUUa",
+          "url": "https://x.com/steipete/status/2114879798434758905",
+          "summary_en": null
+        },
+        {
+          "id": "2114879359857422729",
+          "text": "Banger. https://t.co/MzQY2HvarM",
+          "url": "https://x.com/steipete/status/2114879359857422729",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Reacts to unspecified AI developments by wishing he had deeper training in advanced mathematics and theoretical computer science. The linked developments are not described in the available text.",
+      "summary_zh": "面对未具体说明的 AI 进展，他感叹自己若有更深的高等数学和理论计算机科学训练就好了；现有文字未交代所指进展。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "frontier math",
+          "ipa": "",
+          "definition_zh": "指处于研究前沿、涉及尚待解决问题的高阶数学。",
+          "example_zh": "他感叹自己没有接受这方面的博士训练，暗示眼前的技术进展需要更深的数学背景才能充分理解。"
+        },
+        {
+          "phrase": "theoretical comp sci",
+          "ipa": "",
+          "definition_zh": "指研究计算、算法及其能力边界等基础问题的理论计算机科学。",
+          "example_zh": "「comp sci」是计算机科学的非正式缩写；他把这一领域与前沿数学并列，表达对自己知识储备的调侃。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114849110553440469",
+          "text": "back to the part of the cycle where i regret not getting a phd in frontier math and theoretical comp sci \n\n(not that i ever considered getting one but still) https://t.co/Wr5BC5sSlS",
+          "url": "https://x.com/danshipper/status/2114849110553440469",
+          "summary_en": null
+        },
+        {
+          "id": "2114767454026990063",
+          "text": "dang this is big https://t.co/Csh4Tzkrmi",
+          "url": "https://x.com/danshipper/status/2114767454026990063",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "Argues that scientific understanding may have been constrained by a preference for human-comprehensible solutions. He also says fear-driven policy could slow US AI progress and favors continued building.",
+      "summary_zh": "他认为，科学认知可能受到人们偏好可理解解法的限制；他也主张，美国 AI 发展可能被基于恐惧的政策拖慢，应继续推进建设。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "policy choice",
+          "ipa": "",
+          "definition_zh": "指可以主动选择的政策立场或行动方向，而非不可避免的结果。",
+          "example_zh": "他将恐惧与继续建设都称为政策选择，主张不要因恐慌而主动放慢美国 AI 的发展。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114907777957245033",
+          "text": "More and more I am coming to accept that our understanding of the sciences were but limited by our desire to have solutions that we could understand.",
+          "url": "https://x.com/adityaag/status/2114907777957245033",
+          "summary_en": null
+        },
+        {
+          "id": "2114793226154418314",
+          "text": "The biggest risk to American AI is scaring ourselves into slowing down.\n\nFear is a policy choice. So is building.\n\nHad a great conversation with @sriramk at @spc last week. https://t.co/A1dq5Nv2WM",
+          "url": "https://x.com/adityaag/status/2114793226154418314",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama",
+      "summary_en": "Announces 6.1 Terra and emphasizes its computer-use abilities as a particularly promising step.",
+      "summary_zh": "他宣布推出 6.1 Terra，并特别强调其操作电脑的能力。",
+      "slang": [
+        {
+          "term": "computer use",
+          "definition_en": "An AI model's ability to operate software through a computer interface.",
+          "definition_zh": "AI 模型通过电脑界面操作软件的能力。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "computer use",
+          "ipa": "",
+          "definition_zh": "在 AI 领域指模型操作电脑界面、使用应用并完成任务的能力。",
+          "example_zh": "他发布 6.1 Terra 时特别强调这项能力，将其视为这次模型更新中令人期待的方向。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114818620782248024",
+          "text": "6.1 Terra is here! It is good at a lot of things, but we are especially excited for this new era of computer use. https://t.co/TbpHp75Os0",
+          "url": "https://x.com/sama/status/2114818620782248024",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "handle": "claudeai",
+      "summary_en": "Says more than 25,000 nonprofits use Claude, most of them small local teams. An expanded nonprofit offering adds a plugin developed with roughly 30 organizations to support fundraising, marketing, and hiring using each team's context.",
+      "summary_zh": "其称已有超过 2.5 万家非营利组织使用 Claude，多数是本地小团队。扩展后的非营利组织方案加入了与约 30 家机构共同开发的插件，按各团队情况支持筹款、营销和招聘。",
+      "slang": [
+        {
+          "term": "plugin",
+          "definition_en": "An add-on that extends a software product's capabilities.",
+          "definition_zh": "扩展软件功能的附加组件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "plugin",
+          "ipa": "/ˈplʌɡɪn/",
+          "definition_zh": "指为现有软件增加特定功能的插件。",
+          "example_zh": "这款插件与约三十家非营利组织共同开发，为筹款、营销和招聘等工作添加专门能力。"
+        },
+        {
+          "phrase": "fundraising",
+          "ipa": "/ˈfʌndˌreɪzɪŋ/",
+          "definition_zh": "指为组织、项目或公益事业筹集资金的活动。",
+          "example_zh": "筹款是这次非营利组织插件支持的工作之一，目标是结合各团队自身的信息提供帮助。"
+        },
+        {
+          "phrase": "grounded in",
+          "ipa": "",
+          "definition_zh": "指以具体事实、信息或实际情况为依据。",
+          "example_zh": "这里强调新增能力会结合每个团队自身的背景与资料，使筹款、营销和招聘支持更贴合该组织。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2114780227465338985",
+          "text": "More than 25,000 nonprofits now use Claude. Most are small, local teams.\n\nWe’re expanding Claude for Nonprofits with a plugin built with around 30 of them, adding skills for fundraising, marketing, and hiring grounded in each team’s context and AI policy: https://t.co/LWHcr1CT20 https://t.co/WHG2zRDyxO",
+          "url": "https://x.com/claudeai/status/2114780227465338985",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "AI & I by Every",
+      "title": "How Hugging Face’s Investor Spots Winners",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "summary_en": "The available transcript argues that new frontier models from Google and Meta are challenging a perceived two-company lead. The excerpt does not include benchmarks or evidence for the comparison.",
+      "summary_zh": "现有逐字稿认为，Google 和 Meta 推出的新前沿模型正在挑战原先被视为两家公司领先的格局；节选未提供基准测试或比较依据。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "valuation",
+      "ipa": "/ˌvæljuˈeɪʃən/",
+      "pos": "noun",
+      "definition_en": "An estimate of how much a company or asset is worth.",
+      "definition_zh": "对公司或资产价值的估算；估值。",
+      "synonyms": [
+        "appraisal",
+        "assessment"
+      ],
+      "example_en": "A high valuation reflects expectations, not guaranteed future profits.",
+      "example_zh": "高估值反映的是预期，并不保证未来的利润。"
+    },
+    {
+      "word": "nuanced",
+      "ipa": "/ˈnuːɑːnst/",
+      "pos": "adj",
+      "definition_en": "Showing awareness of subtle differences in meaning or context.",
+      "definition_zh": "能体现或理解含义、语境中细微差别的。",
+      "synonyms": [
+        "subtle",
+        "discerning"
+      ],
+      "example_en": "The assistant gave a nuanced answer that considered several interpretations.",
+      "example_zh": "助手给出了细致的回答，考虑了几种不同的理解方式。"
+    },
+    {
+      "word": "deployed",
+      "ipa": "/dɪˈplɔɪd/",
+      "pos": "adj",
+      "definition_en": "Assigned to a location or operation for active service, especially in the military.",
+      "definition_zh": "被部署到任务地点执行勤务的，尤指军人。",
+      "synonyms": [
+        "stationed",
+        "posted"
+      ],
+      "example_en": "Deployed service members used video calls to stay connected with their families.",
+      "example_zh": "在外执行任务的军人通过视频通话与家人保持联系。"
+    },
+    {
+      "word": "hierarchy",
+      "ipa": "/ˈhaɪərɑːrki/",
+      "pos": "noun",
+      "definition_en": "A system that organizes people or things into levels of authority or importance.",
+      "definition_zh": "按照权力或重要性划分的等级体系。",
+      "synonyms": [
+        "ranking",
+        "chain of command"
+      ],
+      "example_en": "Agents may change how decisions move through a company's hierarchy.",
+      "example_zh": "智能体可能改变决策在公司层级体系中的流转方式。"
+    },
+    {
+      "word": "bureaucracy",
+      "ipa": "/bjʊˈrɑːkrəsi/",
+      "pos": "noun",
+      "definition_en": "A system of administration involving formal rules, procedures, and departments.",
+      "definition_zh": "依靠正式规则、程序和部门运作的行政体系；也常指繁琐的官僚程序。",
+      "synonyms": [
+        "administration",
+        "officialdom"
+      ],
+      "example_en": "Automation can reduce paperwork without eliminating bureaucracy.",
+      "example_zh": "自动化可以减少文书工作，但未必能消除官僚程序。"
+    },
+    {
+      "word": "upend",
+      "ipa": "/ʌpˈend/",
+      "pos": "verb",
+      "definition_en": "To radically change or disrupt an established system or situation.",
+      "definition_zh": "彻底改变或颠覆既有体系或局面。",
+      "synonyms": [
+        "overturn",
+        "disrupt",
+        "transform"
+      ],
+      "example_en": "Reliable AI agents could upend traditional ways of organizing work.",
+      "example_zh": "可靠的人工智能体可能颠覆传统的工作组织方式。"
+    },
+    {
+      "word": "judgment",
+      "ipa": "/ˈdʒʌdʒmənt/",
+      "pos": "noun",
+      "definition_en": "The ability to make sensible decisions after considering relevant information.",
+      "definition_zh": "综合相关信息后作出合理决定的判断力。",
+      "synonyms": [
+        "discernment",
+        "discretion"
+      ],
+      "example_en": "Delegating execution still requires human judgment about goals and risks.",
+      "example_zh": "即使把执行工作交出去，目标和风险仍需要人类判断。"
+    }
+  ],
+  "quote": {
+    "text_en": "Well done is better than well said.",
+    "text_zh": "做得好胜过说得好。",
+    "author": "Benjamin Franklin"
+  },
+  "slang_glossary": [
+    {
+      "term": "reply guys",
+      "definition_en": "People who repeatedly reply to someone's social media posts, often intrusively or to attract attention.",
+      "definition_zh": "频繁在某人社交媒体帖子下回复的人，常带有刷存在感或令人厌烦的意味。"
+    },
+    {
+      "term": "bro",
+      "definition_en": "An informal address or reference to a person, often expressing familiarity, surprise, or mockery.",
+      "definition_zh": "口语中的「哥们」，也可用于调侃或表达惊讶。"
+    },
+    {
+      "term": "power move",
+      "definition_en": "A bold action that signals confidence, influence, or dominance, sometimes used ironically.",
+      "definition_zh": "彰显自信、影响力或主导地位的强势举动，也常用于反讽。"
+    },
+    {
+      "term": "tbh",
+      "definition_en": "An abbreviation of 'to be honest,' used to introduce a candid opinion.",
+      "definition_zh": "「说实话」的英文缩写，用于引出直率的看法。"
+    },
+    {
+      "term": "packs a punch",
+      "definition_en": "Delivers impressive power, effectiveness, or impact.",
+      "definition_zh": "表现强劲、效果突出或很有冲击力。"
+    },
+    {
+      "term": "across the board",
+      "definition_en": "In every relevant area or category.",
+      "definition_zh": "在各个方面；全面地。"
+    },
+    {
+      "term": "computer use",
+      "definition_en": "An AI capability for operating computer interfaces by performing actions such as clicking, typing, and navigating.",
+      "definition_zh": "人工智能通过点击、输入、导航等操作使用计算机界面的能力。"
+    },
+    {
+      "term": "agent",
+      "definition_en": "An AI system that takes actions and uses tools to pursue a goal with some degree of autonomy.",
+      "definition_zh": "能够围绕目标自主采取行动、调用工具的人工智能系统，即智能体。"
+    },
+    {
+      "term": "@bot",
+      "definition_en": "A mention used to address or invoke an automated account; its behavior depends on the platform.",
+      "definition_zh": "用于呼叫或触发自动化账号的提及形式，具体功能取决于平台。"
+    },
+    {
+      "term": "API",
+      "definition_en": "Application programming interface: a defined way for software systems to communicate.",
+      "definition_zh": "应用程序编程接口，让不同软件系统按约定方式交换信息或调用功能。"
+    },
+    {
+      "term": "design crit",
+      "definition_en": "Short for design critique: a session where people review a design and give feedback.",
+      "definition_zh": "「设计评审」的简称，指团队讨论设计并提出反馈的活动。"
+    },
+    {
+      "term": "WoW",
+      "definition_en": "World of Warcraft, an online multiplayer role-playing game.",
+      "definition_zh": "网络多人角色扮演游戏《魔兽世界》的英文简称。"
+    },
+    {
+      "term": "shaman",
+      "definition_en": "In World of Warcraft, a playable class associated with elemental powers and spiritual abilities.",
+      "definition_zh": "在《魔兽世界》中指「萨满祭司」，使用元素力量和灵性能力的职业。"
+    },
+    {
+      "term": "build",
+      "definition_en": "In gaming, a chosen combination of abilities, talents, equipment, and other character options.",
+      "definition_zh": "游戏中角色的技能、天赋、装备等配置组合。"
+    },
+    {
+      "term": "open source",
+      "definition_en": "Software whose source code is available under a license allowing use, modification, and redistribution.",
+      "definition_zh": "源代码以允许使用、修改和再分发的许可证发布的软件；也可指将软件开源的行为。"
+    },
+    {
+      "term": "who gives a shit",
+      "definition_en": "A vulgar rhetorical expression meaning that nobody cares or that something does not matter.",
+      "definition_zh": "粗俗表达，意思是「谁在乎啊」或「这有什么要紧的」。"
+    },
+    {
+      "term": "nerds",
+      "definition_en": "People deeply interested in technical or specialized subjects; the label can be affectionate or insulting.",
+      "definition_zh": "热衷技术或专门领域的人，可亲昵地称为「技术宅」，也可能带有贬义。"
+    },
+    {
+      "term": "software ate the world",
+      "definition_en": "A metaphor describing software's transformation of industries and business models.",
+      "definition_zh": "形容软件重塑各行各业及其商业模式的比喻。"
+    },
+    {
+      "term": "self-driving company",
+      "definition_en": "A metaphor for a company in which AI systems autonomously perform much of the operational work.",
+      "definition_zh": "比喻大量日常运营工作由人工智能系统自主执行的公司。"
+    },
+    {
+      "term": "microVM",
+      "definition_en": "A lightweight virtual machine designed for fast startup and isolated execution.",
+      "definition_zh": "微型虚拟机，强调快速启动、较低资源开销和隔离执行。"
+    },
+    {
+      "term": "token prices",
+      "definition_en": "The rates charged for units of model input or output called tokens.",
+      "definition_zh": "模型处理输入或生成输出时，按词元计量收取的价格。"
+    },
+    {
+      "term": "stack",
+      "definition_en": "The collection of technologies and software layers used to build and run a system.",
+      "definition_zh": "构建和运行系统所使用的一组技术及软件层，即技术栈。"
+    },
+    {
+      "term": "one shot",
+      "definition_en": "Completing a task in a single attempt; in machine learning, one-shot learning instead refers to learning from one example.",
+      "definition_zh": "一次尝试就完成任务；机器学习中的「单样本学习」则指从一个示例中学习，需按语境区分。"
+    },
+    {
+      "term": "S-1 teardown",
+      "definition_en": "An informal, detailed analysis of a company's S-1 filing, including its business, finances, and risks.",
+      "definition_zh": "对公司 S-1 注册文件进行深入拆解，分析其业务、财务和风险。"
+    },
+    {
+      "term": "compute",
+      "definition_en": "Computational resources or processing capacity used to run software or train and operate AI models.",
+      "definition_zh": "运行软件、训练或使用人工智能模型所需的计算资源或算力。"
+    },
+    {
+      "term": "S-1",
+      "definition_en": "A U.S. SEC registration form commonly filed by companies preparing for an initial public offering.",
+      "definition_zh": "美国证券交易委员会的一种证券注册表格，常见于公司筹备首次公开募股时。"
+    },
+    {
+      "term": "AOT compiler",
+      "definition_en": "An ahead-of-time compiler that translates code before execution.",
+      "definition_zh": "提前编译器，在程序运行前将代码编译为目标代码。"
+    },
+    {
+      "term": "banger",
+      "definition_en": "Something exceptionally good or exciting, especially a song, post, or piece of content.",
+      "definition_zh": "特别精彩、很炸或很受欢迎的作品，常用于歌曲、帖子等内容。"
+    },
+    {
+      "term": "plugin",
+      "definition_en": "An add-on component that extends a software application's capabilities.",
+      "definition_zh": "用于扩展软件功能的附加组件，即插件。"
+    }
+  ],
+  "stats": {
+    "builders": 17,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 32,
+    "feedGeneratedAt": "2026-10-27T06:44:38.100Z"
+  }
+}

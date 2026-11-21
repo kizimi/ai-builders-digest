@@ -18,7 +18,7 @@
 
 ## 功能特性
 
-- **每日自动更新**: 通过 GitHub Actions 每天早上 9 点 (PT) 抓取最新动态
+- **每日自动更新**: Mac 上的 launchd 每天定时用 Codex CLI 抓取并处理最新动态
 - **智能过滤**: 自动跳过当天没有内容的博主,只显示有价值的更新
 - **每日金句**: 顶部展示当天最精彩的一句话,带原作者出处
 - **生词标注**: AI 自动识别推文中值得学习的英语词汇,标注音标、词性、释义、近义词
@@ -30,23 +30,23 @@
 ## 技术栈
 
 - **数据源**: [follow-builders](https://github.com/zarazhangrui/follow-builders) (Zara 维护的 X / 播客 / 博客聚合)
-- **内容增强**: Claude API (翻译、生词标注、摘要生成)
+- **内容增强**: Codex CLI `codex exec`,用 ChatGPT 会员额度(翻译、生词标注、摘要生成);也可切换为 `LLM_BACKEND=claude` 使用 `claude -p`
 - **网站生成**: Node.js 静态 HTML 生成
 - **部署**: GitHub Pages + 自定义域名 (Cloudflare DNS)
-- **自动化**: GitHub Actions 每日定时触发
+- **自动化**: `scripts/run-local.sh` 生成数据并提交到 `data/`,GitHub Actions 在 push 后构建并部署
 
 ## 工作流程
 
 ```
-每天 9 AM PT (GitHub Actions)
+每天早上 (Mac launchd → scripts/run-local.sh)
     ↓
 抓取 follow-builders 数据 (推文 / 播客 / 博客)
     ↓
-Claude API 增强 (翻译 + 生词 + 俚语 + 摘要)
+Codex CLI 增强 (翻译 + 生词 + 俚语 + 摘要)
     ↓
-生成静态 HTML (首页 + 归档页)
+提交 data/YYYY-MM-DD.json 到 main
     ↓
-推送到 GitHub Pages → kizimi.space
+GitHub Actions: 生成静态 HTML (首页 + 归档页) → GitHub Pages → kizimi.space
 ```
 
 ## 开发记录

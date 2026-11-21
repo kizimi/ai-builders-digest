@@ -1,0 +1,381 @@
+{
+  "date": "2026-04-27",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "AI/tech thought leader and developer advocate focused on AI applications and developer tools.",
+      "summary_zh": "专注于AI应用和开发者工具的技术思想领袖和开发者倡导者。",
+      "tweets": [
+        {
+          "id": "2048466589847273697",
+          "text": "https://t.co/GAdNmBrxdz https://t.co/q9oiahjUPd",
+          "url": "https://x.com/swyx/status/2048466589847273697"
+        }
+      ],
+      "slang": []
+    },
+    {
+      "name": "Kevin Weil",
+      "handle": "kevinweil",
+      "summary_en": "Tech executive and builder sharing insights on technology and product development.",
+      "summary_zh": "分享技术和产品开发见解的科技高管和建设者。",
+      "tweets": [
+        {
+          "id": "2048588283291312527",
+          "text": "💥🤘 https://t.co/i7mo9zONAk",
+          "url": "https://x.com/kevinweil/status/2048588283291312527"
+        }
+      ],
+      "slang": []
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "AI and product expert building tools and sharing insights on AI implementation through his newsletter to 110,000+ subscribers.",
+      "summary_zh": "AI和产品专家，通过通讯向110,000多名订阅者分享AI实现的工具和见解。",
+      "tweets": [
+        {
+          "id": "2048611053333041158",
+          "text": "This weekend, I improved my mobile fitness app and built a mcp server for it so I can get my latest workout stats and update the app's workouts via Claude/Codex/etc.\n\nThis shit is too fun. https://t.co/bSzpGbkvPP",
+          "url": "https://x.com/petergyang/status/2048611053333041158"
+        },
+        {
+          "id": "2048608945883992571",
+          "text": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+          "url": "https://x.com/petergyang/status/2048608945883992571"
+        }
+      ],
+      "slang": [
+        {
+          "term": "ship it",
+          "definition_en": "To release or deploy a product/feature to users",
+          "definition_zh": "向用户发布或部署产品/功能"
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "Tech observer and commenter on emerging applications and platform features.",
+      "summary_zh": "新兴应用和平台功能的技术观察者和评论员。",
+      "tweets": [
+        {
+          "id": "2048372199375929435",
+          "text": "I've never heard of this insane app but the FindMy team needs to take notes. https://t.co/gbc0vhufQG",
+          "url": "https://x.com/thenanyu/status/2048372199375929435"
+        },
+        {
+          "id": "2048371760328815011",
+          "text": "English, of course https://t.co/uoJbrrvhXI",
+          "url": "https://x.com/thenanyu/status/2048371760328815011"
+        }
+      ],
+      "slang": []
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Founder and visionary discussing the foundational role of coding agents in building superintelligence and their critical importance to AI development.",
+      "summary_zh": "创始人和远见家讨论编码代理在构建超级智能中的基础性作用及其对AI发展的关键重要性。",
+      "tweets": [
+        {
+          "id": "2048523195305902341",
+          "text": "Coding agents will be the foundation of all superintelligence. \n\nAt a minimum, coding ability is indistinguishable from 'proficiency with computers'. Great coding agents like Claude Code master bash, filesystems, configuring and installing ",
+          "url": "https://x.com/rauchg/status/2048523195305902341"
+        }
+      ],
+      "slang": []
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Tech leader analyzing the nuanced impact of AI on work, productivity paradoxes, and the underestimation of human work complexity.",
+      "summary_zh": "技术领导者分析AI对工作的微妙影响、生产力悖论以及对人类工作复杂性的低估。",
+      "tweets": [
+        {
+          "id": "2048576989930619185",
+          "text": "Noticing an interesting version of gell-man amnesia where people use AI for their job and see all the various things they have to do in the \"last mile\", but then look at someone else's job and think that AI will eliminate it immediately.\n\nW",
+          "url": "https://x.com/levie/status/2048576989930619185"
+        },
+        {
+          "id": "2048537503972684252",
+          "text": "There are at least 2 big but subtle factors contributing to the sense of overwork due to agents right now.\n\n1. The leverage on incremental effort has gone up substantially due to AI, and anyone using these tools tend to feel it first. We're",
+          "url": "https://x.com/levie/status/2048537503972684252"
+        }
+      ],
+      "slang": []
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "AI builder and entrepreneur designing articulate agents with constitutional principles, demonstrating advanced AI personality and health-aware automation.",
+      "summary_zh": "AI构建者和企业家设计具有宪法原则的清晰代理，展示先进的AI个性和健康感知自动化。",
+      "tweets": [
+        {
+          "id": "2048669695344046090",
+          "text": "The secret to an articulate agent like mine isn't one file. It's three:\n\nSOUL.md — Who the agent IS. Voice, values, operating principles, what good output looks like, what bad output looks like. Not a system prompt, a constitution. Mine say",
+          "url": "https://x.com/garrytan/status/2048669695344046090"
+        },
+        {
+          "id": "2048667055424249864",
+          "text": "Also a funny thing: my OpenClaw knowing my full schedule and also my health goals and refusing to respond to my queries after 12:30am. \n\nAmazing @steipete",
+          "url": "https://x.com/garrytan/status/2048667055424249864"
+        }
+      ],
+      "slang": [
+        {
+          "term": "dogfooding",
+          "definition_en": "Using your own product to test and improve it before release",
+          "definition_zh": "在发布前使用自己的产品来测试和改进它"
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Tech builder and developer sharing tools and insights with the community.",
+      "summary_zh": "与社区分享工具和见解的技术建设者和开发者。",
+      "tweets": [
+        {
+          "id": "2048406229056446526",
+          "text": "https://t.co/NRTQre60eW",
+          "url": "https://x.com/nikunj/status/2048406229056446526"
+        }
+      ],
+      "slang": []
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_en": "Developer shipping open-source tools like wacrawl with encrypted backups, and optimizing build infrastructure for AI-powered development.",
+      "summary_zh": "开发者发布wacrawl等开源工具，支持加密备份，并为AI驱动的开发优化构建基础设施。",
+      "tweets": [
+        {
+          "id": "2048660875007914176",
+          "text": "Released wacrawl 0.2.0.\n\nNew: encrypted Git backup/restore for WhatsApp Desktop archives. `wacrawl backup push` writes age-encrypted shards to GitHub; `backup pull` decrypts, verifies, and restores locally. https://t.co/gzCQO6eSAe",
+          "url": "https://x.com/steipete/status/2048660875007914176"
+        },
+        {
+          "id": "2048630704972443918",
+          "text": "Been so CPU-constrained on OpenClaw work. Switched local tests running to @useblacksmith and IT IS SO GOOD. codex can literally spin up to 32vCPU instances and rip through our test suite. https://t.co/cks45534su",
+          "url": "https://x.com/steipete/status/2048630704972443918"
+        }
+      ],
+      "slang": [
+        {
+          "term": "ship it",
+          "definition_en": "To release or deploy a product/feature",
+          "definition_zh": "发布或部署产品/功能"
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Tech observer and writer commenting humorously on AI agent behavior and capabilities.",
+      "summary_zh": "技术观察者和作家幽默评论AI代理的行为和能力。",
+      "tweets": [
+        {
+          "id": "2048379297727938991",
+          "text": "my claw when i ask it a basic question  https://t.co/2ZTf19DFW1",
+          "url": "https://x.com/danshipper/status/2048379297727938991"
+        }
+      ],
+      "slang": []
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "Tech leader celebrating human achievement and the collaborative progress of innovation.",
+      "summary_zh": "科技领导者庆祝人类成就和创新的合作进步。",
+      "tweets": [
+        {
+          "id": "2048534774776746102",
+          "text": "Human progress is not just Sawe breaking the 2-hour mark but that TWO people did something that no human had ever done.",
+          "url": "https://x.com/adityaag/status/2048534774776746102"
+        }
+      ],
+      "slang": []
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama",
+      "summary_en": "OpenAI CEO expressing enthusiasm for builder feedback on AI tools and articulating core principles of democratization and universal prosperity.",
+      "summary_zh": "OpenAI首席执行官对构建者对AI工具的反馈表示热情，并阐述民主化和普遍繁荣的核心原则。",
+      "tweets": [
+        {
+          "id": "2048554097985593849",
+          "text": "so fun to see the reception to 5.5!\n\nthere is almost nothing that feels more gratifying to me than builders saying they find our tools useful.",
+          "url": "https://x.com/sama/status/2048554097985593849"
+        },
+        {
+          "id": "2048552677433643427",
+          "text": "Our Principles:\n\nDemocratization, Empowerment, Universal Prosperity, Resilience, and Adaptability\n\nhttps://t.co/g58WGndARw",
+          "url": "https://x.com/sama/status/2048552677433643427"
+        }
+      ],
+      "slang": []
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "AI & I by Every",
+      "title": "The AI Model Built for What LLMs Can't Do",
+      "url": "https://www.youtube.com/watch?v=Q-i8ZSUCtIc",
+      "summary_en": "Explores Energy-Based Models (EBMs) as a fundamentally different approach to AI that operates non-autoregressively without token sequences, enabling parallel computation.",
+      "summary_zh": "探讨基于能量的模型(EBM)作为一种根本不同的AI方法，可以非自回归地运行而不需要令牌序列，从而实现并行计算。"
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Anthropic Engineering",
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "summary_en": "Anthropic introduces Claude Code's auto mode feature that enables safer autonomous code execution while minimizing permission requests and manual interventions.",
+      "summary_zh": "Anthropic推出Claude Code的自动模式功能，使其能够更安全地自主执行代码，同时最大程度减少权限请求和手动干预。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "superintelligence",
+      "ipa": "/ˌsuːpərɪnˈtelɪdʒəns/",
+      "pos": "noun",
+      "definition_en": "artificial intelligence that surpasses human intelligence across all domains",
+      "definition_zh": "在所有领域都超越人类智能的人工智能",
+      "synonyms": [
+        "AGI",
+        "artificial general intelligence",
+        "superintelligent AI"
+      ],
+      "example_en": "Coding agents will be the foundation of all superintelligence.",
+      "example_zh": "编码智能体将成为所有超级智能的基础。"
+    },
+    {
+      "word": "proficiency",
+      "ipa": "/prəˈfɪʃənsi/",
+      "pos": "noun",
+      "definition_en": "a high degree of competence or skill in doing something",
+      "definition_zh": "在某事中具有高度的能力或技巧",
+      "synonyms": [
+        "expertise",
+        "mastery",
+        "competence",
+        "skill"
+      ],
+      "example_en": "Coding ability is indistinguishable from proficiency with computers.",
+      "example_zh": "编码能力与计算机操作熟练程度是等同的。"
+    },
+    {
+      "word": "fluency",
+      "ipa": "/ˈfluːənsi/",
+      "pos": "noun",
+      "definition_en": "the quality of being able to express oneself readily and effortlessly; smooth and natural ability",
+      "definition_zh": "能够轻松自然地表达和执行某事的质量",
+      "synonyms": [
+        "facility",
+        "ease",
+        "smoothness"
+      ],
+      "example_en": "Coding fluency has given models a deeper understanding of all computer work.",
+      "example_zh": "编码流畅性使模型对所有计算机工作有了更深的理解。"
+    },
+    {
+      "word": "dogfooding",
+      "ipa": "/ˈdɔːɡ ˌfuːdɪŋ/",
+      "pos": "noun",
+      "definition_en": "using one's own product to test and improve it before releasing to customers",
+      "definition_zh": "使用自己的产品来测试和改进，然后再发布给客户",
+      "synonyms": [
+        "eating your own dog food",
+        "self-testing"
+      ],
+      "example_en": "The team is dogfooding the new fitness app to identify bugs.",
+      "example_zh": "团队正在使用自己的健身应用来识别漏洞。"
+    },
+    {
+      "word": "mutation",
+      "ipa": "/mjuːˈteɪʃən/",
+      "pos": "noun",
+      "definition_en": "the process of change or alteration, especially in code or genetic material; self-modification",
+      "definition_zh": "变化或改变的过程，特别是代码或遗传物质的自我修改",
+      "synonyms": [
+        "alteration",
+        "modification",
+        "change"
+      ],
+      "example_en": "A coding agent can mutate itself directly to improve its capabilities.",
+      "example_zh": "编码智能体可以直接改变自己以提高其能力。"
+    },
+    {
+      "word": "Gell-Mann amnesia",
+      "ipa": "/ˈɡel ˈmɑːn æmˈniːʒə/",
+      "pos": "noun",
+      "definition_en": "the tendency to dismiss expert knowledge in fields outside one's own expertise while accepting less rigorous information",
+      "definition_zh": "倾向于忽视自己专业领域外的专家知识，同时接受不太严谨的信息的现象",
+      "synonyms": [
+        "cognitive bias",
+        "expertise blind spot"
+      ],
+      "example_en": "Gell-Mann amnesia explains why people underestimate AI's limitations in jobs they don't do.",
+      "example_zh": "盖尔曼遗忘症解释了为什么人们在自己不做的工作中低估了AI的局限性。"
+    },
+    {
+      "word": "audit trail",
+      "ipa": "/ˈɔːdɪt treɪl/",
+      "pos": "noun",
+      "definition_en": "a record of all changes, actions, or transactions for accountability and monitoring purposes",
+      "definition_zh": "用于问责和监控的所有更改、操作或交易的记录",
+      "synonyms": [
+        "log",
+        "record",
+        "documentation"
+      ],
+      "example_en": "AI self-modifications should include an audit trail for human review.",
+      "example_zh": "AI自我修改应包括用于人类审查的审计跟踪。"
+    },
+    {
+      "word": "nuance",
+      "ipa": "/ˈnjuːɑːns/",
+      "pos": "noun",
+      "definition_en": "a subtle difference or distinction in meaning, expression, or appearance",
+      "definition_zh": "意义、表达或外观中微妙的差异或区别",
+      "synonyms": [
+        "subtlety",
+        "refinement",
+        "distinction"
+      ],
+      "example_en": "People appreciate the nuances of their own work but overlook them in others' jobs.",
+      "example_zh": "人们欣赏自己工作的微妙之处，但忽视了他人工作中的微妙之处。"
+    }
+  ],
+  "quote": {
+    "text_en": "What I cannot create, I cannot understand. — Richard Feynman",
+    "text_zh": "我无法创造的东西，我就无法理解。— 理查德·费曼",
+    "author": "Richard Feynman"
+  },
+  "slang_glossary": [
+    {
+      "term": "ship it",
+      "definition_en": "to release or deploy a product or feature to users; to finalize and put into production",
+      "definition_zh": "向用户发布或部署产品或功能；完成并投入生产"
+    },
+    {
+      "term": "dogfooding",
+      "definition_en": "using your own product to test and validate it before public release",
+      "definition_zh": "在公开发布之前使用自己的产品进行测试和验证"
+    },
+    {
+      "term": "last mile",
+      "definition_en": "the final steps or remaining work needed to complete a project or deliver a solution",
+      "definition_zh": "完成项目或交付解决方案所需的最后步骤或剩余工作"
+    }
+  ],
+  "stats": {
+    "builders": 12,
+    "podcasts": 1,
+    "blogs": 1,
+    "totalTweets": 22,
+    "feedGeneratedAt": "2026-04-27T08:20:43.831Z"
+  }
+}

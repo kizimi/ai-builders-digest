@@ -1,0 +1,897 @@
+{
+  "date": "2026-10-28",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "A missed opportunity to pursue a coding assistant idea years ago is framed as more painful than missing an email about it.",
+      "summary_zh": "他回顾多年前提出却未推进的编程助手构想，认为错过亲自实现它比漏看一封邮件更令人遗憾。",
+      "slang": [
+        {
+          "term": "Claude Code",
+          "definition_en": "An AI coding assistant used as a reference point for the earlier idea.",
+          "definition_zh": "一款 AI 编程助手；这里用来参照当年的构想。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "pitch",
+          "ipa": "/pɪtʃ/",
+          "definition_zh": "向他人推介一个想法或项目，以争取支持。",
+          "example_zh": "这里指早在2019年就提出类似 Claude Code 的产品构想，却多年没有付诸实施。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115156135875629109",
+          "text": "anyway here's my soundcloud https://t.co/12VJjC5aB8",
+          "url": "https://x.com/swyx/status/2115156135875629109",
+          "summary_en": null
+        },
+        {
+          "id": "2115135448876269782",
+          "text": "yeah you ignored a @mntruell email in 2024 but did you pitch something like  Claude Code in 2019 and then.... not do it  for 7 years https://t.co/dEix0oyszd",
+          "url": "https://x.com/swyx/status/2115135448876269782",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "Something has been completed and released, with more news promised the next day. The posts give no details about what landed.",
+      "summary_zh": "某项工作已经完成并上线，更多消息预计次日公布；帖文没有说明具体内容。",
+      "slang": [
+        {
+          "term": "landed",
+          "definition_en": "Shipped or became available.",
+          "definition_zh": "已发布或已上线。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "has landed",
+          "ipa": "",
+          "definition_zh": "在科技语境中表示某项成果已经交付、上线或合入。",
+          "example_zh": "他用这个说法宣布某项工作已经落地，但推文没有说明具体交付了什么。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115330127886463244",
+          "text": "And it's done. See you tomorrow for some good news. https://t.co/WhJle2cWRG",
+          "url": "https://x.com/thsottiaux/status/2115330127886463244",
+          "summary_en": null
+        },
+        {
+          "id": "2115297093879472332",
+          "text": "https://t.co/Fgy0dBAHsJ has landed",
+          "url": "https://x.com/thsottiaux/status/2115297093879472332",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Hiring should weigh demonstrated work and real projects more heavily than tenure, employer names, resumes, or management headcount. He also criticizes promotional claims built around invented recurring revenue.",
+      "summary_zh": "招聘应更重视实际作品和项目，而非工作年限、公司名气、简历或管理人数。他也批评用虚构的经常性收入做宣传。",
+      "slang": [
+        {
+          "term": "ARR",
+          "definition_en": "Annual recurring revenue, a measure of subscription revenue.",
+          "definition_zh": "年度经常性收入，常用于衡量订阅业务规模。"
+        },
+        {
+          "term": "proof of work",
+          "definition_en": "Concrete evidence of what a candidate has built or accomplished.",
+          "definition_zh": "候选人实际完成的作品或成果证据。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "proof of work",
+          "ipa": "",
+          "definition_zh": "能直接证明实际能力的作品或成果。",
+          "example_zh": "这里指招聘时应重视候选人做过的真实项目和成果，而非仅看简历或求职信。"
+        },
+        {
+          "phrase": "ARR",
+          "ipa": "",
+          "definition_zh": "年度经常性收入，是衡量订阅等持续性业务收入规模的指标。",
+          "example_zh": "他批评有人围绕编造的 ARR 制作宣传视频，借虚构收入包装业务成绩。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115319325137731757",
+          "text": "Other hiring practices that need to change: \n\n1. Filtering candidates based on years of experience or some company name \n\n2. Prioritizing resumes and cover letters over proof of work and real projects \n\n3. Listing number of people managed as an accomplishment by itself \n\n4. Endless rounds of interviews over short work trials\n\nI could go on.",
+          "url": "https://x.com/petergyang/status/2115319325137731757",
+          "summary_en": null
+        },
+        {
+          "id": "2115309642209436057",
+          "text": "If you’re going to make videos about some made-up ARR then just be a satirical media company. \n\nI’d respect that.",
+          "url": "https://x.com/petergyang/status/2115309642209436057",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "Open-source distribution may need to support agent-made modifications while automatically incorporating upstream changes. A separate interface experiment involving operating-system internals remains too rough to recommend using.",
+      "summary_zh": "开源软件的分发方式或许需要同时支持智能体修改和自动合并上游更新。另一项涉及操作系统底层的人机交互实验仍有不少边界问题，暂不适合使用。",
+      "slang": [
+        {
+          "term": "upstream",
+          "definition_en": "The original project whose updates a modified version needs to incorporate.",
+          "definition_zh": "修改版软件所基于的原项目及其后续更新。"
+        },
+        {
+          "term": "coding agents",
+          "definition_en": "AI systems that can perform software development tasks.",
+          "definition_zh": "能够执行软件开发任务的 AI 智能体。"
+        },
+        {
+          "term": "HCI",
+          "definition_en": "Human-computer interaction, the study and design of how people use computers.",
+          "definition_zh": "人机交互，研究和设计人与计算机的交互方式。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "upstream",
+          "ipa": "/ˌʌpˈstriːm/",
+          "definition_zh": "开源开发中指衍生版本所依赖的原始项目或其更新来源。",
+          "example_zh": "他希望用户通过智能体修改软件后，仍能自动合并原项目后续发布的更新。"
+        },
+        {
+          "phrase": "HCI",
+          "ipa": "",
+          "definition_zh": "人机交互，研究人与计算机系统如何互动的领域。",
+          "example_zh": "他把这次界面实验称为一直想做的人机交互研究，但操作系统内部机制让开发十分耗时。"
+        },
+        {
+          "phrase": "edge cases",
+          "ipa": "",
+          "definition_zh": "常规流程之外、容易暴露系统缺陷的特殊情况。",
+          "example_zh": "实验仍有许多特殊情况没有处理好，因此他暂时不公开，也不推荐使用。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115188992861970693",
+          "text": "feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in\n\ncoding agents can do this but they won’t do it automatically https://t.co/6iejoVGp1D",
+          "url": "https://x.com/trq212/status/2115188992861970693",
+          "summary_en": null
+        },
+        {
+          "id": "2115135859075015137",
+          "text": "this is the kind of HCI work I've been wanting to do for a while, but messing with OS internals has always been very time consuming\n\nnot sharing yet, there are still many edge cases (would not recommend using), but fun to experiment with!",
+          "url": "https://x.com/trq212/status/2115135859075015137",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "He argues that frontier AI investment depends increasingly on new discoveries and applications such as medicine, as smaller models become capable enough for much coding and knowledge work. A second post makes a wordplay joke about a judge's name.",
+      "summary_zh": "他认为，随着较小模型足以承担大量编程和知识工作，前沿 AI 的投资价值将更多取决于新发现及医疗等应用。另一帖则是关于法官姓名的谐音玩笑。",
+      "slang": [
+        {
+          "term": "frontier AI",
+          "definition_en": "The most advanced AI models and research at a given time.",
+          "definition_zh": "某一时期最先进的 AI 模型与研究。"
+        },
+        {
+          "term": "sub-frontier models",
+          "definition_en": "Models below the leading edge of AI capability.",
+          "definition_zh": "能力尚未达到最前沿水平的模型。"
+        },
+        {
+          "term": "AI slop",
+          "definition_en": "A derogatory term for low-quality AI-generated content.",
+          "definition_zh": "对低质量 AI 生成内容的贬称。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "underwrite",
+          "ipa": "/ˌʌndərˈraɪt/",
+          "definition_zh": "在投资语境中指评估风险与回报，并据此决定是否投入资金。",
+          "example_zh": "他认为投资前沿 AI 的主要依据应是新发现及其医疗等应用所能创造的价值。"
+        },
+        {
+          "phrase": "sub-frontier models",
+          "ipa": "",
+          "definition_zh": "能力尚未达到最前沿水平的模型。",
+          "example_zh": "他认为这类模型正在迅速满足编程和多数知识工作的需求，从而影响前沿 AI 的投资逻辑。"
+        },
+        {
+          "phrase": "AI slop",
+          "ipa": "",
+          "definition_zh": "带贬义地指 AI 批量生成的低质量内容。",
+          "example_zh": "他借法官姓氏 Alsup 与这个说法的近似发音开玩笑，并非在评价案件材料的质量。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115207856496480261",
+          "text": "If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.",
+          "url": "https://x.com/amasad/status/2115207856496480261",
+          "summary_en": null
+        },
+        {
+          "id": "2115181058815660449",
+          "text": "In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast. https://t.co/hcuRaiQwJp",
+          "url": "https://x.com/amasad/status/2115181058815660449",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "A playful shell and container snippet evokes deploying a tiny Bun web server on Vercel. The linked post supplies no further readable detail.",
+      "summary_zh": "一段戏仿命令行和容器配置的代码，展示用 Bun 运行极简网页服务并提及 Vercel。仅含链接的另一帖没有可读细节。",
+      "slang": [
+        {
+          "term": "Bun",
+          "definition_en": "A JavaScript runtime used to run the example server.",
+          "definition_zh": "用于运行示例服务的 JavaScript 运行时。"
+        },
+        {
+          "term": "Dockerfile",
+          "definition_en": "A file defining how to build a software container image.",
+          "definition_zh": "定义如何构建软件容器镜像的文件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎",
+          "ipa": "",
+          "definition_zh": "用于声明容器镜像构建步骤及默认启动命令的配置文件。",
+          "example_zh": "代码片段将 Bun 基础镜像和启动网页服务器的命令写入这个文件，展示一个极简容器部署方案。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115218670389756243",
+          "text": "$ 𝚊𝚕𝚒𝚊𝚜 𝚗𝚘𝚠=𝚟𝚎𝚛𝚌𝚎𝚕\n$ 𝚌𝚊𝚝 >𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎 <<'𝙴𝙾𝙵'\n𝙵𝚁𝙾𝙼 𝚘𝚟𝚎𝚗/𝚋𝚞𝚗:𝚊𝚕𝚙𝚒𝚗𝚎\n𝙲𝙼𝙳 [\"𝚋𝚞𝚗\",\"-𝚎\",\"𝙱𝚞𝚗.𝚜𝚎𝚛𝚟𝚎({𝚙𝚘𝚛𝚝:𝟾𝟶,𝚏𝚎𝚝𝚌𝚑:()=>𝚗𝚎𝚠 𝚁𝚎𝚜𝚙𝚘𝚗𝚜𝚎('𝚠𝚎 𝚊𝚛𝚎 𝚜𝚘 𝚋𝚊𝚌𝚔')})\"]\n𝙴𝙾𝙵\n$ 𝚗𝚘𝚠\n> Ready: https://t.co/tOqwRwGUa2",
+          "url": "https://x.com/rauchg/status/2115218670389756243",
+          "summary_en": null
+        },
+        {
+          "id": "2115161107078021563",
+          "text": "https://t.co/04L6MqJwe8 https://t.co/l0HypHrirg",
+          "url": "https://x.com/rauchg/status/2115161107078021563",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "He estimates that meaningful use of AI agents in enterprise workflows remains extremely limited, despite the attention they receive. His less-than-1% figure is presented as an estimate, not a measured statistic.",
+      "summary_zh": "他估计，尽管 AI 智能体受到广泛关注，企业工作流程中的实质性部署仍很少。低于 1% 是他的估计，并非帖文提供的实测数据。",
+      "slang": [
+        {
+          "term": "agents",
+          "definition_en": "AI systems that can carry out multi-step tasks with some autonomy.",
+          "definition_zh": "能以一定自主性执行多步骤任务的 AI 系统。"
+        },
+        {
+          "term": "enterprise workflows",
+          "definition_en": "Recurring processes used to run a business.",
+          "definition_zh": "企业日常运营中反复执行的工作流程。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "enterprise workflows",
+          "ipa": "",
+          "definition_zh": "企业内部为完成业务任务而执行的一系列流程。",
+          "example_zh": "他认为绝大多数企业业务流程尚未真正用上智能体；文中的不到1%是他的估计。"
+        },
+        {
+          "phrase": "agents",
+          "ipa": "/ˈeɪdʒənts/",
+          "definition_zh": "能够围绕目标执行任务、调用工具或推进多个步骤的 AI 系统。",
+          "example_zh": "他讨论的是智能体在企业流程中的实际应用程度，并认为其普及远低于外界关注度所暗示的水平。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115305369799110905",
+          "text": "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now.\n\nAt best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI itself.\n\nThat’s all changing. Now with computer use, long running agents, harness improvements and surrounding infrastructure, we’re finally at a point where we can start to apply agents at more complex workflows. \n\nWe will see self-improving systems that can take any particular workflow goal and improve the execution rates over a volume of instances. And with the emerging form factor of agent swarms, you can just choose to deploy any amount of compute at a problem and agents will off and do the work.\n\nThis won’t be about and users prompting agents to complete a specific task for them, but instead the organization reengineering the underlying workflows to take advantage of agents in their processes. This will have a massive impact in finance, life sciences, healthcare, and other information-heavy domains. Lots of opportunity to build and deploy these systems right now.",
+          "url": "https://x.com/levie/status/2115305369799110905",
+          "summary_en": "Meaningful enterprise agent adoption remains minimal, largely because of AI capability limits, but advances in computer use, long-running agents, and infrastructure are opening up complex workflow automation. The biggest opportunity is redesigning organizational processes around self-improving agents and agent swarms, especially in information-heavy industries."
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "He is trimming GStack to use fewer tokens and finish tasks faster, while examining what his Capy software factory did on its most productive days.",
+      "summary_zh": "他正精简 GStack，以减少 token 消耗和任务耗时，同时回看 Capy 软件工厂在产出最高的日子做了什么。",
+      "slang": [
+        {
+          "term": "token usage",
+          "definition_en": "The amount of model input and output consumed by an AI task.",
+          "definition_zh": "AI 任务消耗的模型输入与输出量。"
+        },
+        {
+          "term": "task latency",
+          "definition_en": "The time between starting a task and receiving its result.",
+          "definition_zh": "从启动任务到获得结果所需的时间。"
+        },
+        {
+          "term": "software factory",
+          "definition_en": "An automated system or workflow for producing software.",
+          "definition_zh": "通过自动化流程持续产出软件的系统。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "token usage",
+          "ipa": "",
+          "definition_zh": "模型处理输入和生成输出时消耗的词元数量。",
+          "example_zh": "他正在精简 GStack，希望完成任务时消耗更少的词元。"
+        },
+        {
+          "phrase": "task latency",
+          "ipa": "",
+          "definition_zh": "系统从接收任务到完成任务所产生的延迟。",
+          "example_zh": "他希望精简 GStack 后，任务执行所需的等待时间也能缩短。"
+        },
+        {
+          "phrase": "software factory",
+          "ipa": "",
+          "definition_zh": "将软件开发组织成可重复、自动化生产流程的系统。",
+          "example_zh": "他把 Capy 称为软件工厂，并回看它产出最旺盛的日子里具体完成了什么。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115215790756794496",
+          "text": "I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
+          "url": "https://x.com/garrytan/status/2115215790756794496",
+          "summary_en": null
+        },
+        {
+          "id": "2115210866962624810",
+          "text": "What did my Capy software factory do on the greenest days? https://t.co/miOR2treNF",
+          "url": "https://x.com/garrytan/status/2115210866962624810",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "Several prominent AI and data companies began with large founding teams, challenging blanket advice that too many co-founders necessarily creates harmful dilution or friction.",
+      "summary_zh": "几家知名 AI 和数据公司拥有人数较多的创始团队，说明不能仅凭联合创始人人数就断定股权稀释或协作摩擦会毁掉公司。",
+      "slang": [
+        {
+          "term": "dilution",
+          "definition_en": "A reduction in each founder's ownership share as equity is divided or new shares are issued.",
+          "definition_zh": "股权被分配或增发后，单个创始人的持股比例下降。"
+        },
+        {
+          "term": "analysis paralysis",
+          "definition_en": "Delayed decisions caused by excessive discussion or evaluation.",
+          "definition_zh": "因讨论或分析过多而迟迟无法决策。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "dilution",
+          "ipa": "/daɪˈluːʃən/",
+          "definition_zh": "股权稀释，指持股人在公司中的所有权比例下降。",
+          "example_zh": "他引用联合创始人过多会导致股权稀释的常见担忧，再用多家公司的创始团队规模挑战这类笼统建议。"
+        },
+        {
+          "phrase": "Founder friction",
+          "ipa": "",
+          "definition_zh": "创始人之间因意见、利益或合作方式不同而产生的摩擦。",
+          "example_zh": "这里列举了反对大型创始团队的一种理由：创始人越多，彼此发生冲突的风险可能越高。"
+        },
+        {
+          "phrase": "Analysis paralysis",
+          "ipa": "",
+          "definition_zh": "因分析和权衡过多而迟迟无法作出决定的状态。",
+          "example_zh": "他把决策停滞列为大型创始团队常被批评的问题，但也指出多家知名公司有很多联合创始人。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115132327131328806",
+          "text": "Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis!\n\nAlso:\n\n* Anthropic: 7 co-founders\n\n* OpenAI: 11 co-founders\n\n* Databricks: 7 co-founders",
+          "url": "https://x.com/mattturck/status/2115132327131328806",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "She notes that a previous post unexpectedly became her most viewed. The supplied text does not reveal its subject.",
+      "summary_zh": "她表示，先前的一条帖文意外成为自己浏览量最高的内容；所提供的文字没有说明该帖主题。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2115288579173921266",
+          "text": "Had no idea this would become my most viewed tweet of all time 😂 https://t.co/mEG5Z28kyU",
+          "url": "https://x.com/zarazhangrui/status/2115288579173921266",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Large founding teams at successful startups challenge rigid rules about the ideal number of co-founders. He also notes that common AI and startup terms can hide sharply different definitions, making deeper examination necessary.",
+      "summary_zh": "成功公司中也有规模较大的创始团队，这挑战了对最佳联合创始人人数的僵硬规定。他还指出，常见的 AI 和创业术语可能有截然不同的定义，需要进一步厘清。",
+      "slang": [
+        {
+          "term": "long horizon",
+          "definition_en": "An extended period over which an AI system plans or carries out a task.",
+          "definition_zh": "AI 系统规划或执行任务所跨越的较长时间范围。"
+        },
+        {
+          "term": "out of distribution",
+          "definition_en": "Data or situations that differ from those encountered during training.",
+          "definition_zh": "与模型训练时接触的数据或情境不同。"
+        },
+        {
+          "term": "intelligence per watt",
+          "definition_en": "A way to discuss AI capability relative to energy consumption.",
+          "definition_zh": "用 AI 能力相对于能耗的比例讨论效率。"
+        },
+        {
+          "term": "RL environments",
+          "definition_en": "Settings in which reinforcement learning systems take actions and receive feedback.",
+          "definition_zh": "强化学习系统采取行动并获得反馈的环境。"
+        },
+        {
+          "term": "forward deployed",
+          "definition_en": "Working closely with a customer where a product is being put into use.",
+          "definition_zh": "深入客户现场，直接参与产品落地。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "out of distribution",
+          "ipa": "",
+          "definition_zh": "指数据或情境偏离模型训练时所接触的分布。",
+          "example_zh": "他把这个术语列为需要深入研究的概念，因为不同人对它的具体含义可能有很大分歧。"
+        },
+        {
+          "phrase": "intelligence per watt",
+          "ipa": "",
+          "definition_zh": "每单位功率所能提供的智能能力，用于讨论 AI 的能源效率。",
+          "example_zh": "他认为这个说法看似容易理解，但如何界定和衡量其中的智能仍需要仔细追问。"
+        },
+        {
+          "phrase": "forward deployed",
+          "ipa": "",
+          "definition_zh": "指技术人员深入客户现场或业务一线，直接解决落地问题的工作模式。",
+          "example_zh": "他将这个行业说法列为定义分歧很大的术语，提醒读者不能仅凭熟悉词面就以为理解一致。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115157188704612735",
+          "text": "VCs love talking about the number of cofounders and how sometimes there’s too many..\n\n@AnthropicAI x @databricks both with 7 cofounders showing that the best startups are truly outliers. \n\nAll the definitions of the “right” way of identifying or building startups are wrong. \n\nThere’s no “right” way, there’s only the way that works for you!",
+          "url": "https://x.com/nikunj/status/2115157188704612735",
+          "summary_en": null
+        },
+        {
+          "id": "2115111451614744845",
+          "text": "Things I have a pretty decent idea about but I still have to go deep on since I’ll get 10 wildly different definitions…\n\n> long horizon\n> out of distribution (esp data)\n> intelligence per watt\n> rl environments\n> “forward deployed”\n> revenue\n> “frontier”\n> self improving\n\nSure, some of these are rightfully subjective, but you’d be surprised at the variance of the responses 😅",
+          "url": "https://x.com/nikunj/status/2115111451614744845",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Video and game creation may become routine knowledge-work skills, as document and slide creation are today. He signals that more discussion is forthcoming.",
+      "summary_zh": "他预测，制作视频和游戏会像今天制作文档与演示文稿一样，成为普遍的知识工作技能，并表示之后会展开讨论。",
+      "slang": [
+        {
+          "term": "decks",
+          "definition_en": "Slide presentations.",
+          "definition_zh": "演示文稿或幻灯片。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "knowledge work",
+          "ipa": "",
+          "definition_zh": "主要依靠信息处理、专业知识和判断来创造价值的工作。",
+          "example_zh": "他预测视频和游戏制作会像制作文档与幻灯片一样，成为知识工作者普遍具备的基础技能。"
+        },
+        {
+          "phrase": "deck",
+          "ipa": "/dek/",
+          "definition_zh": "职场中指一整套用于演示或汇报的幻灯片。",
+          "example_zh": "他以如今普遍的幻灯片制作能力作类比，说明视频和游戏创作未来也可能变得日常化。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2115112705162182754",
+          "text": "we'll have more on this in @every this week:\n\nhttps://t.co/9wRhOCVapS",
+          "url": "https://x.com/danshipper/status/2115112705162182754",
+          "summary_en": null
+        },
+        {
+          "id": "2115093098816745910",
+          "text": "video creation and game making are going to become widely distributed foundations of knowledge work in the same way doc and deck creation are today",
+          "url": "https://x.com/danshipper/status/2115093098816745910",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "He expresses optimism that CentAI Health's work could improve access to health benefits across India, without describing the product or evidence of its impact.",
+      "summary_zh": "他看好 CentAI Health 改善印度大众健康的潜力，但帖文没有说明产品细节或成效证据。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2115119516191801809",
+          "text": "Very very excited about what @centai_health is building.\n\nSo much potential to bring better health to everyone in India. https://t.co/SAU5pLzijv",
+          "url": "https://x.com/adityaag/status/2115119516191801809",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "satirical",
+      "ipa": "/səˈtɪrɪkəl/",
+      "pos": "adj",
+      "definition_en": "Using humor, irony, or exaggeration to criticize people or ideas.",
+      "definition_zh": "讽刺性的；通过幽默、反讽或夸张批评人或观点的",
+      "synonyms": [
+        "mocking",
+        "ironic"
+      ],
+      "example_en": "The satirical video mocked startups that invent revenue figures.",
+      "example_zh": "这段讽刺视频嘲弄了那些编造营收数字的初创公司。"
+    },
+    {
+      "word": "maintainer",
+      "ipa": "/meɪnˈteɪnər/",
+      "pos": "noun",
+      "definition_en": "Someone responsible for keeping a software project working and up to date.",
+      "definition_zh": "维护者；负责软件项目更新和正常运行的人",
+      "synonyms": [
+        "caretaker",
+        "steward"
+      ],
+      "example_en": "The maintainer reviewed the patch before releasing an update.",
+      "example_zh": "维护者在发布更新前审查了补丁。"
+    },
+    {
+      "word": "upstream",
+      "ipa": "/ˌʌpˈstriːm/",
+      "pos": "adj",
+      "definition_en": "Relating to the original software project from which another version is derived.",
+      "definition_zh": "上游的；指衍生版本所依赖的原始软件项目",
+      "synonyms": [
+        "original",
+        "source"
+      ],
+      "example_en": "Our customized version still receives upstream updates.",
+      "example_zh": "我们的定制版本仍然会接收上游项目的更新。"
+    },
+    {
+      "word": "internals",
+      "ipa": "/ɪnˈtɜːrnəlz/",
+      "pos": "noun",
+      "definition_en": "The internal components and mechanisms of a system.",
+      "definition_zh": "内部结构；系统内部的组件和运作机制",
+      "synonyms": [
+        "inner workings",
+        "internal mechanisms"
+      ],
+      "example_en": "Changing OS internals can introduce unexpected bugs.",
+      "example_zh": "修改操作系统的内部机制可能引入意料之外的错误。"
+    },
+    {
+      "word": "pitch",
+      "ipa": "/pɪtʃ/",
+      "pos": "verb",
+      "definition_en": "To present an idea persuasively to gain support or funding.",
+      "definition_zh": "推介；有说服力地介绍想法，以争取支持或资金",
+      "synonyms": [
+        "propose",
+        "present"
+      ],
+      "example_en": "She pitched an AI coding tool to investors.",
+      "example_zh": "她向投资人推介了一款 AI 编程工具。"
+    },
+    {
+      "word": "prioritize",
+      "ipa": "/praɪˈɔːrətaɪz/",
+      "pos": "verb",
+      "definition_en": "To treat something as more important than other things.",
+      "definition_zh": "优先考虑；将某事置于其他事情之前",
+      "synonyms": [
+        "emphasize",
+        "give precedence to"
+      ],
+      "example_en": "We prioritize completed projects when evaluating candidates.",
+      "example_zh": "评估候选人时，我们优先考察他们完成的项目。"
+    },
+    {
+      "word": "merge",
+      "ipa": "/mɜːrdʒ/",
+      "pos": "verb",
+      "definition_en": "To combine separate things; in software, to integrate changes into another version.",
+      "definition_zh": "合并；在软件开发中指将改动整合进另一个版本",
+      "synonyms": [
+        "combine",
+        "integrate"
+      ],
+      "example_en": "The agent merged the latest fixes into my local version.",
+      "example_zh": "智能体将最新的修复合并进了我的本地版本。"
+    }
+  ],
+  "quote": {
+    "text_en": "Well done is better than well said.",
+    "text_zh": "做得好胜过说得好。",
+    "author": "Benjamin Franklin"
+  },
+  "slang_glossary": [
+    {
+      "term": "Claude Code",
+      "definition_en": "Anthropic’s agentic coding tool.",
+      "definition_zh": "Anthropic 推出的智能体编程工具。"
+    },
+    {
+      "term": "landed",
+      "definition_en": "Informal software language meaning a change or feature has been integrated or delivered.",
+      "definition_zh": "软件开发口语，指改动或功能已经合入或交付；不一定表示已向所有用户开放。"
+    },
+    {
+      "term": "ARR",
+      "definition_en": "Annual recurring revenue: a yearly measure of recurring subscription or contract revenue.",
+      "definition_zh": "年度经常性收入，衡量订阅或合同带来的持续性收入，不等于利润。"
+    },
+    {
+      "term": "proof of work",
+      "definition_en": "In hiring, concrete evidence of ability through completed work or projects.",
+      "definition_zh": "在招聘中指通过实际成果或项目证明能力；此处不是区块链中的工作量证明机制。"
+    },
+    {
+      "term": "upstream",
+      "definition_en": "The original project or repository whose changes can flow into a derived version.",
+      "definition_zh": "上游项目或代码仓库，其更新可以被整合进衍生版本。"
+    },
+    {
+      "term": "coding agents",
+      "definition_en": "AI systems that carry out programming tasks using tools and multiple steps.",
+      "definition_zh": "通过调用工具和执行多个步骤完成编程任务的 AI 智能体。"
+    },
+    {
+      "term": "HCI",
+      "definition_en": "Human-computer interaction: the study and design of how people interact with computers.",
+      "definition_zh": "人机交互，研究和设计人与计算机之间的交互方式。"
+    },
+    {
+      "term": "frontier AI",
+      "definition_en": "AI at or near the leading edge of available capabilities.",
+      "definition_zh": "能力处于或接近当前领先水平的前沿 AI。"
+    },
+    {
+      "term": "sub-frontier models",
+      "definition_en": "Models below the leading capability tier, often offering different cost or speed tradeoffs.",
+      "definition_zh": "能力低于最前沿梯队的模型，通常在成本或速度上提供不同取舍。"
+    },
+    {
+      "term": "AI slop",
+      "definition_en": "A derogatory term for low-quality, often mass-produced AI content.",
+      "definition_zh": "对低质量、往往批量生成的 AI 内容的贬称。"
+    },
+    {
+      "term": "Bun",
+      "definition_en": "A JavaScript and TypeScript toolkit that includes a runtime and development tools.",
+      "definition_zh": "面向 JavaScript 和 TypeScript 的工具套件，包含运行时和开发工具。"
+    },
+    {
+      "term": "Dockerfile",
+      "definition_en": "A file containing instructions for building a Docker container image.",
+      "definition_zh": "包含 Docker 容器镜像构建指令的文件。"
+    },
+    {
+      "term": "agents",
+      "definition_en": "In AI, systems that take actions through tools to pursue a task or goal.",
+      "definition_zh": "在 AI 语境中，指能借助工具采取行动、推进任务或目标的智能体。"
+    },
+    {
+      "term": "enterprise workflows",
+      "definition_en": "Sequences of business tasks and approvals used within organizations.",
+      "definition_zh": "企业内部用于完成业务任务和审批的工作流程。"
+    },
+    {
+      "term": "token usage",
+      "definition_en": "The quantity of text-processing units a model consumes or generates.",
+      "definition_zh": "模型处理或生成的词元数量，常用于衡量用量和计算费用。"
+    },
+    {
+      "term": "task latency",
+      "definition_en": "The elapsed time between starting a task and receiving its result.",
+      "definition_zh": "从发起任务到收到结果所经过的时间。"
+    },
+    {
+      "term": "software factory",
+      "definition_en": "A metaphor for an organized, highly automated system of software production.",
+      "definition_zh": "软件工厂，比喻组织化、高度自动化的软件生产体系。"
+    },
+    {
+      "term": "dilution",
+      "definition_en": "In startup finance, a reduction in an owner’s percentage stake when additional shares are issued.",
+      "definition_zh": "股权稀释，指发行新增股份后原股东持股比例下降。"
+    },
+    {
+      "term": "analysis paralysis",
+      "definition_en": "Failure to act because of excessive analysis or comparison.",
+      "definition_zh": "分析瘫痪，指因过度分析或比较而迟迟无法行动。"
+    },
+    {
+      "term": "long horizon",
+      "definition_en": "A long span of time or many linked steps over which a system must plan and act.",
+      "definition_zh": "长时间跨度或多步骤任务范围，要求系统持续规划和行动。"
+    },
+    {
+      "term": "out of distribution",
+      "definition_en": "Describing inputs or situations that differ from a model’s training distribution.",
+      "definition_zh": "分布外，指输入或情境偏离模型训练数据的分布。"
+    },
+    {
+      "term": "intelligence per watt",
+      "definition_en": "An informal measure of useful AI capability relative to electrical power consumption.",
+      "definition_zh": "每瓦智能，以耗电功率衡量 AI 有效能力的非正式说法，并非统一标准指标。"
+    },
+    {
+      "term": "RL environments",
+      "definition_en": "Reinforcement learning settings in which agents act and receive feedback or rewards.",
+      "definition_zh": "强化学习环境，智能体在其中采取行动并获得反馈或奖励。"
+    },
+    {
+      "term": "forward deployed",
+      "definition_en": "Describing technical staff who work closely with customers to implement solutions.",
+      "definition_zh": "前线部署的，通常指深入客户现场或业务场景、协助落地解决方案的技术人员。"
+    },
+    {
+      "term": "decks",
+      "definition_en": "Business shorthand for slide presentations, especially pitches or briefings.",
+      "definition_zh": "商业口语中的演示文稿，常指融资路演或业务汇报幻灯片。"
+    },
+    {
+      "term": "anyway here's my SoundCloud",
+      "definition_en": "A meme-like phrase used to pivot abruptly into self-promotion.",
+      "definition_zh": "一种带有网络梗意味的表达，用来突然转向自我宣传，字面意思是「总之，这是我的 SoundCloud」。"
+    },
+    {
+      "term": "bag fumble",
+      "definition_en": "Slang for missing or mishandling a potentially lucrative opportunity.",
+      "definition_zh": "错失或搞砸赚钱机会；「bag」在这里指金钱或潜在收益。"
+    },
+    {
+      "term": "kid stuff",
+      "definition_en": "A dismissive phrase suggesting something is minor or unimpressive.",
+      "definition_zh": "小儿科；用轻蔑或调侃的语气表示某事不算什么。"
+    },
+    {
+      "term": "lol",
+      "definition_en": "Short for laughing out loud; often signals humor, irony, or softened tone.",
+      "definition_zh": "「笑出声」的缩写，也常用于表达调侃、反讽或缓和语气。"
+    },
+    {
+      "term": "fml",
+      "definition_en": "A vulgar abbreviation of fuck my life, expressing frustration or regret.",
+      "definition_zh": "粗俗表达「fuck my life」的缩写，用来宣泄懊恼、沮丧或后悔。"
+    },
+    {
+      "term": "bc",
+      "definition_en": "An informal written abbreviation of because.",
+      "definition_zh": "because 的非正式书面缩写，意为「因为」。"
+    },
+    {
+      "term": "wouldve",
+      "definition_en": "An informal spelling of would’ve, meaning would have.",
+      "definition_zh": "would’ve 的非正式拼写，即 would have，常用于描述未发生的假设情况。"
+    },
+    {
+      "term": "lil",
+      "definition_en": "An informal spelling of little, often conveying a casual or affectionate tone.",
+      "definition_zh": "little 的非正式拼写，常带有随意或亲切的语气。"
+    },
+    {
+      "term": "IPO",
+      "definition_en": "Initial public offering: a company’s first offering of shares to the public.",
+      "definition_zh": "首次公开募股，即公司首次向公众发行股票。"
+    },
+    {
+      "term": "CLI",
+      "definition_en": "Command-line interface: a way to operate software through typed commands.",
+      "definition_zh": "命令行界面，通过输入文本命令操作软件。"
+    },
+    {
+      "term": "TypeScript",
+      "definition_en": "A programming language that extends JavaScript with a type system.",
+      "definition_zh": "在 JavaScript 基础上加入类型系统的编程语言。"
+    },
+    {
+      "term": "Cursor",
+      "definition_en": "In this context, the AI coding product or the company behind it.",
+      "definition_zh": "此处指 AI 编程产品 Cursor 或其背后的公司。"
+    },
+    {
+      "term": "Grok",
+      "definition_en": "The name of xAI’s AI assistant.",
+      "definition_zh": "xAI 旗下 AI 助手的名称。"
+    },
+    {
+      "term": "bot",
+      "definition_en": "An automated software account or program that performs tasks or responds to users.",
+      "definition_zh": "自动执行任务或回应用户的软件程序或账号。"
+    },
+    {
+      "term": "open-source software",
+      "definition_en": "Software whose license permits access to, modification of, and redistribution of its source code.",
+      "definition_zh": "开源软件，其许可证允许访问、修改和再分发源代码。"
+    },
+    {
+      "term": "OS internals",
+      "definition_en": "The underlying components and mechanisms of an operating system.",
+      "definition_zh": "操作系统底层的内部组件和运作机制。"
+    },
+    {
+      "term": "edge cases",
+      "definition_en": "Unusual or boundary situations that may reveal failures in a system.",
+      "definition_zh": "边界情况或少见情境，可能暴露系统缺陷。"
+    },
+    {
+      "term": "AI-native",
+      "definition_en": "Designed around AI capabilities as a central part of the product.",
+      "definition_zh": "AI 原生的，指以 AI 能力为核心进行产品设计。"
+    },
+    {
+      "term": "macOS Dock",
+      "definition_en": "The macOS interface area used to access apps and switch between them.",
+      "definition_zh": "macOS 的程序坞，用于访问应用和切换应用。"
+    },
+    {
+      "term": "work trials",
+      "definition_en": "Short practical assignments or work periods used to assess a candidate’s ability.",
+      "definition_zh": "工作试做，通过短期实际任务或工作过程评估候选人的能力。"
+    },
+    {
+      "term": "PST",
+      "definition_en": "Pacific Standard Time, UTC minus eight hours; sometimes used loosely to mean Pacific Time.",
+      "definition_zh": "太平洋标准时间，即 UTC−8；日常表达中有时被宽泛地用来指太平洋时间。"
+    }
+  ],
+  "stats": {
+    "builders": 13,
+    "podcasts": 0,
+    "blogs": 0,
+    "totalTweets": 29,
+    "feedGeneratedAt": "2026-10-28T06:32:16.853Z"
+  }
+}

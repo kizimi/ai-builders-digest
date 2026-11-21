@@ -1,8 +1,11 @@
 #!/usr/bin/env node
 
 // Reads raw feed JSON from prepare-digest.js via stdin.
-// Calls the local Codex CLI (`codex exec`, ChatGPT plan quota) to produce
-// structured enrichment:
+// Calls an LLM CLI to produce structured enrichment. Backend is chosen with
+// LLM_BACKEND:
+//   codex (default) — local Codex CLI (`codex exec`, ChatGPT plan quota)
+//   claude          — `claude -p` (Claude Code; uses the Claude plan credits)
+// Enrichment:
 //   - Per-builder summaries in EN + ZH
 //   - Podcast / blog summaries in EN + ZH
 //   - 5-8 vocabulary words (IPA, POS, definition, synonyms)
@@ -33,6 +36,13 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
 const DATA_DIR = join(PROJECT_ROOT, 'data');
 
+const LLM_BACKEND = (process.env.LLM_BACKEND || 'codex').toLowerCase();
+
+// Claude Code CLI. Sonnet keeps the daily run cheap; override with CLAUDE_MODEL.
+const CLAUDE_BIN = process.env.CLAUDE_BIN || 'claude';
+const CLAUDE_MODEL = process.env.CLAUDE_MODEL || 'sonnet';
+const CLAUDE_FALLBACK_MODEL = process.env.CLAUDE_FALLBACK_MODEL || 'haiku';
+
 // Codex CLI bundled with the ChatGPT desktop app; override with CODEX_BIN.
 const CODEX_BIN = process.env.CODEX_BIN || '/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex';
 const CODEX_MODEL = process.env.CODEX_MODEL || '';   // empty = Codex default model
@@ -47,8 +57,10 @@ async function readStdin() {
   return Buffer.concat(chunks).toString('utf-8');
 }
 
+// DIGEST_DATE overrides; otherwise local date (run-local.sh sets
+// TZ=America/Los_Angeles).
 function todayISO() {
-  return new Date().toLocaleDateString('en-CA'); // YYYY-MM-DD
+  return process.env.DIGEST_DATE || new Date().toLocaleDateString('en-CA'); // YYYY-MM-DD
 }
 
 async function main() {
@@ -86,26 +98,69 @@ async function main() {
     return text.replace(/^```(?:json)?\s*/m, '').replace(/\s*```\s*$/m, '').trim();
   }
 
-  // Codex can return 429 for the default model even with plenty of quota
-  // left; retry on the fallback model, then once more after a long wait.
-  const ATTEMPTS = [
-    { model: CODEX_MODEL,          waitSec: 0 },
-    { model: CODEX_FALLBACK_MODEL, waitSec: 10 },
-    { model: CODEX_FALLBACK_MODEL, waitSec: 180 },
-  ];
+  // Retry: primary model, then the fallback model, then once more after a
+  // long wait (Codex can 429 the default model; Claude can hit overload).
+  const ATTEMPTS = LLM_BACKEND === 'codex'
+    ? [
+        { model: CODEX_MODEL,          waitSec: 0 },
+        { model: CODEX_FALLBACK_MODEL, waitSec: 10 },
+        { model: CODEX_FALLBACK_MODEL, waitSec: 180 },
+      ]
+    : [
+        { model: CLAUDE_MODEL,          waitSec: 0 },
+        { model: CLAUDE_MODEL,          waitSec: 30 },
+        { model: CLAUDE_FALLBACK_MODEL, waitSec: 120 },
+      ];
+  const callOnce = LLM_BACKEND === 'codex' ? callCodexOnce : callClaudeOnce;
+  process.stderr.write(`enhance: LLM backend = ${LLM_BACKEND}\n`);
 
   async function callLLM(systemText, userText) {
     for (let i = 0; ; i++) {
       const { model, waitSec } = ATTEMPTS[i];
       if (waitSec) await new Promise(r => setTimeout(r, waitSec * 1000));
       try {
-        return await callCodexOnce(systemText, userText, model);
+        return await callOnce(systemText, userText, model);
       } catch (err) {
         if (i === ATTEMPTS.length - 1) throw err;
         const next = ATTEMPTS[i + 1];
         process.stderr.write(`enhance: codex call failed (${err.message.slice(0, 200)}) — retrying with ${next.model || 'default model'} in ${next.waitSec}s\n`);
       }
     }
+  }
+
+  // Runs one non-interactive `claude -p` turn with no tools and returns the
+  // reply text. Runs in an empty temp dir so no project CLAUDE.md is loaded.
+  async function callClaudeOnce(systemText, userText, model) {
+    const workDir = await mkdtemp(join(tmpdir(), 'digest-claude-'));
+    const args = ['-p', '--output-format', 'text', '--tools', '',
+                  '--no-session-persistence', '--strict-mcp-config',
+                  '--system-prompt', systemText];
+    if (model) args.push('--model', model);
+    try {
+      const out = await runProcess(CLAUDE_BIN, args, workDir, userText, 'claude -p');
+      const text = out.stdout.trim();
+      if (!text) throw new Error(`empty response from claude: ${out.stderr.slice(-800)}`);
+      return text;
+    } finally {
+      await rm(workDir, { recursive: true, force: true });
+    }
+  }
+
+  function runProcess(bin, args, cwd, stdinText, label) {
+    return new Promise((resolve, reject) => {
+      const child = spawn(bin, args, { cwd, stdio: ['pipe', 'pipe', 'pipe'] });
+      let stdout = '', stderr = '';
+      child.stdout.on('data', d => { stdout += d; });
+      child.stderr.on('data', d => { stderr += d; });
+      const timer = setTimeout(() => { child.kill('SIGTERM'); reject(new Error(`${label} timed out`)); }, CODEX_TIMEOUT_MS);
+      child.on('error', err => { clearTimeout(timer); reject(err); });
+      child.on('close', code => {
+        clearTimeout(timer);
+        if (code === 0) resolve({ stdout, stderr });
+        else reject(new Error(`${label} exited ${code}: ${(stderr || stdout).slice(-800)}`));
+      });
+      child.stdin.end(stdinText);
+    });
   }
 
   // Runs one non-interactive Codex turn and returns its final message.

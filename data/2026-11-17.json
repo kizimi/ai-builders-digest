@@ -1,0 +1,843 @@
+{
+  "date": "2026-11-17",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Reports that Together deleted megkernels. A separate reaction lacks enough context to identify what is being compared.",
+      "summary_zh": "提到 Together 删除了 megkernels。另一条感叹缺少上下文，无法判断具体在比较什么。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2122566522094915765",
+          "text": "together deleted megkernels\n\nhttps://t.co/3mcdXAmmdR",
+          "url": "https://x.com/swyx/status/2122566522094915765",
+          "summary_en": null
+        },
+        {
+          "id": "2122512082835067151",
+          "text": "women are destroying the men, wtf is happening rn https://t.co/KckmQKykvy",
+          "url": "https://x.com/swyx/status/2122512082835067151",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "summary_en": "Shows how Gemini Notebook can turn source material into interactive, shareable sites, using periodic table names as an example.",
+      "summary_zh": "展示了如何用 Gemini Notebook 把资料变成可分享的交互网站，并以元素周期表中的名称为例。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "sources",
+          "ipa": "/ˈsɔːrsɪz/",
+          "definition_zh": "指供工具读取、整理和生成内容的原始资料。",
+          "example_zh": "这里指交给 Gemini Notebook 的参考材料，工具可以把这些材料转成可交互、可分享的网站。"
+        },
+        {
+          "phrase": "interactive sites",
+          "ipa": "",
+          "definition_zh": "指允许用户通过点击等操作探索内容的网站。",
+          "example_zh": "作者以元素周期表名称为例，展示如何把资料制作成用户可以操作和探索的网站。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122514247045496978",
+          "text": "Welcome! Welcome! https://t.co/vJHr1az0rL",
+          "url": "https://x.com/joshwoodward/status/2122514247045496978",
+          "summary_en": null
+        },
+        {
+          "id": "2122453269842886788",
+          "text": "Turn your sources into interactive sites with @Gemini_Notebook - we made one with all the periodic table names. :) These are easy to make, easy to share. https://t.co/7atKNhzskL",
+          "url": "https://x.com/joshwoodward/status/2122453269842886788",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Argues that getting better designs from Claude starts with providing screenshots, reference pages, and previous work upfront. Separately criticizes a statement about Megaspeed for failing to clarify whether laws were violated.",
+      "summary_zh": "认为让 Claude 做出更好的设计，首先要提供截图、参考页面和过往作品。另批评一份涉及 Megaspeed 的声明空洞，没有说清是否违法。",
+      "slang": [
+        {
+          "term": "AI slop",
+          "definition_en": "Low-quality or generic AI-generated content that offers little substance or care.",
+          "definition_zh": "质量低、模板化、缺乏实质内容或用心打磨的 AI 生成内容。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "AI slop",
+          "ipa": "",
+          "definition_zh": "指由 AI 生成、缺乏实质内容或审美质量的低质产物。",
+          "example_zh": "作者用它批评一份没有回答关键问题的声明，也用它形容 Claude 可能生成的低质设计。"
+        },
+        {
+          "phrase": "context upfront",
+          "ipa": "",
+          "definition_zh": "指在任务开始前就提供相关背景和参考信息。",
+          "example_zh": "作者建议先给 Claude 截图、喜欢的页面和过去的作品，让它在设计前理解具体要求。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122558387162652701",
+          "text": "This is like AI slop it literally says nothing? Did Megaspeed violate laws or not? https://t.co/SnFyxhyIBw",
+          "url": "https://x.com/petergyang/status/2122558387162652701",
+          "summary_en": null
+        },
+        {
+          "id": "2122347721298510021",
+          "text": "My top 5 takeaways from @nateparrott on how to get Claude to design without AI slop:\n\n1. Give Claude context upfront.\n\nShare screenshots, pages you like, and your past work. For an existing product, have Claude rebuild the real screens from code.\n\n2. Research familiar UX patterns.\n\nFor hard layout problems, ask Claude to research familiar products that solve something similar and note the layouts people already know how to use.\n\n3. Make Claude aware of its design biases.\n\n\"The model has no idea what its own biases are.\" In your design.md or another file, consider discouraging Claude's tells like serif text, off-white backgrounds, and card-edge bars.\n\n4. Start with wireframes.\n\nHave Claude create wireframes first and give it feedback to nail your core user flows before going deep on fonts and colors.\n\n5. Ask for multiple options, then remix them.\n\nAsk Claude for 5 options for key screens with different fonts, colors, and styles. Then pick the parts you like and ask it to remix and create 5 more options.\n\n📌 Watch the full episode now: https://t.co/HPX5HjXafX\n\nAlso available as a written post: https://t.co/jcofmkQc01",
+          "url": "https://x.com/petergyang/status/2122347721298510021",
+          "summary_en": "To get less generic designs from Claude, provide visual context, research familiar UX patterns, explicitly discourage its design clichés, and refine user flows through wireframes before styling. Generate multiple design options, then remix the strongest elements iteratively."
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "Endorses someone else's judgment and encourages following Jori's example, but the supplied reactions do not reveal the underlying argument.",
+      "summary_zh": "赞同他人的判断，并鼓励向 Jori 学习，但所提供的简短回应没有交代具体观点。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2122438864791110126",
+          "text": "look, a sane person https://t.co/PejOwWp8RZ",
+          "url": "https://x.com/thenanyu/status/2122438864791110126",
+          "summary_en": null
+        },
+        {
+          "id": "2122371754731708883",
+          "text": "Be like jori https://t.co/gnjCetIAS6",
+          "url": "https://x.com/thenanyu/status/2122371754731708883",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "Argues that models will eventually build software factories themselves, making collaborative workspaces for humans and agents a more interesting problem. Shows agent collaboration on a game character as an example.",
+      "summary_zh": "认为模型最终会自行搭建软件工厂，更值得探索的是让人与智能体协作的工作空间，并展示了共同开发游戏角色的例子。",
+      "slang": [
+        {
+          "term": "software factories",
+          "definition_en": "Systems that automate software production through coordinated agents, tools, and workflows.",
+          "definition_zh": "通过智能体、工具和工作流协同，实现软件生产自动化的系统。"
+        },
+        {
+          "term": "agents",
+          "definition_en": "AI systems that use tools and carry out multistep tasks with some autonomy.",
+          "definition_zh": "能够使用工具并自主执行多步骤任务的 AI 系统。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "software factories",
+          "ipa": "",
+          "definition_zh": "指把软件生产流程系统化、自动化的工具体系。",
+          "example_zh": "作者认为模型最终会自己搭建这类软件生产体系，因此更值得研究的是人与智能体如何共同工作。"
+        },
+        {
+          "phrase": "agents",
+          "ipa": "/ˈeɪdʒənts/",
+          "definition_zh": "指能够执行任务、调用工具并参与工作流程的 AI 智能体。",
+          "example_zh": "作者展示与智能体共同制作游戏角色的过程，说明它们可以成为工作空间中的协作伙伴。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122438328079524159",
+          "text": "for example, this is me working with agents on a new character for my game https://t.co/jfWNcszyin",
+          "url": "https://x.com/trq212/status/2122438328079524159",
+          "summary_en": null
+        },
+        {
+          "id": "2122438326431154210",
+          "text": "software factories feel like a temporary problem. the models will learn to build them for you\n\nthe more interesting question to me is how to build a workspace where agents can collaborate with you",
+          "url": "https://x.com/trq212/status/2122438326431154210",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Google Labs",
+      "handle": "GoogleLabs",
+      "summary_en": "Welcomes the Howie team and plans to draw on its scheduling and calendar-management experience to develop more intuitive AI tools.",
+      "summary_zh": "宣布欢迎 Howie 团队加入，并计划借助其在日程安排和日历管理方面的经验，开发更直观易用的 AI 工具。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "calendar management",
+          "ipa": "",
+          "definition_zh": "指对日历中的会议、时间安排和日程冲突进行统筹管理。",
+          "example_zh": "Google Labs 希望借鉴 Howie 团队在日程安排与日历管理上的经验，开发更直观的 AI 工具。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122461899178820069",
+          "text": "We’re excited to welcome Howie to Google Labs! \n\nThe @Howie_ai team has spent years figuring out scheduling and calendar management.  We can’t wait to learn from them as we build the next generation of intuitive AI tools together for small businesses 🤝 https://t.co/8bzjebeGdD",
+          "url": "https://x.com/GoogleLabs/status/2122461899178820069",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "Expresses support in one reaction and sharply condemns an unspecified group in another. Neither provides enough context to identify a substantive claim.",
+      "summary_zh": "一条回应表达支持，另一条强烈批评某个未明确指出的群体。两条内容都缺乏足够上下文，无法提炼具体主张。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2122463916114813249",
+          "text": "💪 https://t.co/OwGRhdeacL",
+          "url": "https://x.com/amasad/status/2122463916114813249",
+          "summary_en": null
+        },
+        {
+          "id": "2122422367557464548",
+          "text": "Deranged cult https://t.co/FmC9L8N1ZL",
+          "url": "https://x.com/amasad/status/2122422367557464548",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Advocates retaining control over AI infrastructure through open tooling, model choice, trace and data ownership, zero data retention, and private inference. Argues that serving agents makes evaluations central to the software development loop.",
+      "summary_zh": "主张通过开放工具、模型选择权、追踪记录与数据所有权、零数据保留和私有推理，掌握 AI 基础设施。认为当用户变成智能体时，评测会成为软件开发迭代的核心。",
+      "slang": [
+        {
+          "term": "harnesses",
+          "definition_en": "Software frameworks that manage a model's tools, execution, and task workflow.",
+          "definition_zh": "管理模型工具调用、执行过程和任务流程的软件框架。"
+        },
+        {
+          "term": "ZDR",
+          "definition_en": "Zero data retention, a policy under which a provider does not retain covered request data.",
+          "definition_zh": "零数据保留，指服务商不留存政策覆盖范围内的请求数据。"
+        },
+        {
+          "term": "evals",
+          "definition_en": "Structured tests used to measure AI behavior and performance.",
+          "definition_zh": "用于衡量 AI 行为和表现的结构化评测。"
+        },
+        {
+          "term": "private inference",
+          "definition_en": "Running model requests in a controlled environment with restricted access to data and computation.",
+          "definition_zh": "在受控环境中运行模型请求，限制对数据和计算过程的访问。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "harnesses",
+          "ipa": "/ˈhɑːrnɪsɪz/",
+          "definition_zh": "指围绕模型组织工具调用、执行流程和运行控制的软件框架。",
+          "example_zh": "作者建议采用开放的智能体运行框架，以便掌握 AI 基础设施的选择权和控制权。"
+        },
+        {
+          "phrase": "private inference",
+          "ipa": "",
+          "definition_zh": "指在私有或受控环境中运行模型并生成结果。",
+          "example_zh": "作者把私有推理列为掌控模型的一种方式，与掌握数据、调用记录和模型选择权并列。"
+        },
+        {
+          "phrase": "evals",
+          "ipa": "/ɪˈvælz/",
+          "definition_zh": "指用于衡量 AI 系统表现的评估测试，是 evaluations 的行业简称。",
+          "example_zh": "作者认为当软件用户变成智能体时，评估结果会成为指导软件开发迭代的重要依据。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122458782294847807",
+          "text": "Own your intelligence roadmap:\n① Use open SDKs &amp; harnesses\n② Own model choice with Gateways\n③ Own your traces and data, enforce ZDR\n④ Own your models with private inference https://t.co/4Y1dyKDxlm",
+          "url": "https://x.com/rauchg/status/2122458782294847807",
+          "summary_en": null
+        },
+        {
+          "id": "2122415506451841215",
+          "text": "The old way: users are human, you run user interviews, get inspired, mock up user journeys.\n\nThe new way: users are agents, you run evals, evals inform the software engineering loop.\n\nGood read on how we do evals at Vercel. https://t.co/zkre5Qbohe",
+          "url": "https://x.com/rauchg/status/2122415506451841215",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Observes continued growth in token spending per employee and argues that AI usage and adoption are still early in their expansion.",
+      "summary_zh": "观察到人均 token 支出持续增长，并认为 AI 使用量和普及程度仍处于扩张早期。",
+      "slang": [
+        {
+          "term": "token spend",
+          "definition_en": "Spending on model usage measured through units of text or other content processed or generated.",
+          "definition_zh": "按模型处理或生成的文本等内容单位计算的使用支出。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "token spend per employee",
+          "ipa": "",
+          "definition_zh": "指平均每位员工使用 AI token 所产生的支出。",
+          "example_zh": "作者用人均 token 支出持续上升的现象，表达自己对 AI 使用和普及仍处早期阶段的判断。"
+        },
+        {
+          "phrase": "no ceiling in sight",
+          "ipa": "",
+          "definition_zh": "指暂时看不到增长的上限。",
+          "example_zh": "这里形容人均 token 支出的增长趋势尚未显露触顶迹象，并非证明它可以无限增长。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122508098351038532",
+          "text": "The chart of token spend per employee still has no ceiling in sight. And the closer you are to AI right now the deeper the sense is that we’re actually still in the early part of the curve of token use and adoption. \n\nThis summer and fall’s model releases have continued to push the state of the art forward at a rate that already felt hard to maintain. As a result, for most productive use-cases the models are only now starting to actually work, and the feeling is that things will only accelerate from here.\n\nCoding, in retrospect, was basically trash even 12 months ago. Now it’s finally starting to get good. And now that coding is actually working, you’re getting tool and computer use, which open up a wide variety of knowledge work domains that weren’t possible to throw agents at before.\n\nOnce you have agents that can code, use computers, leverage any tool out there, and understand a variety of domains, you can begin to throw them at a wide variety of knowledge work tasks that were hard to bring automation to across finance, life sciences, cyber, and more. So that brings agents to a broad set of work that we’re not really using them in yet at scale. \n\nThen comes the new form factors of agents. Agent swarms and background agents are going to eat up vastly more tokens than anything we can imagine. You’ll have agents running in most enterprises workflows processing data, validating work, doing research, providing decision support, and so on. And we’ll have swarms that fan out in parallel in areas like cyber, life sciences, coding, and more.\n\nSo basically tokens are only going up from here.",
+          "url": "https://x.com/levie/status/2122508098351038532",
+          "summary_en": "AI token consumption is likely to keep rising as improving coding, tool use, and computer use make agents practical across more knowledge work. Background agents and parallel swarms could multiply demand as enterprises deploy them for research, validation, data processing, and decision support."
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "Plans a Rust backend for GBrain to replace its existing database layer for vector search, graph search, and embeddings. Says the hosted version already supports combining individual memories into team and company knowledge.",
+      "summary_zh": "计划为 GBrain 开发 Rust 后端，替换现有数据库层，承载向量搜索、图搜索和嵌入数据。表示托管版本已支持将个人记忆汇总为团队和公司知识。",
+      "slang": [
+        {
+          "term": "software factory",
+          "definition_en": "An automated system for producing software using agents and development tools.",
+          "definition_zh": "利用智能体和开发工具自动生产软件的系统。"
+        },
+        {
+          "term": "embeddings",
+          "definition_en": "Numerical representations of content used for similarity search and other machine-learning tasks.",
+          "definition_zh": "将内容表示为数值向量，用于相似度搜索等机器学习任务。"
+        },
+        {
+          "term": "company brain",
+          "definition_en": "A metaphor for shared organizational knowledge and memory accessible to AI systems.",
+          "definition_zh": "对组织共享知识与记忆的比喻，通常供 AI 系统检索和使用。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "vector search",
+          "ipa": "",
+          "definition_zh": "指通过比较数据向量的相似程度来检索相关内容。",
+          "example_zh": "GBrain 计划用 Rust 编写的新后端替换现有存储层，向量搜索是它需要支持的能力之一。"
+        },
+        {
+          "phrase": "embeddings",
+          "ipa": "/ɪmˈbedɪŋz/",
+          "definition_zh": "指将文本等数据编码成可用于计算和检索的数值向量表示。",
+          "example_zh": "作者将嵌入向量与向量搜索、图搜索并列，说明新后端需要承载这些数据与相关功能。"
+        },
+        {
+          "phrase": "out of the box",
+          "ipa": "",
+          "definition_zh": "指产品默认就具备某项能力，无须额外开发。",
+          "example_zh": "作者说 GBrain 托管版原生支持把员工个人记忆汇总成团队和公司层面的知识。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122576951080792543",
+          "text": "Fun project for GBrain coming in the next few weeks using Vorflux as my software factory: GBrain backend engine written in Rust\n\nThis will replace postgres+pgvector or pglite as the backing store for vector search, graph search, embeddings, RAG and HNSW",
+          "url": "https://x.com/garrytan/status/2122576951080792543",
+          "summary_en": null
+        },
+        {
+          "id": "2122517681740124271",
+          "text": "If you want individual employee brains rolling up into team brains and then a top level company brain, GBrain's Hosted option supports it out of the box \n\nMemory works the way you want it to\n\nhttps://t.co/3z3j2G3Oyl https://t.co/myV5KlcvmK",
+          "url": "https://x.com/garrytan/status/2122517681740124271",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Frames 2026's AI infrastructure competition as a rapid shift from vibe coding to harnesses, sandboxes, and agentic CI. Anticipates disruptive infrastructure upheaval while expressing solidarity with the teams operating it.",
+      "summary_zh": "将 2026 年的 AI 基础设施竞争概括为从氛围编程快速转向智能体框架、沙箱和智能体驱动的持续集成。预期基础设施会经历剧烈变化，并向运维团队表达支持。",
+      "slang": [
+        {
+          "term": "vibe coding",
+          "definition_en": "Building software by prompting AI and iterating on its output, often with limited attention to the underlying code.",
+          "definition_zh": "通过提示 AI 并反复调整结果来开发软件，通常较少深入检查底层代码。"
+        },
+        {
+          "term": "harnesses",
+          "definition_en": "Frameworks that coordinate an AI model's tools, execution, and workflow.",
+          "definition_zh": "协调 AI 模型工具调用、执行和工作流的框架。"
+        },
+        {
+          "term": "sandboxes",
+          "definition_en": "Isolated environments where code or agents can run with controlled access.",
+          "definition_zh": "让代码或智能体在受控权限下运行的隔离环境。"
+        },
+        {
+          "term": "Agentic CI",
+          "definition_en": "Continuous integration workflows in which AI agents perform development, testing, or repair tasks.",
+          "definition_zh": "由 AI 智能体执行开发、测试或修复任务的持续集成流程。"
+        },
+        {
+          "term": "Hugops",
+          "definition_en": "An expression of sympathy and support for teams handling operational incidents.",
+          "definition_zh": "向处理系统故障和运维事件的团队表达理解与支持。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Vibe coding",
+          "ipa": "",
+          "definition_zh": "指主要通过自然语言引导 AI 生成和修改代码的编程方式。",
+          "example_zh": "作者把它列为第一季度的代表性热点，用来概括 AI 基础设施关注点的快速变化。"
+        },
+        {
+          "phrase": "Agentic CI",
+          "ipa": "",
+          "definition_zh": "指让 AI 智能体参与或自主执行持续集成流程。",
+          "example_zh": "作者将它列为第四季度的热点，暗示智能体正从写代码扩展到构建、测试等工程流程。"
+        },
+        {
+          "phrase": "Hugops",
+          "ipa": "/ˈhʌɡɑːps/",
+          "definition_zh": "指技术社区对承受故障或运维压力的团队表达支持和慰问。",
+          "example_zh": "作者预想基础设施将经历剧烈动荡，随后用这个词向各家基础设施公司表达支持。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122543500814336281",
+          "text": "2026 infra wars in a nutshell..\n\nVibe coding in Q1 \nHarnesses in Q2 \nSandboxes in Q3 \nAgentic CI in Q4\n\nMore providers than I can keep track of. \n\nAny guesses for what comes next?",
+          "url": "https://x.com/nikunj/status/2122543500814336281",
+          "summary_en": null
+        },
+        {
+          "id": "2122490852497125485",
+          "text": "Like a phoenix, we’re going to see the entire internet burn down to emerge stronger on the other side. \n\nHugops to every single infra company 🙏 https://t.co/hkGgv2hmcZ",
+          "url": "https://x.com/nikunj/status/2122490852497125485",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "summary_en": "Criticizes additional macOS permission alerts as friction for agent workflows that already require frequent human supervision.",
+      "summary_zh": "批评 macOS 新增权限警告，认为这进一步增加了智能体工作流的阻力，而此类流程本就需要人频繁介入。",
+      "slang": [
+        {
+          "term": "babysitting",
+          "definition_en": "Repeatedly supervising or intervening in a system that is expected to work autonomously.",
+          "definition_zh": "对原本预期自主运行的系统进行反复监督或人工干预。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "permission alerts",
+          "ipa": "",
+          "definition_zh": "指系统要求用户确认应用访问权限时弹出的提示。",
+          "example_zh": "作者批评 macOS 增加权限提示，因为频繁确认会打断智能体的自动工作流程。"
+        },
+        {
+          "phrase": "babysitting",
+          "ipa": "/ˈbeɪbisɪtɪŋ/",
+          "definition_zh": "在技术语境中比喻持续盯着系统运行并频繁人工干预。",
+          "example_zh": "这里指用户必须不断替智能体处理权限弹窗，难以让它独立完成任务。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122463466304971068",
+          "text": "People: Please reduce the number of permission alerts so agents can work on macOS without constant babysitting\n\nApple: I hear you, here’s some new scary alerts https://t.co/Saw8ftcNNW",
+          "url": "https://x.com/steipete/status/2122463466304971068",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Proposes ranking feeds by how much AI computation a piece of content generates, using agents' reported token usage as a signal of value for human and agent readers.",
+      "summary_zh": "提出按内容引发的 AI 计算量为信息流排序，用智能体报告的 token 消耗作为内容对人和智能体读者价值的信号。",
+      "slang": [
+        {
+          "term": "proof of work",
+          "definition_en": "Here, a proposed ranking signal based on computation spent engaging with content.",
+          "definition_zh": "此处指以处理内容所投入的计算量作为排序依据的设想。"
+        },
+        {
+          "term": "tokens",
+          "definition_en": "Units of content processed or generated by AI models, commonly used to measure usage.",
+          "definition_zh": "AI 模型处理或生成内容的单位，常用于衡量使用量。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "proof of work",
+          "ipa": "",
+          "definition_zh": "原指用计算投入提供证明的机制，这里借指内容引发的 AI 计算投入。",
+          "example_zh": "作者设想用智能体围绕某篇内容消耗的 token 数量作为排序信号，借此衡量内容价值。"
+        },
+        {
+          "phrase": "tokens",
+          "ipa": "/ˈtoʊkənz/",
+          "definition_zh": "指语言模型处理内容时使用的基本计量单位。",
+          "example_zh": "作者提议让智能体报告处理某篇内容所用的 token 数，再据此调整信息流排名。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122541401804054826",
+          "text": "musing:\n\nwhat if the best way to rank a feed in the AI age is proof of work. \n\nallow agents to report how many tokens they’ve used based on a piece of content, and use that to rank it on a feed that humans and agents read \n\nhttps://t.co/HoJvzKELBP https://t.co/ZJe1gZMFbM",
+          "url": "https://x.com/danshipper/status/2122541401804054826",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "Argues that integrating AI close to silicon will be critical for many hardtech applications. Points to BharatSem as evidence supporting the feasibility of semiconductor development in India.",
+      "summary_zh": "认为对许多硬科技应用而言，让 AI 更贴近芯片底层至关重要。以 BharatSem 为例，支持印度具备发展半导体能力的判断。",
+      "slang": [
+        {
+          "term": "hardtech",
+          "definition_en": "Technology businesses built around difficult physical engineering, hardware, or scientific advances.",
+          "definition_zh": "以高难度实体工程、硬件或科学突破为基础的技术与企业。"
+        },
+        {
+          "term": "close to the silicon",
+          "definition_en": "Integrating capabilities near the chip or hardware layer rather than only in application software.",
+          "definition_zh": "将能力集成到接近芯片或硬件的层面。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "silicon",
+          "ipa": "/ˈsɪlɪkən/",
+          "definition_zh": "本义是硅，在科技语境中常代指芯片及底层硬件。",
+          "example_zh": "作者主张把 AI 尽可能贴近芯片层集成，认为这对许多硬科技应用至关重要。"
+        },
+        {
+          "phrase": "hardtech",
+          "ipa": "/ˈhɑːrdtek/",
+          "definition_zh": "指依赖实体硬件、工程研发或科学突破的技术领域。",
+          "example_zh": "作者讨论的是需要与底层硬件紧密结合的 AI 应用，并以半导体开发为相关例子。"
+        },
+        {
+          "phrase": "semi-conductors",
+          "ipa": "/ˌsemi kənˈdʌktərz/",
+          "definition_zh": "指用于制造芯片等电子器件的半导体材料或相关器件。",
+          "example_zh": "作者认为印度能够发展半导体，并把 BharatSem 视为反驳外界质疑的实践证据。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2122386960862056629",
+          "text": "https://t.co/XnkC6s7c5A",
+          "url": "https://x.com/adityaag/status/2122386960862056629",
+          "summary_en": null
+        },
+        {
+          "id": "2122386958101959118",
+          "text": "Two thoughts:\n1/ Embedding AI as close to the silicon as possible will be critical for a lot of hardtech.\n2/ We can build semi-conductors in India. People said it wasn’t possible. We are proving them wrong.\n\nWe’re excited to lead @BharatSemi_'s $24M seed round with Redstart Ventures and IndusBridge. \n\nOnwards.",
+          "url": "https://x.com/adityaag/status/2122386958101959118",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "summary_en": "Introduces a discussion with Mihail Eric about AI-native software development practices taught in a Stanford course. The supplied excerpt ends before the substantive discussion, so it does not establish specific techniques or conclusions.",
+      "summary_zh": "引出与 Mihail Eric 关于斯坦福课程所教授的 AI 原生软件开发实践的讨论。所提供片段在实质讨论前结束，尚无法提炼具体方法或结论。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "upfront",
+      "ipa": "/ˌʌpˈfrʌnt/",
+      "pos": "adv",
+      "definition_en": "At the beginning, before other work takes place.",
+      "definition_zh": "预先；一开始就",
+      "synonyms": [
+        "beforehand",
+        "in advance"
+      ],
+      "example_en": "Give the agent your design requirements upfront.",
+      "example_zh": "一开始就把设计要求告诉智能体。"
+    },
+    {
+      "word": "bias",
+      "ipa": "/ˈbaɪəs/",
+      "pos": "noun",
+      "definition_en": "A tendency to favor particular choices or perspectives, sometimes without awareness.",
+      "definition_zh": "偏见；偏向；有时未被察觉的倾向",
+      "synonyms": [
+        "inclination",
+        "partiality"
+      ],
+      "example_en": "The model's design bias led it to choose the same layout repeatedly.",
+      "example_zh": "模型的设计偏向让它反复选择同一种布局。"
+    },
+    {
+      "word": "wireframe",
+      "ipa": "/ˈwaɪərfreɪm/",
+      "pos": "noun",
+      "definition_en": "A simplified visual plan showing an interface's structure and placement of elements.",
+      "definition_zh": "线框图；展示界面结构和元素位置的简化设计图",
+      "synonyms": [
+        "layout sketch",
+        "interface blueprint"
+      ],
+      "example_en": "We reviewed the wireframe before choosing fonts and colors.",
+      "example_zh": "我们先审查了线框图，再选择字体和颜色。"
+    },
+    {
+      "word": "remix",
+      "ipa": "/ˌriːˈmɪks/",
+      "pos": "verb",
+      "definition_en": "To create a new version by changing or combining elements of existing work.",
+      "definition_zh": "重新组合；通过改动或融合现有元素创造新版本",
+      "synonyms": [
+        "rework",
+        "recombine"
+      ],
+      "example_en": "Remix the strongest elements from these five designs.",
+      "example_zh": "把这五个设计中最出色的元素重新组合起来。"
+    },
+    {
+      "word": "serif",
+      "ipa": "/ˈserɪf/",
+      "pos": "noun",
+      "definition_en": "A small finishing stroke at the end of a letter's main stroke in some typefaces.",
+      "definition_zh": "衬线；某些字体中字母主要笔画末端的小装饰笔画",
+      "synonyms": [
+        "finishing stroke"
+      ],
+      "example_en": "This typeface has a small serif at the end of each main stroke.",
+      "example_zh": "这种字体的每个主要笔画末端都有一小段衬线。"
+    },
+    {
+      "word": "tell",
+      "ipa": "/tel/",
+      "pos": "noun",
+      "definition_en": "A revealing sign that gives away something's origin or someone's hidden state.",
+      "definition_zh": "暴露来源或隐藏状态的迹象；破绽",
+      "synonyms": [
+        "giveaway",
+        "clue"
+      ],
+      "example_en": "The repeated decorative bars became a tell of AI-generated design.",
+      "example_zh": "反复出现的装饰条成了暴露 AI 生成设计的明显迹象。"
+    },
+    {
+      "word": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "pos": "noun",
+      "definition_en": "An important idea or lesson to remember from something.",
+      "definition_zh": "要点；值得记住的收获或启示",
+      "synonyms": [
+        "key point",
+        "lesson"
+      ],
+      "example_en": "My biggest takeaway was to test the user flow early.",
+      "example_zh": "我最大的收获是要尽早测试用户操作流程。"
+    },
+    {
+      "word": "interactive",
+      "ipa": "/ˌɪntərˈæktɪv/",
+      "pos": "adj",
+      "definition_en": "Allowing users to take actions and receive responses.",
+      "definition_zh": "交互式的；允许用户操作并获得反馈的",
+      "synonyms": [
+        "responsive",
+        "participatory"
+      ],
+      "example_en": "They turned their research sources into an interactive site.",
+      "example_zh": "他们把研究资料转化成了一个交互式网站。"
+    }
+  ],
+  "quote": {
+    "text_en": "Build something small, learn from it, and make the next version better.",
+    "text_zh": "先做出一个小成果，从中学习，再让下一个版本更好。",
+    "author": "Original quote"
+  },
+  "slang_glossary": [
+    {
+      "term": "AI slop",
+      "definition_en": "A derogatory term for low-quality, generic, or meaningless AI-generated content.",
+      "definition_zh": "对低质量、套路化或言之无物的 AI 生成内容的贬称。"
+    },
+    {
+      "term": "software factory",
+      "definition_en": "A system that organizes and automates software production, increasingly using AI agents.",
+      "definition_zh": "将软件生产流程系统化、自动化的体系，如今常包含 AI 智能体。"
+    },
+    {
+      "term": "agents",
+      "definition_en": "AI systems that pursue tasks by taking steps and using tools with some autonomy.",
+      "definition_zh": "能够自主执行步骤、调用工具并推进任务的 AI 智能体。"
+    },
+    {
+      "term": "harnesses",
+      "definition_en": "The surrounding software that runs, controls, equips, or evaluates a model or agent.",
+      "definition_zh": "用于运行、控制、配置或评估模型及智能体的外围软件框架。"
+    },
+    {
+      "term": "ZDR",
+      "definition_en": "Zero Data Retention, a policy under which a provider does not retain specified customer data after processing, subject to its terms.",
+      "definition_zh": "Zero Data Retention 的缩写，即零数据保留，具体涵盖的数据和条件取决于服务条款。"
+    },
+    {
+      "term": "evals",
+      "definition_en": "Short for evaluations, meaning tests used to measure model or agent performance.",
+      "definition_zh": "evaluations 的简称，指衡量模型或智能体表现的评测。"
+    },
+    {
+      "term": "private inference",
+      "definition_en": "Running model predictions or generation with protections for the privacy of inputs and outputs.",
+      "definition_zh": "在保护输入和输出隐私的条件下执行模型推理或生成。"
+    },
+    {
+      "term": "token spend",
+      "definition_en": "The volume or cost of tokens consumed while using AI models.",
+      "definition_zh": "使用 AI 模型时消耗的 token 数量或相应费用。"
+    },
+    {
+      "term": "embeddings",
+      "definition_en": "Numerical vector representations that encode useful properties or relationships of data.",
+      "definition_zh": "将数据的特征或关系编码为数值向量的表示，常用于语义搜索和相似度计算。"
+    },
+    {
+      "term": "company brain",
+      "definition_en": "An informal name for a shared knowledge system that makes a company's information accessible, often through AI.",
+      "definition_zh": "对企业共享知识系统的形象说法，通常借助 AI 组织和检索公司信息。"
+    },
+    {
+      "term": "vibe coding",
+      "definition_en": "An informal approach to building software by prompting AI and iterating on its output, often with limited inspection of the code.",
+      "definition_zh": "通过自然语言指挥 AI 写代码并持续试改的开发方式，使用者往往较少深入检查代码。"
+    },
+    {
+      "term": "sandboxes",
+      "definition_en": "Isolated environments for running code with controlled access to other resources.",
+      "definition_zh": "沙箱；用于执行代码并限制其访问其他资源的隔离环境。"
+    },
+    {
+      "term": "Agentic CI",
+      "definition_en": "Continuous integration workflows in which AI agents perform tasks such as investigating failures or proposing fixes.",
+      "definition_zh": "引入 AI 智能体执行故障调查、提出修复方案等任务的持续集成流程。"
+    },
+    {
+      "term": "Hugops",
+      "definition_en": "An expression of sympathy and support for operations teams handling outages or incidents.",
+      "definition_zh": "向正在处理宕机或事故的运维团队表达理解和支持的网络用语。"
+    },
+    {
+      "term": "babysitting",
+      "definition_en": "Informally, repeatedly supervising a system and intervening to keep it working.",
+      "definition_zh": "在技术语境中指反复盯着系统运行，并不断介入处理问题。"
+    },
+    {
+      "term": "proof of work",
+      "definition_en": "Depending on context, visible evidence of completed effort or a blockchain mechanism requiring computational work.",
+      "definition_zh": "可指证明实际付出或成果的材料，也可指区块链中的工作量证明机制，含义取决于上下文。"
+    },
+    {
+      "term": "tokens",
+      "definition_en": "Units into which a model divides text or other inputs and outputs for processing.",
+      "definition_zh": "模型处理输入和输出时使用的基本单位，文本 token 可以是一个字、词或词的一部分。"
+    },
+    {
+      "term": "hardtech",
+      "definition_en": "Technology businesses centered on substantial physical engineering, hardware, or scientific development.",
+      "definition_zh": "以实体工程、硬件或科学研发为核心，通常需要较长研发周期的硬科技。"
+    },
+    {
+      "term": "close to the silicon",
+      "definition_en": "Working near the hardware level, with attention to chip behavior and low-level performance.",
+      "definition_zh": "贴近芯片和硬件底层开展工作，关注底层机制与性能。"
+    },
+    {
+      "term": "wtf",
+      "definition_en": "A vulgar abbreviation of what the fuck, expressing shock, confusion, or anger.",
+      "definition_zh": "what the fuck 的粗俗缩写，用来表达震惊、困惑或愤怒。"
+    },
+    {
+      "term": "rn",
+      "definition_en": "A texting abbreviation for right now.",
+      "definition_zh": "right now 的聊天缩写，意为「现在」或「此刻」。"
+    },
+    {
+      "term": "gcal",
+      "definition_en": "An informal abbreviation for Google Calendar.",
+      "definition_zh": "Google Calendar，即谷歌日历的非正式简称。"
+    },
+    {
+      "term": "cal",
+      "definition_en": "An informal shortening of calendar, sometimes referring to a calendar event or invitation.",
+      "definition_zh": "calendar 的非正式简写，有时也指日历事项或会议邀请。"
+    },
+    {
+      "term": "UX patterns",
+      "definition_en": "Established interaction and interface solutions that users recognize from other products.",
+      "definition_zh": "用户在其他产品中已经熟悉的交互与界面设计模式，UX 是用户体验的缩写。"
+    },
+    {
+      "term": "wireframes",
+      "definition_en": "Simplified interface sketches used to plan structure before detailed visual styling.",
+      "definition_zh": "线框图；在细化视觉样式之前规划界面结构的简化草图。"
+    },
+    {
+      "term": "user flows",
+      "definition_en": "The sequences of steps users take to complete tasks in a product.",
+      "definition_zh": "用户在产品中完成某项任务所经历的一系列操作步骤。"
+    },
+    {
+      "term": "tells",
+      "definition_en": "Recognizable signs that reveal a creator, source, or recurring tendency.",
+      "definition_zh": "能够暴露创作者、来源或惯常倾向的特征；文中指容易辨认的 AI 设计痕迹。"
+    },
+    {
+      "term": "serif text",
+      "definition_en": "Text set in a typeface with small finishing strokes on its letters.",
+      "definition_zh": "使用衬线字体排版的文字，字母主要笔画末端带有小装饰笔画。"
+    },
+    {
+      "term": "card-edge bars",
+      "definition_en": "Decorative or functional strips placed along the edges of interface cards.",
+      "definition_zh": "放在界面卡片边缘、起装饰或提示作用的条形元素。"
+    },
+    {
+      "term": "nail",
+      "definition_en": "Informally, to execute or get something exactly right.",
+      "definition_zh": "口语中指把某件事做好、做准或做到位。"
+    }
+  ],
+  "stats": {
+    "builders": 14,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 29,
+    "feedGeneratedAt": "2026-11-17T06:29:04.786Z"
+  }
+}
