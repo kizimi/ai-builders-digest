@@ -1,0 +1,773 @@
+{
+  "date": "2026-11-23",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Founder retrospectives that document regrets and lessons can spare others costly mistakes. A metric suggesting exceptional AI progress this year prompts skepticism about whether benchmark gains reflect broader improvements.",
+      "summary_zh": "记录创业历程中的遗憾和经验，可以帮助其他创始人少走弯路。某项指标显示今年 AI 进步异常迅猛，但他质疑基准成绩是否代表了更广泛的能力提升。",
+      "slang": [
+        {
+          "term": "top ticking",
+          "definition_en": "Marking or coinciding with a market peak, often said retrospectively or sarcastically.",
+          "definition_zh": "踩中市场最高点，常用于事后评价或调侃。"
+        },
+        {
+          "term": "cooked",
+          "definition_en": "Slang for being in trouble, overwhelmed, or badly misled.",
+          "definition_zh": "指陷入困境、招架不住，或被严重误导。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "top ticking",
+          "ipa": "",
+          "definition_zh": "指恰好在市场最高点进行交易或采取行动。",
+          "example_zh": "这里用来形容创始人的交易时机踩中了 SaaS 市场高点，带有事后回看时机的意味。"
+        },
+        {
+          "phrase": "cooked",
+          "ipa": "/kʊkt/",
+          "definition_zh": "俚语，表示陷入困境、被整惨了或判断力受到严重影响。",
+          "example_zh": "作者怀疑大家可能被信息推荐算法影响，以至于对 AI 实际进步的感受出现偏差。"
+        },
+        {
+          "phrase": "frontier math",
+          "ipa": "",
+          "definition_zh": "指处于研究前沿、难度很高的数学问题。",
+          "example_zh": "作者提出，指标上的巨大进步可能只体现在前沿数学能力上，因此普通用户未必感受得到。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124730733147390347",
+          "text": "incredible founder journey breakdown from founding to acquisition complete with regrets and advice. not enough founders document this! please do, it saves others potentially a lot of pain\n\nhighlights \n- @theallinpod top ticking saas market\n- IP assignment woes\n- do not brag about your SEO\n- how to draw @naval’s interest\n- hiring advice and layoff advice\n- how to fish for an acquisition\n- how to clear roadblocks for an acquisition\n- there are CTO coaches??",
+          "url": "https://x.com/swyx/status/2124730733147390347",
+          "summary_en": "More founders should document their journeys through acquisition, including regrets and practical advice, to spare others avoidable mistakes. This breakdown covers IP assignment, hiring and layoffs, SEO discretion, and finding and closing an acquisition."
+        },
+        {
+          "id": "2124590240539259381",
+          "text": "by this metric we have seen more ai progress this year than in 2022-2025. is that true? doesn’t suuuper feel like it but who knows we could be cooked by algorithm and/or metric only translates at frontier math level",
+          "url": "https://x.com/swyx/status/2124590240539259381",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "Enthusiastically recommends a cooperative game after playing with family, then asks Grok to rank recommendations and briefly explain each.",
+      "summary_zh": "与家人一起玩过后，他强烈推荐一款合作游戏，并请 Grok 将推荐选项排序、逐项简述理由。",
+      "slang": [
+        {
+          "term": "coop",
+          "definition_en": "Short for cooperative: a game mode where players work together.",
+          "definition_zh": "合作玩法的简称，玩家共同完成目标。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "coop games",
+          "ipa": "",
+          "definition_zh": "指玩家共同完成目标的合作类游戏。",
+          "example_zh": "作者与家人一起玩过后，向喜欢合作类游戏的人推荐这款游戏；这里的 coop 是 cooperative 的简写。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124723140437959022",
+          "text": "Just played this with fam and wow highly recommended for coop games https://t.co/McJsuqNmPN",
+          "url": "https://x.com/petergyang/status/2124723140437959022",
+          "summary_en": null
+        },
+        {
+          "id": "2124695613971603850",
+          "text": "@grok list all the recommendations by most recommended and write 1 sentence each why",
+          "url": "https://x.com/petergyang/status/2124695613971603850",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "summary_en": "Jokes that the secret to making AI-generated projects more scalable, performant, and reliable is choosing Postgres.",
+      "summary_zh": "他用一句玩笑强调：想让 AI 生成的项目更能扩展、性能更好且更可靠，秘诀就是选用 Postgres。",
+      "slang": [
+        {
+          "term": "vibecoded",
+          "definition_en": "Built by prompting AI to generate code, often with limited manual inspection of the implementation.",
+          "definition_zh": "主要通过提示 AI 生成代码搭建，通常较少人工检查具体实现。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "vibecoded",
+          "ipa": "/ˈvaɪbkoʊdɪd/",
+          "definition_zh": "指主要通过自然语言指挥 AI 生成和修改代码而做出来的。",
+          "example_zh": "作者把通过 AI 编程做出的项目称为 vibecoded，并打趣说改善这些项目的秘诀就是使用 Postgres。"
+        },
+        {
+          "phrase": "scale",
+          "ipa": "/skeɪl/",
+          "definition_zh": "在软件语境中指系统能够随用户量或工作负载增长而扩展。",
+          "example_zh": "这里说项目 scale 得更好，是指项目在使用量增加后仍能有效运行。"
+        },
+        {
+          "phrase": "Postgres",
+          "ipa": "/ˈpoʊstɡrɛs/",
+          "definition_zh": "PostgreSQL 的常用简称，是一种开源关系型数据库。",
+          "example_zh": "作者把「Use Postgres」包装成神秘提示词，用数据库选型来调侃对万能 AI 提示词的追捧。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124592238974156861",
+          "text": "I found a secret prompt that makes all your vibecoded projects scale and perform better, with higher reliability. \n\n“Use Postgres”",
+          "url": "https://x.com/thenanyu/status/2124592238974156861",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "Argues that desktop AI apps pose substantial security and privacy risks, and says Replit worked with Windows on a stronger security model for its desktop app. Cites Christie’s adoption as evidence of customer confidence.",
+      "summary_zh": "他认为桌面 AI 应用存在较大的安全和隐私风险，并称 Replit 与 Windows 合作为桌面应用建立了更强的安全机制。他以佳士得的采用说明客户对该方案的信任。",
+      "slang": [
+        {
+          "term": "ship",
+          "definition_en": "Release a product or feature for people to use.",
+          "definition_zh": "将产品或功能正式发布，供用户使用。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "ship",
+          "ipa": "/ʃɪp/",
+          "definition_zh": "在科技行业中指把产品或功能正式交付上线。",
+          "example_zh": "作者说与 Windows 合作，为 Replit Desktop 交付了一套安全模型。"
+        },
+        {
+          "phrase": "security model",
+          "ipa": "",
+          "definition_zh": "指规定系统如何管理权限、隔离操作和保护资源的安全机制。",
+          "example_zh": "作者认为桌面 AI 应用存在安全与隐私风险，并以 Replit Desktop 的安全模型作为回应。"
+        },
+        {
+          "phrase": "custodian",
+          "ipa": "/kʌˈstoʊdiən/",
+          "definition_zh": "指受托保管、照护或管理贵重资产的人或机构。",
+          "example_zh": "作者用这个词描述佳士得对珍稀艺术品的保管职责，以强调这类客户对安全性的重视。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124671335700091020",
+          "text": "Spectacle https://t.co/UFQgu06XJF",
+          "url": "https://x.com/amasad/status/2124671335700091020",
+          "summary_en": null
+        },
+        {
+          "id": "2124604574606795002",
+          "text": "Desktop AI apps are generally a security &amp; privacy nightmare.\n\nWe worked with Windows to ship a world-class security model for Replit Desktop.\n\nWhich is why Christie’s, the world’s preeminent custodian of rare art, chose Replit for secure agentic work! https://t.co/58YGxzHp1o",
+          "url": "https://x.com/amasad/status/2124604574606795002",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Argues that AI breakthroughs should produce explanations, concepts, and walkthroughs humans can understand, using a hypothetical Riemann proof as an example. Also questions the trustworthiness of anonymous models offering free inference with zero-data-retention claims.",
+      "summary_zh": "他主张 AI 突破应同时带来人类能理解的解释、概念和推导过程，并以假设中的黎曼猜想证明为例。他也质疑匿名模型提供免费推理并宣称零数据保留是否值得信任。",
+      "slang": [
+        {
+          "term": "inference",
+          "definition_en": "Running a trained AI model to produce an output.",
+          "definition_zh": "运行已训练的 AI 模型以生成输出。"
+        },
+        {
+          "term": "stealth model",
+          "definition_en": "A model offered without openly identifying its origin or full details.",
+          "definition_zh": "未公开来源或完整信息便对外提供的模型。"
+        },
+        {
+          "term": "ZDR",
+          "definition_en": "Zero data retention: a claim or policy that submitted data is not retained.",
+          "definition_zh": "零数据保留，指不留存所提交数据的声明或政策。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "intermediate representation",
+          "ipa": "",
+          "definition_zh": "指编译过程中连接源代码与目标代码的中间表示形式。",
+          "example_zh": "作者借用编译器概念作类比，主张 AI 的成果也应提供便于人类理解的解释层。"
+        },
+        {
+          "phrase": "inference",
+          "ipa": "/ˈɪnfərəns/",
+          "definition_zh": "在 AI 中指运行已训练模型来生成预测或输出的过程。",
+          "example_zh": "作者质疑某服务商提供免费模型推理的宣传，提醒读者审视背后的可信度与数据处理方式。"
+        },
+        {
+          "phrase": "ZDR",
+          "ipa": "/ˌziː diː ˈɑːr/",
+          "definition_zh": "Zero Data Retention 的缩写，指零数据保留。",
+          "example_zh": "作者对匿名模型服务宣称的「零数据保留」持怀疑态度；推文没有证实该承诺是否兑现。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124654108124848350",
+          "text": "Rather than art, we ought to point AI towards human-understandability and conceptualization.\n\nThe Riemann proof should come with a paper, a walkthrough, new concepts and insights.\n\nMuch like the intermediate representation of high-level code is desirable even in a world where LLM will go straight to CPU instructions output.",
+          "url": "https://x.com/rauchg/status/2124654108124848350",
+          "summary_en": null
+        },
+        {
+          "id": "2124595496849445079",
+          "text": "This aged extremely well.\n\nThere's a tweet out there (will likely get deleted soon) of a provider giving you \"free\" inference of a \"stealth model\" that's \"ZDR\" with millions of views.\n\nThese stealth models are mechanisms of industrial scale data exfiltration to nation state programs, I strongly suspect, and the Dragos research seems to confirm.\n\nImagine explaining to your boss: sorry chief, I *had* to try this really cool ZDR free stealth model… all our secrets, customer data, and code are now in a different continent!\n\nVercel AI Gateway built up tremendous, real-world token volume without taking any of these shortcuts. More to come tomorrow on how we will push the trust, privacy, and security bar even higher.",
+          "url": "https://x.com/rauchg/status/2124595496849445079",
+          "summary_en": "Free inference from unnamed “stealth models” may expose sensitive company data despite zero-data-retention claims; the tweet alleges possible nation-state data collection, citing Dragos research as support. It contrasts those suspected risks with Vercel AI Gateway’s approach to trust, privacy, and security."
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Long-running AI projects and groups of agents working in parallel will require more capable orchestration architectures and agent execution infrastructure.",
+      "summary_zh": "随着 AI 承担长时间运行的项目，并由多个智能体并行推进目标，协调架构和智能体执行基础设施都需要进一步发展。",
+      "slang": [
+        {
+          "term": "agent harness",
+          "definition_en": "The surrounding software that manages an agent’s execution, tools, context, and controls.",
+          "definition_zh": "管理智能体执行、工具、上下文和控制机制的外围软件。"
+        },
+        {
+          "term": "swarms of agents",
+          "definition_en": "Groups of AI agents coordinating or dividing work toward a shared goal.",
+          "definition_zh": "围绕共同目标协作或分工的一组 AI 智能体。"
+        },
+        {
+          "term": "orchestration",
+          "definition_en": "Coordinating tasks, dependencies, and execution across agents or systems.",
+          "definition_zh": "协调多个智能体或系统之间的任务、依赖关系与执行过程。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "swarms of agents",
+          "ipa": "",
+          "definition_zh": "指多个 AI 智能体组成并协同完成任务的群体。",
+          "example_zh": "作者设想多个智能体围绕同一个目标并行工作，从而对底层架构提出更高要求。"
+        },
+        {
+          "phrase": "agent harness",
+          "ipa": "",
+          "definition_zh": "指支撑智能体运行、调用工具和管理执行过程的软件框架。",
+          "example_zh": "随着智能体承担更长时间的项目工作，作者认为管理其执行过程的框架也必须升级。"
+        },
+        {
+          "phrase": "orchestration",
+          "ipa": "/ˌɔːrkɪˈstreɪʃən/",
+          "definition_zh": "指对多个任务、工具或智能体进行协调和调度。",
+          "example_zh": "这里强调，当多个智能体并行推进项目时，需要更强的机制来协调分工与执行。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124658150771188157",
+          "text": "Yes to all of this. As agents take on more and more long running project work, and you have swarms of agents that parallelize work against a goal, the agent harness and architecture for orchestration will have to evolve. \n\nOne of the biggest shifts is how those agents collectively share their knowledge, keep track of the tasks, and also coordinate with human users. This in theory is technically straightforward, but there’s a ton of complexity to get right to ensure agents can both get access to the revenant resources without too much or little exposure.\n\nThere are a lot of lessons to pull from based on how people already do this kind of work together (people share their files, have computers to work with, community in chats and inboxes, and so on). But equally the primitives need to be able to enable this work at a throughput far higher than people, and in a world where agents can much more easily become a vector of security risk. \n\nGoing to be super fun building out this next generation of how agents operate. Lots of opportunity here both for horizontal and vertical specific approaches to bring this to life.",
+          "url": "https://x.com/levie/status/2124658150771188157",
+          "summary_en": "Long-running projects and parallel agent teams need better orchestration for sharing knowledge, tracking tasks, and coordinating with humans. These systems can borrow from human collaboration tools but must support much higher throughput while carefully controlling resource access and security risks."
+        }
+      ]
+    },
+    {
+      "name": "Ryo Lu",
+      "handle": "ryolu_",
+      "summary_en": "Reports building a native iOS karaoke experience with Airbuild in nearly a single attempt, imagining a partially folded phone as a miniature karaoke machine.",
+      "summary_zh": "他称借助 Airbuild，几乎一次尝试就做出了原生 iOS 卡拉 OK 应用，并展示了将半折叠手机当作迷你点唱机的设想。",
+      "slang": [
+        {
+          "term": "one-shotted",
+          "definition_en": "Completed successfully in a single prompt or attempt.",
+          "definition_zh": "通过一次提示或尝试就成功完成。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "one-shotted",
+          "ipa": "/ˈwʌnʃɑːtɪd/",
+          "definition_zh": "指几乎一次尝试或一轮提示就完成任务。",
+          "example_zh": "作者说借助 Airbuild，几乎一轮就做出了原生 iOS 卡拉 OK 体验。"
+        },
+        {
+          "phrase": "native",
+          "ipa": "/ˈneɪtɪv/",
+          "definition_zh": "在应用开发中指直接面向特定操作系统构建和运行的。",
+          "example_zh": "这里说明 ryOS Karaoke 是运行于 iOS 的原生应用体验。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124473853858725907",
+          "text": "ryOS Karaoke, native on iOS, almost one-shotted with @airbuild\n\nhalf fold the iPhone Duo and it's a tiny karaoke machine 🎤 https://t.co/KAl0YsTvqj",
+          "url": "https://x.com/ryolu_/status/2124473853858725907",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "Mocks the challenge of generating venture returns when companies command billion-dollar valuations before having a product. Also observes that tech advertising has become pervasive across New York City and dislikes the change.",
+      "summary_zh": "他调侃尚未推出产品的公司就获得十亿美元以上估值，让风投回报变成一道难题。他还观察到科技广告已遍布纽约，并对这种变化表达不满。",
+      "slang": [
+        {
+          "term": "VCs",
+          "definition_en": "Venture capital investors who fund startups in exchange for ownership stakes.",
+          "definition_zh": "风险投资人，通过投资初创公司换取股权。"
+        },
+        {
+          "term": "entry valuation",
+          "definition_en": "The company valuation at which an investor makes an investment.",
+          "definition_zh": "投资人入场投资时对应的公司估值。"
+        },
+        {
+          "term": "pre-product",
+          "definition_en": "The stage before a company has developed or released its product.",
+          "definition_zh": "公司尚未开发出或发布产品的阶段。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "VCs",
+          "ipa": "/ˌviː ˈsiːz/",
+          "definition_zh": "指风险投资人或风险投资机构。",
+          "example_zh": "作者调侃，风险投资人在极高估值下入场后，很难为规模庞大的基金赚取足够回报。"
+        },
+        {
+          "phrase": "entry valuation",
+          "ipa": "",
+          "definition_zh": "指投资者入场投资时公司所对应的估值。",
+          "example_zh": "作者指出，一些交易的入场估值已超过十亿美元，这会抬高投资者实现理想回报所需的退出价值。"
+        },
+        {
+          "phrase": "pre-product",
+          "ipa": "/ˌpriːˈprɑːdʌkt/",
+          "definition_zh": "指公司尚未做出产品的阶段。",
+          "example_zh": "作者强调公司在尚无产品时就获得十亿美元以上估值，用这种反差讽刺投资回报难题。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124671699245257037",
+          "text": "Breaking: AI fails to solve the most intractable math problem, how VCs are going to return those huge funds when the entry valuation of their deals is  &gt; $1B pre-product",
+          "url": "https://x.com/mattturck/status/2124671699245257037",
+          "summary_en": null
+        },
+        {
+          "id": "2124515224946422095",
+          "text": "Had been years in the making, but sometime in 2026, tech street advertising completely took over NYC, making it look like SF.   It’s everywhere now, every billboard, every subway car, every taxi. Can’t say that I love it tbh.",
+          "url": "https://x.com/mattturck/status/2124515224946422095",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "Mocks a poor unsolicited sales email and jokes that DocuSign shareholders have reason to feel pleased in 2026. The supplied excerpts do not reveal the email’s contents or the basis for the shareholder remark.",
+      "summary_zh": "他调侃了一封糟糕的陌生推销邮件，并打趣说 DocuSign 股东在 2026 年有理由得意。所提供片段未展示邮件内容，也未说明股东得意的具体原因。",
+      "slang": [
+        {
+          "term": "cold email",
+          "definition_en": "An unsolicited outreach email sent to someone without a prior relationship.",
+          "definition_zh": "向此前没有联系的人主动发送的陌生开发邮件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "cold email",
+          "ipa": "",
+          "definition_zh": "指向此前没有联系的对象主动发送的拓客或推介邮件。",
+          "example_zh": "作者用「最糟糕的陌生推销邮件不存在……」这一说到一半的句式，暗示链接中的邮件糟糕得令人难以置信。"
+        },
+        {
+          "phrase": "smuggest",
+          "ipa": "/ˈsmʌɡɪst/",
+          "definition_zh": "指最为自鸣得意、对自己满意到令人不快的。",
+          "example_zh": "作者打趣说 DocuSign 股东此时一定格外得意，但所给文字没有说明他们得意的具体原因。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124646168428966181",
+          "text": "The worst cold email does not exi- https://t.co/lgw2iwWFwv",
+          "url": "https://x.com/nikunj/status/2124646168428966181",
+          "summary_en": null
+        },
+        {
+          "id": "2124597844808196252",
+          "text": "2026 Docusign stock holders must be the smuggest of people rn.. https://t.co/wLk0Zs03Kg",
+          "url": "https://x.com/nikunj/status/2124597844808196252",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "Warns that an incident, if caused by an AI-assisted cyberattack, could expose a serious gap in aviation security measures designed around human hijackers. The excerpt does not establish the incident’s cause.",
+      "summary_zh": "他警告，某起事件如果由 AI 辅助网络攻击引发，可能暴露出针对人类劫机者设计的航空安保措施中的严重缺口。片段并未证实事件原因。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "AI-assisted cyber attack",
+          "ipa": "",
+          "definition_zh": "指利用 AI 辅助策划或执行的网络攻击。",
+          "example_zh": "作者以事件由 AI 辅助网络攻击造成这一假设为前提，担忧航空安全措施可能受到冲击；推文没有确认事件原因。"
+        },
+        {
+          "phrase": "alarmist",
+          "ipa": "/əˈlɑːrmɪst/",
+          "definition_zh": "指容易夸大危险、制造恐慌的人。",
+          "example_zh": "作者先声明自己通常不会夸大风险，再表达对这一假设情形的强烈担忧。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124567533449613819",
+          "text": "i am usually not alarmist but assuming this is caused by an AI-assisted cyber attack it's very bad\n\nif you want to make all of the security measures we have in place from 9/11 onward to prevent human hijackers irrelevant all you have to do is be able to mess with a plane and pilot's ability to know its own weight, how much fuel is left, and where it is\n\nwithout knowing any more information about this, you'd also expect smaller attakcs like this to find edges and what's possible\n\ni am not an expert on the systems inside airplanes, and i know most planes have manual overrides for example. but still extremely tricky when visibility is bad \n\nif you know more than me about this please weigh in!",
+          "url": "https://x.com/danshipper/status/2124567533449613819",
+          "summary_en": "If the unspecified aviation incident involved an AI-assisted cyberattack, it could reveal serious risks from manipulating aircraft weight, fuel, or location information, potentially bypassing protections focused on human hijackers. The concern is explicitly speculative, with uncertainty about aircraft systems and the effectiveness of manual overrides."
+        }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama",
+      "summary_en": "Says AI labs committed under White House accords to develop safety standards and best practices, and suggests discussing perplexity could support those goals. A separate correction lacks enough context to clarify the intended wording.",
+      "summary_zh": "他称 AI 实验室已在白宫相关协议下承诺制定安全标准和最佳实践，并提出讨论 perplexity 可能有助于实现这些目标。另一条更正缺乏上下文，无法确定其具体所指。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "perplexity",
+          "ipa": "/pərˈplɛksəti/",
+          "definition_zh": "在语言模型领域通常指衡量模型对文本预测不确定程度的困惑度指标。",
+          "example_zh": "作者认为讨论 perplexity 的使用有助于推进系统安全目标，但所给片段没有解释其具体用途。"
+        },
+        {
+          "phrase": "best practices",
+          "ipa": "",
+          "definition_zh": "指某一领域广泛认可、值得遵循的有效做法。",
+          "example_zh": "作者说实验室同意制定标准和最佳实践，以提高 AI 系统的安全性。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124558713646428663",
+          "text": "Labs agreed under the White House Accords to establish standards and best practices to improve the safety of their systems, and I believe a discussion about the use of perplexity can further these goals.",
+          "url": "https://x.com/sama/status/2124558713646428663",
+          "summary_en": null
+        },
+        {
+          "id": "2124555601745441130",
+          "text": "i meant \"field\" ugh",
+          "url": "https://x.com/sama/status/2124555601745441130",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "AI & I by Every",
+      "title": "A New Vision for Human Work After Automation",
+      "url": "https://www.youtube.com/watch?v=WstNofgQF5Q",
+      "summary_en": "The introduction frames everyday AI use by writers and builders as a way to understand changing capabilities and practical workflows, then introduces Every’s first conference in Brooklyn. The excerpt ends before any substantive talks or findings are presented.",
+      "summary_zh": "开场提出，通过写作者和构建者日常使用 AI 的经验，可以了解能力变化及实用工作方法，随后介绍了 Every 在布鲁克林举办的首场大会。片段在具体演讲内容和结论出现之前结束。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "acquisition",
+      "ipa": "/ˌækwɪˈzɪʃən/",
+      "pos": "noun",
+      "definition_en": "The purchase of one company by another.",
+      "definition_zh": "收购；一家公司购买另一家公司。",
+      "synonyms": [
+        "buyout",
+        "takeover"
+      ],
+      "example_en": "The founders resolved several legal issues before the acquisition.",
+      "example_zh": "创始人在收购完成前解决了几个法律问题。"
+    },
+    {
+      "word": "perplexity",
+      "ipa": "/pərˈpleksəti/",
+      "pos": "noun",
+      "definition_en": "A measure of how well a probabilistic model predicts data; lower values indicate better prediction on the evaluated data.",
+      "definition_zh": "困惑度；衡量概率模型预测数据表现的指标，在所评估的数据上，数值越低表示预测越好。",
+      "synonyms": [
+        "prediction uncertainty"
+      ],
+      "example_en": "Lower perplexity does not automatically mean better performance on every practical task.",
+      "example_zh": "困惑度更低，并不自动意味着模型在每一项实际任务上都表现更好。"
+    },
+    {
+      "word": "benchmark",
+      "ipa": "/ˈbentʃmɑːrk/",
+      "pos": "noun",
+      "definition_en": "A standard or test used to compare performance.",
+      "definition_zh": "基准；用于比较表现的标准或测试。",
+      "synonyms": [
+        "yardstick",
+        "reference standard"
+      ],
+      "example_en": "A useful benchmark should reflect the tasks users actually care about.",
+      "example_zh": "有用的基准测试应该反映用户真正关心的任务。"
+    },
+    {
+      "word": "extrapolate",
+      "ipa": "/ɪkˈstræpəleɪt/",
+      "pos": "verb",
+      "definition_en": "To estimate beyond known observations by extending an existing pattern.",
+      "definition_zh": "外推；根据已有的观察或趋势推测未知情况。",
+      "synonyms": [
+        "project",
+        "predict",
+        "infer"
+      ],
+      "example_en": "It is risky to extrapolate years of progress from a few recent results.",
+      "example_zh": "仅凭最近几次结果就外推未来数年的进展，存在风险。"
+    },
+    {
+      "word": "transformative",
+      "ipa": "/trænsˈfɔːrmətɪv/",
+      "pos": "adj",
+      "definition_en": "Causing a major change in how something works or develops.",
+      "definition_zh": "具有变革性的；能使事物的运作或发展发生重大变化的。",
+      "synonyms": [
+        "revolutionary",
+        "far-reaching"
+      ],
+      "example_en": "Reliable agents could have a transformative effect on software design.",
+      "example_zh": "可靠的智能体可能对软件设计产生变革性影响。"
+    },
+    {
+      "word": "roadblock",
+      "ipa": "/ˈroʊdblɑːk/",
+      "pos": "noun",
+      "definition_en": "An obstacle that prevents or delays progress.",
+      "definition_zh": "障碍；阻止或拖慢进展的问题。",
+      "synonyms": [
+        "obstacle",
+        "barrier",
+        "impediment"
+      ],
+      "example_en": "Unclear ownership of the code became a roadblock to the deal.",
+      "example_zh": "代码归属不明确成了这笔交易的障碍。"
+    },
+    {
+      "word": "reliability",
+      "ipa": "/rɪˌlaɪəˈbɪləti/",
+      "pos": "noun",
+      "definition_en": "The ability to work correctly and consistently over time.",
+      "definition_zh": "可靠性；长期正确、稳定运行的能力。",
+      "synonyms": [
+        "dependability",
+        "consistency"
+      ],
+      "example_en": "Agents may prioritize reliability over a visually attractive interface.",
+      "example_zh": "智能体可能会优先考虑可靠性，而不是界面是否美观。"
+    }
+  ],
+  "quote": {
+    "text_en": "The best way to predict the future is to invent it.",
+    "text_zh": "预测未来最好的方法，就是创造未来。",
+    "author": "Alan Kay"
+  },
+  "slang_glossary": [
+    {
+      "term": "top ticking",
+      "definition_en": "Timing an action at or very near a market peak, often recognized in hindsight.",
+      "definition_zh": "踩中市场顶部；在市场接近最高点时采取行动，通常是事后判断。"
+    },
+    {
+      "term": "cooked",
+      "definition_en": "In serious trouble, exhausted, or unlikely to succeed; here, possibly misled or overwhelmed.",
+      "definition_zh": "完蛋了、累垮了或没戏了；此处也可能指被算法误导或弄得晕头转向。"
+    },
+    {
+      "term": "coop",
+      "definition_en": "Short for cooperative: a game mode in which players work together.",
+      "definition_zh": "「cooperative」的缩写，指玩家共同合作的游戏模式，也常写作「co-op」。"
+    },
+    {
+      "term": "fam",
+      "definition_en": "An informal term for family or close friends.",
+      "definition_zh": "家人或亲密朋友的口语说法。"
+    },
+    {
+      "term": "vibecoded",
+      "definition_en": "Created largely by prompting an AI to generate code, often with limited manual inspection.",
+      "definition_zh": "主要通过向 AI 描述需求、让其生成代码而做出来的，通常人工检查较少。"
+    },
+    {
+      "term": "ship",
+      "definition_en": "To release a product, feature, or update to users.",
+      "definition_zh": "发布或上线产品、功能或更新。"
+    },
+    {
+      "term": "inference",
+      "definition_en": "Running a trained AI model to produce predictions or outputs.",
+      "definition_zh": "推理；运行已训练的 AI 模型以生成预测或输出。"
+    },
+    {
+      "term": "stealth model",
+      "definition_en": "An AI model tested or made available without a clear public announcement or disclosed identity.",
+      "definition_zh": "尚未正式公开发布，或未披露真实身份就进行测试或提供使用的 AI 模型。"
+    },
+    {
+      "term": "ZDR",
+      "definition_en": "Zero Data Retention: a policy governing non-retention of covered customer data, with scope depending on the provider.",
+      "definition_zh": "零数据保留；不保留政策所涵盖的客户数据，具体适用范围取决于服务商。"
+    },
+    {
+      "term": "agent harness",
+      "definition_en": "The surrounding software that gives an AI agent tools, execution control, and ways to interact with its environment.",
+      "definition_zh": "智能体运行框架；为 AI 智能体提供工具、执行控制和环境交互能力的外围软件。"
+    },
+    {
+      "term": "swarms of agents",
+      "definition_en": "Groups of AI agents working on tasks in parallel or in coordination.",
+      "definition_zh": "智能体群；并行工作或相互协作的一组 AI 智能体。"
+    },
+    {
+      "term": "orchestration",
+      "definition_en": "Coordinating models, agents, tools, and workflow steps.",
+      "definition_zh": "编排；协调模型、智能体、工具和工作流步骤。"
+    },
+    {
+      "term": "one-shotted",
+      "definition_en": "Completed successfully in a single attempt or prompt.",
+      "definition_zh": "一次搞定；通过一次尝试或一次提示就成功完成。"
+    },
+    {
+      "term": "VCs",
+      "definition_en": "Venture capitalists or venture capital firms that invest in startups.",
+      "definition_zh": "风险投资人或投资初创公司的风投机构。"
+    },
+    {
+      "term": "entry valuation",
+      "definition_en": "The valuation at which an investor initially invests in a company.",
+      "definition_zh": "入场估值；投资者首次投资一家公司时所依据的估值。"
+    },
+    {
+      "term": "pre-product",
+      "definition_en": "At a startup stage before a usable product has been built or launched.",
+      "definition_zh": "尚未做出或推出可用产品的创业阶段。"
+    },
+    {
+      "term": "cold email",
+      "definition_en": "An unsolicited outreach email to someone with whom the sender has no prior relationship.",
+      "definition_zh": "陌生开发邮件；向此前没有联系的人主动发送的邮件。"
+    },
+    {
+      "term": "SaaS",
+      "definition_en": "Software as a Service: software delivered as an online service, commonly through subscriptions.",
+      "definition_zh": "软件即服务；通过在线服务提供软件，通常采用订阅付费方式。"
+    },
+    {
+      "term": "IP assignment",
+      "definition_en": "The legal transfer of ownership of intellectual property.",
+      "definition_zh": "知识产权转让；依法将知识产权的所有权转移给另一方。"
+    },
+    {
+      "term": "SEO",
+      "definition_en": "Search Engine Optimization: improving a website's visibility in unpaid search results.",
+      "definition_zh": "搜索引擎优化；提高网站在自然搜索结果中的可见度。"
+    },
+    {
+      "term": "CTO",
+      "definition_en": "Chief Technology Officer: an executive responsible for a company's technology direction.",
+      "definition_zh": "首席技术官；负责公司技术方向的高管。"
+    },
+    {
+      "term": "CTO coach",
+      "definition_en": "An adviser who helps technology leaders develop management, leadership, and strategic skills.",
+      "definition_zh": "首席技术官教练；帮助技术负责人提升管理、领导和战略能力的顾问。"
+    },
+    {
+      "term": "fish for an acquisition",
+      "definition_en": "To seek potential buyers or signal interest in having one's company acquired.",
+      "definition_zh": "寻找收购机会；试探潜在买家，或释放愿意出售公司的信号。"
+    },
+    {
+      "term": "FLOPS",
+      "definition_en": "Floating-point operations per second, a measure of computing speed; total training compute is usually expressed in FLOPs.",
+      "definition_zh": "每秒浮点运算次数，用于衡量计算速度；训练总计算量通常用「FLOPs」表示。"
+    },
+    {
+      "term": "perplexity",
+      "definition_en": "A prediction metric for probabilistic models, often used to evaluate language models.",
+      "definition_zh": "困惑度；概率模型的预测评价指标，常用于评估语言模型。"
+    },
+    {
+      "term": "log-perplexity",
+      "definition_en": "The logarithm of perplexity; its numerical interpretation depends on the logarithm base and evaluation setup.",
+      "definition_zh": "对数困惑度；对困惑度取对数后的值，其数值含义取决于对数底数和评估设置。"
+    },
+    {
+      "term": "compression",
+      "definition_en": "Representing data more compactly; in language modeling, better prediction is closely connected to better compression.",
+      "definition_zh": "压缩；以更紧凑的方式表示数据。在语言建模中，更好的预测与更好的压缩密切相关。"
+    },
+    {
+      "term": "frontier math",
+      "definition_en": "Very advanced mathematical problems near the limits of current capabilities; it may also allude to the FrontierMath benchmark.",
+      "definition_zh": "接近当前能力边界的高难度数学问题；也可能是在影射「FrontierMath」数学基准测试。"
+    },
+    {
+      "term": "post-training",
+      "definition_en": "Training after pretraining to refine a model's behavior or capabilities.",
+      "definition_zh": "后训练；在预训练之后进一步调整模型行为或能力的训练。"
+    },
+    {
+      "term": "pretrain",
+      "definition_en": "To perform a model's initial large-scale training; also used informally to refer to pretraining.",
+      "definition_zh": "预训练；对模型进行初始的大规模训练，也可作为预训练过程的非正式简称。"
+    },
+    {
+      "term": "A plot / B plot",
+      "definition_en": "The main storyline and a secondary storyline, used metaphorically to rank developments by importance.",
+      "definition_zh": "主线剧情与支线剧情；此处用来比喻不同技术进展的重要程度。"
+    },
+    {
+      "term": "agent",
+      "definition_en": "An AI system that can take actions, often using tools, to pursue a goal.",
+      "definition_zh": "智能体；能够采取行动、通常借助工具来完成目标的 AI 系统。"
+    },
+    {
+      "term": "API",
+      "definition_en": "Application Programming Interface: a defined way for software systems to communicate.",
+      "definition_zh": "应用程序编程接口；软件系统之间按约定进行通信的方式。"
+    },
+    {
+      "term": "EVP",
+      "definition_en": "Executive Vice President, a senior corporate leadership title.",
+      "definition_zh": "执行副总裁；企业高级管理职位。"
+    }
+  ],
+  "stats": {
+    "builders": 11,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 22,
+    "feedGeneratedAt": "2026-11-23T06:38:54.921Z"
+  }
+}
