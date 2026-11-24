@@ -1,0 +1,1010 @@
+{
+  "date": "2026-11-24",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "summary_en": "Microsoft's response to an unspecified call is presented as a possible step toward cooperation among AI labs. He hopes another major lab leader will join and make broader participation more likely.",
+      "summary_zh": "微软对一项未说明的倡议作出回应，被视为推动 AI 实验室合作的一步。他希望另一位重要人物加入，带动更多实验室参与。",
+      "slang": [
+        {
+          "term": "stan",
+          "definition_en": "An enthusiastic fan or supporter.",
+          "definition_zh": "某人或某事的热情粉丝、支持者。"
+        },
+        {
+          "term": "tipping point",
+          "definition_en": "The point at which momentum makes a wider change likely.",
+          "definition_zh": "势头积累到足以引发更大范围变化的临界点。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "stan",
+          "ipa": "/stæn/",
+          "definition_zh": "指对某个人非常狂热的粉丝，也可作动词表示强烈支持。",
+          "example_zh": "他看到微软响应倡议后，半开玩笑地问自己是不是成了 Mustafa Suleyman 的狂热粉丝。"
+        },
+        {
+          "phrase": "tipping point",
+          "ipa": "",
+          "definition_zh": "指足以推动局面发生重大转变的临界点。",
+          "example_zh": "他认为另一位主要实验室领导者加入，可能成为促使所有实验室共同参与的关键转折点。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124780264916423021",
+          "text": "microsoft answers the call!!!!! oh my, am I a @mustafasuleyman stan?? https://t.co/wvFVavk1qs\n\ni think we need @alexandr_wang to join in and that will be the tipping point for all labs to unite on this effort",
+          "url": "https://x.com/swyx/status/2124780264916423021",
+          "summary_en": null
+        },
+        {
+          "id": "2124766474736976240",
+          "text": "@theallinpod also this FTX SBF quote https://t.co/Pursth2YcR",
+          "url": "https://x.com/swyx/status/2124766474736976240",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "summary_en": "Claude Ship can coordinate code review, fixes, checks, and approvals under a team's repository policies. He recommends starting with one repository and observing approval decisions before trusting the workflow more broadly.",
+      "summary_zh": "Claude Ship 可以按团队的代码仓库策略衔接代码审查、修复、检查和审批。他建议先在一个仓库试用，并观察审批决策，再扩大使用范围。",
+      "slang": [
+        {
+          "term": "ship",
+          "definition_en": "To release or deliver software.",
+          "definition_zh": "发布或交付软件。"
+        },
+        {
+          "term": "velocity",
+          "definition_en": "The pace at which a team completes and delivers work.",
+          "definition_zh": "团队完成并交付工作的速度。"
+        },
+        {
+          "term": "babysit PRs",
+          "definition_en": "To repeatedly monitor and manually manage pull requests.",
+          "definition_zh": "反复盯着拉取请求并手动处理后续事项。"
+        },
+        {
+          "term": "observe mode",
+          "definition_en": "A trial setting that shows decisions without automatically acting on them.",
+          "definition_zh": "只观察决策、不自动执行的试运行模式。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "observe mode",
+          "ipa": "",
+          "definition_zh": "指先观察系统如何判断、暂不让其正式执行决策的运行模式。",
+          "example_zh": "他建议先在一个代码仓库中观察 Claude Approvals 的审批判断，积累信任后再扩大使用。"
+        },
+        {
+          "phrase": "babysit PRs",
+          "ipa": "",
+          "definition_zh": "指像照看孩子一样持续盯着拉取请求，推动其完成检查、修改和审批。",
+          "example_zh": "他认为这套工具能接手代码审查后的跟进工作，让自己不用一直守着 PR 推进流程。"
+        },
+        {
+          "phrase": "velocity",
+          "ipa": "/vəˈlɑːsəti/",
+          "definition_zh": "在软件开发语境中指团队或个人推进并交付工作的速度。",
+          "example_zh": "他用这个词形容自动审查、修复和审批如何成倍提高自己的开发效率。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124961488691740941",
+          "text": "Anyone can use /ship. If you’re on a Team or Enterprise plan, your admin can turn on Claude Ship per GitHub repo. I’d start with one repo and run Approvals in observe mode until you trust it.\n\nhttps://t.co/p0T6zDSIwM",
+          "url": "https://x.com/bcherny/status/2124961488691740941",
+          "summary_en": null
+        },
+        {
+          "id": "2124961487454384442",
+          "text": "It multiplies my velocity. I don’t need to wait around for code review or babysit PRs, and the results are better.\nCode Review looks for bugs, PR Steward works on fixes and failing checks, and Claude Approvals approves what your team’s policy allows (the last two are in beta).",
+          "url": "https://x.com/bcherny/status/2124961487454384442",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "summary_en": "He points to work on finding and fixing flaws in open source infrastructure. He also expects a noticeable improvement in ChatGPT answer quality alongside efforts to simplify and speed up the app and bring chat and work together.",
+      "summary_zh": "他关注修补开源软件及基础设施缺陷的工作，也预计 ChatGPT 的回答质量会明显提升。应用简化、提速以及聊天与工作功能的整合也在推进。",
+      "slang": [
+        {
+          "term": "OSS",
+          "definition_en": "Open source software.",
+          "definition_zh": "开源软件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "patch",
+          "ipa": "/pætʃ/",
+          "definition_zh": "指通过修改软件来修复漏洞或缺陷。",
+          "example_zh": "他描述 OpenAI 的一些人员正努力修复大家依赖的开源软件和基础设施中的缺陷。"
+        },
+        {
+          "phrase": "OSS software",
+          "ipa": "",
+          "definition_zh": "指源代码开放、可按相应许可证使用和修改的软件。",
+          "example_zh": "这里的 OSS 是开源软件的缩写，他强调这些软件是许多人共同依赖的基础。"
+        },
+        {
+          "phrase": "rolled out",
+          "ipa": "",
+          "definition_zh": "指把新功能或更新逐步向用户发布。",
+          "example_zh": "他表示，相关更新发布到用户账户后，用户应该能感受到 ChatGPT 回答质量的明显提升。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125027477877887231",
+          "text": "Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on https://t.co/afNTCaRewj",
+          "url": "https://x.com/thsottiaux/status/2125027477877887231",
+          "summary_en": null
+        },
+        {
+          "id": "2124998553856844186",
+          "text": "You should feel a significant jump in quality of answers on ChatGPT once rolled out to you.\n\nTogether with all the investments we are making across simplifying the app, making it faster and merging chat & work, it's going to be quite the improvement in day to day experience by the end of the year.",
+          "url": "https://x.com/thsottiaux/status/2124998553856844186",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "summary_en": "He reports that ChatGPT Dots has sent emails without his review and sometimes stops responding. Those failures make him question whether the product is reliable enough for his use.",
+      "summary_zh": "他反映 ChatGPT Dots 会在未经他审阅时发送邮件，有时还会突然停止回应。这些问题让他质疑产品是否足够可靠。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "buggy",
+          "ipa": "/ˈbʌɡi/",
+          "definition_zh": "指软件存在较多故障，运行表现不稳定。",
+          "example_zh": "他用这个词评价 Dots，因为它会未经审阅就发邮件，还会随机停止响应。"
+        },
+        {
+          "phrase": "prompting",
+          "ipa": "/ˈprɑːmptɪŋ/",
+          "definition_zh": "指通过输入指令或上下文来引导 AI 完成任务。",
+          "example_zh": "面对产品故障，他反问是不是自己给 AI 下指令的方式不对，表达了对可靠性的困惑。"
+        },
+        {
+          "phrase": "salty",
+          "ipa": "/ˈsɔːlti/",
+          "definition_zh": "俚语中指因为失望或不满而有些怨气。",
+          "example_zh": "他开玩笑地承认，自己只是因为白天玩不了 GTA 6 而有点不爽。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125060785667969399",
+          "text": ".@ChatGPT Dots still feels very buggy - it sends emails without me reviewing and randomly just stops responding.\n\nI really want to like this product but maybe I’m prompting it wrong?",
+          "url": "https://x.com/petergyang/status/2125060785667969399",
+          "summary_en": null
+        },
+        {
+          "id": "2125034054663999684",
+          "text": "Ok I admit I'm just salty for not being able to play GTA 6 during the day haha",
+          "url": "https://x.com/petergyang/status/2125034054663999684",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "summary_en": "Calling model development inputs merely 'data' can hide their value and complexity; they should not be treated as a commodity that can simply be bought and fed into a model. He also says he plans to share updates about a proposed meetup.",
+      "summary_zh": "把模型开发所用的材料笼统称为「数据」，容易掩盖其价值和复杂性；它并非买来后直接投入模型的普通商品。他还表示会更新聚会筹备进展。",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "undersells",
+          "ipa": "/ˌʌndərˈselz/",
+          "definition_zh": "指对某事的描述低估了它的真实价值或重要性。",
+          "example_zh": "他认为「数据」这个名称远未体现其在模型开发中的真正价值和复杂性。"
+        },
+        {
+          "phrase": "inert commodity",
+          "ipa": "",
+          "definition_zh": "指被视为没有内在活力、可直接买卖替换的普通原料。",
+          "example_zh": "他批评外行把训练数据想象成买来后直接倒进模型的原料，忽视了其中的复杂工作。"
+        },
+        {
+          "phrase": "model development",
+          "ipa": "",
+          "definition_zh": "指设计、训练、评估和改进模型的开发过程。",
+          "example_zh": "他强调，只有接近模型开发实践的人，才更容易理解数据实际承载了什么。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125102190196859156",
+          "text": "Part of the disconnect is that the name “data” massively undersells what it truly represents in model development.\n\nPeople who are not close to model development think of data as this  inert commodity you buy and shovel into a model, like coal.\n\nIn reality great data encodes incredibly high value knowledge, taste and expertise, often articulated and structured in ways that did not exist previously. \n\nThis makes it one of THE fundamental building blocks for creating increasingly capable intelligence across domains. \n\nData will continue to be incredibly central to the intelligence industry .",
+          "url": "https://x.com/realmadhuguru/status/2125102190196859156",
+          "summary_en": "High-quality training data encodes knowledge, taste, and expertise rather than serving as an interchangeable commodity. It will remain a fundamental building block for increasingly capable AI."
+        },
+        {
+          "id": "2124758161068556756",
+          "text": "thanks for all the interest, pointers and DMs! let’s make a meetup happens.\n\nmight not be able to reply to each individually, but will post updates here. \n\nStay tuned!",
+          "url": "https://x.com/realmadhuguru/status/2124758161068556756",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "summary_en": "He suggests software companies could keep small core teams and share revenue with users who help growth, improve the product, or drive sales. A separate joke pokes fun at excessively long AI generated reasoning.",
+      "summary_zh": "他认为软件公司可以维持精简的核心团队，并向帮助增长、改进产品或促成销售的用户分成。另一则玩笑调侃 AI 生成的冗长推理。",
+      "slang": [
+        {
+          "term": "lean core team",
+          "definition_en": "A small permanent team with limited overhead.",
+          "definition_zh": "规模小、固定成本较低的核心团队。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "lean core team",
+          "ipa": "",
+          "definition_zh": "指人员精简、专注核心工作的团队。",
+          "example_zh": "他设想软件公司保留小型核心团队，并向帮助增长、反馈和销售的用户支付报酬。"
+        },
+        {
+          "phrase": "payouts",
+          "ipa": "/ˈpeɪaʊts/",
+          "definition_zh": "指平台或机构向参与者发放的款项或收益。",
+          "example_zh": "他把 X 向用户支付收益的机制视为未来软件公司可以借鉴的模式。"
+        },
+        {
+          "phrase": "Lean",
+          "ipa": "/liːn/",
+          "definition_zh": "指一种用于形式化数学证明和验证的编程语言与定理证明工具。",
+          "example_zh": "他借《银河系漫游指南》的答案 42 开玩笑，想象计算机还会附上五亿页 Lean 证明。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124987187406275037",
+          "text": "X payouts are such a good model for future software companies\n\nkeep a lean core team and pay the users who help it grow, get better with feedback, sell, etc.",
+          "url": "https://x.com/trq212/status/2124987187406275037",
+          "summary_en": null
+        },
+        {
+          "id": "2124767804247379968",
+          "text": "they cut the scene in Hitchhiker's Guide where the computer follows 42 with 500 million pages of Lean",
+          "url": "https://x.com/trq212/status/2124767804247379968",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "summary_en": "He says a meeting with the US vice president covered AI leadership, cybersecurity, software infrastructure, and US leadership in open weight AI. The available text does not establish any policy outcome.",
+      "summary_zh": "他称与美国副总统讨论了 AI 领导力、网络安全、软件基础设施及美国在开放权重 AI 领域的地位。现有文字没有说明任何政策结果。",
+      "slang": [
+        {
+          "term": "open-weight AI",
+          "definition_en": "AI models whose trained parameters are made available for others to use.",
+          "definition_zh": "向外部提供已训练模型参数、供他人使用的 AI 模型。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "open-weight AI",
+          "ipa": "",
+          "definition_zh": "指公开模型权重、允许他人获取并按许可使用的 AI。",
+          "example_zh": "他表示与美国副总统讨论了美国在开放权重 AI 领域的领导地位，但没有交代具体政策结果。"
+        },
+        {
+          "phrase": "cybersecurity",
+          "ipa": "/ˌsaɪbərsɪˈkjʊrəti/",
+          "definition_zh": "指保护计算机系统、网络和数据免受攻击的技术与实践。",
+          "example_zh": "网络安全是他列出的会谈议题之一，与 AI 领导力和软件基础设施现代化并列。"
+        },
+        {
+          "phrase": "close to my heart",
+          "ipa": "",
+          "definition_zh": "指某件事对自己有特殊意义，因而格外关心。",
+          "example_zh": "他用这个表达强调，自己尤其重视美国在开放权重 AI 领域的领导地位。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125008810041610359",
+          "text": "Great meeting with VP @JDVance on Friday to discuss American AI leadership, cybersecurity, and modernizing our nation’s software infrastructure.\n\nWe also discussed an issue close to my heart: American leadership in open-weight AI. \n\nOur allies want sovereign AI and are increasingly looking to Chinese open models. At home, American startups need a competitive model ecosystem.\n\nAmerica could win the frontier AI race and still lose the global AI ecosystem.\n\nVery happy to see Jensen back at Nvidia. He’s been one of the most important champions of American open-weight AI.",
+          "url": "https://x.com/amasad/status/2125008810041610359",
+          "summary_en": "America could lead in frontier AI yet lose the global ecosystem if it neglects competitive open-weight models. Strong American open models are needed to support domestic startups and allies seeking sovereign AI who increasingly turn to Chinese alternatives."
+        },
+        {
+          "id": "2125001371472871659",
+          "text": "The man is severely underpaid. https://t.co/tPp4K55neH",
+          "url": "https://x.com/amasad/status/2125001371472871659",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "summary_en": "Vercel is increasing its focus on Japan. He also endorses a board, though the available text does not explain what kind of board it is.",
+      "summary_zh": "Vercel 正加大对日本市场的投入。他还称赞了一个「board」，但现有文字没有说明具体所指。",
+      "slang": [
+        {
+          "term": "doubling down",
+          "definition_en": "Increasing commitment or investment in a chosen direction.",
+          "definition_zh": "加大对既定方向的投入或承诺。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "doubling down on",
+          "ipa": "",
+          "definition_zh": "指进一步加大对某个方向的投入或承诺。",
+          "example_zh": "他表示 Vercel 正加大对日本市场的投入，但推文没有说明具体规模。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125057274213507253",
+          "text": "▲ + 🇯🇵\nVercel is doubling down on Japan! https://t.co/IthdxqQCiv",
+          "url": "https://x.com/rauchg/status/2125057274213507253",
+          "summary_en": null
+        },
+        {
+          "id": "2124881919506886832",
+          "text": "An actually good board! https://t.co/x0h7508SXG",
+          "url": "https://x.com/rauchg/status/2124881919506886832",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "summary_en": "Service businesses have traditionally scaled by adding people, which limits how much customer demand they can serve. He also remarks on the unusually rapid pace of major news in 2026.",
+      "summary_zh": "服务型企业过去主要靠增加人手扩大交付能力，因此难以无限承接客户需求。他还感叹 2026 年重大消息出现得异常密集。",
+      "slang": [
+        {
+          "term": "scaling",
+          "definition_en": "Increasing a business's capacity to serve more customers.",
+          "definition_zh": "扩大企业服务更多客户的能力。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "headcount",
+          "ipa": "/ˈhedkaʊnt/",
+          "definition_zh": "指组织中的员工人数或人员编制。",
+          "example_zh": "他指出，服务企业过去主要依靠增加员工人数扩大交付能力，因此难以无限承接需求。"
+        },
+        {
+          "phrase": "deliver outcomes",
+          "ipa": "",
+          "definition_zh": "指为客户实现实际结果，而不只是提供活动或投入。",
+          "example_zh": "他把服务企业的增长瓶颈归结为替客户实现结果的能力，强调交付能力会限制需求转化。"
+        },
+        {
+          "phrase": "scaling",
+          "ipa": "/ˈskeɪlɪŋ/",
+          "definition_zh": "指扩大业务规模及其服务或交付能力。",
+          "example_zh": "这里讨论的是服务企业如何扩张，以及依赖增员的扩张方式为何形成限制。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125089009018040779",
+          "text": "This is a pretty key insight. Services businesses are always held back by their ability to deliver outcomes to customers. \n\nThat scaling essentially only could come from headcount, and no matter how much demand you saw, there was always a finite amount of talent you could get for the problem you were going after. Not to mention, the customer generally always wants the work done faster, at a lower price, or at a higher quality.\n\nAgents entirely change the calculus here, because now we can scale output in a way that’s decoupled from the among of time that goes in. A single engineer can have the output of dozens of engineers before. A single designer can probably build out your entire design system and brand. And so on.\n\nWell why isn’t this just all agents then? Because the key is to still have experts on the front end that actually can ensure the right outcomes are delivered from agents.\n\nIt’s likely that we’re going to see this in a wide variety of categories. You’ll see this in cyber security, advertising and marketing, legal, accounting, IT transformation, and a number of other historically people-only services industries.\n\nIt’s a great time if you’re starting one of these businesses, or if you have the capability to transform an existing one.",
+          "url": "https://x.com/levie/status/2125089009018040779",
+          "summary_en": "AI agents could let services businesses scale output beyond headcount constraints, expanding opportunities across industries such as legal, accounting, marketing, and cybersecurity. Human experts remain essential to guide agents and ensure they deliver the right outcomes."
+        },
+        {
+          "id": "2124930801485930564",
+          "text": "2026 is just waking up each day to the magnitude of news that could only have happened once per decade before 2026.",
+          "url": "https://x.com/levie/status/2124930801485930564",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "summary_en": "Startups should repeatedly ask whether a serious threat could kill the company. That question may expose a problem early enough to address it.",
+      "summary_zh": "创业公司应反复自问是否正面临致命威胁。这样可能及早发现问题，并争取时间应对。",
+      "slang": [
+        {
+          "term": "self-prompt",
+          "definition_en": "To guide one's own thinking with a repeated question or instruction.",
+          "definition_zh": "用反复提出的问题或指令引导自己思考。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "self-prompt",
+          "ipa": "/ˌself ˈprɑːmpt/",
+          "definition_zh": "指主动向自己提出提示性问题，以引导思考和行动。",
+          "example_zh": "他建议创业者反复问自己公司是否正在走向失败，用这个问题主动发现致命风险。"
+        },
+        {
+          "phrase": "in a loop",
+          "ipa": "",
+          "definition_zh": "指以循环方式不断重复某个过程。",
+          "example_zh": "他强调这类生存检查应反复进行，帮助团队持续识别可能拖垮公司的问题。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124905972296560973",
+          "text": "One trick a startup can use to self-prompt in a loop: ask yourself “are we dying?”\n\nIf you ask you might spot the thing killing you and avert it https://t.co/oJuZIg115y",
+          "url": "https://x.com/garrytan/status/2124905972296560973",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "summary_en": "The posts jokingly build anticipation around Jensen's return the following week. They give no details about what he is returning to.",
+      "summary_zh": "这两条内容以玩笑口吻预热 Jensen 下周的回归，但没有说明他将回归何事。",
+      "slang": [
+        {
+          "term": "BREAKING",
+          "definition_en": "A label for urgent news, used here for comic exaggeration.",
+          "definition_zh": "突发新闻的标记，此处用于夸张搞笑。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "AI JESUS",
+          "ipa": "",
+          "definition_zh": "指把 AI 行业人物戏称为救世主的夸张说法。",
+          "example_zh": "结合前一条关于 Jensen 回归的推文，这个称呼是在调侃人们对他的追捧。"
+        },
+        {
+          "phrase": "IS RISEN",
+          "ipa": "",
+          "definition_zh": "是带有宗教色彩的「已复活」表达，也可被借来戏称某人的归来。",
+          "example_zh": "他用全大写的复活宣告制造戏剧效果，呼应 Jensen 即将回归的玩笑。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124908682626613368",
+          "text": "People on LinkedIn are going to go WILD when they hear about Jensen returning, next week",
+          "url": "https://x.com/mattturck/status/2124908682626613368",
+          "summary_en": null
+        },
+        {
+          "id": "2124867013684367396",
+          "text": "BREAKING: AI JESUS IS RISEN",
+          "url": "https://x.com/mattturck/status/2124867013684367396",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "summary_en": "She points readers to advice on avoiding generic AI generated design. She also argues that posting thoughts frequently does not require sharing private details of one's life.",
+      "summary_zh": "她分享了避免设计作品显得千篇一律的 AI 使用建议，也指出经常公开表达想法并不等于必须公开私人生活。",
+      "slang": [
+        {
+          "term": "AI slop",
+          "definition_en": "Low quality, generic, or carelessly produced AI generated content.",
+          "definition_zh": "质量低、同质化或粗制滥造的 AI 生成内容。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "AI slop",
+          "ipa": "",
+          "definition_zh": "指由 AI 生成、质量低劣且缺乏独特性的内容。",
+          "example_zh": "她分享如何避免设计呈现出廉价、套路化的 AI 生成感，即使读者不是设计师也能参考。"
+        },
+        {
+          "phrase": "an open book",
+          "ipa": "",
+          "definition_zh": "指一个人的生活或想法几乎完全公开，容易被他人了解。",
+          "example_zh": "她反对把公开分享想法等同于公开全部私生活，认为经常发帖也可以保留隐私。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125074988210463019",
+          "text": "How to prevent AI slop in design (without being a designer): https://t.co/xKfBQTQXns https://t.co/49RO5JiyR1",
+          "url": "https://x.com/zarazhangrui/status/2125074988210463019",
+          "summary_en": null
+        },
+        {
+          "id": "2124905740095885414",
+          "text": "You can post on social media every day and still be a very private person; the two are not contradictory \n\nMany people have the misconception that sharing your thoughts online means turning your whole life into an open book for others to see. This can’t be further from the truth\n\nI post almost every day but I only share a tiny sliver of my life & thoughts, probably less than 1%. I only share what I’m comfortable with sharing\n\nThe key is to find out which 1% is at the intersection of “interesting to others” and “comfortable for you”",
+          "url": "https://x.com/zarazhangrui/status/2124905740095885414",
+          "summary_en": "Posting frequently online is compatible with maintaining privacy. The key is sharing only the small slice of your thoughts and life that interests others and feels comfortable to disclose."
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "summary_en": "A joke imagines future jobs revolving around managing swarms of AI agents. He also observes that November has been especially full of AI news and drama.",
+      "summary_zh": "他开玩笑设想未来各种岗位都围绕管理 AI 智能体集群展开，并感叹十一月的 AI 新闻与争议格外密集。",
+      "slang": [
+        {
+          "term": "swarm",
+          "definition_en": "A group of AI agents working together or in parallel.",
+          "definition_zh": "协同或并行工作的 AI 智能体群。"
+        },
+        {
+          "term": "forward deployed engineer",
+          "definition_en": "An engineer who works closely with customers to implement a product in their environment.",
+          "definition_zh": "贴近客户现场、帮助部署和落地产品的工程师。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Swarm",
+          "ipa": "/swɔːrm/",
+          "definition_zh": "在 AI 语境中指由多个智能体组成、协同执行任务的群体。",
+          "example_zh": "他把一系列未来岗位都改写成围绕智能体群工作的角色，调侃工作将变成管理大量 AI。"
+        },
+        {
+          "phrase": "Forward Deployed Engineer",
+          "ipa": "",
+          "definition_zh": "指深入客户实际业务场景，负责技术落地和定制实施的工程师。",
+          "example_zh": "他把这个岗位的未来版本戏称为智能体群的管理者，暗示实施工作将涉及协调许多智能体。"
+        },
+        {
+          "phrase": "Swarm Wrangler",
+          "ipa": "",
+          "definition_zh": "指负责驯服、协调和管理智能体群的人，是带玩笑意味的岗位称呼。",
+          "example_zh": "他用这个虚构头衔对应前线部署工程师，突出让智能体群听指挥的工作。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125033540287131901",
+          "text": "2027 job descriptions be like…\n\nFounder: Swarm Overlord\nProduct Manager: Swarm Rider\nDesigner: Swarm Choreographer\nSystems Engineer: Swarm Architect\nForward Deployed Engineer: Swarm Wrangler\nMarketer: Swarm Propagandist\nVC: Swarm Speculator",
+          "url": "https://x.com/nikunj/status/2125033540287131901",
+          "summary_en": null
+        },
+        {
+          "id": "2124915267864301581",
+          "text": "If you like news and drama, there’s simply no month like November for AI.. https://t.co/yMFFGz3Qg6",
+          "url": "https://x.com/nikunj/status/2124915267864301581",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "summary_en": "He urges people to build personal benchmarks so they can assess AI tools against their own tasks. The posts point to a method but do not describe its steps.",
+      "summary_zh": "他鼓励人们建立个人基准，用自己的实际任务评估 AI 工具。帖子指向一种方法，但没有说明具体步骤。",
+      "slang": [
+        {
+          "term": "personal benchmark",
+          "definition_en": "A repeatable set of one's own tasks used to compare tools or models.",
+          "definition_zh": "用个人真实任务组成、可重复执行的工具或模型评测标准。"
+        },
+        {
+          "term": "maxxing",
+          "definition_en": "Internet slang for putting strong effort into optimizing something.",
+          "definition_zh": "网络用语，指极力优化或投入某件事。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "personal benchmark",
+          "ipa": "",
+          "definition_zh": "指根据个人实际任务建立的工具能力评测基准。",
+          "example_zh": "他鼓励读者用自己的任务测试 AI，以判断工具对自己是否真正有用。"
+        },
+        {
+          "phrase": "maxxing",
+          "ipa": "/ˈmæksɪŋ/",
+          "definition_zh": "网络俚语，指尽力把某种能力或做法提升到极致。",
+          "example_zh": "他把这个词接在个人评测基准后，半开玩笑地鼓励大家认真强化自己的 AI 评测实践。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124896430783447510",
+          "text": "here's how to make a personal benchmark, courtesy our very own @hammer_mt: https://t.co/aZMpB64xSl",
+          "url": "https://x.com/danshipper/status/2124896430783447510",
+          "summary_en": null
+        },
+        {
+          "id": "2124886826909622653",
+          "text": "You need to be personal benchmark maxxing https://t.co/p8owPoAMhP",
+          "url": "https://x.com/danshipper/status/2124886826909622653",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "summary_en": "He argues that organizations surviving an existential crisis may become more determined because they have seen how failure could happen. He also says travel abroad can reveal how strongly others admire the US entrepreneurial ecosystem and capital markets.",
+      "summary_zh": "他认为，挺过生存危机的组织可能因为看清失败风险而变得更有斗志。他还说，出国旅行让人更能体会其他国家对美国创业生态和资本市场的向往。",
+      "slang": [
+        {
+          "term": "existential crisis",
+          "definition_en": "A threat serious enough to end an organization.",
+          "definition_zh": "严重到可能使组织无法继续存在的危机。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "existential crisis",
+          "ipa": "",
+          "definition_zh": "指威胁组织生存或根本存在基础的危机。",
+          "example_zh": "他认为，组织若熬过生存危机，可能因为亲眼见过失败的可能性而变得更强硬。"
+        },
+        {
+          "phrase": "out for blood",
+          "ipa": "",
+          "definition_zh": "指抱着极强的攻击性或必胜决心，准备采取强硬行动。",
+          "example_zh": "他用这个比喻描述危机幸存组织的战斗意志，并非指实际暴力。"
+        },
+        {
+          "phrase": "capital market",
+          "ipa": "",
+          "definition_zh": "指通过股票、债券等渠道筹集和配置中长期资金的市场。",
+          "example_zh": "他把美国的资本市场基础与创业生态并列，认为这些条件受到其他国家和个人的向往。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125112140260638905",
+          "text": "Most good organizations when faced with an existential crisis that doesn’t destroy them will return meaner and out for blood.\n\nThey have seen what failure could look like and are ready to go to war to make sure that never happens.\n\nI felt this over and over again at Meta. \n\nNvidia isn’t going to hold back now.",
+          "url": "https://x.com/adityaag/status/2125112140260638905",
+          "summary_en": null
+        },
+        {
+          "id": "2125096073228439683",
+          "text": "Sometimes you need to travel abroad to deeply appreciate just how inspirational America is to the rest of the world.\n\nCountries and individuals aspire to have an entreprenurial ecosystem like ours. A capital market base like ours.\n\nThey don't want to be like China or the UK or Denmark. \n\nThey want to be like America.\n\nAnd this is particularly true for the most ambitious people in every country. They are students of how America builds.\n\nThis doesn't mean we cannot do better ourselves. We must and we will.",
+          "url": "https://x.com/adityaag/status/2125096073228439683",
+          "summary_en": "America’s entrepreneurial ecosystem and capital markets remain an aspirational model for ambitious people around the world. That international appeal coexists with the need for continued improvement at home."
+        }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama",
+      "summary_en": "He strongly endorses an unspecified item and separately expresses enthusiasm about Jensen. The available text does not identify the item or explain the Jensen reference.",
+      "summary_zh": "他高度称赞了一项未说明的内容，并单独表达了对 Jensen 的兴奋之情。现有文字无法确定被称赞的内容或 Jensen 相关事件。",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2124894264564092952",
+          "text": "This is really really good: https://t.co/LcWViyLKii",
+          "url": "https://x.com/sama/status/2124894264564092952",
+          "summary_en": null
+        },
+        {
+          "id": "2124887162206495228",
+          "text": "Jensen!",
+          "url": "https://x.com/sama/status/2124887162206495228",
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "handle": "claudeai",
+      "summary_en": "Claude now groups connectors and skills into plugins, available on several individual plans, with organizational plans to follow. It also says EFS is available across several Claude hosting options, with Microsoft Foundry support planned.",
+      "summary_zh": "Claude 将连接器与技能整合为插件，已面向多个个人订阅档位开放，团队和企业档位将随后支持。EFS 已覆盖多个 Claude 托管渠道，并计划支持 Microsoft Foundry。",
+      "slang": [
+        {
+          "term": "plugins",
+          "definition_en": "Add-ons that extend an AI assistant with tool connections or reusable abilities.",
+          "definition_zh": "为 AI 助手添加工具连接或可复用能力的扩展组件。"
+        },
+        {
+          "term": "connectors",
+          "definition_en": "Integrations that let an AI assistant access external tools or services.",
+          "definition_zh": "让 AI 助手接入外部工具或服务的集成组件。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Connectors",
+          "ipa": "/kəˈnektərz/",
+          "definition_zh": "指让 AI 接入外部工具、服务或数据源的连接组件。",
+          "example_zh": "公告表示，连接器将与技能一起整合进插件，统一 Claude 接入工具的方式。"
+        },
+        {
+          "phrase": "skills",
+          "ipa": "/skɪlz/",
+          "definition_zh": "在此指用于教 AI 按特定方法完成任务的可复用指令或能力包。",
+          "example_zh": "公告把技能与连接器组合起来，让插件既能连接工具，也能教 Claude 新的做事方法。"
+        },
+        {
+          "phrase": "plugins",
+          "ipa": "/ˈplʌɡɪnz/",
+          "definition_zh": "指可安装的扩展包，用于为软件增加工具连接或特定能力。",
+          "example_zh": "Claude 宣布以插件统一承载连接器和技能，并说明个人套餐已经上线、组织套餐稍后推出。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2124970294523945328",
+          "text": "There’s now one way to connect your tools to Claude, teach it a new skill, or do both.\n\nConnectors and skills come together as plugins. Live on Free, Pro, Max, and Ultra plans, with Team and Enterprise coming soon.\n\nBrowse 10,000+ plugins: https://t.co/gSwpY9HDPY https://t.co/K78lwls8qh",
+          "url": "https://x.com/claudeai/status/2124970294523945328",
+          "summary_en": null
+        },
+        {
+          "id": "2124929946925793294",
+          "text": "EFS is available on the Claude Platform, Claude Platform on AWS, Amazon Bedrock, and Claude on Google Cloud. Support for EFS in Microsoft Foundry is coming soon.",
+          "url": "https://x.com/claudeai/status/2124929946925793294",
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "tipping point",
+      "ipa": "/ˈtɪpɪŋ pɔɪnt/",
+      "pos": "noun",
+      "definition_en": "A critical stage at which a small change can trigger a much larger shift.",
+      "definition_zh": "临界点；微小变化可能引发重大转变的关键阶段。",
+      "synonyms": [
+        "threshold",
+        "turning point"
+      ],
+      "example_en": "Support from another major lab could be the tipping point for industry cooperation.",
+      "example_zh": "另一家大型实验室的支持可能成为行业合作的转折点。"
+    },
+    {
+      "word": "velocity",
+      "ipa": "/vəˈlɑːsəti/",
+      "pos": "noun",
+      "definition_en": "Speed in a particular direction; in software work, the pace at which a team delivers work.",
+      "definition_zh": "速度；在软件开发语境中，指个人或团队交付工作的速率。",
+      "synonyms": [
+        "speed",
+        "pace"
+      ],
+      "example_en": "Automated reviews increased our development velocity.",
+      "example_zh": "自动化审查提高了我们的开发速度。"
+    },
+    {
+      "word": "infrastructure",
+      "ipa": "/ˈɪnfrəˌstrʌktʃər/",
+      "pos": "noun",
+      "definition_en": "The underlying systems and services that other activities depend on.",
+      "definition_zh": "基础设施；其他活动赖以运行的底层系统和服务。",
+      "synonyms": [
+        "foundation",
+        "underlying systems"
+      ],
+      "example_en": "Many applications depend on shared open-source infrastructure.",
+      "example_zh": "许多应用依赖共用的开源基础设施。"
+    },
+    {
+      "word": "patch",
+      "ipa": "/pætʃ/",
+      "pos": "verb",
+      "definition_en": "To update software to fix a bug or security weakness.",
+      "definition_zh": "打补丁；通过更新软件修复错误或安全漏洞。",
+      "synonyms": [
+        "fix",
+        "repair"
+      ],
+      "example_en": "The engineers patched the vulnerability before the next release.",
+      "example_zh": "工程师在下次发布前修补了这个安全漏洞。"
+    },
+    {
+      "word": "obsessively",
+      "ipa": "/əbˈsesɪvli/",
+      "pos": "adv",
+      "definition_en": "With intense, persistent attention that can be difficult to stop.",
+      "definition_zh": "执着地；以强烈、持续甚至难以停止的专注投入某事。",
+      "synonyms": [
+        "compulsively",
+        "relentlessly"
+      ],
+      "example_en": "She obsessively checked every failing test for clues.",
+      "example_zh": "她执着地检查每个失败的测试，寻找线索。"
+    },
+    {
+      "word": "buggy",
+      "ipa": "/ˈbʌɡi/",
+      "pos": "adj",
+      "definition_en": "Containing software errors that cause unexpected or unreliable behavior.",
+      "definition_zh": "有程序错误的；运行不稳定或出现异常行为的。",
+      "synonyms": [
+        "glitchy",
+        "error-prone"
+      ],
+      "example_en": "The new feature is useful but still buggy.",
+      "example_zh": "这个新功能很有用，但仍有不少程序错误。"
+    }
+  ],
+  "quote": {
+    "text_en": "Well done is better than well said.",
+    "text_zh": "做得好胜过说得好。",
+    "author": "Benjamin Franklin"
+  },
+  "slang_glossary": [
+    {
+      "term": "stan",
+      "definition_en": "An extremely enthusiastic fan; also a verb meaning to strongly support someone.",
+      "definition_zh": "狂热粉丝；也可作动词，表示强烈支持或喜爱某人。"
+    },
+    {
+      "term": "tipping point",
+      "definition_en": "The threshold beyond which a major change becomes likely or self-sustaining.",
+      "definition_zh": "引发重大转变、或使变化开始自行持续的临界点。"
+    },
+    {
+      "term": "ship",
+      "definition_en": "To release or deliver software or a feature to users.",
+      "definition_zh": "发布或交付软件、产品或功能。"
+    },
+    {
+      "term": "/ship",
+      "definition_en": "A slash command presented in the sample as an entry point to Claude Ship.",
+      "definition_zh": "样本文本中用于调用 Claude Ship 的斜杠命令。"
+    },
+    {
+      "term": "velocity",
+      "definition_en": "The pace of development or delivery; in agile methods, it can refer to work completed per iteration.",
+      "definition_zh": "开发或交付速度；在敏捷方法中，也可指每轮迭代完成的工作量。"
+    },
+    {
+      "term": "babysit PRs",
+      "definition_en": "To repeatedly monitor and manage pull requests until they are ready to merge.",
+      "definition_zh": "像照看孩子一样持续盯着拉取请求，处理问题并推动合并。"
+    },
+    {
+      "term": "PR",
+      "definition_en": "Short for pull request: a proposal to merge code changes into a repository.",
+      "definition_zh": "pull request 的缩写，即拉取请求：提议将代码更改合并到代码仓库。"
+    },
+    {
+      "term": "repo",
+      "definition_en": "Short for repository: a place where project code and its change history are stored.",
+      "definition_zh": "repository 的简称，即存放项目代码及其变更历史的代码仓库。"
+    },
+    {
+      "term": "code review",
+      "definition_en": "Inspection of proposed code changes to identify problems and improve quality.",
+      "definition_zh": "代码审查：检查拟议的代码更改，以发现问题并提高质量。"
+    },
+    {
+      "term": "failing checks",
+      "definition_en": "Automated tests or validation steps that report unsuccessful results.",
+      "definition_zh": "未通过的自动化测试或验证步骤。"
+    },
+    {
+      "term": "observe mode",
+      "definition_en": "A mode used to watch and assess a system's decisions before allowing it to take action.",
+      "definition_zh": "观察模式：先观察和评估系统决策，再允许其实际执行操作。"
+    },
+    {
+      "term": "beta",
+      "definition_en": "A prerelease stage in which users try software that may still change or contain bugs.",
+      "definition_zh": "测试阶段；用户可以试用，但软件仍可能调整或存在错误。"
+    },
+    {
+      "term": "OSS",
+      "definition_en": "Open-source software: software whose source code is available under a license permitting use, modification, and redistribution.",
+      "definition_zh": "开源软件：源代码按允许使用、修改和再分发的许可证公开的软件。"
+    },
+    {
+      "term": "roll out",
+      "definition_en": "To make a product or update available, often gradually across users.",
+      "definition_zh": "推出或逐步开放产品、功能或更新。"
+    },
+    {
+      "term": "buggy",
+      "definition_en": "Informal language for software that contains errors or behaves unreliably.",
+      "definition_zh": "形容软件有错误、运行不稳定的口语说法。"
+    },
+    {
+      "term": "prompting",
+      "definition_en": "Giving an AI model instructions or context to guide its response.",
+      "definition_zh": "向 AI 模型提供指令或上下文，以引导其回答或行为。"
+    },
+    {
+      "term": "salty",
+      "definition_en": "Informally, annoyed, resentful, or bitter about something.",
+      "definition_zh": "口语中指不爽、愤愤不平或心有怨气。"
+    },
+    {
+      "term": "BS",
+      "definition_en": "A mildly censored abbreviation of bullshit, used to dismiss something as nonsense or unfair.",
+      "definition_zh": "bullshit 的缩写，带粗俗色彩，用来表示「胡扯」或「太不合理了」。"
+    },
+    {
+      "term": "lean core team",
+      "definition_en": "A small central team designed to operate with limited staffing and overhead.",
+      "definition_zh": "精简的核心团队，以较少人员和管理成本开展工作。"
+    },
+    {
+      "term": "open-weight AI",
+      "definition_en": "AI whose trained model weights are available to download, subject to license terms; other development materials may remain private.",
+      "definition_zh": "开放模型权重的 AI，可按许可条款下载权重；训练数据等其他材料可能仍不公开。"
+    },
+    {
+      "term": "doubling down",
+      "definition_en": "Increasing commitment or investment in an existing strategy.",
+      "definition_zh": "继续加码；对已有策略投入更多资源或承诺。"
+    },
+    {
+      "term": "scaling",
+      "definition_en": "Increasing a system's size, capacity, resources, or reach.",
+      "definition_zh": "扩大系统规模、容量、资源投入或覆盖范围。"
+    },
+    {
+      "term": "self-prompt",
+      "definition_en": "For an AI system to generate instructions or questions that guide its own subsequent steps.",
+      "definition_zh": "AI 系统自行生成提示或问题，以引导后续步骤。"
+    },
+    {
+      "term": "BREAKING",
+      "definition_en": "A headline label signaling newly emerging news, sometimes used for dramatic emphasis.",
+      "definition_zh": "表示「突发消息」的标题标签，有时也用于夸张地吸引注意。"
+    },
+    {
+      "term": "AI slop",
+      "definition_en": "A dismissive term for low-quality, generic, or mass-produced AI-generated content.",
+      "definition_zh": "对低质量、模板化或批量生成的 AI 内容的贬称。"
+    },
+    {
+      "term": "swarm",
+      "definition_en": "In AI, a group of agents working on tasks, often through coordination or parallel activity.",
+      "definition_zh": "在 AI 语境中，指通过协作或并行活动执行任务的一组智能体。"
+    },
+    {
+      "term": "forward deployed engineer",
+      "definition_en": "An engineer who works closely with customers to adapt and implement a product in their environment.",
+      "definition_zh": "前线部署工程师；深入客户实际环境，协助产品适配与落地的工程师。"
+    },
+    {
+      "term": "personal benchmark",
+      "definition_en": "An individual's own tasks or criteria for judging a tool's performance.",
+      "definition_zh": "个人评测基准；用自己关心的任务或标准衡量工具表现。"
+    },
+    {
+      "term": "maxxing",
+      "definition_en": "An internet suffix or term for aggressively optimizing or maximizing a particular trait or activity.",
+      "definition_zh": "网络用语，指把某项特质或活动尽可能优化、拉满。"
+    },
+    {
+      "term": "existential crisis",
+      "definition_en": "Deep uncertainty about purpose or identity; online, often used humorously for feeling fundamentally unsettled.",
+      "definition_zh": "对存在意义或身份的深刻困惑；网络上也常夸张地表示受到冲击、开始怀疑人生。"
+    },
+    {
+      "term": "plugins",
+      "definition_en": "Add-on components that extend an application's capabilities.",
+      "definition_zh": "插件；为应用扩展功能的附加组件。"
+    },
+    {
+      "term": "connectors",
+      "definition_en": "Integrations that let an application access or interact with external services and data.",
+      "definition_zh": "连接器；让应用访问外部服务、数据或与之交互的集成组件。"
+    }
+  ],
+  "stats": {
+    "builders": 17,
+    "podcasts": 0,
+    "blogs": 0,
+    "totalTweets": 41,
+    "feedGeneratedAt": "2026-11-24T06:30:02.996Z"
+  }
+}
