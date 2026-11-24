@@ -6,7 +6,8 @@
 //   codex (default) — local Codex CLI (`codex exec`, ChatGPT plan quota)
 //   claude          — `claude -p` (Claude Code; uses the Claude plan credits)
 // Enrichment:
-//   - Per-builder summaries in EN + ZH
+//   - Per-builder headline + 1-3 points (EN + ZH) and a kind tag
+//     (launch / research / opinion / chatter) used to sort the site
 //   - Podcast / blog summaries in EN + ZH
 //   - 5-8 vocabulary words (IPA, POS, definition, synonyms)
 //   - Slang / jargon annotations
@@ -83,14 +84,28 @@ async function main() {
   // Filter out builders with no tweets
   const activeBuilders = x.filter(b => b.tweets && b.tweets.length > 0);
 
-  // Trim input to keep output within token limits.
-  // Tweets are capped at 240 chars; each builder gets at most 2 tweets.
-  // We only send `handle` (the join key) + tweet text — no id/url needed
-  // since the model is no longer asked to echo any input fields.
+  // Per builder, keep the 3 most-engaged tweets (likes + retweets) — the
+  // feed's own order often puts the follow-up replies first and the actual
+  // announcement last. Tweets go to the model in full (capped at 1500 chars):
+  // cutting them to 240 chars hid the actual argument of long posts.
+  const MAX_TWEETS = 3;
+  const TWEET_CHARS = 1500;
+  const engagement = t => (t.likes || 0) + 2 * (t.retweets || 0);
+  for (const b of activeBuilders) {
+    b.tweets = [...b.tweets].sort((a, c) => engagement(c) - engagement(a)).slice(0, MAX_TWEETS);
+  }
+
+  // We only send `handle` (the join key) + numbered tweets. The model refers
+  // to tweets by their number and never echoes any input text back.
   function trimBuilders(builders) {
     return builders.map(b => ({
       handle: b.handle,
-      tweets: (b.tweets || []).slice(0, 2).map(t => (t.text || '').slice(0, 240)),
+      tweets: b.tweets.map((t, i) => ({
+        n: i + 1,
+        likes: t.likes || 0,
+        quotes_another_tweet: !!t.isQuote,
+        text: (t.text || '').slice(0, TWEET_CHARS),
+      })),
     }));
   }
 
@@ -203,19 +218,35 @@ async function main() {
   // merged from the original input feed in the final step. This eliminates
   // an entire class of "model fails to escape user content" JSON errors.
 
-  const pass1System = `You are an AI/tech content curator. Return ONLY a valid JSON object — no fences, no prose.
+  const pass1System = `You are the editor of a daily Chinese-language digest of what AI/tech builders posted on X. Readers skim it in a few seconds per person and must get the point without opening the tweets. Return ONLY a valid JSON object — no fences, no prose.
 
 Schema:
 {
-  "builders": [{ "handle":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文","slang":[{"term":"string","definition_en":"string","definition_zh":"string"}] }],
+  "builders": [{
+    "handle": "string",
+    "kind": "launch | research | opinion | chatter",
+    "headline_zh": "一句话中文标题，<=40字",
+    "headline_en": "one-line English headline",
+    "points": [{ "tweet": 1, "zh": "中文要点", "en": "English point" }],
+    "slang": [{ "term":"string","definition_en":"string","definition_zh":"string" }]
+  }],
   "podcasts": [{ "name":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }],
   "blogs":    [{ "name":"string","summary_en":"1-2 sentences","summary_zh":"1-2句中文" }]
 }
 
-Rules:
+How to write each builder:
+- kind: launch = a product/feature/model is released or announced; research = new results, data, benchmarks, papers; opinion = a substantive argument or insight; chatter = jokes, reactions, one-word replies, personal life, bare links or comments on something not shown. Pick the most important kind across that builder's tweets.
+- headline_zh: do not start with the author's name (it is shown next to the headline). State the single most important takeaway, stated as a conclusion a reader can repeat — who did what, or what is claimed. Name the product/company/person; never write 「他」「某项」「一项内容」. For chatter, a short plain description is fine (e.g. 「Jensen 回归 Nvidia，发了一句庆祝」).
+- points: one point per tweet worth reading, most important first, at most 3; skip tweets that add nothing. "tweet" is the tweet's number n from the input. Each point is one or two short sentences: the concrete fact or argument with its numbers and names, then, if not obvious, why it matters. A chatter builder may have 0-1 points.
+- Explain jargon and product names in a few words the first time (e.g. 「EFS（企业前沿防护）」「/ship 命令」). Keep English product names in English.
+- Never write about what is missing or unclear (no 「未说明」「无法确定」「上下文不足」「片段未展示」). If a tweet only reacts to a link or quoted tweet you cannot see, describe what is visible in a few words, or skip it.
+- Do not start with the author's role or background. Do not merge unrelated tweets into one sentence.
+- Natural, concise Chinese as a tech journalist would write it, not a word-by-word translation.
+
+Other rules:
 - Include ALL builders, podcasts, and blogs listed. Use the EXACT handle/name from the input as the join key.
-- DO NOT echo back tweet text, URLs, titles, or any other input field — only output summaries and slang. Static data is merged separately.
-- summary_en / summary_zh: focus on WHAT the content is saying — the actual takeaway or insight. DO NOT start with the author's role or background (avoid phrasings like "AI thought leader sharing..." or "Tech executive observing..."). Lead with the substance: what was built, claimed, observed, argued, or shipped.
+- DO NOT echo back tweet text, URLs, titles, or any other input field.
+- Podcast/blog summary_zh: lead with the takeaway, same style as headlines.
 - slang: flag any AI/startup jargon in the tweets (e.g. vibe coding, dogfooding, ship it).
 - CRITICAL JSON RULE: inside string values, prefer 「」 or 『』 (Chinese) and ' (English) instead of ASCII double-quote ". An unescaped " inside a JSON string value breaks the JSON. When in doubt, avoid " entirely.
 - Return ONLY valid JSON.`;
@@ -327,8 +358,8 @@ Return ONLY a valid JSON array.`;
   const pass3User = `BUILDERS:\n${JSON.stringify(
     activeBuilders.map(b => ({
       handle: b.handle,
-      summary_en: pass1ByHandle[b.handle]?.summary_en || '',
-      tweets: (b.tweets || []).slice(0, 2).map(t => (t.text || '').slice(0, 240)),
+      summary_en: pass1ByHandle[b.handle]?.headline_en || '',
+      tweets: b.tweets.map(t => (t.text || '').slice(0, 600)),
     }))
   )}`;
 
@@ -354,7 +385,7 @@ Return ONLY a valid JSON array.`;
   const LONG_TWEET_CHARS = 400;
   const longTweets = [];
   for (const b of activeBuilders) {
-    for (const t of (b.tweets || []).slice(0, 2)) {
+    for (const t of b.tweets) {
       if (t.text && t.text.length >= LONG_TWEET_CHARS) {
         longTweets.push({ tweet_id: t.id, handle: b.handle, text: t.text.slice(0, 1600) });
       }
@@ -404,19 +435,36 @@ Rules:
     date: todayISO(),
     builders: activeBuilders.map(b => {
       const p = pass1ByHandle[b.handle] || {};
+      const tweets = b.tweets.map(t => ({
+        id: t.id,
+        text: t.text,
+        url: t.url,
+        likes: t.likes ?? null,
+        summary_en: summariesByTweetId[t.id] || null,
+      }));
+      // Points reference tweets by 1-based number; resolve to the tweet's
+      // id/url here so the site can link each point to its source.
+      const points = (Array.isArray(p.points) ? p.points : [])
+        .filter(pt => pt && (pt.zh || pt.en))
+        .slice(0, 3)
+        .map(pt => {
+          const t = tweets[(parseInt(pt.tweet, 10) || 0) - 1];
+          return { zh: pt.zh || '', en: pt.en || '', tweet_id: t?.id || null, url: t?.url || null };
+        });
+      const kind = ['launch', 'research', 'opinion', 'chatter'].includes(p.kind) ? p.kind : 'opinion';
       return {
         name: b.name,
         handle: b.handle,
-        summary_en: p.summary_en || '',
-        summary_zh: p.summary_zh || '',
+        kind,
+        headline_zh: p.headline_zh || '',
+        headline_en: p.headline_en || '',
+        points,
+        // Kept for older readers of the data format.
+        summary_en: p.headline_en || '',
+        summary_zh: p.headline_zh || '',
         slang: p.slang || [],
         keywords: keywordsByHandle[b.handle] || [],
-        tweets: (b.tweets || []).slice(0, 2).map(t => ({
-          id: t.id,
-          text: t.text,
-          url: t.url,
-          summary_en: summariesByTweetId[t.id] || null,
-        })),
+        tweets,
       };
     }),
     podcasts: podcasts.map(p => {

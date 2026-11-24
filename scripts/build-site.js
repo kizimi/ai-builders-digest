@@ -40,7 +40,25 @@ function getInitials(name) {
   return name.split(/\s+/).map(w => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase();
 }
 
+// Newer data (from 2026-11-25) carries a model-assigned kind per builder.
+const KINDS = {
+  launch:   { emoji: '🚀', cls: 'badge-launch',   label: '发布', rank: 0 },
+  research: { emoji: '📊', cls: 'badge-research', label: '研究', rank: 1 },
+  opinion:  { emoji: '💡', cls: 'badge-insight',  label: '观点', rank: 2 },
+  chatter:  { emoji: '💬', cls: 'badge-chatter',  label: '闲聊', rank: 3 },
+};
+
+function maxLikes(builder) {
+  return Math.max(0, ...(builder.tweets || []).map(t => t.likes || 0));
+}
+
+function formatLikes(n) {
+  if (!n) return '';
+  return n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + 'k' : String(n);
+}
+
 function getBadge(builder) {
+  if (builder.kind && KINDS[builder.kind]) return KINDS[builder.kind];
   const text = ((builder.summary_en || '') + ' ' + (builder.tweets || []).map(t => t.text).join(' ')).toLowerCase();
   if (/\b(launch(ed|ing)?|released?|shipped?|introduc(ed|ing)|announc(ed|ing)|new feature)\b/.test(text)) {
     return { emoji: '🚀', cls: 'badge-launch', label: 'launch' };
@@ -188,12 +206,49 @@ function heroSection(data) {
 
 // ── Module 2: Builders ──────────────────────────────────────────────────────
 
+const ARROW = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9"/></svg>';
+
+// New format: headline + points (each linked to its tweet). Old data files
+// only have summary_zh and keep the original one-paragraph block.
+function summaryBlock(b) {
+  if (!b.headline_zh) {
+    return `<div class="summary-block">
+    <div class="summary-label">摘要</div>
+    <p class="summary-text">${escapeHtml(b.summary_zh || b.summary_en || '')}</p>
+  </div>`;
+  }
+  const points = (b.points || []).map(pt => {
+    const link = pt.url
+      ? ` <a class="point-link" href="${escapeHtml(pt.url)}" target="_blank" rel="noopener" aria-label="查看原推文" title="查看原推文">${ARROW}</a>`
+      : '';
+    return `<li>${escapeHtml(pt.zh || pt.en)}${link}</li>`;
+  }).join('');
+  return `<div class="summary-block">
+    <p class="headline-text">${escapeHtml(b.headline_zh)}</p>
+    ${points ? `<ul class="point-list">${points}</ul>` : ''}
+  </div>`;
+}
+
+// Launches and research first, then opinions, then chatter; within a kind,
+// the most-liked builder first. Old data (no kind) keeps feed order.
+function orderBuilders(builders) {
+  if (!builders.some(b => b.kind)) return { main: builders, chatter: [] };
+  const sorted = [...builders].sort((a, b) =>
+    (getBadge(a).rank ?? 2) - (getBadge(b).rank ?? 2) || maxLikes(b) - maxLikes(a));
+  return {
+    main: sorted.filter(b => b.kind !== 'chatter'),
+    chatter: sorted.filter(b => b.kind === 'chatter'),
+  };
+}
+
 function buildersSection(builders, vocab, date) {
   if (!builders || builders.length === 0) return '';
   const total = builders.length;
+  const { main, chatter } = orderBuilders(builders);
 
-  const cards = builders.map((b, i) => {
+  const card = (b, i) => {
     const badge      = getBadge(b);
+    const likes      = b.kind ? formatLikes(maxLikes(b)) : '';
     const initials   = getInitials(b.name);
     // Prefer per-builder keywords (verbatim phrases); fall back to global vocab matching
     const bvocab     = (b.keywords && b.keywords.length > 0) ? b.keywords : builderVocab(b, vocab);
@@ -229,13 +284,11 @@ function buildersSection(builders, vocab, date) {
       <span class="builder-name">${escapeHtml(b.name)}</span>
       <span class="builder-handle">@${escapeHtml(b.handle)}</span>
     </div>
+    ${likes ? `<span class="builder-likes" title="最高点赞数">♥ ${likes}</span>` : ''}
     <span class="builder-badge ${badge.cls}">${badge.emoji} ${badge.label}</span>
   </header>
 
-  <div class="summary-block">
-    <div class="summary-label">摘要</div>
-    <p class="summary-text">${escapeHtml(b.summary_zh || b.summary_en || '')}</p>
-  </div>
+  ${summaryBlock(b)}
 
   <button class="expand-btn" data-expand="${i}">▶ 原文 · ${escapeHtml(tweetLabel)}</button>
 
@@ -246,7 +299,15 @@ function buildersSection(builders, vocab, date) {
     </div>
   </div>
 </article>`;
-  }).join('');
+  };
+
+  const cards = main.map((b, i) => card(b, i)).join('');
+  const chatterCards = chatter.map((b, i) => card(b, main.length + i)).join('');
+  const chatterSection = chatter.length === 0 ? '' : `
+  <details class="chatter-group">
+    <summary>💬 闲聊 ${chatter.length} 人 <span class="chatter-names">${escapeHtml(chatter.map(b => b.name).join('、'))}</span></summary>
+    <div class="builders-list">${chatterCards}</div>
+  </details>`;
 
   return `
 <section class="builders-section">
@@ -263,6 +324,7 @@ function buildersSection(builders, vocab, date) {
   <div class="builders-list" id="buildersList">
     ${cards}
   </div>
+  ${chatterSection}
 
   <div class="all-done-banner" id="allDoneBanner" hidden>
     <p class="all-done-text">All caught up!</p>
