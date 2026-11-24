@@ -310,7 +310,88 @@ a:hover { text-decoration: underline; }
 
 .badge-trending { background: rgba(200,68,12,.09); color: var(--accent); }
 .badge-insight  { background: rgba(26,107,58,.09);  color: var(--green); }
-.badge-launch   { background: rgba(26,25,22,.07);   color: var(--ink2); }
+.badge-launch   { background: rgba(200,68,12,.12); color: var(--accent); }
+.badge-research { background: rgba(30,80,160,.09); color: #1e50a0; }
+.badge-chatter  { background: rgba(26,25,22,.05); color: var(--ink3); }
+
+.builder-likes {
+  font-size: .68rem;
+  color: var(--ink3);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Headline + points (data from 2026-11-25 on) */
+.headline-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+.point-list {
+  list-style: none;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.point-list li {
+  position: relative;
+  padding-left: 14px;
+  font-size: .875rem;
+  color: var(--ink2);
+  line-height: 1.65;
+}
+
+.point-list li::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: .7em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--ink3);
+}
+
+.point-link {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  vertical-align: -1px;
+  margin-left: 2px;
+  color: var(--ink3);
+  transition: color .15s;
+}
+.point-link:hover { color: var(--accent); }
+.point-link svg { width: 100%; height: 100%; display: block; }
+
+/* Chatter builders folded at the bottom */
+.chatter-group {
+  margin-top: 8px;
+  border-top: 1px solid var(--paper3);
+  padding-top: 14px;
+}
+
+.chatter-group > summary {
+  cursor: pointer;
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--ink2);
+  padding: 6px 0;
+  list-style: none;
+}
+.chatter-group > summary::-webkit-details-marker { display: none; }
+.chatter-group > summary::before { content: '▶ '; font-size: .65rem; color: var(--ink3); }
+.chatter-group[open] > summary::before { content: '▼ '; }
+
+.chatter-names {
+  font-weight: 400;
+  color: var(--ink3);
+  margin-left: 6px;
+}
 
 /* Summary block */
 .summary-block {
