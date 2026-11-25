@@ -1,0 +1,1221 @@
+{
+  "date": "2026-11-25",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "kind": "opinion",
+      "headline_zh": "AI 应用需要更完整的运行与审批基础设施",
+      "headline_en": "AI apps need more complete runtime and approval infrastructure",
+      "points": [
+        {
+          "zh": "他列出本地与云端沙箱、会话存储、用户审批收件箱、流式监听和共享产物等能力，作为构建 AI 应用的参考。",
+          "en": "He highlights local and cloud sandboxes, session storage, approval inboxes, stream listeners, and shared artifacts as useful building blocks for AI apps.",
+          "tweet_id": "2125431392226148670",
+          "url": "https://x.com/swyx/status/2125431392226148670"
+        }
+      ],
+      "summary_en": "AI apps need more complete runtime and approval infrastructure",
+      "summary_zh": "AI 应用需要更完整的运行与审批基础设施",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "sandboxes",
+          "ipa": "/ˈsændˌbɑːksɪz/",
+          "definition_zh": "沙箱是限制程序权限和访问范围的隔离执行环境。",
+          "example_zh": "作者把沙箱与本地和云端环境并列，视为 AI 应用运行基础设施的一部分。"
+        },
+        {
+          "phrase": "user approval inbox",
+          "ipa": "",
+          "definition_zh": "用户审批收件箱是集中展示待用户批准事项的界面。",
+          "example_zh": "作者把它列为 AI 应用需要补齐的组件，让用户有一个固定入口处理需要自己批准的操作。"
+        },
+        {
+          "phrase": "stream listeners",
+          "ipa": "",
+          "definition_zh": "流监听器是持续接收并处理数据流或事件流的组件。",
+          "example_zh": "作者把流监听器列入运行时配套能力，指应用可以在数据或事件陆续到达时作出响应。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125444028527468699",
+          "text": "hey is silicon valley okay because wtf https://t.co/XM7o4KRgQt https://t.co/Rk9n9G5peG",
+          "url": "https://x.com/swyx/status/2125444028527468699",
+          "likes": 154,
+          "summary_en": null
+        },
+        {
+          "id": "2125448165197570547",
+          "text": "literally if you turn your brain off you are just choosing not to listen at this point https://t.co/1bR6AwZlSf",
+          "url": "https://x.com/swyx/status/2125448165197570547",
+          "likes": 6,
+          "summary_en": null
+        },
+        {
+          "id": "2125431392226148670",
+          "text": "also useful here from John:\n\n- local-cloud envs &amp; sandboxes\n- session vs conversation store\n- user approval inbox\n- stream listeners\n- artifacts for everyone\n- all configurations of dashboard \n\nhttps://t.co/Udf0Ex5Znn",
+          "url": "https://x.com/swyx/status/2125431392226148670",
+          "likes": 5,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "kind": "launch",
+      "headline_zh": "MCP 服务器现可自带技能，让 Claude Code 开箱即用",
+      "headline_en": "MCP servers can now bundle skills for Claude Code",
+      "points": [
+        {
+          "zh": "MCP 服务器现在可以附带使用技能，让 Claude Code 接入后直接知道如何操作。",
+          "en": "MCP servers can now include skills that teach Claude Code how to use them immediately.",
+          "tweet_id": "2125292098165612585",
+          "url": "https://x.com/bcherny/status/2125292098165612585"
+        }
+      ],
+      "summary_en": "MCP servers can now bundle skills for Claude Code",
+      "summary_zh": "MCP 服务器现可自带技能，让 Claude Code 开箱即用",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "ship with",
+          "ipa": "",
+          "definition_zh": "在软件语境中，指产品发布或交付时自带某项功能或组件。",
+          "example_zh": "这里指 MCP 服务器现在可以把自己的技能随服务器一起提供给 Claude Code。"
+        },
+        {
+          "phrase": "MCP servers",
+          "ipa": "",
+          "definition_zh": "MCP 服务器是通过模型上下文协议向 AI 客户端提供工具、资源等能力的服务。",
+          "example_zh": "这条推文说，这类服务器现在可以附带自己的技能，帮助 Claude Code 知道该怎么使用它们。"
+        },
+        {
+          "phrase": "out of the box",
+          "ipa": "",
+          "definition_zh": "指功能开箱即用，通常无需额外设置。",
+          "example_zh": "技能随服务器一起提供后，Claude Code 一接入就知道怎么用它们，省去了另外配置使用方式的步骤。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125292098165612585",
+          "text": "Really excited about this one. MCP servers can now ship with their own skills, so Claude Code knows how to use them out of the box. https://t.co/Z0TQVOfGTz",
+          "url": "https://x.com/bcherny/status/2125292098165612585",
+          "likes": 5102,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "kind": "launch",
+      "headline_zh": "ChatGPT Business 年底前免费提供 fast mode",
+      "headline_en": "ChatGPT Business adds free fast mode through December",
+      "points": [
+        {
+          "zh": "ChatGPT Business 团队获得一次额度重置，并可在 12 月 31 日前免费使用 fast mode（快速模式）。",
+          "en": "ChatGPT Business teams get a banked reset and fast mode at no extra charge through December 31.",
+          "tweet_id": "2125299248782778588",
+          "url": "https://x.com/thsottiaux/status/2125299248782778588"
+        }
+      ],
+      "summary_en": "ChatGPT Business adds free fast mode through December",
+      "summary_zh": "ChatGPT Business 年底前免费提供 fast mode",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "banked reset",
+          "ipa": "",
+          "definition_zh": "指一项已存入账户、留待之后使用的重置机会。",
+          "example_zh": "作者把它列为给 ChatGPT Business 团队的两项福利之一，推文只点出这项福利，没有说明可重置什么。"
+        },
+        {
+          "phrase": "fast mode",
+          "ipa": "",
+          "definition_zh": "指以更快响应速度为主要特点的运行模式。",
+          "example_zh": "作者宣布 ChatGPT Business 团队在 12 月 31 日之前使用快速模式无需额外付费。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125299248782778588",
+          "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+          "url": "https://x.com/thsottiaux/status/2125299248782778588",
+          "likes": 5295,
+          "summary_en": null
+        },
+        {
+          "id": "2125299436964479474",
+          "text": "https://t.co/SY2X7f40c5",
+          "url": "https://x.com/thsottiaux/status/2125299436964479474",
+          "likes": 320,
+          "summary_en": null
+        },
+        {
+          "id": "2125299467691987445",
+          "text": "Sign up for ChatGPT Business: https://t.co/2WH7P7Yx7L",
+          "url": "https://x.com/thsottiaux/status/2125299467691987445",
+          "likes": 167,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "kind": "opinion",
+      "headline_zh": "Antigravity 的多智能体编排适合规划和开发",
+      "headline_en": "Antigravity's multi-agent tools help plan and build",
+      "points": [
+        {
+          "zh": "他用 Gemini 4 Neon 搭配 Antigravity 制作免费教程：Orchestrator 和 /swarm 可编排多个智能体，/grill-me 会先追问需求；他曾同时运行 42 个智能体。",
+          "en": "His free course covers Orchestrator and /swarm for multi-agent work and /grill-me for clarifying requirements; he says he ran 42 agents at once.",
+          "tweet_id": "2125246815884984398",
+          "url": "https://x.com/petergyang/status/2125246815884984398"
+        }
+      ],
+      "summary_en": "Antigravity's multi-agent tools help plan and build",
+      "summary_zh": "Antigravity 的多智能体编排适合规划和开发",
+      "slang": [
+        {
+          "term": "swarm",
+          "definition_en": "A group of AI agents working in parallel or together.",
+          "definition_zh": "多个 AI 智能体协同或并行工作。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Orchestrator",
+          "ipa": "/ˈɔːrkəstreɪtər/",
+          "definition_zh": "在多智能体系统中，编排器负责协调多个智能体的任务和执行。",
+          "example_zh": "作者用这个功能配合 /swarm 做规划和开发，一度同时运行了 42 个智能体。"
+        },
+        {
+          "phrase": "/swarm",
+          "ipa": "",
+          "definition_zh": "这里指用于组织多个智能体协作的斜杠命令。",
+          "example_zh": "作者把这个命令和 Orchestrator 并列，认为两者都能帮助多个智能体共同规划和开发。"
+        },
+        {
+          "phrase": "flesh out the plan",
+          "ipa": "",
+          "definition_zh": "指给初步计划补足细节，使它更具体、更完整。",
+          "example_zh": "作者用 /grill-me 让 Antigravity 先提出澄清问题，帮助自己在动手前把方案想清楚。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125246815884984398",
+          "text": "I've been using Gemini 4 Neon and @antigravity all weekend and made a free video course on how you can get the most out of this combo.\n\nSome takeaways:\n\n1. Orchestrator and /swarm are very useful for planning and building with multiple agents. At one point, I had 42 agents running at once.\n\n2. /grill-me is a great built-in skill that gets Antigravity to ask clarifying questions to help you flesh out the plan first.\n\n3. Remote control is better than Claude Code's because every thread is active by default. I show you how to add Antigravity to your phone home screen to run this in the video.\n\n📌 Watch my full 17-minute Antigravity course here: https://t.co/lmfSTiVBsm",
+          "url": "https://x.com/petergyang/status/2125246815884984398",
+          "likes": 580,
+          "summary_en": "A free 17-minute course shows how to use Gemini 4 Neon with Antigravity to coordinate dozens of agents, refine plans with /grill-me, and control active threads from a phone."
+        },
+        {
+          "id": "2125246828082057462",
+          "text": "Also follow @adhidesign, the designer behind Antigravity and @_mohansolo, the new \"reset guy\" for Gemini :)",
+          "url": "https://x.com/petergyang/status/2125246828082057462",
+          "likes": 6,
+          "summary_en": null
+        },
+        {
+          "id": "2125436963645952307",
+          "text": "@antigravity If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+          "url": "https://x.com/petergyang/status/2125436963645952307",
+          "likes": 0,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "kind": "chatter",
+      "headline_zh": "连续为 Dot 喝彩",
+      "headline_en": "Cheering for Dot",
+      "points": [],
+      "summary_en": "Cheering for Dot",
+      "summary_zh": "连续为 Dot 喝彩",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "MOAR",
+          "ipa": "/mɔːr/",
+          "definition_zh": "网络俚语，是 「more」 的夸张拼法，带有起哄或催更的语气。",
+          "example_zh": "作者在第二条推文里加上 「MOAR」，像在喊「再多来点 Dot」，给上一条助威加码。"
+        },
+        {
+          "phrase": "DOT SUPREMACY",
+          "ipa": "",
+          "definition_zh": "这是网络助威式说法，夸张地宣称 Dot 最强。",
+          "example_zh": "作者用全大写把这句话写成口号，表达对 Dot 的支持。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125388928647880795",
+          "text": "DOT SUPREMACY https://t.co/tpmPV5Gmfr",
+          "url": "https://x.com/thenanyu/status/2125388928647880795",
+          "likes": 15,
+          "summary_en": null
+        },
+        {
+          "id": "2125427566647640288",
+          "text": "MOAR DOT SUPREMACY\nhttps://t.co/m3UZ4uDEDv",
+          "url": "https://x.com/thenanyu/status/2125427566647640288",
+          "likes": 1,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "kind": "opinion",
+      "headline_zh": "Jensen 风波显示专家语气与预测准确度无关",
+      "headline_en": "The Jensen saga exposed overconfident expert predictions",
+      "points": [
+        {
+          "zh": "他认为，Jensen 事件中不少投资人和分析师笃定预测却接连改口；信息平台奖励快速、强硬的判断，读者应据此校准专家可信度。",
+          "en": "He argues that confident, rapidly changing predictions about Jensen show how media incentives reward certainty more than accuracy.",
+          "tweet_id": "2125355549202194801",
+          "url": "https://x.com/realmadhuguru/status/2125355549202194801"
+        }
+      ],
+      "summary_en": "The Jensen saga exposed overconfident expert predictions",
+      "summary_zh": "Jensen 风波显示专家语气与预测准确度无关",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "flip-flopped",
+          "ipa": "/ˈflɪpˌflɑːpt/",
+          "definition_zh": "指反复改变或突然反转立场，通常带有批评意味。",
+          "example_zh": "有些专家几天内就改了对 Jensen 事件的预测，前后却都说得一样笃定。"
+        },
+        {
+          "phrase": "asymmetrically rewards",
+          "ipa": "",
+          "definition_zh": "指对某些行为给予远高于其他行为的回报。",
+          "example_zh": "作者认为，信息传播环境更容易给说得快、说得狠、口气笃定的人带来关注，坦言还要再观察的人很难得到同等关注。"
+        },
+        {
+          "phrase": "get eyeballs",
+          "ipa": "",
+          "definition_zh": "在媒体和营销语境中，指吸引受众注意或获得浏览量。",
+          "example_zh": "作者说，在争相预测 Jensen 事件走向时，「我不知道，再看看」这种谨慎表态很难吸引眼球。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125355549202194801",
+          "text": "the predictions around the Jensen saga were a great demo of how little correlation there is between confidence and being right.\n\nit’s wild how many prominent VCs, analysts and experts spoke with complete confidence about how things would play out .\n\nsome flip-flopped on their predictions within days - each time with the same confidence!\n\nour info ecosystem asymmetrically rewards certainty, speed and brashness… “I don’t know,\nlet’s see how this plays out” just doesn’t get eyeballs.\n\nworth remembering with ALL “expert” commentary you consume - people often have far less certainty than their tone suggests. they just form a view, stake out a position and say it loudly.\n\ntake everything with a sack of salt.\n\nthis news cycle was also a good way to calibrate on the people who are consistently loud and wrong.",
+          "url": "https://x.com/realmadhuguru/status/2125355549202194801",
+          "likes": 22,
+          "summary_en": "Confident predictions about Jensen were often wrong or quickly reversed. The episode shows how an information ecosystem that rewards speed and certainty can make expert commentary sound more reliable than it is."
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "kind": "opinion",
+      "headline_zh": "练出本事之前，总得经历一段做得差的时期",
+      "headline_en": "Getting good requires a period of being bad",
+      "points": [
+        {
+          "zh": "他的观点是：学习一项技能时，先接受自己会有一段时间做得不好。",
+          "en": "His point: becoming skilled requires accepting an initial period of poor performance.",
+          "tweet_id": "2125156290494353663",
+          "url": "https://x.com/trq212/status/2125156290494353663"
+        }
+      ],
+      "summary_en": "Getting good requires a period of being bad",
+      "summary_zh": "练出本事之前，总得经历一段做得差的时期",
+      "slang": [],
+      "keywords": [],
+      "tweets": [
+        {
+          "id": "2125156290494353663",
+          "text": "you have to be bad at it for a while https://t.co/s5ECrbQ3sG",
+          "url": "https://x.com/trq212/status/2125156290494353663",
+          "likes": 2013,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "kind": "opinion",
+      "headline_zh": "美国要赢得全球 AI 采用，不能只靠最强模型",
+      "headline_en": "Frontier models alone will not secure global AI adoption",
+      "points": [
+        {
+          "zh": "他认为，各国需要能在本国基础设施上运行的主权 AI；美国开放模型生态若不能满足需求，其他国家可能转向中国模型及配套芯片和基础设施。",
+          "en": "He argues that sovereign AI demand makes open American models strategically important: countries choosing Chinese models may also adopt Chinese chips and infrastructure.",
+          "tweet_id": "2125353849057853876",
+          "url": "https://x.com/amasad/status/2125353849057853876"
+        },
+        {
+          "zh": "他认为，从自动补全到聊天、智能体和智能体集群，每次工具编排进步都会阶跃式推高单个用户的 token（模型处理的文本单位）需求。",
+          "en": "He expects token demand per user to jump as products move from autocomplete to chat, agents, and agent swarms.",
+          "tweet_id": "2125287538911072753",
+          "url": "https://x.com/amasad/status/2125287538911072753"
+        }
+      ],
+      "summary_en": "Frontier models alone will not secure global AI adoption",
+      "summary_zh": "美国要赢得全球 AI 采用，不能只靠最强模型",
+      "slang": [
+        {
+          "term": "sovereign AI",
+          "definition_en": "AI operated under a country's own infrastructure and control.",
+          "definition_zh": "由一国在本土基础设施上自主运行和控制的 AI。"
+        },
+        {
+          "term": "harness",
+          "definition_en": "Software that organizes how an AI model uses tools and performs tasks.",
+          "definition_zh": "组织模型调用工具、执行任务的软件框架。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "sovereign AI",
+          "ipa": "",
+          "definition_zh": "主权 AI 指由一个国家或地区自主掌控部署、基础设施和治理的 AI 能力。",
+          "example_zh": "作者说，各国政府希望在本国境内用自己的基础设施运行模型，并保有控制权。"
+        },
+        {
+          "phrase": "frontier models",
+          "ipa": "",
+          "definition_zh": "指处于当前能力前沿的 AI 模型。",
+          "example_zh": "作者指出，美国即使拥有最强的前沿模型，仍可能在全球 AI 竞争中落后，因为各国还会考虑能否自主运行和控制模型。"
+        },
+        {
+          "phrase": "stack",
+          "ipa": "/stæk/",
+          "definition_zh": "技术栈是支撑一个系统的多层技术组合。",
+          "example_zh": "这里的技术栈包括模型、基础设施和芯片。作者认为，一国采用某家供应商的模型后，也可能逐步采用其技术栈的其他层。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125353849057853876",
+          "text": "America can build the best frontier models and still lose the global AI race. Which is why Jensen’s return matters far beyond Nvidia.\n\nGovernments around the world want sovereign AI: models they can run on their own soil, on their own infrastructure, under their own control.\n\nIf American companies won’t meet that demand, Chinese companies will. Countries will start with Chinese models, then adopt Chinese infrastructure and chips. Having the smartest model won’t mean much if most of the world runs on someone else’s stack.\n\nWe’ve seen a version of this play out with Huawei. China understood that supplying the world’s telecom infrastructure creates lasting strategic influence. Once a country builds its networks around your equipment, it also builds technical expertise, supplier relationships, and future investment around it. Replacing that equipment becomes expensive and disruptive (the US government is now trying to finance replacement operations but it’s been difficult).\n\nThat’s why Jensen’s backing of the American open-model ecosystem is so important. Open models give startups the freedom to compete and give countries a reason to build on American technology.\n\nWe need both frontier leadership and global adoption. Open models are essential to getting both. https://t.co/f34FKKbljl",
+          "url": "https://x.com/amasad/status/2125353849057853876",
+          "likes": 633,
+          "summary_en": "The U.S. could lead in frontier models and still lose global influence if countries seeking sovereign AI build on Chinese models, infrastructure, and chips. Jensen’s support for American open models matters because they give countries a way to run AI under their own control while building on U.S. technology."
+        },
+        {
+          "id": "2125287538911072753",
+          "text": "Unlike say electricity, token demand grows in step functions as we find ways to put more compute to use on behalf of a single user.\n\nauto-complete -> chat -> agent -> long-running autonomous agents -> swarms\n\nEach harness innovation unlocks an order of magnitude more potential token consumption.\n\nBut then there’s a lag between these new tools and users figuring out what to do with them.",
+          "url": "https://x.com/amasad/status/2125287538911072753",
+          "likes": 215,
+          "summary_en": null
+        },
+        {
+          "id": "2125414100692041797",
+          "text": "3B local Muse 🤯 https://t.co/psL7dzZOiu",
+          "url": "https://x.com/amasad/status/2125414100692041797",
+          "likes": 186,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "kind": "launch",
+      "headline_zh": "背景特效制作工具已开源",
+      "headline_en": "A background effect builder is now open source",
+      "points": [
+        {
+          "zh": "他宣布开源背景特效制作工具。",
+          "en": "He announced that the background effect builder is open source.",
+          "tweet_id": "2125426206183239770",
+          "url": "https://x.com/rauchg/status/2125426206183239770"
+        },
+        {
+          "zh": "他解释，一款 CLI（命令行工具）只是 libfx 的轻量外壳，目标是让编码智能体核心能嵌入浏览器、服务器、手机和桌面端。",
+          "en": "He says a CLI is a thin wrapper around libfx, intended as a small coding-agent core that can run across devices and interfaces.",
+          "tweet_id": "2125320020666565096",
+          "url": "https://x.com/rauchg/status/2125320020666565096"
+        }
+      ],
+      "summary_en": "A background effect builder is now open source",
+      "summary_zh": "背景特效制作工具已开源",
+      "slang": [
+        {
+          "term": "agent kernel",
+          "definition_en": "The small core that powers an AI agent.",
+          "definition_zh": "驱动 AI 智能体的精简核心。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Open sourced",
+          "ipa": "",
+          "definition_zh": "指公开源代码，并通过许可证允许他人使用、修改和分发。",
+          "example_zh": "作者用这个短语宣布，制作背景特效的工具已经开源。"
+        },
+        {
+          "phrase": "thin wrapper",
+          "ipa": "",
+          "definition_zh": "指包在底层组件外、只承担少量接口转换或调用工作的代码层。",
+          "example_zh": "作者说，这个命令行工具只是底层库的一层轻量封装，核心能力由库提供。"
+        },
+        {
+          "phrase": "coding agent kernel",
+          "ipa": "",
+          "definition_zh": "指承载编程智能体核心能力的软件组件。",
+          "example_zh": "作者希望把核心组件做得足够小，让它可以嵌入浏览器、服务器、移动端和桌面端。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125330925324300725",
+          "text": "Good stuff https://t.co/tqfvBrVMo7",
+          "url": "https://x.com/rauchg/status/2125330925324300725",
+          "likes": 248,
+          "summary_en": null
+        },
+        {
+          "id": "2125320020666565096",
+          "text": "The main reason https://t.co/3Z4NESzNKd is a CLI (in this day and age!) is that it's a thin wrapper around 𝚕𝚒𝚋𝚏𝚡.\n\nThe goal is to produce the smallest and most intelligent coding agent kernel, that's embeddable on any surface:  browsers, servers, mobile, desktop, OS, ADEs… https://t.co/L51jXUhdBY https://t.co/ksrRsLFHu3",
+          "url": "https://x.com/rauchg/status/2125320020666565096",
+          "likes": 237,
+          "summary_en": null
+        },
+        {
+          "id": "2125426206183239770",
+          "text": "Open sourced the bg effect builder:\nhttps://t.co/1kXz8ojcCK (🔉) https://t.co/k5GSmXawpm https://t.co/4KO6zJjq5n",
+          "url": "https://x.com/rauchg/status/2125426206183239770",
+          "likes": 34,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "kind": "opinion",
+      "headline_zh": "同一公司内部，AI 用法可拉开十倍产出差距",
+      "headline_en": "AI adoption may create tenfold output gaps within firms",
+      "points": [
+        {
+          "zh": "他认为，团队能否重设计流程并把智能体融入工作，可能带来高达十倍的产出差距；这一现象目前最集中于编程。",
+          "en": "He argues that teams redesigning workflows around agents can see up to a tenfold output difference, currently most visible in coding.",
+          "tweet_id": "2125442246543814686",
+          "url": "https://x.com/levie/status/2125442246543814686"
+        }
+      ],
+      "summary_en": "AI adoption may create tenfold output gaps within firms",
+      "summary_zh": "同一公司内部，AI 用法可拉开十倍产出差距",
+      "slang": [
+        {
+          "term": "harness",
+          "definition_en": "Software that organizes a model's tools and workflow.",
+          "definition_zh": "组织模型工具调用与工作流程的软件框架。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "harness",
+          "ipa": "/ˈhɑːrnəs/",
+          "definition_zh": "在 AI 语境中，指负责调用模型、连接工具和管理执行流程的配套框架。",
+          "example_zh": "作者把模型与配套框架的进步并列，认为两者都能推动团队产出大幅提升。"
+        },
+        {
+          "phrase": "10X output gains",
+          "ipa": "",
+          "definition_zh": "指产出能达到原来的约十倍。",
+          "example_zh": "作者用这个量级说明，同一家公司内的团队可能因为采用 AI 的方式不同而出现很大的产出差距。"
+        },
+        {
+          "phrase": "on a per firm basis",
+          "ipa": "",
+          "definition_zh": "指以单家企业为单位衡量或比较。",
+          "example_zh": "作者说，过去常按企业衡量技术采用情况，而 AI 的采用程度在同一家企业的不同团队之间也可能相差很大。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125442246543814686",
+          "text": "This wouldn’t have sounded possible a year ago, but it’s becoming much more reasonable now that you can get 10X output gains based on the latest in AI model and harness progress. The result is that teams within the same company are driving very different levels of output based on how they’ve adopted AI.\n\nThis is a different phenomenon from other tech. Typically in the economy you think of technology adoption rates on a per firm basis, because the company generally adopts a relatively standardized approach to doing the new tech thing. Like “that company has gone digital or adopted the cloud”. So generally the uplift across teams is more or less the same across teams. \n\nAI is starting to look quite different. Even within the same company you can have a 10X delta between the lowest and highest adopters of AI and the impact they’re seeing. The teams that are able to actually figure out how to redesign their processes to best deploy agents in their workflows can see up to an order of magnitude jump in productivity depending on the job function.\n\nRight now this is heavily concentrated in coding, but more work will become coding adjacent so we can expect similar results elsewhere too. This is going to definitely lead to some wild dynamics within companies.",
+          "url": "https://x.com/levie/status/2125442246543814686",
+          "likes": 160,
+          "summary_en": "Teams that redesign their workflows around AI agents could see up to 10× productivity gains, creating wide gaps between teams at the same company. The gains are concentrated in coding today and could spread as more work becomes software-driven."
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "kind": "opinion",
+      "headline_zh": "AI 普及的瓶颈可能是组织适应速度",
+      "headline_en": "Organizational adaptation may constrain AI adoption",
+      "points": [
+        {
+          "zh": "他认为，社会和企业流程改变的速度有上限，人们不愿频繁调整既有工作方式。",
+          "en": "He argues that social resistance and established business processes limit how quickly organizations can absorb new technology.",
+          "tweet_id": "2125247972158193792",
+          "url": "https://x.com/garrytan/status/2125247972158193792"
+        },
+        {
+          "zh": "他认为，现有模型的能力已超过部分客户需求，但智能体自主性和判断品味仍可能出现跃升。",
+          "en": "He says current models already exceed some customers' needs, while agent autonomy and judgment may still improve sharply.",
+          "tweet_id": "2125247943540142577",
+          "url": "https://x.com/garrytan/status/2125247943540142577"
+        }
+      ],
+      "summary_en": "Organizational adaptation may constrain AI adoption",
+      "summary_zh": "AI 普及的瓶颈可能是组织适应速度",
+      "slang": [
+        {
+          "term": "agency",
+          "definition_en": "An AI agent's ability to act independently toward a goal.",
+          "definition_zh": "AI 智能体为目标自主行动的能力。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "people don’t like their cheese moved",
+          "ipa": "",
+          "definition_zh": "这是一种比喻，指人们不愿熟悉的安排或工作方式被改变。",
+          "example_zh": "作者借这句话解释，即使技术已经可用，员工对现有工作流程的依赖也会限制组织改变的速度。"
+        },
+        {
+          "phrase": "natural brakes",
+          "ipa": "",
+          "definition_zh": "比喻在现有条件下自然形成、会拖慢变化的制约因素。",
+          "example_zh": "作者用这个说法描述知识工作和业务流程的变革阻力，例如人们不愿改变已经习惯的做法。"
+        },
+        {
+          "phrase": "step function",
+          "ipa": "",
+          "definition_zh": "技术和商业语境中常借指突然跃升一个台阶的变化。",
+          "example_zh": "作者推测，即使模型已经能完成任务，主动做判断和辨别质量的能力仍可能有一次明显跃升。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125258221946630432",
+          "text": "YC is the YC for hard tech https://t.co/NWlfp6U19R",
+          "url": "https://x.com/garrytan/status/2125258221946630432",
+          "likes": 315,
+          "summary_en": null
+        },
+        {
+          "id": "2125247972158193792",
+          "text": "Second, society hit a limit in its ability to absorb the tech socially. There are natural brakes on how much a knowledge work process or business process can change: people don’t like their cheese moved. https://t.co/q7VI5RNow1",
+          "url": "https://x.com/garrytan/status/2125247972158193792",
+          "likes": 74,
+          "summary_en": null
+        },
+        {
+          "id": "2125247943540142577",
+          "text": "First, the models have reached beyond what some customers even need. Though I suspect there is still a step function in agency and taste available even if the models can do the tasks today. https://t.co/7a26JGS13f",
+          "url": "https://x.com/garrytan/status/2125247943540142577",
+          "likes": 54,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "kind": "chatter",
+      "headline_zh": "调侃 Anthropic 的估值预期",
+      "headline_en": "Joking about Anthropic valuation expectations",
+      "points": [
+        {
+          "zh": "他用夸张口吻调侃：一家成立近六年的公司市值只有万亿美元，竟被说成表现平平。",
+          "en": "He jokes about the absurdity of treating a near-trillion-dollar valuation after almost six years as disappointing.",
+          "tweet_id": "2125275072802029631",
+          "url": "https://x.com/mattturck/status/2125275072802029631"
+        }
+      ],
+      "summary_en": "Joking about Anthropic valuation expectations",
+      "summary_zh": "调侃 Anthropic 的估值预期",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "below IPO price",
+          "ipa": "",
+          "definition_zh": "指股票交易价格低于首次公开募股时的发行价。",
+          "example_zh": "作者在玩笑里想象有人拿股价低于发行价说事，借此讽刺外界对 Anthropic 的估值预期。"
+        },
+        {
+          "phrase": "a trillion dollar company",
+          "ipa": "",
+          "definition_zh": "指估值或市值约为一万亿美元的公司。",
+          "example_zh": "作者故意用 「BARELY」 修饰这么大的估值，模仿一种连万亿美元都嫌不够的口吻。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125395139581657558",
+          "text": "The man did change https://t.co/Ptoa5sdBZF",
+          "url": "https://x.com/mattturck/status/2125395139581657558",
+          "likes": 69,
+          "summary_en": null
+        },
+        {
+          "id": "2125275072802029631",
+          "text": "“Look at Anthropic below IPO price, they’ve been at it for almost SIX years now and they are BARELY a trillion dollar company” https://t.co/0qdZTTN9Qq",
+          "url": "https://x.com/mattturck/status/2125275072802029631",
+          "likes": 39,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "kind": "opinion",
+      "headline_zh": "产品定位越清晰，越容易用短句讲明白",
+      "headline_en": "Clear product positioning takes fewer words to explain",
+      "points": [
+        {
+          "zh": "她认为，解释产品是什么所需的字越多，通常说明定位越模糊。",
+          "en": "She argues that needing more words to explain a product in plain language signals weaker positioning.",
+          "tweet_id": "2125256097925865639",
+          "url": "https://x.com/zarazhangrui/status/2125256097925865639"
+        }
+      ],
+      "summary_en": "Clear product positioning takes fewer words to explain",
+      "summary_zh": "产品定位越清晰，越容易用短句讲明白",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "positioning",
+          "ipa": "/pəˈzɪʃənɪŋ/",
+          "definition_zh": "产品定位是让目标客户理解产品服务谁、解决什么问题以及有何独特价值。",
+          "example_zh": "作者用能否用少量通俗的词讲清产品是什么，来判断产品定位是否清晰。"
+        },
+        {
+          "phrase": "inversely proportional to",
+          "ipa": "",
+          "definition_zh": "意为「与……成反比」，也可借指一方越大，另一方越小。",
+          "example_zh": "作者借用数学表达提出一个经验判断：用通俗语言解释产品所需的字词越多，定位就越可能不清晰。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125256097925865639",
+          "text": "The clarity of a product’s positioning is inversely proportional to the number of words it takes to explain what it is in plain language",
+          "url": "https://x.com/zarazhangrui/status/2125256097925865639",
+          "likes": 92,
+          "summary_en": null
+        },
+        {
+          "id": "2125339516496200100",
+          "text": "Humans are visual animals https://t.co/FMPH90RaTq",
+          "url": "https://x.com/zarazhangrui/status/2125339516496200100",
+          "likes": 34,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "kind": "opinion",
+      "headline_zh": "AI 产业每一层都声称自己掌握关键控制点",
+      "headline_en": "Every AI layer claims to control the key bottleneck",
+      "points": [
+        {
+          "zh": "他调侃 2026 年的创业融资叙事：应用、智能体框架、推理服务、模型、数据、基础设施、芯片和能源公司，都称自己掌握 AI 的决定性环节。",
+          "en": "He satirizes 2026 startup pitches: every layer from apps and agent harnesses to chips and energy claims to control AI's decisive resource.",
+          "tweet_id": "2125376105024758112",
+          "url": "https://x.com/nikunj/status/2125376105024758112"
+        },
+        {
+          "zh": "他借《料理鼠王》的台词提醒，杰出创始人、运营者或投资人可能来自任何背景，不能按固定画像筛选。",
+          "en": "Drawing on Ratatouille, he argues that exceptional founders, operators, and investors can come from any background.",
+          "tweet_id": "2125270251491520702",
+          "url": "https://x.com/nikunj/status/2125270251491520702"
+        }
+      ],
+      "summary_en": "Every AI layer claims to control the key bottleneck",
+      "summary_zh": "AI 产业每一层都声称自己掌握关键控制点",
+      "slang": [
+        {
+          "term": "harness",
+          "definition_en": "Software that turns model capability into task execution.",
+          "definition_zh": "把模型能力组织成具体任务执行的软件框架。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "owns the workflow",
+          "ipa": "",
+          "definition_zh": "在技术商业语境中，指掌握用户完成工作的关键流程和主要入口。",
+          "example_zh": "作者模仿应用公司的融资话术，夸张地说谁掌握用户的工作流程，谁就能主导整个市场。"
+        },
+        {
+          "phrase": "Harness companies",
+          "ipa": "",
+          "definition_zh": "指提供模型运行与任务编排框架、让模型能力用于实际工作的公司。",
+          "example_zh": "作者调侃，这类公司把让模型真正干活的能力视为 AI 产业中最有控制力的一环。"
+        },
+        {
+          "phrase": "Inference companies",
+          "ipa": "",
+          "definition_zh": "指提供模型推理服务、运行训练好的模型以生成结果的公司。",
+          "example_zh": "在作者模仿的融资话术里，推理服务商认为，掌握向用户交付模型能力的环节就能主导市场。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125376105024758112",
+          "text": "2026 pitches in a nutshell..\n\nApp companies: He who owns the workflow controls the universe.\n\nHarness companies: He who puts the intelligence to work controls the universe.\n\nInference companies: He who serves the intelligence controls the universe.\n\nModel companies: He who builds the intelligence controls the universe.\n\nData companies: He who feeds the intelligence controls the universe.\n\nInfra companies: He who keeps the intelligence running controls the universe.\n\nChip companies: He who controls the sand controls the universe.\n\nEnergy companies: He who controls the electrons controls the universe.",
+          "url": "https://x.com/nikunj/status/2125376105024758112",
+          "likes": 121,
+          "summary_en": "A satirical roundup of 2026 AI pitches shows how companies at every layer of the stack, from apps and models to chips and energy, claim that controlling their layer confers ultimate leverage."
+        },
+        {
+          "id": "2125270251491520702",
+          "text": "One of my favorite movies is Ratatouille, and this is a quote I think of a LOT..\n\n“Not everyone can become a great artist, but a great artist can come from anywhere.”\n\nA good reminder to remember that generational talent can’t be typecast. The exceptional, by definition, defy the pattern. \n\nThat is true for all folks (founders, operators and also investors).",
+          "url": "https://x.com/nikunj/status/2125270251491520702",
+          "likes": 68,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "kind": "opinion",
+      "headline_zh": "OpenClaw 聚焦稳定性，并推进新记忆系统",
+      "headline_en": "OpenClaw focuses on reliability and a new memory system",
+      "points": [
+        {
+          "zh": "他称 OpenClaw 在高端个人用户和企业中找到定位，多人协作功能表现突出；团队近期重点是速度、可靠性和安全性，同时推进新记忆系统及 OpenClaw ID。",
+          "en": "He says OpenClaw has found prosumer and enterprise users, while the team focuses on speed, reliability, security, a new memory system, and the upcoming OpenClaw ID.",
+          "tweet_id": "2125422797304549672",
+          "url": "https://x.com/steipete/status/2125422797304549672"
+        }
+      ],
+      "summary_en": "OpenClaw focuses on reliability and a new memory system",
+      "summary_zh": "OpenClaw 聚焦稳定性，并推进新记忆系统",
+      "slang": [
+        {
+          "term": "prosumer",
+          "definition_en": "An advanced individual user with professional-level needs.",
+          "definition_zh": "需求接近专业用户的高阶个人用户。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "Shipping",
+          "ipa": "/ˈʃɪpɪŋ/",
+          "definition_zh": "在软件团队口语中，指把产品或功能发布给用户。",
+          "example_zh": "作者谈到持续交付稳定、免费的开源软件有多难，还提到了每天面对大量用户投诉的压力。"
+        },
+        {
+          "phrase": "prosumer",
+          "ipa": "/proʊˈsuːmər/",
+          "definition_zh": "指对工具有专业级需求的个人用户。",
+          "example_zh": "作者把这类个人用户和企业客户并列，提到 OpenClaw 在这些用户群体中找到了自己的市场。"
+        },
+        {
+          "phrase": "memory system",
+          "ipa": "",
+          "definition_zh": "在 AI 产品中，指保存和检索历史信息、供后续交互使用的机制。",
+          "example_zh": "作者说团队的大部分精力放在速度、稳定性和安全性上，同时点出了新记忆系统这项功能。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125422797304549672",
+          "text": "What a year this has been! Time to reflect and do a blog post over the holidays.\n\nOC is in a great place, we found a niche in prosumer and enterprise adoption. The multiplayer team feature is best in class.\n\nShipping reliable and free open source is also really really hard, and waking up to countless user complaints every day is an emotional challenge. I’m glad the team is taking over most of the work these days.\n\nWe mostly been focussing on the boring part of ensuring things are fast, reliable and secure, with the exception of the new memory system and soon OpenClaw ID. \n\nTo many more years!",
+          "url": "https://x.com/steipete/status/2125422797304549672",
+          "likes": 590,
+          "summary_en": "OpenClaw has found a niche with power users and enterprises, with team collaboration as a strength. Maintaining free, reliable open-source software has been demanding, and the team now handles most of the work, focusing on speed, reliability, and security alongside a new memory system and the upcoming OpenClaw ID."
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "kind": "chatter",
+      "headline_zh": "分享拿到新模型早期权限时的首个提示词",
+      "headline_en": "Sharing a first prompt for early model access",
+      "points": [
+        {
+          "zh": "他提到团队拿到新模型早期使用权限后，会用一个固定的首个提示词试用。",
+          "en": "He mentions a go-to first prompt when his team gets early access to a new model.",
+          "tweet_id": "2125380245461045492",
+          "url": "https://x.com/danshipper/status/2125380245461045492"
+        }
+      ],
+      "summary_en": "Sharing a first prompt for early model access",
+      "summary_zh": "分享拿到新模型早期权限时的首个提示词",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "prompt",
+          "ipa": "/prɑːmpt/",
+          "definition_zh": "在生成式 AI 中，指交给模型的指令、问题或上下文。",
+          "example_zh": "作者分享自己提前拿到新模型使用权限时，会先输入的那条提示词。"
+        },
+        {
+          "phrase": "early access",
+          "ipa": "",
+          "definition_zh": "指在产品或功能面向更广泛的用户开放之前获得使用权限。",
+          "example_zh": "作者用这个短语交代试用场景：团队提前拿到新模型后，他会先用一条提示词来试它。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125380245461045492",
+          "text": "my first prompt when we get early access to a new model https://t.co/StoFkQ5Loh",
+          "url": "https://x.com/danshipper/status/2125380245461045492",
+          "likes": 26,
+          "summary_en": null
+        },
+        {
+          "id": "2125379920461533255",
+          "text": "https://t.co/AfzmuDKgnK https://t.co/WwlmvVKgV3",
+          "url": "https://x.com/danshipper/status/2125379920461533255",
+          "likes": 13,
+          "summary_en": null
+        },
+        {
+          "id": "2125370917719343278",
+          "text": "read the rest: https://t.co/qask0BIPKD",
+          "url": "https://x.com/danshipper/status/2125370917719343278",
+          "likes": 6,
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Unsupervised Learning",
+      "title": "Ep 98: China Expert on Jensen’s Return",
+      "url": "https://www.youtube.com/watch?v=gkd5eOQGASU",
+      "summary_en": "An emergency episode with Jordan Schneider of China Talk examines the geopolitical implications of Jensen Huang's departure from and return to NVIDIA.",
+      "summary_zh": "Jensen Huang 离开又回归 NVIDIA 后，节目邀请 China Talk 的 Jordan Schneider 讨论此事的地缘政治影响。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "artifact",
+      "ipa": "/ˈɑːrtɪfækt/",
+      "pos": "noun",
+      "definition_en": "A tangible output produced by a tool or workflow, such as a report, image, or file.",
+      "definition_zh": "工具或工作流程生成的可查看、保存或分享的产物，例如报告、图片或文件。",
+      "synonyms": [
+        "output",
+        "deliverable",
+        "work product"
+      ],
+      "example_en": "The agent saved its findings as an artifact that the whole team could open.",
+      "example_zh": "智能体把调查结果保存为一份全团队都能打开的产物。"
+    },
+    {
+      "word": "configuration",
+      "ipa": "/kənˌfɪɡjəˈreɪʃən/",
+      "pos": "noun",
+      "definition_en": "A particular arrangement of settings or components.",
+      "definition_zh": "配置，指一组具体的设置或组件的排列方式。",
+      "synonyms": [
+        "setup",
+        "arrangement"
+      ],
+      "example_en": "We tested three dashboard configurations before choosing the simplest one.",
+      "example_zh": "我们测试了三种仪表盘配置，最后选了最简单的一种。"
+    },
+    {
+      "word": "ship",
+      "ipa": "/ʃɪp/",
+      "pos": "verb",
+      "definition_en": "To release a product or feature for people to use. If a product ships with a feature, that feature is included.",
+      "definition_zh": "发布产品或功能。短语「ship with」表示产品发布时自带某项功能。",
+      "synonyms": [
+        "release",
+        "roll out"
+      ],
+      "example_en": "The next version will ship with built-in search.",
+      "example_zh": "下一个版本发布时会自带搜索功能。"
+    },
+    {
+      "word": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "pos": "noun",
+      "definition_en": "A key lesson or insight you remember after an experience, discussion, or presentation.",
+      "definition_zh": "从一次经历、讨论或演讲中获得的主要收获或要点。",
+      "synonyms": [
+        "key point",
+        "lesson",
+        "insight"
+      ],
+      "example_en": "My biggest takeaway was that asking better questions saved us time later.",
+      "example_zh": "我最大的收获是，前期把问题问清楚，后面就能省下不少时间。"
+    },
+    {
+      "word": "clarifying",
+      "ipa": "/ˈklærəˌfaɪɪŋ/",
+      "pos": "adj",
+      "definition_en": "Intended to make something clearer or more precise.",
+      "definition_zh": "用于澄清意思或进一步明确细节的。",
+      "synonyms": [
+        "elucidating",
+        "explanatory"
+      ],
+      "example_en": "She asked a clarifying question about what counted as a finished draft.",
+      "example_zh": "她追问了一句，想弄清楚草稿做到什么程度才算完成。"
+    },
+    {
+      "word": "flesh out",
+      "ipa": "/fleʃ aʊt/",
+      "pos": "phrasal verb",
+      "definition_en": "To add enough detail to make a rough idea, outline, or plan more complete.",
+      "definition_zh": "为初步构想、大纲或计划补充细节，使其更加完整。",
+      "synonyms": [
+        "elaborate on",
+        "develop",
+        "expand on"
+      ],
+      "example_en": "Let's flesh out the plan before we assign tasks to the agents.",
+      "example_zh": "我们先把计划细化，再给各个智能体分配任务。"
+    },
+    {
+      "word": "correlation",
+      "ipa": "/ˌkɔːrəˈleɪʃən/",
+      "pos": "noun",
+      "definition_en": "A statistical relationship in which two variables tend to vary together.",
+      "definition_zh": "相关性，指两个变量在统计上呈现共同变化的关系。",
+      "synonyms": [
+        "association",
+        "statistical relationship"
+      ],
+      "example_en": "We found little correlation between how confident people sounded and how accurate their predictions were.",
+      "example_zh": "我们发现，人们说话时表现出的自信程度与预测准确性几乎没有相关性。"
+    },
+    {
+      "word": "saga",
+      "ipa": "/ˈsɑːɡə/",
+      "pos": "noun",
+      "definition_en": "A long, complicated series of events, often described with a hint of drama or humor.",
+      "definition_zh": "一连串持续很久、曲折复杂的事件，常带有戏剧化或调侃的语气。",
+      "synonyms": [
+        "ongoing drama",
+        "long-running story"
+      ],
+      "example_en": "What began as a minor disagreement turned into a months-long saga.",
+      "example_zh": "本来只是个小分歧，后来却演成了一场持续数月的风波。"
+    }
+  ],
+  "quote": {
+    "text_en": "Make your confidence answer to the evidence, and let every good question sharpen your plan.",
+    "text_zh": "让证据检验你的自信，让每一个好问题帮助你完善计划。",
+    "author": "Original"
+  },
+  "slang_glossary": [
+    {
+      "term": "Silicon Valley",
+      "definition_en": "The California tech hub. In tech commentary, it often stands for the people or culture of the startup and venture capital world.",
+      "definition_zh": "硅谷。在科技评论里，也常用来泛指创业圈、风投圈及其文化。"
+    },
+    {
+      "term": "WTF",
+      "definition_en": "A vulgar abbreviation for 'what the fuck,' used to express shock, confusion, or disbelief.",
+      "definition_zh": "「what the fuck」的粗俗缩写，用来表达震惊、困惑或难以置信，类似「什么鬼」。"
+    },
+    {
+      "term": "turn your brain off",
+      "definition_en": "A blunt way of saying someone has stopped paying attention or thinking critically.",
+      "definition_zh": "直白地说某人不再认真听或主动思考，类似「脑子关机」。"
+    },
+    {
+      "term": "local-cloud envs",
+      "definition_en": "Shorthand for development or runtime environments involving local machines and cloud infrastructure. 'Envs' is short for 'environments.'",
+      "definition_zh": "涉及本地设备和云端基础设施的开发或运行环境。「envs」是「environments」的缩写。"
+    },
+    {
+      "term": "sandbox",
+      "definition_en": "An isolated environment where code or agents can run with restricted access to the surrounding system.",
+      "definition_zh": "沙箱，一种隔离的运行环境，限制代码或智能体对外部系统的访问。"
+    },
+    {
+      "term": "session store",
+      "definition_en": "A storage layer for the state of a work or interaction session, such as runtime context or progress.",
+      "definition_zh": "会话状态存储层，保存一次运行或交互的上下文、进度等信息。"
+    },
+    {
+      "term": "conversation store",
+      "definition_en": "A storage layer for conversation data, such as messages and thread history.",
+      "definition_zh": "对话存储层，用于保存消息和对话线程历史等数据。"
+    },
+    {
+      "term": "user approval inbox",
+      "definition_en": "A queue where users review actions that need their authorization.",
+      "definition_zh": "审批收件箱，集中展示等待用户授权的操作。"
+    },
+    {
+      "term": "stream listener",
+      "definition_en": "Code that subscribes to a continuous stream of data or events and reacts as new items arrive.",
+      "definition_zh": "流监听器，订阅连续的数据流或事件流，并在收到新数据或事件时作出响应。"
+    },
+    {
+      "term": "artifact",
+      "definition_en": "A usable output generated during a workflow, such as a document, code file, or image.",
+      "definition_zh": "工作流程产生的可用产物，例如文档、代码文件或图片。"
+    },
+    {
+      "term": "dashboard",
+      "definition_en": "An interface that brings together status information, metrics, or controls in one place.",
+      "definition_zh": "仪表盘或控制面板，在同一界面集中展示状态、指标或操作入口。"
+    },
+    {
+      "term": "MCP server",
+      "definition_en": "A service that uses the Model Context Protocol to expose tools or other capabilities to compatible AI applications.",
+      "definition_zh": "MCP 服务器，通过模型上下文协议向兼容的 AI 应用提供工具或其他能力。"
+    },
+    {
+      "term": "skill",
+      "definition_en": "In an agent system, a reusable bundle of instructions and sometimes supporting files for a particular task.",
+      "definition_zh": "在智能体系统中，指用于完成特定任务的一组可复用指令，有时也包含配套文件。"
+    },
+    {
+      "term": "ship with",
+      "definition_en": "Product development shorthand for including a feature or component when a product is released or distributed.",
+      "definition_zh": "产品开发用语，指产品发布或分发时自带某项功能或组件。"
+    },
+    {
+      "term": "out of the box",
+      "definition_en": "Available to use immediately with the default setup and no extra configuration.",
+      "definition_zh": "开箱即用，使用默认设置即可，无需额外配置。"
+    },
+    {
+      "term": "banked reset",
+      "definition_en": "A reset kept in reserve for later use. The tweet does not specify the exact redemption rules.",
+      "definition_zh": "预留给用户之后使用的重置机会。原帖没有说明具体使用规则。"
+    },
+    {
+      "term": "fast mode",
+      "definition_en": "A product mode intended to deliver faster responses or execution.",
+      "definition_zh": "快速模式，用于加快响应或执行速度。"
+    },
+    {
+      "term": "combo",
+      "definition_en": "An informal shortening of 'combination,' used here for two products used together.",
+      "definition_zh": "「combination」的口语缩写，这里指搭配使用的两款产品。"
+    },
+    {
+      "term": "orchestrator",
+      "definition_en": "A component that coordinates tasks and manages work across multiple agents or tools.",
+      "definition_zh": "编排器，负责协调多个智能体或工具之间的任务和执行流程。"
+    },
+    {
+      "term": "swarm (/swarm)",
+      "definition_en": "A group of agents working concurrently toward a shared goal. The slash form is the command mentioned in the post.",
+      "definition_zh": "多个智能体并行协作完成同一目标。「/swarm」是原帖提到的命令。"
+    },
+    {
+      "term": "agent",
+      "definition_en": "An AI system that can take steps toward a goal, often by using tools or executing tasks.",
+      "definition_zh": "智能体，能够围绕目标采取行动的 AI 系统，通常可以调用工具或执行任务。"
+    },
+    {
+      "term": "/grill-me",
+      "definition_en": "A command that prompts an agent to ask probing questions about your plan. To 'grill' someone is to question them intensely.",
+      "definition_zh": "让智能体针对你的计划连续深入追问的命令。「grill」在口语中有「盘问」的意思。"
+    },
+    {
+      "term": "flesh out",
+      "definition_en": "To develop a rough plan or idea by giving it more detail.",
+      "definition_zh": "把粗略的计划或想法补充得更具体、更完整。"
+    },
+    {
+      "term": "remote control",
+      "definition_en": "The ability to operate an app or agent from another device, such as a phone.",
+      "definition_zh": "远程控制，即通过手机等另一台设备操作应用或智能体。"
+    },
+    {
+      "term": "thread",
+      "definition_en": "A series of related messages within a single conversation.",
+      "definition_zh": "对话线程，同一场对话中相互关联的一串消息。"
+    },
+    {
+      "term": "by default",
+      "definition_en": "Automatically under the standard settings, unless someone changes them.",
+      "definition_zh": "默认情况下，无需手动更改设置就会生效。"
+    },
+    {
+      "term": "reset guy",
+      "definition_en": "A joking nickname for someone associated with resets. The post does not explain the specific reference.",
+      "definition_zh": "对某位与重置有关的人开的玩笑，类似「管重置的那位」。原帖没有解释具体梗。"
+    },
+    {
+      "term": "DOT SUPREMACY",
+      "definition_en": "A meme-style cheer declaring that 'Dot' is the best. The sample leaves the referent of 'Dot' unspecified.",
+      "definition_zh": "用夸张的网络口号为「Dot」站台，类似「Dot 天下第一」。样本没有交代「Dot」具体指什么。"
+    },
+    {
+      "term": "MOAR",
+      "definition_en": "A deliberately misspelled, exaggerated version of 'more' used in internet memes.",
+      "definition_zh": "故意把「more」拼错的网络用语，夸张地表达「还要更多」。"
+    },
+    {
+      "term": "demo",
+      "definition_en": "Short for 'demonstration.' In the tweet, it means a real-world example that illustrates a point.",
+      "definition_zh": "「demonstration」的简称。原帖中指能说明某个观点的现实例子。"
+    },
+    {
+      "term": "saga",
+      "definition_en": "A long, complicated sequence of events, often discussed online as an ongoing drama.",
+      "definition_zh": "持续一段时间、情节曲折的一连串事件，网上常用来形容一场不断发酵的风波。"
+    },
+    {
+      "term": "it's wild",
+      "definition_en": "An informal way to say something is striking, surprising, or hard to believe.",
+      "definition_zh": "口语中表示某件事很惊人、很离谱或让人难以置信。"
+    },
+    {
+      "term": "VC",
+      "definition_en": "Short for 'venture capitalist' when referring to a person, or 'venture capital' when referring to the industry or funding.",
+      "definition_zh": "指人时是「venture capitalist」的缩写，意为风险投资人。指行业或资金时，通常指「venture capital」，即风险投资。"
+    },
+    {
+      "term": "sovereign AI",
+      "definition_en": "AI capabilities developed or operated under a country's or region's control, often emphasizing local infrastructure, data governance, or technological autonomy.",
+      "definition_zh": "主权 AI，指由一国或地区自主掌控开发或运营的 AI 能力，通常强调本地基础设施、数据治理或技术自主权。"
+    },
+    {
+      "term": "harness",
+      "definition_en": "In agent engineering, the surrounding software that runs an agent and manages parts of its execution, such as tool use, state, or permissions.",
+      "definition_zh": "在智能体工程中，指用于运行和管理智能体的外围软件框架，可负责工具调用、状态或权限等。"
+    },
+    {
+      "term": "agent kernel",
+      "definition_en": "A term for the core runtime or control logic that coordinates an agent's execution. Its exact scope varies by system.",
+      "definition_zh": "智能体内核，指协调智能体运行的核心运行时或控制逻辑，具体涵盖哪些功能取决于系统设计。"
+    },
+    {
+      "term": "agency",
+      "definition_en": "The capacity to choose and take actions toward a goal with some degree of independence.",
+      "definition_zh": "能动性，指在一定程度上独立作出选择并采取行动以实现目标的能力。"
+    },
+    {
+      "term": "prosumer",
+      "definition_en": "A blend of 'professional' and 'consumer,' often used for an advanced consumer who wants professional-grade features.",
+      "definition_zh": "「professional」与「consumer」的合成词，常指需要专业级功能的进阶消费者。"
+    }
+  ],
+  "stats": {
+    "builders": 16,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 34,
+    "feedGeneratedAt": "2026-11-25T06:30:31.369Z"
+  }
+}
