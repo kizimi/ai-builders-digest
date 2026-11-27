@@ -1,0 +1,860 @@
+{
+  "date": "2026-11-27",
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "kind": "opinion",
+      "headline_zh": "swyx：代理支付可能是2028年的关键分水岭",
+      "headline_en": "swyx sees agentic payments as a defining question for 2028",
+      "points": [
+        {
+          "zh": "他认为代理支付（AI 代理自主完成付款）重要却极具争议：创业者要么及早投入，要么认定它不会成真。",
+          "en": "He argues that agentic payments, where AI agents make payments, are important but divisive: builders will either enter early or dismiss the idea.",
+          "tweet_id": "2126106139582677088",
+          "url": "https://x.com/swyx/status/2126106139582677088"
+        },
+        {
+          "zh": "他建议公司公开讨论重新创业的过程，以获得外部批评、展现创始人的一面，并让老牌公司重新获得挑战者形象。",
+          "en": "He says discussing a company restart in public can bring candid feedback, put a human face on the business, and recast an incumbent as an underdog.",
+          "tweet_id": "2126072968761721013",
+          "url": "https://x.com/swyx/status/2126072968761721013"
+        }
+      ],
+      "summary_en": "swyx sees agentic payments as a defining question for 2028",
+      "summary_zh": "swyx：代理支付可能是2028年的关键分水岭",
+      "slang": [
+        {
+          "term": "agentic payments",
+          "definition_en": "Payments initiated or completed by AI agents.",
+          "definition_zh": "由 AI 代理发起或完成的支付。"
+        },
+        {
+          "term": "refound in public",
+          "definition_en": "Openly share the process of rebuilding or repositioning a company.",
+          "definition_zh": "公开分享公司重建或重新定位的过程。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "agentic payments",
+          "ipa": "",
+          "definition_zh": "由 AI 智能体代表用户发起或执行的支付。",
+          "example_zh": "作者认为，如何做好智能体支付是面向 2028 年的一个重大议题。他觉得大家对此几乎只有两种态度：尽早入场，或者断定它基本不会成真。"
+        },
+        {
+          "phrase": "refound in public",
+          "ipa": "",
+          "definition_zh": "公开展示公司重新创业或重塑方向的过程，同时吸收外界反馈。",
+          "example_zh": "作者认为，公开重塑公司能听到没有利益关系的人给出的批评，也能让原本显得很企业化的公司露出更有人情味的一面。"
+        },
+        {
+          "phrase": "incumbent",
+          "ipa": "/ɪnˈkʌmbənt/",
+          "definition_zh": "在某个市场中已经站稳脚跟的现有企业或参与者。",
+          "example_zh": "作者说，公开重启可以改变外界看待一家老牌公司的方式，让它从市场既有玩家变成一个实力看似处于下风、值得为之加油的挑战者。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2126106139582677088",
+          "text": "i think agentic payments is one of the most divisive yet important themes to get right for 2028. no real in between, either you get in early or you declare its basically never gonna happen https://t.co/p6dDMMMvZ5 https://t.co/7eUeZpn97a",
+          "url": "https://x.com/swyx/status/2126106139582677088",
+          "likes": 81,
+          "summary_en": null
+        },
+        {
+          "id": "2126072968761721013",
+          "text": "another good one is https://t.co/z8Wlkvx3E9 - when you refound in public, there's a few good things here:\n\n1. critical feedback from people who aren't paid to say yes to you\n2. you are putting a human face on an otherwise corporate feel\n3. turn an \"incumbent\" into an \"underdog\" story\n\ntwitter \"isn't real\" (99% of your customers won't actually ever even see your tweets, though 80% of your influencers might) so its actually a pretty safe space to think in public as long as you stay inside overton",
+          "url": "https://x.com/swyx/status/2126072968761721013",
+          "likes": 8,
+          "summary_en": "Reinventing a company in public can attract candid feedback, humanize the brand, and give an incumbent an underdog story. X offers a relatively low-risk place to think aloud because influential people may see the posts while most customers likely won't."
+        },
+        {
+          "id": "2126201671026180469",
+          "text": "beating cursor and t3code on day 0. strong start https://t.co/2xa4bNqUnB https://t.co/QYzyfs0hhV",
+          "url": "https://x.com/swyx/status/2126201671026180469",
+          "likes": 1,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "kind": "chatter",
+      "headline_zh": "Banked reset 已上线",
+      "headline_en": "Banked reset is online",
+      "points": [
+        {
+          "zh": "他宣布 Banked reset 已上线。",
+          "en": "He announced that Banked reset is online.",
+          "tweet_id": "2125853628250599730",
+          "url": "https://x.com/thsottiaux/status/2125853628250599730"
+        }
+      ],
+      "summary_en": "Banked reset is online",
+      "summary_zh": "Banked reset 已上线",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "Banked reset",
+          "ipa": "",
+          "definition_zh": "一种与已储存额度有关的重置机制，具体规则取决于产品。",
+          "example_zh": "作者用一句话宣布这项重置机制已上线，推文没有交代额度如何储存或何时重置。"
+        },
+        {
+          "phrase": "is online",
+          "ipa": "",
+          "definition_zh": "在产品发布语境中表示某项功能或服务已上线可用。",
+          "example_zh": "这里用来宣布「Banked reset」已经可以使用。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125853628250599730",
+          "text": "Banked reset is online",
+          "url": "https://x.com/thsottiaux/status/2125853628250599730",
+          "likes": 7984,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "kind": "chatter",
+      "headline_zh": "为孩子开设 Trump 账户，并开玩笑谈 GTA VI",
+      "headline_en": "He opened Trump accounts for his children and joked about GTA VI",
+      "points": [
+        {
+          "zh": "他称已为孩子开设 Trump 账户，并希望将来带他们看 Starship 发射。",
+          "en": "He says he opened Trump accounts for his children and hopes to take them to a Starship launch.",
+          "tweet_id": "2126042318793064914",
+          "url": "https://x.com/petergyang/status/2126042318793064914"
+        },
+        {
+          "zh": "他开玩笑把 GTA VI 里的抢银行桥段列为假期该教孩子的事。",
+          "en": "He jokingly listed a GTA VI bank robbery sequence among holiday lessons for children.",
+          "tweet_id": "2126021289102230008",
+          "url": "https://x.com/petergyang/status/2126021289102230008"
+        }
+      ],
+      "summary_en": "He opened Trump accounts for his children and joked about GTA VI",
+      "summary_zh": "为孩子开设 Trump 账户，并开玩笑谈 GTA VI",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "Trump accounts",
+          "ipa": "",
+          "definition_zh": "美国面向符合条件的儿童设立的一类投资账户。",
+          "example_zh": "作者说自己刚为孩子们开了这类账户，并表达了对马斯克的感谢。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2126046533904896077",
+          "text": "Hey look @elonmusk is giving a SpaceX share to every kid in America I wonder whether NY Times covered this: https://t.co/GfgcssTSBR https://t.co/cGuTqBPpRO",
+          "url": "https://x.com/petergyang/status/2126046533904896077",
+          "likes": 261,
+          "summary_en": null
+        },
+        {
+          "id": "2126042318793064914",
+          "text": "This is awesome I just set up Trump accounts for my kids, thank you @elonmusk! \n\nOne day I hope to take them to see a Starship launch. https://t.co/FQJctoRzzH",
+          "url": "https://x.com/petergyang/status/2126042318793064914",
+          "likes": 194,
+          "summary_en": null
+        },
+        {
+          "id": "2126021289102230008",
+          "text": "Things to teach your kids during the holidays:\n\n- Reading\n- Math\n- How to rob a bank by masking up, going through the backdoor, using a snap gun to pick the locks, removing the security tape, and threatening the staff for the safe code courtesy of GTA VI",
+          "url": "https://x.com/petergyang/status/2126021289102230008",
+          "likes": 41,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "kind": "opinion",
+      "headline_zh": "语音、图片和生成网站都属于聊天",
+      "headline_en": "Voice, images, and site generation all count as chat",
+      "points": [
+        {
+          "zh": "他认为聊天不只限于文字：语音交流、发送图片，以及下指令生成网站，都属于聊天；ChatGPT 已支持这些形式。",
+          "en": "He argues that chat includes voice, images, and asking for a website, all of which ChatGPT already supports.",
+          "tweet_id": "2126036677642928363",
+          "url": "https://x.com/thenanyu/status/2126036677642928363"
+        }
+      ],
+      "summary_en": "Voice, images, and site generation all count as chat",
+      "summary_zh": "语音、图片和生成网站都属于聊天",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "Voice chat",
+          "ipa": "",
+          "definition_zh": "通过说话而非打字进行的对话交互。",
+          "example_zh": "作者把语音对话、发图片和发指令生成网站都归入「chat」，借此说明聊天式界面可以支持多种交互。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2126036677642928363",
+          "text": "Guys... Voice chat is chat. \n\nSending images into the chat is chat. \n\nIssuing instructions and getting a site back is chat. \n\nYou can literally do all of these things in ChstGPT right now.",
+          "url": "https://x.com/thenanyu/status/2126036677642928363",
+          "likes": 3,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "kind": "opinion",
+      "headline_zh": "称赞 Gemini 4，邀请用户在 Replit 体验",
+      "headline_en": "He praises Gemini 4 and invites users to try it on Replit",
+      "points": [
+        {
+          "zh": "他称赞 Google 的 Gemini 4，并邀请用户在 Replit（在线开发平台）体验。",
+          "en": "He praises Google's Gemini 4 and invites users to try it on Replit, an online development platform.",
+          "tweet_id": "2126018746884243652",
+          "url": "https://x.com/amasad/status/2126018746884243652"
+        }
+      ],
+      "summary_en": "He praises Gemini 4 and invites users to try it on Replit",
+      "summary_zh": "称赞 Gemini 4，邀请用户在 Replit 体验",
+      "slang": [
+        {
+          "term": "cooked",
+          "definition_en": "Slang for having done something impressively well.",
+          "definition_zh": "俚语，意为做得很出色。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "cooked",
+          "ipa": "/kʊkt/",
+          "definition_zh": "在「某人 cooked with 某个作品」的网络俚语用法中，表示对方把这个作品做得很出色。",
+          "example_zh": "作者用「really cooked」夸谷歌在 Gemini 4 上表现出色。"
+        },
+        {
+          "phrase": "Take them for a ride",
+          "ipa": "",
+          "definition_zh": "在这里借用开车兜风的说法，表示亲手试用一下。",
+          "example_zh": "作者邀请读者去 Replit 体验 Gemini 4，看看实际用起来怎么样。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2126018746884243652",
+          "text": "Google really cooked with Gemini 4.\n\nTake them for a ride on Replit! https://t.co/RqvuIxh3lZ",
+          "url": "https://x.com/amasad/status/2126018746884243652",
+          "likes": 448,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "kind": "opinion",
+      "headline_zh": "未来应由建设者主动塑造",
+      "headline_en": "Builders should actively shape the future",
+      "points": [
+        {
+          "zh": "他认为乐观和积极的未来愿景有助于引领世界；人们应主动建设想留给后代的未来。",
+          "en": "He argues that optimism and a positive vision help people lead, and urges them to build the future they want for loved ones.",
+          "tweet_id": "2126037393241424065",
+          "url": "https://x.com/rauchg/status/2126037393241424065"
+        }
+      ],
+      "summary_en": "Builders should actively shape the future",
+      "summary_zh": "未来应由建设者主动塑造",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "agency",
+          "ipa": "/ˈeɪdʒənsi/",
+          "definition_zh": "自主作出选择、采取行动并影响结果的能力。",
+          "example_zh": "作者呼吁人们运用自己的行动能力，主动塑造想留给后代的未来。"
+        },
+        {
+          "phrase": "capitulate to",
+          "ipa": "",
+          "definition_zh": "向某种压力、力量或局势屈服。",
+          "example_zh": "作者用这个词形容有人把未来看成只能接受、只能向它低头的既定局面。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2126037393241424065",
+          "text": "I'm thankful for all the optimists. Americans are a profoundly optimistic bunch, and I think it's one of the things you really appreciate and are drawn to as an immigrant.\n\nIn order to define the future and lead the world, you must possess a positive vision of what's to come.\n\nThese days many people speak in terms of a future we must blindly accept and capitulate to. Instead, we must use our, yes, agency to build and project the amazing future we want for our grandchildren and loved ones. Happy thanksgiving!",
+          "url": "https://x.com/rauchg/status/2126037393241424065",
+          "likes": 744,
+          "summary_en": "American optimism is part of what makes the country appealing to immigrants. A positive vision and a sense of agency can help people shape the future they want for the next generation."
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "kind": "opinion",
+      "headline_zh": "AI 代理可让专业服务公司的交付能力提升十倍",
+      "headline_en": "AI agents could multiply service firms' delivery capacity tenfold",
+      "points": [
+        {
+          "zh": "他认为专业服务公司仍需要深厚的行业知识，但以 AI 代理为核心，项目交付能力可能提升十倍，从而服务更小的客户、承接过去难以完成的项目。",
+          "en": "He argues that service firms still need deep domain expertise, but AI agents could multiply delivery capacity tenfold and make smaller clients and previously impractical projects viable.",
+          "tweet_id": "2125983542475894821",
+          "url": "https://x.com/levie/status/2125983542475894821"
+        }
+      ],
+      "summary_en": "AI agents could multiply service firms' delivery capacity tenfold",
+      "summary_zh": "AI 代理可让专业服务公司的交付能力提升十倍",
+      "slang": [
+        {
+          "term": "TAM",
+          "definition_en": "Total addressable market: the potential market size for a product or service.",
+          "definition_zh": "总潜在市场规模，即产品或服务可能覆盖的市场。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "agents",
+          "ipa": "/ˈeɪdʒənts/",
+          "definition_zh": "能够围绕给定目标执行多步骤任务的 AI 智能体。",
+          "example_zh": "作者认为，可以围绕 AI 智能体从零建立服务公司，也可以借它们改造现有公司，而行业经验仍决定团队能否用好它们。"
+        },
+        {
+          "phrase": "10X multiplier",
+          "ipa": "",
+          "definition_zh": "把某种能力或产出放大到原来十倍的因素。",
+          "example_zh": "作者用这个说法表达他对项目交付能力的判断：引入 AI 智能体后，服务公司有望把交付能力提升到原来的十倍。"
+        },
+        {
+          "phrase": "TAM",
+          "ipa": "/tæm/",
+          "definition_zh": "「total addressable market」的缩写，指产品或服务理论上能够覆盖的整体市场规模。",
+          "example_zh": "作者认为，交付能力提升后，服务公司有机会服务过去未纳入目标市场的小客户。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125983542475894821",
+          "text": "Huge opportunity right now to build new services firms from the ground up, or transform existing ones, with agents at the center. \n\nThe expertise that services firms in theory should have is as important as ever because you still need deep domain understanding to get the most out of agents. But now the ability to deliver on projects has a 10X multiplier. This means that you can make clients happier, compete to win more of them, go after smaller customers not in the TAM before, or deliver outcomes that weren’t really conceivable.\n\nThis is going to happen in advertising, IT transformation, management consulting, finance, and a number of other fields that historically are just fully constrained by the speed of their workforce for output. \n\nThis is a huge opportunity right now for those starting these firms. I wouldn’t count out existing players that commit to the transformation either as existing customer trust goes a long way. But they have to move quickly to make it work.",
+          "url": "https://x.com/levie/status/2125983542475894821",
+          "likes": 883,
+          "summary_en": "AI agents could let services firms deliver projects much faster, serve smaller clients, and take on work that was previously impractical. Deep domain expertise still matters, and established firms can build on client trust if they adapt quickly."
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "kind": "chatter",
+      "headline_zh": "调侃创业者不会感谢风投的内容输出",
+      "headline_en": "He jokes that founders never thank VCs for their content",
+      "points": [
+        {
+          "zh": "他借感恩节调侃：还没有创业者感谢风投的播客、观点文章和市场图谱。",
+          "en": "In a Thanksgiving joke, he says no founder has thanked VCs for their podcasts, commentary, or market maps.",
+          "tweet_id": "2126068708527198482",
+          "url": "https://x.com/mattturck/status/2126068708527198482"
+        }
+      ],
+      "summary_en": "He jokes that founders never thank VCs for their content",
+      "summary_zh": "调侃创业者不会感谢风投的内容输出",
+      "slang": [
+        {
+          "term": "market map",
+          "definition_en": "A chart that groups companies across a market.",
+          "definition_zh": "按领域分类展示公司的市场图谱。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "VCs",
+          "ipa": "/ˌviːˈsiːz/",
+          "definition_zh": "「venture capitalists」的缩写，指风险投资人。",
+          "example_zh": "作者编了一句创始人感谢风投的感恩节致辞，然后开玩笑说到目前为止还没看到任何创始人这么讲。"
+        },
+        {
+          "phrase": "thought leadership",
+          "ipa": "",
+          "definition_zh": "通过公开发表专业观点来建立行业影响力。",
+          "example_zh": "作者把风投公开发表的行业见解列为创始人可能感谢的内容，借一本正经的措辞制造反讽。"
+        },
+        {
+          "phrase": "market maps",
+          "ipa": "",
+          "definition_zh": "按细分赛道梳理某个市场及其主要参与者的行业图谱。",
+          "example_zh": "作者把风投发布的行业图谱和播客并列，调侃这些常见输出似乎还没收到创始人的感恩节致谢。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2126068708527198482",
+          "text": "\"Thankful to VCs for their thought leadership, podcasts and market maps\"\n\n-- no founder yet (but it's still early on Thanksgiving day)",
+          "url": "https://x.com/mattturck/status/2126068708527198482",
+          "likes": 62,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "kind": "opinion",
+      "headline_zh": "从 LinkedIn 转到 X，先融入讨论再高频发帖",
+      "headline_en": "Moving from LinkedIn to X means joining conversations and posting often",
+      "points": [
+        {
+          "zh": "她总结一年增长 8 万 X 关注者的经验：先找到并倾听社群，再高频、即时发帖；起步时约一半内容可用于回复和评论别人。她认为多数帖文表现平平是常态。",
+          "en": "Drawing on a year in which she gained 80,000 X followers, she advises finding a community, posting frequently without overthinking, and initially making about half of posts reactions or replies.",
+          "tweet_id": "2126055939749118294",
+          "url": "https://x.com/zarazhangrui/status/2126055939749118294"
+        }
+      ],
+      "summary_en": "Moving from LinkedIn to X means joining conversations and posting often",
+      "summary_zh": "从 LinkedIn 转到 X，先融入讨论再高频发帖",
+      "slang": [
+        {
+          "term": "C-suite",
+          "definition_en": "A company's top executives, such as its CEO and CFO.",
+          "definition_zh": "公司的最高管理层，如 CEO 和 CFO。"
+        }
+      ],
+      "keywords": [
+        {
+          "phrase": "C-suite",
+          "ipa": "/ˈsiː swiːt/",
+          "definition_zh": "由首席执行官、首席财务官等组成的公司最高管理层。",
+          "example_zh": "作者说，在 X 上很难直接触达企业高管，往往要先让内容获得大量关注，才会被相关决策者注意到。"
+        },
+        {
+          "phrase": "find your crowd",
+          "ipa": "",
+          "definition_zh": "找到和自己兴趣相近、能聊到一起的一群人。",
+          "example_zh": "作者把 X 比作聚会，建议从 LinkedIn 转来的人先找到自己感兴趣的圈子，听听大家聊什么，再加入对话。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2126055939749118294",
+          "text": "12 tips for people who posted on LinkedIn but now wanna post on X\n\nA lot of people I know are moving their posting from LinkedIn to X. When they ask me how I grew 80k followers on X in one year, here’s what I tell them:\n\n1. LinkedIn is a stage. X is a party. First you find your crowd, then you listen to what they're already talking about. Don't start talking until you get it\n\n2. You can't reach the C-suite directly. LinkedIn is a professional network, so you can go straight to decision makers. X doesn't work like that. You have to get mass attention first, and then the right people notice you\n\n3. Post way more than you think. On LinkedIn, 3-5 posts a week counts as a lot. I posted 3 times a day on X for 6 months. Some founders I follow post 5 times a day. It's not that they're on X all day. They just don't overthink it\n\n4. Make posting a reflex. If you spend too long on a post, you won't post. Whenever a thought comes up, post it right there. No planning, no scheduling, no waiting for the right time\n\n5. It's a numbers game. Most posts won't do well. Maybe 1 in 10 will. Maybe 1 in 50 goes viral. That's normal\n\n6. Half your posts should be reactions. LinkedIn is mostly “proactive content”. On X, at least at the start, half of what you post should be “reactive content”: replies, quote tweets, commentary on what others already said\n\n7. Know the difference between a reply and a quote tweet. A reply is like a LinkedIn DM. It says \"notice me.\" A quote tweet uses someone else's content to grow your own account\n\n8. Fix your feed first. If you wanna talk about cybersecurity and your feed is all politics, you can't join the right conversations. Pick a few big names in your niche. See who they follow and who they engage with, and follow those people too. Like, bookmark and comment. After about a week your timeline will look totally different\n\n9. Write like you're texting an acquaintance. Polish turns people off. Everyone's allergic to perfect AI-sounding writing. And please don't use AI or bots to write your replies. People can tell, and they might block you\n\n10. Post the stuff that's obvious to you. Make a list of the top 10 questions customers, investors and your team ask you. That's where you're the expert. What seems too obvious to talk about is exactly what people want to hear\n\n11. Post what you just said out loud. If you say something in real life and people go \"huh, never thought of it that way,\" post it on your way back. Don't wait, you'll forget. You don't have to block out time to think of what to say. Just say what you've already said\n\n12. Show your face, and don't sell yet. X is a wall of text, so video stands out. I just record myself on my laptop with something on the screen. People wanna know you're a real human, not AI slop. And until you have about 1,000 followers, don't promote your company. Share real opinions first. Later, when you repost company news, always add your own take, not PR speak.\n\nRemember: people follow people, not companies",
+          "url": "https://x.com/zarazhangrui/status/2126055939749118294",
+          "likes": 341,
+          "summary_en": "To grow on X after posting on LinkedIn, find your community, listen to its conversations, and post frequently without overthinking. Use replies to get noticed by individuals and quote posts to reach a broader audience."
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "kind": "launch",
+      "headline_zh": "推出本地脚本，帮用户给常联系的人发节日短信",
+      "headline_en": "He shared local scripts for messaging people you spent time with",
+      "points": [
+        {
+          "zh": "他分享一套完全在本地运行、无需 AI 的脚本，可依据电脑上的 iMessage 和 WhatsApp 数据，帮用户给过去常联系的人发送节日问候。",
+          "en": "He shared fully local scripts that use iMessage and WhatsApp data on a computer to help users send holiday messages to people they spent time with; the scripts do not use AI.",
+          "tweet_id": "2126133563292803100",
+          "url": "https://x.com/nikunj/status/2126133563292803100"
+        }
+      ],
+      "summary_en": "He shared local scripts for messaging people you spent time with",
+      "summary_zh": "推出本地脚本，帮用户给常联系的人发节日短信",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "local scripts",
+          "ipa": "",
+          "definition_zh": "在用户自己的设备上运行的自动化程序。",
+          "example_zh": "作者分享了在自己电脑上运行的脚本，帮助读者给过去一年相处较多的人发消息。"
+        },
+        {
+          "phrase": "local databases",
+          "ipa": "",
+          "definition_zh": "存储在当前设备上的数据库。",
+          "example_zh": "作者说，Claude 帮他发现电脑上存有 iMessage 和 WhatsApp 的本地数据库，这让他想到可以写脚本来做这件事。"
+        },
+        {
+          "phrase": "One thing led to another",
+          "ipa": "",
+          "definition_zh": "表示一件事接着引出另一件事，最后演变成意料之外的结果。",
+          "example_zh": "作者原本只是怕忘记给常联系的人发消息，后来从发现本地数据库一路摸索，做成了一个出乎意料地实用的项目。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2126133563292803100",
+          "text": "Last Thanksgiving, I was mildly paranoid about forgetting to text folks who I had spent significant time with last year.. that's when Claude discovered that iMessage & Whatsapp are local databases on your computer. \n\nOne thing led to another, and it transformed into a surprisingly helpful project. \n\nIf you are equally paranoid like me, use the local scripts here (no AI, fully local) to text people you have spent time with (https://t.co/agVCIXkP4f).\n\nHappy Thanksgiving to one and all 🦃",
+          "url": "https://x.com/nikunj/status/2126133563292803100",
+          "likes": 23,
+          "summary_en": "A set of local scripts uses iMessage and WhatsApp data to help you remember whom to text for Thanksgiving based on who you spent time with. The scripts run entirely on your computer without AI."
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "kind": "chatter",
+      "headline_zh": "对转发内容表达惊讶",
+      "headline_en": "He reacts with disbelief to a repost",
+      "points": [],
+      "summary_en": "He reacts with disbelief to a repost",
+      "summary_zh": "对转发内容表达惊讶",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "cannot make this stuff up",
+          "ipa": "",
+          "definition_zh": "表示现实荒诞或离奇得让人觉得编都编不出来。",
+          "example_zh": "作者用这句惯用语对链接里的内容表达难以置信，推文本身没有说明具体发生了什么。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2126201584094748886",
+          "text": "You really cannot make this stuff up. https://t.co/0c9oC3KxZm",
+          "url": "https://x.com/adityaag/status/2126201584094748886",
+          "likes": 0,
+          "summary_en": null
+        }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama",
+      "kind": "opinion",
+      "headline_zh": "赞赏敢于用 AI 挑战千禧年难题的信念",
+      "headline_en": "He values the conviction to tackle Millennium Prize Problems with AI",
+      "points": [
+        {
+          "zh": "他赞赏 Ven 很早就相信当时的模型有望解决千禧年难题（著名数学悬案），并认为才智加上敢于坚持的判断力十分罕见。",
+          "en": "He credits Ven with early confidence that the models of the time could solve Millennium Prize Problems, and says intelligence paired with justified conviction is rare.",
+          "tweet_id": "2125990371897557278",
+          "url": "https://x.com/sama/status/2125990371897557278"
+        },
+        {
+          "zh": "感恩节当天，他感谢家人，尤其感谢 Ollie 长期的支持和建议。",
+          "en": "On Thanksgiving, he expressed gratitude for his family and for Ollie's steady support and advice.",
+          "tweet_id": "2125983591389974980",
+          "url": "https://x.com/sama/status/2125983591389974980"
+        },
+        {
+          "zh": "他认为陪孩子度过平凡的夜晚，是少数重复越多、感受越好的事。",
+          "en": "He says ordinary evenings with his children are among the rare experiences that grow more rewarding with repetition.",
+          "tweet_id": "2125984053119836399",
+          "url": "https://x.com/sama/status/2125984053119836399"
+        }
+      ],
+      "summary_en": "He values the conviction to tackle Millennium Prize Problems with AI",
+      "summary_zh": "赞赏敢于用 AI 挑战千禧年难题的信念",
+      "slang": [],
+      "keywords": [
+        {
+          "phrase": "then-current model",
+          "ipa": "",
+          "definition_zh": "在所回顾的那个时间点已经可用的模型。",
+          "example_zh": "作者回忆，Ven 很早就相信 OpenAI 当时手头的模型有能力解出千禧年大奖难题。"
+        },
+        {
+          "phrase": "millenium prize problems",
+          "ipa": "",
+          "definition_zh": "指克雷数学研究所公布的七道千禧年大奖数学难题。",
+          "example_zh": "作者用这些数学难题来说明 Ven 当时对模型能力的判断有多大胆。推文把通常拼作「Millennium」的词写成了「millenium」。"
+        },
+        {
+          "phrase": "correctly-placed confidence",
+          "ipa": "",
+          "definition_zh": "建立在准确判断之上、用在合适目标上的信心。",
+          "example_zh": "作者看重的是，有人能在多数人认为目标做不到时，判断它值得继续尝试，并有勇气坚持推进。"
+        }
+      ],
+      "tweets": [
+        {
+          "id": "2125983591389974980",
+          "text": "I am thankful for a lot of things in life, but my family is the best thing that has ever happened to me.\n\nThe two most common things people said to me before having kids is that it's better than anyone can explain to you and it goes very fast; these are both true and I don't have much to add. But I am very grateful and I love them more than there is any way to explain.\n\nAlso I cannot really imagine life without Ollie and I think without his unwavering support and great advice I would have gone crazy by now.\n\n🦃",
+          "url": "https://x.com/sama/status/2125983591389974980",
+          "likes": 13315,
+          "summary_en": "Parenthood has brought more joy than words can capture, and the time with young children passes quickly. The post also expresses gratitude for Ollie's steady support and advice."
+        },
+        {
+          "id": "2125990371897557278",
+          "text": "Ven was one of the earliest believers that we could use our then-current model to solve millenium prize problems.\n\nThere are a lot of brilliant people in the world, but being brilliant and also having correctly-placed confidence and courage to keep pushing on something that others don't think is possible is a very valuable thing and fairly rare.\n\nI am grateful so many people at OpenAI have this combination.",
+          "url": "https://x.com/sama/status/2125990371897557278",
+          "likes": 6775,
+          "summary_en": "Ven believed early that OpenAI's model at the time could solve Millennium Prize Problems. The post praises the rare combination of brilliance, sound judgment about what's possible, and the courage to pursue it despite skepticism."
+        },
+        {
+          "id": "2125984053119836399",
+          "text": "Oh, one thing about kids:\n\nMost good things get a little less satisfying the 100th time you do them.\n\nA quiet evening hanging out with your kids, even doing very mundane stuff, is in the rare category of something repetitive just getting better and better.",
+          "url": "https://x.com/sama/status/2125984053119836399",
+          "likes": 2123,
+          "summary_en": null
+        }
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+      "url": "https://www.youtube.com/watch?v=Qe9d9dWyED0",
+      "summary_en": "The speaker suggests ambition may be a bigger constraint than intelligence as AI advances. They describe AI as both an industrial revolution and a renaissance, while questioning whether fully autonomous model self-improvement is the best path.",
+      "summary_zh": "AI 进步后，雄心可能比智力更制约个人能做多大的事。节目把 AI 同时视为工业革命和文艺复兴，并质疑完全无人干预的模型自我改进是否是最佳路径。"
+    }
+  ],
+  "blogs": [],
+  "vocab": [
+    {
+      "word": "divisive",
+      "ipa": "/dɪˈvaɪsɪv/",
+      "pos": "adj",
+      "definition_en": "Likely to split people into groups with strongly opposing views.",
+      "definition_zh": "容易引起强烈分歧的。",
+      "synonyms": [
+        "polarizing",
+        "contentious"
+      ],
+      "example_en": "Giving AI agents permission to spend money is a divisive idea.",
+      "example_zh": "允许 AI 智能体花钱是个容易引起强烈分歧的想法。"
+    },
+    {
+      "word": "refound",
+      "ipa": "/ˌriːˈfaʊnd/",
+      "pos": "verb",
+      "definition_en": "To establish something again or give an existing organization a fresh start.",
+      "definition_zh": "重新创立，也可指让现有组织从根本上重新出发。",
+      "synonyms": [
+        "reestablish",
+        "relaunch"
+      ],
+      "example_en": "The team wanted to refound the company around a simpler mission.",
+      "example_zh": "团队希望围绕一个更简单的使命重塑公司。"
+    },
+    {
+      "word": "incumbent",
+      "ipa": "/ɪnˈkʌmbənt/",
+      "pos": "noun",
+      "definition_en": "An established company or provider that already holds a position in a market.",
+      "definition_zh": "已经在某个市场占有一席之地的公司或服务商。",
+      "synonyms": [
+        "established player",
+        "existing provider"
+      ],
+      "example_en": "The startup won customers from the incumbent by making its product easier to use.",
+      "example_zh": "这家初创公司把产品做得更易用，从老牌竞争对手那里赢得了客户。"
+    },
+    {
+      "word": "underdog",
+      "ipa": "/ˈʌndɚˌdɔɡ/",
+      "pos": "noun",
+      "definition_en": "A person or group expected to lose a contest or struggle.",
+      "definition_zh": "在竞争中处于劣势、通常不被看好的一方。",
+      "synonyms": [
+        "outsider",
+        "long shot"
+      ],
+      "example_en": "Fans rallied behind the underdog after its surprise win.",
+      "example_zh": "这支不被看好的队伍意外获胜后，球迷纷纷站出来支持它。"
+    },
+    {
+      "word": "courtesy of",
+      "ipa": "/ˈkɝːtəsi əv/",
+      "pos": "phrase",
+      "definition_en": "Provided by or made possible by someone or something, sometimes said jokingly.",
+      "definition_zh": "由某人或某机构提供，也可用来调侃某件事是「拜……所赐」。",
+      "synonyms": [
+        "provided by",
+        "thanks to"
+      ],
+      "example_en": "The demo is online, courtesy of a teammate who stayed late to deploy it.",
+      "example_zh": "多亏一位队友加班完成部署，演示版已经上线了。"
+    },
+    {
+      "word": "profoundly",
+      "ipa": "/prəˈfaʊndli/",
+      "pos": "adv",
+      "definition_en": "Deeply or to a very great degree.",
+      "definition_zh": "深刻地，非常，程度很深地。",
+      "synonyms": [
+        "deeply",
+        "intensely"
+      ],
+      "example_en": "She was profoundly optimistic about what her team could build.",
+      "example_zh": "她对团队能做出什么成果充满信心。"
+    },
+    {
+      "word": "drawn to",
+      "ipa": "/ˈdrɔn tə/",
+      "pos": "phrase",
+      "definition_en": "Naturally attracted to or interested in someone or something.",
+      "definition_zh": "被某人或某事吸引，自然而然地产生兴趣。",
+      "synonyms": [
+        "attracted to",
+        "gravitating toward"
+      ],
+      "example_en": "I was drawn to the team because people could speak openly about their mistakes.",
+      "example_zh": "这支团队吸引我，是因为大家都能坦诚地谈论自己的错误。"
+    }
+  ],
+  "quote": {
+    "text_en": "A better future begins with the courage to imagine it and the patience to build it.",
+    "text_zh": "更好的未来，始于敢于想象的勇气，也需要一步步把它建成的耐心。",
+    "author": "Original"
+  },
+  "slang_glossary": [
+    {
+      "term": "agentic payments",
+      "definition_en": "Payments initiated or managed by an AI agent acting on a user's behalf.",
+      "definition_zh": "由 AI 智能体代表用户发起或管理的支付。"
+    },
+    {
+      "term": "get in early",
+      "definition_en": "Enter an emerging market or start using a technology before it becomes widely adopted.",
+      "definition_zh": "在市场或技术普及之前提早入场。"
+    },
+    {
+      "term": "get right",
+      "definition_en": "Handle something well or make the right choices about how it should work.",
+      "definition_zh": "把某件事做对，或在关键设计和决策上把握得当。"
+    },
+    {
+      "term": "refound in public",
+      "definition_en": "Rebuild or redefine an existing company while openly sharing decisions and inviting outside feedback.",
+      "definition_zh": "公开重塑一家现有公司，同时分享决策并听取外部反馈。"
+    },
+    {
+      "term": "put a human face on",
+      "definition_en": "Show the real people behind an organization or issue so it feels more relatable.",
+      "definition_zh": "让幕后的人走到台前，让机构或议题更有亲切感。"
+    },
+    {
+      "term": "corporate feel",
+      "definition_en": "A formal, carefully managed tone that people associate with large companies.",
+      "definition_zh": "让人联想到大公司的正式、经过精心包装的调性。"
+    },
+    {
+      "term": "incumbent",
+      "definition_en": "An established company or provider already operating in a market.",
+      "definition_zh": "已在市场占有一席之地的厂商或服务商。"
+    },
+    {
+      "term": "underdog story",
+      "definition_en": "A story framed around a person or organization facing stronger rivals and unlikely odds.",
+      "definition_zh": "围绕弱势一方挑战强劲对手展开的故事。"
+    },
+    {
+      "term": "Twitter isn't real",
+      "definition_en": "A wry way to say that reactions on Twitter may be unrepresentative of the people who matter to a business or issue.",
+      "definition_zh": "一种调侃，意思是推特上的反应未必代表真实客户或更广泛人群的看法。"
+    },
+    {
+      "term": "influencer",
+      "definition_en": "Someone whose online presence or reputation can shape other people's opinions or choices.",
+      "definition_zh": "能凭借线上影响力或声誉左右他人看法和选择的人。"
+    },
+    {
+      "term": "think in public",
+      "definition_en": "Share ideas while they are still taking shape so others can react and contribute.",
+      "definition_zh": "在想法尚未成熟时就公开分享，让别人参与讨论和反馈。"
+    },
+    {
+      "term": "stay inside Overton",
+      "definition_en": "Stay within the Overton window, the range of ideas considered publicly acceptable in a given context.",
+      "definition_zh": "把观点保持在「奥弗顿窗口」内，也就是特定环境下公众能够接受的范围内。"
+    },
+    {
+      "term": "day 0",
+      "definition_en": "The starting point of a project, release, or launch.",
+      "definition_zh": "项目、发布或上线刚开始的那一天。"
+    },
+    {
+      "term": "is online",
+      "definition_en": "Is running and available to use, often said of a newly launched feature or service.",
+      "definition_zh": "已上线并可使用，常用于刚推出的功能或服务。"
+    },
+    {
+      "term": "Banked reset",
+      "definition_en": "An unexplained label in the sample. The post says it is online, but does not identify what it refers to.",
+      "definition_zh": "样本中未解释的名称。原文只说它已上线，具体指什么无从判断。"
+    },
+    {
+      "term": "share",
+      "definition_en": "A unit of ownership in a company, as in a share of SpaceX.",
+      "definition_zh": "代表公司一部分所有权的股份，例如「一股 SpaceX 股票」。"
+    },
+    {
+      "term": "mask up",
+      "definition_en": "Put on a mask or face covering.",
+      "definition_zh": "戴上口罩或其他遮住面部的物品。"
+    },
+    {
+      "term": "snap gun",
+      "definition_en": "A type of lock-opening tool mentioned in the game's context.",
+      "definition_zh": "游戏语境中提到的一种开锁工具。"
+    },
+    {
+      "term": "pick a lock",
+      "definition_en": "Open a lock without its key by manipulating the lock mechanism.",
+      "definition_zh": "不用原配钥匙，通过拨动锁具内部机构来开锁。"
+    },
+    {
+      "term": "safe code",
+      "definition_en": "The combination or passcode for a safe.",
+      "definition_zh": "保险柜的开启密码。"
+    },
+    {
+      "term": "GTA VI",
+      "definition_en": "Short for Grand Theft Auto VI, the video game referenced in the post.",
+      "definition_zh": "《侠盗猎车手 VI》的英文简称。"
+    },
+    {
+      "term": "voice chat",
+      "definition_en": "A conversation conducted by speaking through an app or online service.",
+      "definition_zh": "通过应用或在线服务进行的语音聊天。"
+    },
+    {
+      "term": "get a site back",
+      "definition_en": "Here, receive a generated website in response to instructions given in chat.",
+      "definition_zh": "这里指在聊天中发出指令后，收到系统生成的网站。"
+    },
+    {
+      "term": "cooked",
+      "definition_en": "In the praise phrase “really cooked,” did an especially good job or produced something impressive.",
+      "definition_zh": "在「really cooked」这种夸赞用法中，意思是「干得漂亮」或「做出了很厉害的东西」。"
+    },
+    {
+      "term": "take them for a ride",
+      "definition_en": "Here, likely a playful invitation to try the mentioned tools hands-on in Replit.",
+      "definition_zh": "这里很可能是俏皮地邀请大家在 Replit 上亲手试用提到的工具。"
+    },
+    {
+      "term": "TAM",
+      "definition_en": "Total addressable market, an estimate of the total revenue opportunity if a product captured all demand in its defined market.",
+      "definition_zh": "可服务的总体市场规模，指产品若覆盖所界定市场的全部需求时，理论上可获得的收入规模。"
+    },
+    {
+      "term": "market map",
+      "definition_en": "A visual or structured overview of a market that groups companies, products, or segments.",
+      "definition_zh": "市场版图，按公司、产品或细分领域梳理市场格局。"
+    },
+    {
+      "term": "C-suite",
+      "definition_en": "A company's highest-ranking executives, whose titles often begin with Chief, such as CEO or CFO.",
+      "definition_zh": "公司最高层的管理团队，成员职位通常以「Chief」开头，例如首席执行官或首席财务官。"
+    }
+  ],
+  "stats": {
+    "builders": 12,
+    "podcasts": 1,
+    "blogs": 0,
+    "totalTweets": 18,
+    "feedGeneratedAt": "2026-11-27T06:30:29.812Z"
+  }
+}
